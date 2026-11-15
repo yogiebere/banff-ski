@@ -295,8 +295,12 @@ def resort_wind(t, day):
     """The resort's own wind figure for today, to back up the model: Sunshine's ridge-wind forecast for today's
     daytime period, or the stronger of Lake Louise's mid and summit station winds at this check."""
     if t.get("resort") == "sunshine":
+        # Only today's issue (RWDI posts it at 5:00 AM): an issue left over from yesterday still says "Today".
+        f = t.get("forecast") or {}
+        if (f.get("updated_local") or "")[:10] != day.isoformat():
+            return None
         names = ("today", "this morning", "this afternoon", day.strftime("%A").lower())
-        for p in ((t.get("forecast") or {}).get("periods") or []):
+        for p in (f.get("periods") or []):
             if (p.get("period") or "").strip().lower() in names and p.get("ridge_wind_kmh") is not None:
                 return {"kmh": p["ridge_wind_kmh"], "threshold": RIDGE_WIND, "what": "Sunshine's own ridge-wind forecast"}
         return None

@@ -3,7 +3,7 @@ window.RUNFINDER_DAY["sunshine"] = {
  "schema": 1,
  "resort": "sunshine",
  "date": "2026-11-15",
- "prepared_at": "2026-11-15T16:18:47-06:00",
+ "prepared_at": "2026-11-15T16:20:50-06:00",
  "prepared_by": "Claude, morning prep",
  "sample": false,
  "snapshot_at": "2026-11-15T16:10:26-06:00",
