@@ -108,7 +108,7 @@ The rule can change; the version is in `rule`, and the whole log is re-scored by
 | `lifts` | `[{id, name, key, area, hours, status: [per slot], first_open, standby_slots}]` |
 | `runs` | `[{id, name, key, area, level, status: [per slot], groomed: [per slot], groomed_today, first_open, standby_slots}]` |
 | `changes` | `[{slot, kind: "lift"/"run", id, name, field: "status"/"groomed", from, to}]`: what changed between checks, in order |
-| `hourly` | per slot: `{slot, fetched_at, ok, counts, report_updated, zones: [{zone, elev_m, temp_c, station_temp_c, model_temp_c, wind_kmh, new_24h_cm, snow, quality, quality_label}]}` |
+| `hourly` | per slot: `{slot, fetched_at, ok, counts, report_updated, zones: [{zone, elev_m, temp_c, station_temp_c, model_temp_c, wind_kmh, station_wind_kmh, model_wind_kmh, model_gust_kmh, new_24h_cm, snow, quality, quality_label}]}`. `temp_c` and `wind_kmh` are the station's where there is one, else the model's |
 | `notes` | every timed sentence seen that day, `[{time, text}]` |
 | `summary_text` | the resort's text at the last check |
 

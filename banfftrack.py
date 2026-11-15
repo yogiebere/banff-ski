@@ -837,6 +837,9 @@ def day_log(con, resort, day):
                                    "model_temp_c": (z["model"] or {}).get("temp_c"),
                                    "wind_kmh": first_known((z["station"] or {}).get("wind_kmh"),
                                                            (z["model"] or {}).get("wind_kmh")),
+                                   "station_wind_kmh": (z["station"] or {}).get("wind_kmh"),
+                                   "model_wind_kmh": (z["model"] or {}).get("wind_kmh"),
+                                   "model_gust_kmh": (z["model"] or {}).get("gust_kmh"),
                                    "new_24h_cm": (z["quality"] or {}).get("inputs", {}).get("new_24h_cm"),
                                    "snow": z["snow"], "quality": (z["quality"] or {}).get("code"),
                                    "quality_label": (z["quality"] or {}).get("label")} for z in snap["zones"]]})
