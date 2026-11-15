@@ -10,7 +10,8 @@ checks a day per resort. The early checks catch the overnight grooming and snow 
 Actions runs it and commits the results here. Standard library only, Python 3.13.
 
 **Latest data:** `out/latest_sunshine.json` and `out/latest_louise.json` (format in `DATA_FORMAT.md`). The repository
-is served by GitHub Pages from `main`, root folder, at `https://<owner>.github.io/<repo>/out/latest_<resort>.json`.
+is served by GitHub Pages from `main`, root folder, at
+`https://yogiebere.github.io/banff-ski/out/latest_<resort>.json`.
 The empty `.nojekyll` file makes Pages serve the files as they are, with no Jekyll build. Pages caches files for about
 10 minutes. The raw file URLs also allow cross-origin requests and are cached for 5 minutes.
 
