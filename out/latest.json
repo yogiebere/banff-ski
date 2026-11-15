@@ -1,13 +1,13 @@
 {
  "format": "banfftrack/1",
- "generated_at": "2026-11-15T21:44:43Z",
+ "generated_at": "2026-11-15T21:45:39Z",
  "resorts": {
   "sunshine": {
    "format": "banfftrack/1",
    "resort": "sunshine",
    "name": "Banff Sunshine Village",
-   "fetched_at": "2026-11-15T21:44:41Z",
-   "local_time": "2026-11-15T15:44:41-06:00",
+   "fetched_at": "2026-11-15T21:45:36Z",
+   "local_time": "2026-11-15T15:45:36-06:00",
    "date": "2026-11-15",
    "slot": "15:00",
    "ok": true,
@@ -2893,8 +2893,8 @@
      "source": "open-meteo",
      "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
      "http_status": 200,
-     "bytes": 50912,
-     "sha256": "c72d178bbe4cb323c7ab33761e3492f1519f591ac8ee27cb18548e7de54fdfba",
+     "bytes": 50913,
+     "sha256": "de2359344f63fe490fe24616babebbad0756d7a15aad760e8865f3b244f56630",
      "error": null
     }
    ],
@@ -2911,8 +2911,8 @@
    "format": "banfftrack/1",
    "resort": "louise",
    "name": "Lake Louise",
-   "fetched_at": "2026-11-15T21:44:41Z",
-   "local_time": "2026-11-15T15:44:41-06:00",
+   "fetched_at": "2026-11-15T21:45:36Z",
+   "local_time": "2026-11-15T15:45:36-06:00",
    "date": "2026-11-15",
    "slot": "15:00",
    "ok": true,
@@ -6214,8 +6214,8 @@
      "source": "open-meteo",
      "url": "https://api.open-meteo.com/v1/forecast?latitude=51.442%2C51.453%2C51.466&longitude=-116.162%2C-116.149%2C-116.1384&elevation=1645%2C2042%2C2637&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
      "http_status": 200,
-     "bytes": 50801,
-     "sha256": "ca3559419f7279eadaa6f894394e14d50f58900b25ef4e883305ce047d5a657f",
+     "bytes": 50800,
+     "sha256": "b73d8929d310556f63db840705f24730a8f7a66de89b00d5c3b35eaeaeb98463",
      "error": null
     }
    ],
