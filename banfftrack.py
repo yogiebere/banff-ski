@@ -664,7 +664,8 @@ def build_snapshot(resort, fetched_at, parsed, model, sources, config):
     snap = {"format": FORMAT, "resort": resort["id"], "name": resort["name"], "fetched_at": fetched_at,
             "local_time": local.isoformat(timespec="seconds"), "date": local.date().isoformat(),
             "slot": slot_of(local, config), "ok": True, "errors": errors, "report_updated": {}, "operations": None,
-            "counts": {}, "lifts": [], "runs": [], "parks": [], "zones": [], "season": {}, "forecast": None,
+            "counts": {}, "lifts": [], "runs": [], "parks": [], "park_report": None, "zones": [], "season": {},
+            "forecast": None,
             "text": {}, "sources": sources}
     reports = {}
     if resort["id"] == "sunshine":
@@ -672,6 +673,9 @@ def build_snapshot(resort, fetched_at, parsed, model, sources, config):
         if lifts:
             snap.update(lifts=lifts["lifts"], runs=lifts["runs"])
             snap["counts"]["reported"] = lifts["totals"]
+            # Sunshine lists its terrain parks as trail rows; they stay in runs and are copied here too
+            snap["parks"] = [{k: x[k] for k in ("id", "name", "key", "area", "level", "status", "status_raw", "groomed")}
+                             for x in lifts["runs"] if "park" in x["name"].lower()]
         if cond:
             snap["report_updated"]["conditions"] = cond["updated_local"] or cond["updated"]
             snap["forecast"] = cond["forecast"]
@@ -680,7 +684,8 @@ def build_snapshot(resort, fetched_at, parsed, model, sources, config):
     else:
         feed = parsed.get("louise-feed")
         if feed:
-            snap.update(lifts=feed["lifts"], runs=feed["runs"], parks=feed["parks"], forecast=feed["forecast"])
+            snap.update(lifts=feed["lifts"], runs=feed["runs"], parks=feed["parks"], forecast=feed["forecast"],
+                        park_report=feed["terrain_park"])
             snap["report_updated"]["feed"] = feed["updated"]
             snap["operations"] = {**feed["operations"], **{k: feed["resortwide"].get(k) for k in
                                                          ("lastSnowfallDate", "lastSnowfallUpdate")}}

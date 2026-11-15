@@ -32,7 +32,8 @@ The full history is in `data/raw/` (see README); `rebuild` turns it into `data/b
 | `counts` | object | `lifts_open`, `lifts_total`, `lifts_standby`, `runs_open`, `runs_total`, `runs_groomed`, and `reported`: the resort's own headline counts |
 | `lifts` | [Lift] | every lift the resort lists |
 | `runs` | [Run] | every run the resort lists |
-| `parks` | [Park] | Louise only |
+| `parks` | [Park] | terrain parks. Sunshine lists its parks as trail rows (they stay in `runs` too); Louise has its own park list |
+| `park_report` | object or null | Louise only: the feed's headline park report, raw strings: `status`, `parks` (how many are open), `jumps`, `boxes`, `rails`, `features`, `info` |
 | `zones` | [Zone] | `base`, `mid`, `summit`, in that order |
 | `season` | object | `{base_cm, from, season}`: the mid-mountain base depth and where it came from. `season` is `early` (<100 cm), `mid` (100-150) or `late` (150+). Sunshine uses its mid-mountain settled base; Louise has no mid base, so it's the average of its base and summit reports |
 | `forecast` | object | the resort's forecast: `{updated, updated_local, summary, periods: [{period, high_c, low_c, summary, freezing_level_m, ridge_wind_dir, ridge_wind_kmh, precip}]}`. Louise's has only `period`, `high_c`, `low_c`, `summary` |
@@ -96,8 +97,15 @@ read: `new_24h_cm` and `new_24h_source` (`resort` when the resort reports 24 h s
 `temp_now_c` and `temp_now_source` (the Louise station where there is one, else the model), and the model fields above.
 The rule can change; the version is in `rule`, and the whole log is re-scored by `rebuild`.
 
-### Park (Louise)
-`id`, `name`, `status`, `status_raw`, `groomed`.
+### Park
+`id`, `name`, `status`, `status_raw`, `groomed`. Sunshine's also have `key`, `area` and `level`, as its run rows do.
+Sunshine's six parks: Strawberry Terrain Park, Divide Terrain Park, Grizzly Terrain Park, Springhill Terrain Park,
+Kid's Play Terrain Park and Meadow Park. OpenStreetMap's "Rockstar Terrain Park" and "Grizzly XL Terrain Park" are not
+names Sunshine uses. They are adjacent polygons near the Great Divide Express base, where Sunshine says its Great Divide
+and Grizzly parks are, so most likely Divide and Grizzly (inferred from location on 2026-11-15, not confirmed).
+
+Louise's park list and its `park_report` can disagree: on 2026-11-15 the list said "Terrain Park" was closed, while
+the report said two small parks were open.
 
 ## DayLog (`out/days/<resort>/<date>.json`)
 | field | notes |

@@ -239,6 +239,10 @@ class Snapshots(unittest.TestCase):
         self.assertTrue(all(z["quality"]["code"] for z in s["zones"]))
         self.assertEqual(s["zones"][2]["snow"]["base_cm"], 29)
         self.assertEqual(s["counts"]["runs_groomed"], 3)
+        parks = {x["name"]: (x["status"], x["groomed"]) for x in s["parks"]}
+        self.assertEqual(len(parks), 6)
+        self.assertEqual(parks["Strawberry Terrain Park"], ("open", True))
+        self.assertEqual(parks["Divide Terrain Park"], ("closed", False))
         self.assertIn("10:30", [n["time"] for n in s["text"]["notes"]])
         json.dumps(s)
 
@@ -250,6 +254,9 @@ class Snapshots(unittest.TestCase):
         self.assertEqual(summit["station"]["station"], "Paradise-Top")
         self.assertEqual(summit["quality"]["inputs"]["temp_now_source"], "station Paradise-Top")
         self.assertEqual(summit["quality"]["inputs"]["new_24h_source"], "resort")
+        self.assertEqual({x["name"]: x["status"] for x in s["parks"]}, {"Terrain Park": "closed",
+                                                                       "Sunny Tube Park": "closed"})
+        self.assertEqual((s["park_report"]["status"], s["park_report"]["parks"]), ("open", "2"))
 
     def test_missing_source_is_not_ok(self):
         config = b.load_config()
