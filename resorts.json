@@ -1,0 +1,42 @@
+{
+  "_notes": [
+    "Alberta has kept UTC-6 all year since 2026 (Lake Louise's feed stamps -06:00 on 2026-11-15; skilouise.com: 'year-round Alberta Time'), so local time is a fixed offset.",
+    "window: 'collect --scheduled' only fetches on these local dates, within an hour after one of the slots (Banff time). The workflow starts each run 5 minutes after its slot: 5:30, 6:00 and 6:30am, then hourly 7am-5pm (11:35-23:05 UTC).",
+    "zones: where Open-Meteo is sampled. elev_m is passed to the model, which corrects temperature to that height. 'report' is the resort's own snow-report section for the same zone; 'station' is the resort weather station's name.",
+    "Sunshine's mid-mountain report is at the Village; its base zone is the gondola base, where the Banff Ave ski-out ends. Lake Louise's upper station is Paradise-Top."
+  ],
+  "utc_offset_hours": -6,
+  "window": {"start": "2026-12-24", "end": "2027-01-02",
+             "slots": ["05:30", "06:00", "06:30", "07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00",
+                       "14:00", "15:00", "16:00", "17:00"]},
+  "archive_pdf_bodies": false,
+  "resorts": [
+    {
+      "id": "sunshine",
+      "name": "Banff Sunshine Village",
+      "sources": {
+        "lifts": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+        "conditions": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions"
+      },
+      "zones": [
+        {"zone": "base", "label": "Gondola base (ski-out)", "lat": 51.1145, "lon": -115.7625, "elev_m": 1660},
+        {"zone": "mid", "label": "Village (mid-mountain)", "lat": 51.0786, "lon": -115.7820, "elev_m": 2160, "report": "Mid Mountain"},
+        {"zone": "summit", "label": "Lookout summit", "lat": 51.0710, "lon": -115.8056, "elev_m": 2730, "report": "Upper Mountain"}
+      ]
+    },
+    {
+      "id": "louise",
+      "name": "Lake Louise",
+      "sources": {
+        "feed": "https://ski-louise-status-page.vercel.app/api/ski-data",
+        "grooming_pdf": "https://lamp10.skilouise.com/conditions/grooming_report.pdf",
+        "runs_pdf": "https://lamp10.skilouise.com/conditions/run_report.pdf"
+      },
+      "zones": [
+        {"zone": "base", "label": "Base", "lat": 51.4420, "lon": -116.1620, "elev_m": 1645, "report": "Lower Mountain"},
+        {"zone": "mid", "label": "Whitehorn Lodge (mid-mountain)", "lat": 51.4530, "lon": -116.1490, "elev_m": 2042, "report": "Mid-Mountain"},
+        {"zone": "summit", "label": "Summit", "lat": 51.4660, "lon": -116.1384, "elev_m": 2637, "report": "Upper Mountain"}
+      ]
+    }
+  ]
+}

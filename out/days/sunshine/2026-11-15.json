@@ -1,0 +1,3226 @@
+{
+ "format": "banfftrack/1",
+ "resort": "sunshine",
+ "name": "Banff Sunshine Village",
+ "date": "2026-11-15",
+ "slots": [
+  "13:00",
+  "14:00",
+  "15:00"
+ ],
+ "first_check": "2026-11-15T19:49:35Z",
+ "last_check": "2026-11-15T21:00:05Z",
+ "lifts": [
+  {
+   "id": "105",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Goat's Eye Express Quad",
+   "key": "goats eye express quad",
+   "area": null,
+   "hours": "9:00am-4:00pm",
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "104",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "name": "Gondola",
+   "key": "gondola",
+   "area": null,
+   "hours": "8:00am-5:30pm",
+   "first_open": "13:00",
+   "standby_slots": []
+  },
+  {
+   "id": "98",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Great Divide Express Quad",
+   "key": "great divide express quad",
+   "area": null,
+   "hours": "9:00am-4:00pm",
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "103",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Jackrabbit Fixed Grip Quad",
+   "key": "jackrabbit fixed grip quad",
+   "area": null,
+   "hours": "9:00am-4:30pm",
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "99",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "name": "Mitey Mite Conveyor",
+   "key": "mitey mite conveyor",
+   "area": null,
+   "hours": "9:00am-4:00pm",
+   "first_open": "13:00",
+   "standby_slots": []
+  },
+  {
+   "id": "107",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Standish Express Quad",
+   "key": "standish express quad",
+   "area": null,
+   "hours": "9:00am-4:00pm",
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "106",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "name": "Strawberry Express Quad",
+   "key": "strawberry express quad",
+   "area": null,
+   "hours": "9:00am-4:00pm",
+   "first_open": "13:00",
+   "standby_slots": []
+  },
+  {
+   "id": "97",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Super Angel Luxury Express Six Pack",
+   "key": "super angel luxury express six pack",
+   "area": null,
+   "hours": "9:00am-4:00pm",
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "101",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Teepee Town Luxury Express Quad",
+   "key": "teepee town luxury express quad",
+   "area": null,
+   "hours": "9:00am-4:00pm",
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "108",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Tiny Tigers Conveyor",
+   "key": "tiny tigers conveyor",
+   "area": null,
+   "hours": "9:00am-4:00pm",
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "102",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Wawa Fixed Grip Quad",
+   "key": "wawa fixed grip quad",
+   "area": null,
+   "hours": "9:00am-4:00pm",
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "100",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Wolverine Express Quad",
+   "key": "wolverine express quad",
+   "area": null,
+   "hours": "9:00am-4:00pm",
+   "first_open": null,
+   "standby_slots": []
+  }
+ ],
+ "runs": [
+  {
+   "id": "110",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Banff Ave",
+   "key": "banff ave",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "111",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Cayuse Creek",
+   "key": "cayuse creek",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "195",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Corral Cut-off",
+   "key": "corral cut off",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "158",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Cottontail",
+   "key": "cottontail",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "112",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Forget Me Not",
+   "key": "forget me not",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "113",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Juniper",
+   "key": "juniper",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "114",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Kid's Play",
+   "key": "kids play",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "500",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Kid's Play Terrain Park",
+   "key": "kids play terrain park",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "488",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Larch Glade",
+   "key": "larch glade",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "115",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Miss Gratz",
+   "key": "miss gratz",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "116",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Powerline",
+   "key": "powerline",
+   "area": "Goat's Eye Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "109",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "B-Line",
+   "key": "b line",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "117",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Bluebell",
+   "key": "bluebell",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "508",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Chicken",
+   "key": "chicken",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "118",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Christmas Tree",
+   "key": "christmas tree",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "503",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Eagle",
+   "key": "eagle",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "119",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lower Canyon",
+   "key": "lower canyon",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "501",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Raptor",
+   "key": "raptor",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "122",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Roller Coaster",
+   "key": "roller coaster",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "123",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Scapegoat",
+   "key": "scapegoat",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "120",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Sergie's Shortcut",
+   "key": "sergies shortcut",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "128",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Short and Sweet",
+   "key": "short and sweet",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "121",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Stampeders Way",
+   "key": "stampeders way",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "124",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Sunshine Coast",
+   "key": "sunshine coast",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "125",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Upper Canyon",
+   "key": "upper canyon",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "126",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wildfire",
+   "key": "wildfire",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "127",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wolverine",
+   "key": "wolverine",
+   "area": "Goat's Eye Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "134",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Afterburner",
+   "key": "afterburner",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "129",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Cleavage",
+   "key": "cleavage",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "135",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Eagle Creek",
+   "key": "eagle creek",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "130",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ewe First",
+   "key": "ewe first",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "136",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Fall Line",
+   "key": "fall line",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "137",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Fire Weed",
+   "key": "fire weed",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "495",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Gladerunner",
+   "key": "gladerunner",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "138",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Goat Chicken Glade",
+   "key": "goat chicken glade",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "131",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Goat Chicken Gully",
+   "key": "goat chicken gully",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "141",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Goat Sucker Glade",
+   "key": "goat sucker glade",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "132",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Goat's Head Soup",
+   "key": "goats head soup",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "142",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Jackrabbit",
+   "key": "jackrabbit",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "143",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Middle Canyon",
+   "key": "middle canyon",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "139",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Mother In Law",
+   "key": "mother in law",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "144",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Rolling Thunder",
+   "key": "rolling thunder",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "507",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Sasquatch",
+   "key": "sasquatch",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "145",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Sky Dive",
+   "key": "sky dive",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "496",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Supermodel",
+   "key": "supermodel",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "147",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "The Big Woody",
+   "key": "the big woody",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "133",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Tower 30",
+   "key": "tower 30",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "148",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Trapper's Trail",
+   "key": "trappers trail",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "149",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wolverine Liftline",
+   "key": "wolverine liftline",
+   "area": "Goat's Eye Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "150",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Eagle Glades",
+   "key": "eagle glades",
+   "area": "Goat's Eye Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "151",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Farside",
+   "key": "farside",
+   "area": "Goat's Eye Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "152",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Freefall",
+   "key": "freefall",
+   "area": "Goat's Eye Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "154",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Hell's Kitchen",
+   "key": "hells kitchen",
+   "area": "Goat's Eye Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "155",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Renegade",
+   "key": "renegade",
+   "area": "Goat's Eye Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "156",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Stampede",
+   "key": "stampede",
+   "area": "Goat's Eye Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "157",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Think Again",
+   "key": "think again",
+   "area": "Goat's Eye Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "502",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wild West",
+   "key": "wild west",
+   "area": "Goat's Eye Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "153",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wildside",
+   "key": "wildside",
+   "area": "Goat's Eye Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "491",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Assiniboine Trail",
+   "key": "assiniboine trail",
+   "area": "Lookout Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "159",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Green Run",
+   "key": "green run",
+   "area": "Lookout Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "160",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Grizzly",
+   "key": "grizzly",
+   "area": "Lookout Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "161",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Packers",
+   "key": "packers",
+   "area": "Lookout Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "162",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Pilgrims",
+   "key": "pilgrims",
+   "area": "Lookout Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "163",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Slush Cup",
+   "key": "slush cup",
+   "area": "Lookout Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "165",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "The Yellowhead",
+   "key": "the yellowhead",
+   "area": "Lookout Mountain",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "489",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Barners",
+   "key": "barners",
+   "area": "Lookout Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "201",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Boutry's Bowl",
+   "key": "boutrys bowl",
+   "area": "Lookout Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "167",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Bronze Ecstasy",
+   "key": "bronze ecstasy",
+   "area": "Lookout Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "168",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Cherub",
+   "key": "cherub",
+   "area": "Lookout Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "169",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Highway One",
+   "key": "highway one",
+   "area": "Lookout Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "166",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Red 90",
+   "key": "red 90",
+   "area": "Lookout Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "170",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "South Divide",
+   "key": "south divide",
+   "area": "Lookout Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "504",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Springhill Terrain Park",
+   "key": "springhill terrain park",
+   "area": "Lookout Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "171",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "World Cup Downhill",
+   "key": "world cup downhill",
+   "area": "Lookout Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "172",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Yellowhead North",
+   "key": "yellowhead north",
+   "area": "Lookout Mountain",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "490",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Angel Flight",
+   "key": "angel flight",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "174",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Big Angel",
+   "key": "big angel",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "175",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Boundary Bowl",
+   "key": "boundary bowl",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "176",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Bushwackers",
+   "key": "bushwackers",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "177",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Bye Bye Bowl",
+   "key": "bye bye bowl",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "505",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Divide Terrain Park",
+   "key": "divide terrain park",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "178",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Gold Ecstasy",
+   "key": "gold ecstasy",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "179",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Horto's Revenge",
+   "key": "hortos revenge",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "180",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Little Angel",
+   "key": "little angel",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "181",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "N. Pocket",
+   "key": "n pocket",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "182",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "North Divide",
+   "key": "north divide",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "183",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "OS Pitch",
+   "key": "os pitch",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "184",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Piste Noir",
+   "key": "piste noir",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "185",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Rock Ledges",
+   "key": "rock ledges",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "188",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "S. Pocket",
+   "key": "s pocket",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "186",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Schoolmarm",
+   "key": "schoolmarm",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "187",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Silver Ecstasy",
+   "key": "silver ecstasy",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "173",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "South 205",
+   "key": "south 205",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "190",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Teepee Town Liftline",
+   "key": "teepee town liftline",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "191",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "The Shoulder",
+   "key": "the shoulder",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "189",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "TP Main Chutes",
+   "key": "tp main chutes",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "192",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Viking Ridge",
+   "key": "viking ridge",
+   "area": "Lookout Mountain",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "193",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Delirium Dive",
+   "key": "delirium dive",
+   "area": "Lookout Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "506",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Grizzly Terrain Park",
+   "key": "grizzly terrain park",
+   "area": "Lookout Mountain",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "492",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Angel Gully",
+   "key": "angel gully",
+   "area": "Mount Standish",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "194",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Borderline",
+   "key": "borderline",
+   "area": "Mount Standish",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "196",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Creek Run",
+   "key": "creek run",
+   "area": "Mount Standish",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "197",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Meadow Park",
+   "key": "meadow park",
+   "area": "Mount Standish",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "497",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    true,
+    true,
+    true
+   ],
+   "name": "Mitey Mite Learning Area",
+   "key": "mitey mite learning area",
+   "area": "Mount Standish",
+   "level": "green",
+   "first_open": "13:00",
+   "standby_slots": [],
+   "groomed_today": true
+  },
+  {
+   "id": "198",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Prune Pickers Pass",
+   "key": "prune pickers pass",
+   "area": "Mount Standish",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "199",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Rock Isle Road",
+   "key": "rock isle road",
+   "area": "Mount Standish",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "164",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Springhill",
+   "key": "springhill",
+   "area": "Mount Standish",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "200",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    true,
+    true,
+    true
+   ],
+   "name": "The Dell Valley",
+   "key": "the dell valley",
+   "area": "Mount Standish",
+   "level": "green",
+   "first_open": "13:00",
+   "standby_slots": [],
+   "groomed_today": true
+  },
+  {
+   "id": "493",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Tiny Tigers Learning Area",
+   "key": "tiny tigers learning area",
+   "area": "Mount Standish",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "202",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Bunkers",
+   "key": "bunkers",
+   "area": "Mount Standish",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "203",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Little Bunkers",
+   "key": "little bunkers",
+   "area": "Mount Standish",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "204",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Snowsnake",
+   "key": "snowsnake",
+   "area": "Mount Standish",
+   "level": "blue",
+   "first_open": "13:00",
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "205",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Strawberry Face",
+   "key": "strawberry face",
+   "area": "Mount Standish",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "206",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Strawberry Surprise",
+   "key": "strawberry surprise",
+   "area": "Mount Standish",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "498",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    true,
+    true,
+    true
+   ],
+   "name": "Strawberry Terrain Park",
+   "key": "strawberry terrain park",
+   "area": "Mount Standish",
+   "level": "blue",
+   "first_open": "13:00",
+   "standby_slots": [],
+   "groomed_today": true
+  },
+  {
+   "id": "207",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Tilton Trail",
+   "key": "tilton trail",
+   "area": "Mount Standish",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "208",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Tin Can Alley",
+   "key": "tin can alley",
+   "area": "Mount Standish",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "209",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wawa Bowl",
+   "key": "wawa bowl",
+   "area": "Mount Standish",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "210",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Big Bunkers",
+   "key": "big bunkers",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "494",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Birdcage",
+   "key": "birdcage",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "211",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Dirty Little Corner",
+   "key": "dirty little corner",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "212",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Donkey's Tail",
+   "key": "donkeys tail",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "228",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Garbage Chutes",
+   "key": "garbage chutes",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "213",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Headwall",
+   "key": "headwall",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "214",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Jerry's Run",
+   "key": "jerrys run",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "215",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Laryx",
+   "key": "laryx",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "216",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Old T-Bar",
+   "key": "old t bar",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "217",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Paris Basin",
+   "key": "paris basin",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "499",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Paris One",
+   "key": "paris one",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "218",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Paris Two",
+   "key": "paris two",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "219",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Shaken Not Stirred",
+   "key": "shaken not stirred",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "220",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Showboat",
+   "key": "showboat",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "221",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Sidewall",
+   "key": "sidewall",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "222",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Standish",
+   "key": "standish",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "223",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Standish Face",
+   "key": "standish face",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "224",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Star Trek",
+   "key": "star trek",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "225",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "The Waterfall",
+   "key": "the waterfall",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "226",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Tin Can Trees",
+   "key": "tin can trees",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "227",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Virgins",
+   "key": "virgins",
+   "area": "Mount Standish",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  }
+ ],
+ "changes": [],
+ "hourly": [
+  {
+   "slot": "13:00",
+   "fetched_at": "2026-11-15T19:49:35Z",
+   "ok": true,
+   "counts": {
+    "reported": {
+     "lifts_open": 3,
+     "lifts_total": 12,
+     "trails_open": 4,
+     "trails_total": 139
+    },
+    "lifts_open": 3,
+    "lifts_total": 12,
+    "runs_open": 4,
+    "runs_total": 139,
+    "runs_groomed": 3,
+    "lifts_standby": 0
+   },
+   "report_updated": {
+    "conditions": "2026-11-15T09:41:00-06:00"
+   },
+   "zones": [
+    {
+     "zone": "base",
+     "elev_m": 1660,
+     "temp_c": 5.8,
+     "station_temp_c": null,
+     "model_temp_c": 5.8,
+     "wind_kmh": 17.7,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": null,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": null,
+      "season_cm": null
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "mid",
+     "elev_m": 2160,
+     "temp_c": 0.5,
+     "station_temp_c": null,
+     "model_temp_c": 0.5,
+     "wind_kmh": 37.8,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": 20,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": 7,
+      "season_cm": 44
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "summit",
+     "elev_m": 2730,
+     "temp_c": -3.9,
+     "station_temp_c": null,
+     "model_temp_c": -3.9,
+     "wind_kmh": 39.8,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": 29,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": 7,
+      "season_cm": 29
+     },
+     "quality": "refrozen",
+     "quality_label": "Refrozen after a thaw: firm or crusty until it softens"
+    }
+   ]
+  },
+  {
+   "slot": "14:00",
+   "fetched_at": "2026-11-15T20:07:30Z",
+   "ok": true,
+   "counts": {
+    "reported": {
+     "lifts_open": 3,
+     "lifts_total": 12,
+     "trails_open": 4,
+     "trails_total": 139
+    },
+    "lifts_open": 3,
+    "lifts_total": 12,
+    "runs_open": 4,
+    "runs_total": 139,
+    "runs_groomed": 3,
+    "lifts_standby": 0
+   },
+   "report_updated": {
+    "conditions": "2026-11-15T09:41:00-06:00"
+   },
+   "zones": [
+    {
+     "zone": "base",
+     "elev_m": 1660,
+     "temp_c": 6.0,
+     "station_temp_c": null,
+     "model_temp_c": 6.0,
+     "wind_kmh": 11.5,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": null,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": null,
+      "season_cm": null
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "mid",
+     "elev_m": 2160,
+     "temp_c": 0.6,
+     "station_temp_c": null,
+     "model_temp_c": 0.6,
+     "wind_kmh": 39.0,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": 20,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": 7,
+      "season_cm": 44
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "summit",
+     "elev_m": 2730,
+     "temp_c": -4.0,
+     "station_temp_c": null,
+     "model_temp_c": -4.0,
+     "wind_kmh": 35.4,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": 29,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": 7,
+      "season_cm": 29
+     },
+     "quality": "refrozen",
+     "quality_label": "Refrozen after a thaw: firm or crusty until it softens"
+    }
+   ]
+  },
+  {
+   "slot": "15:00",
+   "fetched_at": "2026-11-15T21:00:05Z",
+   "ok": true,
+   "counts": {
+    "reported": {
+     "lifts_open": 3,
+     "lifts_total": 12,
+     "trails_open": 4,
+     "trails_total": 139
+    },
+    "lifts_open": 3,
+    "lifts_total": 12,
+    "runs_open": 4,
+    "runs_total": 139,
+    "runs_groomed": 3,
+    "lifts_standby": 0
+   },
+   "report_updated": {
+    "conditions": "2026-11-15T09:41:00-06:00"
+   },
+   "zones": [
+    {
+     "zone": "base",
+     "elev_m": 1660,
+     "temp_c": 5.5,
+     "station_temp_c": null,
+     "model_temp_c": 5.5,
+     "wind_kmh": 16.7,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": null,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": null,
+      "season_cm": null
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "mid",
+     "elev_m": 2160,
+     "temp_c": 0.2,
+     "station_temp_c": null,
+     "model_temp_c": 0.2,
+     "wind_kmh": 38.5,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": 20,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": 7,
+      "season_cm": 44
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "summit",
+     "elev_m": 2730,
+     "temp_c": -4.2,
+     "station_temp_c": null,
+     "model_temp_c": -4.2,
+     "wind_kmh": 38.2,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": 29,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": 7,
+      "season_cm": 29
+     },
+     "quality": "refrozen",
+     "quality_label": "Refrozen after a thaw: firm or crusty until it softens"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "time": "08:30",
+   "text": "The gondola starts loading at 8:30 am, with Strawberry and the Mitey Mite carpet opening at 9:30 am."
+  },
+  {
+   "time": "09:30",
+   "text": "The gondola starts loading at 8:30 am, with Strawberry and the Mitey Mite carpet opening at 9:30 am."
+  },
+  {
+   "time": "10:30",
+   "text": "Save some energy for a few “laps” at Mad Trappers, open from 10:30 am."
+  }
+ ],
+ "summary_text": "Strawberry Chair is now open for laps on Dell Valley! The gondola starts loading at 8:30 am, with Strawberry and the Mitey Mite carpet opening at 9:30 am. Enjoy early season turns and the rail park on lower Strawberry while our team works to open more lifts and runs as conditions allow.\n\nSave some energy for a few “laps” at Mad Trappers, open from 10:30 am. Visit our Early Season page for what’s open, operating hours and lift ticket prices."
+}

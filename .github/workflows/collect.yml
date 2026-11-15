@@ -1,0 +1,44 @@
+# Sunshine and Lake Louise conditions log, 5 minutes after each slot in resorts.json: 5:30, 6:00 and 6:30am, then
+# hourly 7am-5pm Banff time (UTC-6 all year), on the window's dates. Cron times are UTC.
+# GitHub can start scheduled runs late; a run still counts for its slot until the next slot begins.
+name: collect
+on:
+  schedule:
+    - cron: "35 11 24-31 12 *"     # Dec 24-31, 5:35am Banff
+    - cron: "5,35 12 24-31 12 *"   #            6:05 and 6:35am
+    - cron: "5 13-23 24-31 12 *"   #            7:05am-5:05pm
+    - cron: "35 11 1-2 1 *"        # Jan 1-2, the same times
+    - cron: "5,35 12 1-2 1 *"
+    - cron: "5 13-23 1-2 1 *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Collect even outside the window (for testing)"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: collect
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Collect
+        run: python -I banfftrack.py ${{ inputs.force && 'collect' || 'collect --scheduled' }}
+      - name: Save to the repository
+        if: always()
+        run: |
+          git config user.name "banfftrack"
+          git config user.email "banfftrack@users.noreply.github.com"
+          git add data/raw out banfftrack.log
+          git diff --cached --quiet && exit 0
+          git commit -m "collect $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase
+          git push

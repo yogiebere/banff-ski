@@ -1,0 +1,3873 @@
+{
+ "format": "banfftrack/1",
+ "resort": "louise",
+ "name": "Lake Louise",
+ "date": "2026-11-15",
+ "slots": [
+  "13:00",
+  "14:00",
+  "15:00"
+ ],
+ "first_check": "2026-11-15T19:49:35Z",
+ "last_check": "2026-11-15T21:00:05Z",
+ "lifts": [
+  {
+   "id": "201",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "name": "Magic Carpet",
+   "key": "magic carpet",
+   "area": "Front Side",
+   "hours": null,
+   "first_open": "13:00",
+   "standby_slots": []
+  },
+  {
+   "id": "202",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Lower Sunny Carpet",
+   "key": "lower sunny carpet",
+   "area": "Front Side",
+   "hours": null,
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "203",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Upper Sunny Carpet",
+   "key": "upper sunny carpet",
+   "area": "Front Side",
+   "hours": null,
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "204",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "name": "Glacier Express",
+   "key": "glacier express",
+   "area": "Front Side",
+   "hours": null,
+   "first_open": "13:00",
+   "standby_slots": []
+  },
+  {
+   "id": "205",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Grizzly Gondola",
+   "key": "grizzly gondola",
+   "area": "Front Side",
+   "hours": null,
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "206",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Top of the World",
+   "key": "top of the world",
+   "area": "Front Side",
+   "hours": null,
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "207",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Summit Chair",
+   "key": "summit chair",
+   "area": "Front Side",
+   "hours": null,
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "213",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "name": "Juniper Express",
+   "key": "juniper express",
+   "area": "Front Side",
+   "hours": null,
+   "first_open": "13:00",
+   "standby_slots": []
+  },
+  {
+   "id": "214",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Pipestone Express Chair",
+   "key": "pipestone express chair",
+   "area": "Front Side",
+   "hours": null,
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "208",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Paradise",
+   "key": "paradise",
+   "area": "Back Bowls",
+   "hours": null,
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "210",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Ptarmigan",
+   "key": "ptarmigan",
+   "area": "Back Bowls",
+   "hours": null,
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "209",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Larch Express",
+   "key": "larch express",
+   "area": "Larch",
+   "hours": null,
+   "first_open": null,
+   "standby_slots": []
+  },
+  {
+   "id": "218",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "name": "Richardson's Ridge Express",
+   "key": "richardsons ridge express",
+   "area": "Richardson's Ridge",
+   "hours": null,
+   "first_open": null,
+   "standby_slots": []
+  }
+ ],
+ "runs": [
+  {
+   "id": "1",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Men's Downhill",
+   "key": "mens downhill",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "46",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Flight Chutes 4",
+   "key": "flight chutes 4",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "34",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Grizzly Bowl",
+   "key": "grizzly bowl",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "35",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Helen's",
+   "key": "helens",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "36",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Home Run Chutes",
+   "key": "home run chutes",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "37",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Home Run",
+   "key": "home run",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "38",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Mirkwood",
+   "key": "mirkwood",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "39",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Grizzly Gully",
+   "key": "grizzly gully",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "40",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Flight Chutes Cat Track",
+   "key": "flight chutes cat track",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "41",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Upshoots",
+   "key": "upshoots",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "42",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Flight Chutes 1",
+   "key": "flight chutes 1",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "43",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Flight Chutes 2",
+   "key": "flight chutes 2",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "2",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Upper Juniper",
+   "key": "upper juniper",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "45",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Flight Chutes 3",
+   "key": "flight chutes 3",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "48",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Eagle Flight",
+   "key": "eagle flight",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "32",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Skyline",
+   "key": "skyline",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "49",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Eagle's Beak",
+   "key": "eagles beak",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "50",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lower Flight",
+   "key": "lower flight",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "51",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Eagle Trees",
+   "key": "eagle trees",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "52",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Race Pitch",
+   "key": "race pitch",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "53",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Eagle Poma",
+   "key": "eagle poma",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "54",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Upper Grouse",
+   "key": "upper grouse",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "55",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Eagle Meadows",
+   "key": "eagle meadows",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "56",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Deer Run",
+   "key": "deer run",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "57",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wapta",
+   "key": "wapta",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "58",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Upper Meadowlark",
+   "key": "upper meadowlark",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "59",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Meadowlark",
+   "key": "meadowlark",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "60",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lower Grouse",
+   "key": "lower grouse",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "65",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Pika",
+   "key": "pika",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "33",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Kernahan's",
+   "key": "kernahans",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "44",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Steep & Flat",
+   "key": "steep and flat",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "31",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Whitehorn Cat Track",
+   "key": "whitehorn cat track",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "175",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Bearberry",
+   "key": "bearberry",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "3",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    true,
+    true,
+    true
+   ],
+   "name": "Juniper",
+   "key": "juniper",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": "13:00",
+   "standby_slots": [],
+   "groomed_today": true
+  },
+  {
+   "id": "30",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Jerry's Jungle",
+   "key": "jerrys jungle",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "6",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    true,
+    true,
+    true
+   ],
+   "name": "Bald Eagle",
+   "key": "bald eagle",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": "13:00",
+   "standby_slots": [],
+   "groomed_today": true
+  },
+  {
+   "id": "7",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lake Lindsey Way",
+   "key": "lake lindsey way",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "8",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Cameron's Way",
+   "key": "camerons way",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "9",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wiwaxy",
+   "key": "wiwaxy",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "10",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Pinecone Way",
+   "key": "pinecone way",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "12",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lowest Meadowlark",
+   "key": "lowest meadowlark",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "13",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    true,
+    true,
+    true
+   ],
+   "name": "Easy Street",
+   "key": "easy street",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": "13:00",
+   "standby_slots": [],
+   "groomed_today": true
+  },
+  {
+   "id": "14",
+   "status": [
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    true,
+    true,
+    true
+   ],
+   "name": "Sunny Side",
+   "key": "sunny side",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": "13:00",
+   "standby_slots": [],
+   "groomed_today": true
+  },
+  {
+   "id": "173",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Blueberry",
+   "key": "blueberry",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "174",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Buffaloberry",
+   "key": "buffaloberry",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "4",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Juniper Jungle",
+   "key": "juniper jungle",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "176",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Bunchberry",
+   "key": "bunchberry",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "24",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Sunset Gully",
+   "key": "sunset gully",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "29",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wrong Turn",
+   "key": "wrong turn",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "28",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Upper Wiwaxy",
+   "key": "upper wiwaxy",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "27",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Tight Turn",
+   "key": "tight turn",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "17",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Middle Limits",
+   "key": "middle limits",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "25",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Charlie's Choice",
+   "key": "charlies choice",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "26",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Tickety Chutes",
+   "key": "tickety chutes",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "23",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Sunset Terrace",
+   "key": "sunset terrace",
+   "area": "Front Side",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "22",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Headwall",
+   "key": "headwall",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "21",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Sunset",
+   "key": "sunset",
+   "area": "Front Side",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "20",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Headwall Bowl",
+   "key": "headwall bowl",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "19",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Outer Limits",
+   "key": "outer limits",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "18",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Sunset Pocket",
+   "key": "sunset pocket",
+   "area": "Front Side",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "62",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ptarmigan Chute 1",
+   "key": "ptarmigan chute 1",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "63",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ptarmigan Chute 2",
+   "key": "ptarmigan chute 2",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "64",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ptarmigan Chute 3",
+   "key": "ptarmigan chute 3",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "66",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Exhibition",
+   "key": "exhibition",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "67",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ptarmigan Cat Track",
+   "key": "ptarmigan cat track",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "68",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Exhibition Trees",
+   "key": "exhibition trees",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "69",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ptarmigan Glades",
+   "key": "ptarmigan glades",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "75",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Old Ptarmigan",
+   "key": "old ptarmigan",
+   "area": "Back Bowls",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "76",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ptarmigan",
+   "key": "ptarmigan",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "77",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Raven",
+   "key": "raven",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "78",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Pika Trees",
+   "key": "pika trees",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "79",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Alley",
+   "key": "alley",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "80",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Pikaboo",
+   "key": "pikaboo",
+   "area": "Back Bowls",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "83",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Corridor",
+   "key": "corridor",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "84",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "East Bowl",
+   "key": "east bowl",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "85",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Crow Bowl",
+   "key": "crow bowl",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "86",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "East Bowl Trees",
+   "key": "east bowl trees",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "87",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "2/3 Shoulder",
+   "key": "2 3 shoulder",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "88",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Upper Alley",
+   "key": "upper alley",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "89",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Cowboy",
+   "key": "cowboy",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "90",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "E.R. 3",
+   "key": "e r 3",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "91",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Swede's",
+   "key": "swedes",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "92",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "The Heart",
+   "key": "the heart",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "93",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Powder Pockets",
+   "key": "powder pockets",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "94",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Fenceline Gully",
+   "key": "fenceline gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "95",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Paradise Bowl",
+   "key": "paradise bowl",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "96",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "4/5 Shoulder",
+   "key": "4 5 shoulder",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "97",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Hell's Kitchen",
+   "key": "hells kitchen",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "98",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Paradise Cornice",
+   "key": "paradise cornice",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "100",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lower 5",
+   "key": "lower 5",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "82",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lily Pads",
+   "key": "lily pads",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "101",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "E.R. 6",
+   "key": "e r 6",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "102",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Big 7",
+   "key": "big 7",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "103",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Drop Out",
+   "key": "drop out",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "104",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Vertical Cornice",
+   "key": "vertical cornice",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "105",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Couloir",
+   "key": "couloir",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "106",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Peyto's Pitch",
+   "key": "peytos pitch",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "107",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "The Beast",
+   "key": "the beast",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "108",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Jackpot",
+   "key": "jackpot",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "109",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Saddleback",
+   "key": "saddleback",
+   "area": "Back Bowls",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "110",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Read's Way",
+   "key": "reads way",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "111",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Saddleback Bowl",
+   "key": "saddleback bowl",
+   "area": "Back Bowls",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "112",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Hour Glass",
+   "key": "hour glass",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "113",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wounded Knee",
+   "key": "wounded knee",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "114",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Kiddie's Corner",
+   "key": "kiddies corner",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "115",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Split Rock",
+   "key": "split rock",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "116",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Warden's Run",
+   "key": "wardens run",
+   "area": "Back Bowls",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "117",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Fourth Gate",
+   "key": "fourth gate",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "118",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Third Gate",
+   "key": "third gate",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "119",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Second Gate",
+   "key": "second gate",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "120",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Whitehorn 1",
+   "key": "whitehorn 1",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "121",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ridge Run",
+   "key": "ridge run",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "123",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Rodney's Ridge",
+   "key": "rodneys ridge",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "124",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "A Gully",
+   "key": "a gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "125",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "B Gully",
+   "key": "b gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "126",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "C Gully",
+   "key": "c gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "127",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "D Gully",
+   "key": "d gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "128",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "E Gully",
+   "key": "e gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "129",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "F Gully",
+   "key": "f gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "130",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "G Gully",
+   "key": "g gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "131",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "H Gully",
+   "key": "h gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "132",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "I Gully",
+   "key": "i gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "133",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Boomerang",
+   "key": "boomerang",
+   "area": "Back Bowls",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "134",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Little Pipestone",
+   "key": "little pipestone",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "135",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Upper Boomerang",
+   "key": "upper boomerang",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "136",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Shoulder Roll",
+   "key": "shoulder roll",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "137",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Brown Cow",
+   "key": "brown cow",
+   "area": "Back Bowls",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "138",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Brown Cow 1st",
+   "key": "brown cow 1st",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "139",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Brown Cow Main",
+   "key": "brown cow main",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "70",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "North Cornice",
+   "key": "north cornice",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "71",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wild Gully",
+   "key": "wild gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "72",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ghostly Gully",
+   "key": "ghostly gully",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "73",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lake Pitch",
+   "key": "lake pitch",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "140",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "UNC",
+   "key": "unc",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "141",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Boundary Bowl",
+   "key": "boundary bowl",
+   "area": "Back Bowls",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "142",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Rock Garden",
+   "key": "rock garden",
+   "area": "Larch",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "143",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Marmot",
+   "key": "marmot",
+   "area": "Larch",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "144",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Wolverine",
+   "key": "wolverine",
+   "area": "Larch",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "145",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "30 Goats",
+   "key": "30 goats",
+   "area": "Larch",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "146",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Larch Poma",
+   "key": "larch poma",
+   "area": "Larch",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "147",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lynx",
+   "key": "lynx",
+   "area": "Larch",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "148",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Larch",
+   "key": "larch",
+   "area": "Larch",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "149",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lipalian Chutes",
+   "key": "lipalian chutes",
+   "area": "Larch",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "150",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lookout",
+   "key": "lookout",
+   "area": "Larch",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "151",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Tower 12",
+   "key": "tower 12",
+   "area": "Larch",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "152",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Lookout Chutes",
+   "key": "lookout chutes",
+   "area": "Larch",
+   "level": "double",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "153",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Bobcat",
+   "key": "bobcat",
+   "area": "Larch",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "154",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Prunepickers",
+   "key": "prunepickers",
+   "area": "Larch",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "155",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ski Out",
+   "key": "ski out",
+   "area": "Larch",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "177",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Merlin",
+   "key": "merlin",
+   "area": "Richardson's Ridge",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "178",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Skoki",
+   "key": "skoki",
+   "area": "Richardson's Ridge",
+   "level": "green",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "179",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Fossil",
+   "key": "fossil",
+   "area": "Richardson's Ridge",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "180",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Vermillion",
+   "key": "vermillion",
+   "area": "Richardson's Ridge",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "181",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Redoubt",
+   "key": "redoubt",
+   "area": "Richardson's Ridge",
+   "level": "blue",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "156",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Pipestone Ridge",
+   "key": "pipestone ridge",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "157",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "West Bowl",
+   "key": "west bowl",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "158",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Temple",
+   "key": "temple",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "159",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Ten Peaks",
+   "key": "ten peaks",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "160",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Instructors Bowl",
+   "key": "instructors bowl",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "161",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Outback",
+   "key": "outback",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "162",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "White Rabbit",
+   "key": "white rabbit",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "163",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Instructors Gully",
+   "key": "instructors gully",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "164",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Enchanted Forest",
+   "key": "enchanted forest",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "165",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "West Bowl Gully",
+   "key": "west bowl gully",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "166",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Doughnut Plains",
+   "key": "doughnut plains",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "167",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Maintenance Gully",
+   "key": "maintenance gully",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "168",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Maverick",
+   "key": "maverick",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "169",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Free Spirit",
+   "key": "free spirit",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "170",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Oly Slides West",
+   "key": "oly slides west",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "171",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Oly Slides East",
+   "key": "oly slides east",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  },
+  {
+   "id": "172",
+   "status": [
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false
+   ],
+   "name": "Egress",
+   "key": "egress",
+   "area": "West Bowl",
+   "level": "black",
+   "first_open": null,
+   "standby_slots": [],
+   "groomed_today": false
+  }
+ ],
+ "changes": [],
+ "hourly": [
+  {
+   "slot": "13:00",
+   "fetched_at": "2026-11-15T19:49:35Z",
+   "ok": true,
+   "counts": {
+    "reported": {
+     "runs": 4,
+     "lifts": 3,
+     "groomed": 4
+    },
+    "lifts_open": 3,
+    "lifts_total": 13,
+    "runs_open": 4,
+    "runs_total": 171,
+    "runs_groomed": 4,
+    "lifts_standby": 0
+   },
+   "report_updated": {
+    "feed": "2026-11-15T13:47:15-06:00"
+   },
+   "zones": [
+    {
+     "zone": "base",
+     "elev_m": 1645,
+     "temp_c": 4,
+     "station_temp_c": 4,
+     "model_temp_c": 2.0,
+     "wind_kmh": 2,
+     "new_24h_cm": 0,
+     "snow": {
+      "base_cm": 22,
+      "new_overnight_cm": 0,
+      "new_24h_cm": 0,
+      "new_48h_cm": 0,
+      "new_7d_cm": 10,
+      "season_cm": 29
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "mid",
+     "elev_m": 2042,
+     "temp_c": 2,
+     "station_temp_c": 2,
+     "model_temp_c": -0.5,
+     "wind_kmh": 8,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": null,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": null,
+      "season_cm": null
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "summit",
+     "elev_m": 2637,
+     "temp_c": -3,
+     "station_temp_c": -3,
+     "model_temp_c": -3.2,
+     "wind_kmh": 23,
+     "new_24h_cm": 0,
+     "snow": {
+      "base_cm": 26,
+      "new_overnight_cm": 0,
+      "new_24h_cm": 0,
+      "new_48h_cm": 0,
+      "new_7d_cm": 12,
+      "season_cm": 35
+     },
+     "quality": "refrozen",
+     "quality_label": "Refrozen after a thaw: firm or crusty until it softens"
+    }
+   ]
+  },
+  {
+   "slot": "14:00",
+   "fetched_at": "2026-11-15T20:07:30Z",
+   "ok": true,
+   "counts": {
+    "reported": {
+     "runs": 4,
+     "lifts": 3,
+     "groomed": 4
+    },
+    "lifts_open": 3,
+    "lifts_total": 13,
+    "runs_open": 4,
+    "runs_total": 171,
+    "runs_groomed": 4,
+    "lifts_standby": 0
+   },
+   "report_updated": {
+    "feed": "2026-11-15T14:07:15-06:00"
+   },
+   "zones": [
+    {
+     "zone": "base",
+     "elev_m": 1645,
+     "temp_c": 4,
+     "station_temp_c": 4,
+     "model_temp_c": 2.3,
+     "wind_kmh": 0,
+     "new_24h_cm": 0,
+     "snow": {
+      "base_cm": 22,
+      "new_overnight_cm": 0,
+      "new_24h_cm": 0,
+      "new_48h_cm": 0,
+      "new_7d_cm": 10,
+      "season_cm": 29
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "mid",
+     "elev_m": 2042,
+     "temp_c": 1,
+     "station_temp_c": 1,
+     "model_temp_c": -0.2,
+     "wind_kmh": 8,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": null,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": null,
+      "season_cm": null
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "summit",
+     "elev_m": 2637,
+     "temp_c": -3,
+     "station_temp_c": -3,
+     "model_temp_c": -2.7,
+     "wind_kmh": 19,
+     "new_24h_cm": 0,
+     "snow": {
+      "base_cm": 26,
+      "new_overnight_cm": 0,
+      "new_24h_cm": 0,
+      "new_48h_cm": 0,
+      "new_7d_cm": 12,
+      "season_cm": 35
+     },
+     "quality": "refrozen",
+     "quality_label": "Refrozen after a thaw: firm or crusty until it softens"
+    }
+   ]
+  },
+  {
+   "slot": "15:00",
+   "fetched_at": "2026-11-15T21:00:05Z",
+   "ok": true,
+   "counts": {
+    "reported": {
+     "runs": 4,
+     "lifts": 3,
+     "groomed": 4
+    },
+    "lifts_open": 3,
+    "lifts_total": 13,
+    "runs_open": 4,
+    "runs_total": 171,
+    "runs_groomed": 4,
+    "lifts_standby": 0
+   },
+   "report_updated": {
+    "feed": "2026-11-15T14:57:15-06:00"
+   },
+   "zones": [
+    {
+     "zone": "base",
+     "elev_m": 1645,
+     "temp_c": 4,
+     "station_temp_c": 4,
+     "model_temp_c": 2.8,
+     "wind_kmh": 0,
+     "new_24h_cm": 0,
+     "snow": {
+      "base_cm": 22,
+      "new_overnight_cm": 0,
+      "new_24h_cm": 0,
+      "new_48h_cm": 0,
+      "new_7d_cm": 10,
+      "season_cm": 29
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "mid",
+     "elev_m": 2042,
+     "temp_c": 1,
+     "station_temp_c": 1,
+     "model_temp_c": 0.2,
+     "wind_kmh": 8,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": null,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": null,
+      "season_cm": null
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "summit",
+     "elev_m": 2637,
+     "temp_c": -3,
+     "station_temp_c": -3,
+     "model_temp_c": -2.7,
+     "wind_kmh": 18,
+     "new_24h_cm": 0,
+     "snow": {
+      "base_cm": 26,
+      "new_overnight_cm": 0,
+      "new_24h_cm": 0,
+      "new_48h_cm": 0,
+      "new_7d_cm": 12,
+      "season_cm": 35
+     },
+     "quality": "refrozen",
+     "quality_label": "Refrozen after a thaw: firm or crusty until it softens"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "time": "09:30",
+   "text": "Winter lift hours are 9:30 am to 4:30 pm daily."
+  },
+  {
+   "time": "16:30",
+   "text": "Winter lift hours are 9:30 am to 4:30 pm daily."
+  }
+ ],
+ "summary_text": "Your Sunday on Snow\n\n3 lifts, 4 runs and 2 small terrain parks are open today. Start with groomed laps on Bald Eagle and Juniper off Glacier Chair, or ride Juniper Chair for Easy Street and the parks. The Magic Carpet is running in our dedicated Learning Area for anyone finding their feet on skis or a snowboard.\n\nWith a little more help from Mother Nature, we’ll be able to open more terrain. In the meantime, our crews are getting the first lifts and runs on the upper front side ready. Stay tuned for opening updates.\n\nSave 50% on early-season lift tickets, available online and at the resort. Winter lift hours are 9:30 am to 4:30 pm daily. Details here."
+}

@@ -1,0 +1,6 @@
+__pycache__/
+data/banfftrack.db
+*.tmp
+# local only: personal notes and the on-PC fallback schedule
+PRIVATE.md
+schedule_this_pc.ps1
