@@ -1,0 +1,332 @@
+{
+ "schema": 1,
+ "resort": "louise",
+ "date": "2026-11-15",
+ "prepared_at": "2026-11-15T15:46:54-06:00",
+ "prepared_by": "Claude, morning prep",
+ "sample": false,
+ "snapshot_at": "2026-11-15T15:45:36-06:00",
+ "runs": {
+  "source": {
+   "name": "Lake Louise lift and run status",
+   "url": "https://ski-louise-status-page.vercel.app/status",
+   "as_of": "2026-11-15T15:43:12-06:00"
+  },
+  "open": [
+   "Bald Eagle",
+   "Easy Street",
+   "Juniper",
+   "Sunny Side"
+  ],
+  "expected": [],
+  "closed": [
+   "\"007\" Ptarmigan Cat Track",
+   "166 Doughnut Plains",
+   "30 Goats",
+   "4/5 Shoulder",
+   "A Gully",
+   "Alley",
+   "B Gully",
+   "Bearberry",
+   "Big 7",
+   "Blueberry",
+   "Bobcat",
+   "Boomerang",
+   "Boundary Bowl",
+   "Brown Cow",
+   "Brown Cow 1st",
+   "Brown Cow Main",
+   "Buffaloberry",
+   "Bunchberry",
+   "C Gully",
+   "Cameron's Way",
+   "Charlie's Choice",
+   "Corridor",
+   "Couloir",
+   "Cowboy",
+   "Crow Bowl",
+   "D Gully",
+   "Deer Run",
+   "Drop Out",
+   "E Gully",
+   "E.R. 3",
+   "E.R. 6",
+   "Eagle Meadows",
+   "Eagle Poma",
+   "Eagles Beak",
+   "Eagles Flight",
+   "East Bowl",
+   "Egress",
+   "Enchanted Forest",
+   "Exhibition",
+   "Exhibition Trees",
+   "F Gully",
+   "Fenceline Gully",
+   "Flight Chutes 1",
+   "Flight Chutes 2",
+   "Flight Chutes Cat Track",
+   "Forth Gate",
+   "Fossil",
+   "Free Spirit",
+   "G Gully",
+   "Ghostly Gully",
+   "H Gully",
+   "Headwall",
+   "Headwall Bowl",
+   "Helen's",
+   "Home Run",
+   "Home Run Chutes",
+   "Hour Glass",
+   "I Gully",
+   "Instructor's Bowl",
+   "Instructor's Gully",
+   "Jackpot",
+   "Jerry's Jungle",
+   "Juniper Jungle",
+   "Kiddies' Corner",
+   "Lake Pitch",
+   "Larch",
+   "Larch Poma",
+   "Lipalian Chutes",
+   "Little Pipestone",
+   "Lookout",
+   "Lookout Chutes",
+   "Lower 5",
+   "Lower Flight",
+   "Lynx",
+   "Maitenance Gully",
+   "Marmot",
+   "Maverick",
+   "Meadowlark",
+   "Men's Downhill",
+   "Merlin",
+   "Middle Limits",
+   "North Cornice",
+   "Old Ptarmigan",
+   "Oly Slides East",
+   "Oly Slides West",
+   "Outback",
+   "Outer Limits",
+   "Paradise Bowl",
+   "Paradise Cornice",
+   "Peyto's Pitch",
+   "Pika",
+   "Pika Trees",
+   "Pine Cone Way",
+   "Pipestone Ridge",
+   "Powder Pockets",
+   "Ptarmigan",
+   "Ptarmigan Chute 1",
+   "Ptarmigan Chute 2",
+   "Ptarmigan Chute 3",
+   "Ptarmigan Glades",
+   "Race Pitch",
+   "Raven",
+   "Reads' Way",
+   "Redoubt",
+   "Ridge Run",
+   "Rock Garden",
+   "Rodney's Ridge",
+   "Second Gate",
+   "Shoulder Roll",
+   "Ski Out",
+   "Skoki",
+   "Skyline",
+   "Split Rock",
+   "Steep & Flat",
+   "Sunset",
+   "Sunset Gully",
+   "Sunset Pocket",
+   "Sunset Terrace",
+   "Swede's",
+   "Temple",
+   "Ten Peaks",
+   "The Beast",
+   "The Heart",
+   "Third Gate",
+   "Tickety Chute",
+   "Tight Turn",
+   "Tower 12",
+   "Two Thirds Shoulder",
+   "UNC",
+   "Upper Boomerang",
+   "Upper Grouse",
+   "Upper Juniper",
+   "Upper Meadowlark",
+   "Upper Wiwaxy",
+   "Upshoots",
+   "Vermillion",
+   "Vertical Cornice",
+   "Wapta",
+   "Warden's Run",
+   "West Bowl",
+   "West Bowl Gully",
+   "White Rabbit",
+   "Whitehorn 1",
+   "Whitehorn Cat Track",
+   "Wild Gully",
+   "Wiwaxy",
+   "Wolverine",
+   "Wounded Knee",
+   "Wrong Turn"
+  ],
+  "open_yesterday": null,
+  "yesterday_as_of": null,
+  "first_open": {
+   "Juniper": "13:00",
+   "Bald Eagle": "13:00",
+   "Easy Street": "13:00",
+   "Sunny Side": "13:00"
+  },
+  "unmatched": []
+ },
+ "lifts": [
+  {
+   "name": "Magic Carpet",
+   "status": "open",
+   "time": null
+  },
+  {
+   "name": "Lower Sunny Carpet",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Upper Sunny Carpet",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Glacier Express",
+   "status": "open",
+   "time": null
+  },
+  {
+   "name": "Grizzly Gondola",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Top of the World",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Summit Chair",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Juniper Express",
+   "status": "open",
+   "time": null
+  },
+  {
+   "name": "Pipestone Express Chair",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Paradise",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Ptarmigan",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Larch Express",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Richardson's Ridge Express",
+   "status": "closed",
+   "time": null
+  }
+ ],
+ "groomed": {
+  "source": {
+   "name": "Lake Louise grooming report",
+   "url": "https://lamp10.skilouise.com/conditions/grooming_report.pdf",
+   "as_of": "2026-11-15T15:43:12-06:00"
+  },
+  "names": [
+   "Bald Eagle",
+   "Easy Street",
+   "Juniper",
+   "Sunny Side"
+  ],
+  "unmatched": []
+ },
+ "snow": {
+  "claim": {
+   "source": {
+    "name": "Lake Louise snow report",
+    "url": "https://ski-louise-status-page.vercel.app/status",
+    "as_of": "2026-11-15T15:43:12-06:00"
+   },
+   "surface": null,
+   "new_cm": {
+    "overnight": 0,
+    "24h": 0,
+    "48h": 0,
+    "7d": 12
+   }
+  },
+  "measured": {
+   "source": {
+    "name": "Open-Meteo model at 2042 m, via the conditions tracker (an estimate, not a measurement)",
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=51.442%2C51.453%2C51.466&longitude=-116.162%2C-116.149%2C-116.1384&elevation=1645%2C2042%2C2637&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+    "as_of": "2026-11-15T15:45:36-06:00"
+   },
+   "new_cm": {
+    "24h": 0.0,
+    "72h": 0.0,
+    "7d": 0.0
+   },
+   "temp_c": {
+    "min": -5.4,
+    "max": 0.9
+   },
+   "thaw_since_snow": true,
+   "days_since_snow": null,
+   "how": "model snowfall",
+   "quality": {
+    "code": "wet",
+    "label": "Warm, wet or soft snow",
+    "why": "2 °C now (station SM-Control); 20 h above 0 °C in 72 h"
+   }
+  },
+  "verdict": "agrees",
+  "verdict_text": "Over 7 days the resort says 12 cm, the data 0 cm. It went above freezing since the last snow, so expect crust off the groomers.",
+  "condition": "packed_powder",
+  "condition_why": "The tracker reads it as warm, wet or soft snow: 2 °C now (station SM-Control); 20 h above 0 °C in 72 h. No button fits warm snow, so packed powder, the neutral setting. Forecast for lift hours: clear, gusts to 49 km/h.",
+  "new_snow": false,
+  "forecast": {
+   "snow_cm": 0.0,
+   "gust_max": 49.0,
+   "cloud_mean": 24.875,
+   "vis_min": 13500.0,
+   "temp_max": 0.3
+  }
+ },
+ "base": {
+  "source": {
+   "name": "Lake Louise snow report",
+   "url": "https://ski-louise-status-page.vercel.app/status",
+   "as_of": "2026-11-15T15:43:12-06:00"
+  },
+  "cm": 24,
+  "upper_cm": 26,
+  "season": "early",
+  "check": "Base is the average of base and summit reports."
+ },
+ "notes": [
+  "Winter lift hours are 9:30 am to 4:30 pm daily."
+ ],
+ "take": null,
+ "override": null
+}

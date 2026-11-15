@@ -1,0 +1,16 @@
+{
+  "name": "Ski Run Finder",
+  "short_name": "Run Finder",
+  "description": "Trail maps with every run re-rated by measured pitch, plus the morning's grooming, snow and base report.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#15212C",
+  "theme_color": "#15212C",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

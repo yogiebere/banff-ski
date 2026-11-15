@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="runfinder:data" content="../out/">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Run Finder</title>
+<meta name="description" content="Trail maps with every run re-rated by measured pitch, plus the morning's grooming, snow and base report.">
+<meta name="theme-color" content="#15212C">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Run Finder">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+:root {
+  --snow: #F2F5F8; --panel: #FFFFFF; --ink: #15212C; --muted: #5B6875; --line: #D5DDE5;
+  --patrol: #B3261E; --patrol-soft: #F6E1DE; --gold: #E8A317; --ok: #1E7A3C;
+  --display: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
+  --body: Barlow, "Segoe UI", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --snow: #0E151C; --panel: #151F29; --ink: #E4EBF1; --muted: #9AA8B5; --line: #2A3845;
+  --patrol: #FF7466; --patrol-soft: #3A1E1C; --gold: #F2B83A; --ok: #6FD08C; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --snow: #0E151C; --panel: #151F29; --ink: #E4EBF1; --muted: #9AA8B5; --line: #2A3845;
+  --patrol: #FF7466; --patrol-soft: #3A1E1C; --gold: #F2B83A; --ok: #6FD08C; color-scheme: dark }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--snow); color: var(--ink); font: 15px/1.45 var(--body); }
+main { max-width: 640px; margin: 0 auto; padding: max(18px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px))
+  max(28px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); display: flex; flex-direction: column; gap: 22px; }
+header { display: flex; gap: 14px; align-items: center; }
+header img { width: 52px; height: 52px; border-radius: 12px; flex: none; }
+h1 { font: 700 32px/1 var(--display); margin: 0; letter-spacing: .01em; }
+.sub { color: var(--muted); font-size: 13.5px; margin-top: 4px; }
+h2 { font: 700 13px var(--display); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.resorts { display: flex; flex-direction: column; gap: 10px; }
+.resort { display: block; text-decoration: none; color: inherit; background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+  padding: 14px 16px; box-shadow: 0 1px 3px rgba(10, 20, 30, .06); }
+.resort:hover { border-color: var(--muted); }
+.resort:focus-visible, .btn:focus-visible { outline: 2px solid var(--patrol); outline-offset: 2px; }
+.resort .top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.resort h3 { font: 700 22px/1.1 var(--display); margin: 0; }
+.resort .where { color: var(--muted); font-size: 12.5px; white-space: nowrap; }
+.resort .today { margin-top: 6px; font-size: 13.5px; }
+.resort .today b { font-weight: 600; }
+.resort .stamp { margin-top: 3px; font-size: 12px; color: var(--muted); }
+.tag:first-child { margin-left: 0; }
+.take { margin-top: 5px; padding-left: 8px; border-left: 3px solid var(--gold); font-size: 13.5px; }
+.tag { display: inline-block; font: 600 11px var(--body); letter-spacing: .06em; text-transform: uppercase; padding: 2px 7px; border-radius: 99px;
+  background: var(--patrol-soft); color: var(--patrol); margin-left: 4px; vertical-align: 1px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; font-size: 14px; }
+.panel p { margin: 0 0 8px; } .panel p:last-child { margin-bottom: 0; }
+.panel ol { margin: 4px 0 0; padding-left: 20px; } .panel li { margin-bottom: 4px; }
+.ok { color: var(--ok); font-weight: 600; } .warn { color: var(--patrol); font-weight: 600; }
+.btn { display: inline-block; border: 1px solid var(--patrol); background: var(--patrol); color: #fff; border-radius: 8px; padding: 8px 14px;
+  font: 600 14px var(--body); cursor: pointer; text-decoration: none; }
+.btn.quiet { background: transparent; color: var(--ink); border-color: var(--line); }
+.small { font-size: 13px; color: var(--muted); }
+.fresh { display: flex; gap: 8px; align-items: center; justify-content: space-between; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+.rf-update { border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 8px; padding: 6px 12px; font: 600 14px var(--body); cursor: pointer; }
+.rf-update:focus-visible { outline: 2px solid var(--patrol); outline-offset: 2px; }
+.rf-update[disabled] { opacity: .6; cursor: default; }
+footer { color: var(--muted); font-size: 12px; }
+footer a, .panel a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icons/icon-192.png" alt="">
+    <div>
+      <h1>Run Finder</h1>
+      <div class="sub">Trail maps with every run re-rated by its measured pitch, plus today's runs, grooming, snow and base depth.</div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Pick a mountain</h2>
+    <div class="fresh" id="fresh"></div>
+    <div class="resorts" id="resorts"><a class="resort" href="sunshine.html" data-resort="sunshine"><div class="top"><h3>Sunshine Village</h3><span class="where">Banff, Alberta</span></div><div class="today">Loading the morning report&hellip;</div><div class="stamp"></div></a>
+      <a class="resort" href="louise.html" data-resort="louise"><div class="top"><h3>Lake Louise</h3><span class="where">Banff National Park, Alberta</span></div><div class="today">Loading the morning report&hellip;</div><div class="stamp"></div></a>
+      <a class="resort" href="crystal.html" data-resort="crystal"><div class="top"><h3>Crystal Mountain</h3><span class="where">Washington</span></div><div class="today">Loading the morning report&hellip;</div><div class="stamp"></div></a></div>
+  </section>
+
+  <section>
+    <h2>On your phone</h2>
+    <div class="panel" id="install">
+      <p id="installed" hidden><span class="ok">Installed.</span> Open it from your home screen like any app.</p>
+      <div id="ios" hidden>
+        <p><b>iPhone or iPad:</b> open this page in Safari, then</p>
+        <ol><li>tap the Share button (the square with an arrow),</li><li>tap <b>Add to Home Screen</b>, then <b>Add</b>,</li>
+          <li>open Run Finder from the home screen once while on Wi-Fi, so it saves the maps.</li></ol>
+        <p>On a ski morning, open it in the car while there's signal: it picks up the latest conditions and keeps them for the mountain.</p>
+      </div>
+      <div id="android" hidden>
+        <p><b>Android:</b> <button type="button" class="btn" id="installbtn" hidden>Install app</button>
+          <span id="androidtext">in Chrome, tap the <b>&#8942;</b> menu, then <b>Install app</b> (or <b>Add to Home screen</b>).</span></p>
+        <p>Open it once on Wi-Fi so it saves the maps. On a ski morning, open it in the car while there's signal: it picks up the latest conditions and keeps them for the mountain.</p>
+      </div>
+      <div id="desktop" hidden><p>On a phone, open this page and add it to the home screen. On a computer it works in any browser.</p></div>
+      <p id="offline" class="small"></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Files</h2>
+    <div class="panel">
+      <p>Everything here is a plain static website: the three maps, their terrain images and the conditions files. Nothing is sent back from your phone.
+        <a href="https://github.com/yogiebere/banff-ski">Get all the files on GitHub</a> (Code, then Download ZIP) to keep a copy or host it anywhere.</p>
+    </div>
+  </section>
+
+  <footer>
+    Version 2026-11-15.1347-607fa6. Map data &copy; OpenStreetMap contributors via OpenSkiMap; terrain from Copernicus GLO-30.
+    Ratings are a guide, not a promise: check the resort's signs and patrol.
+  </footer>
+</main>
+<script src="app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var A = window.RunFinderApp, esc = A.esc;
+
+  // Each mountain's card shows its latest conditions. They refresh when the app opens, comes back to the front,
+  // hourly while open, and from Update now (app.js). Counts here use the resort's own run list.
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".resort")), freshBox = document.getElementById("fresh");
+  function show(card, res) {
+    var out = card.querySelector(".today"), stamp = card.querySelector(".stamp"), d = res && res.day;
+    if (!d) { out.textContent = "No conditions saved yet."; stamp.textContent = ""; return; }
+    var bits = [];
+    if (d.snow && d.snow.condition) bits.push("<b>" + esc(A.CONDS[d.snow.condition] || d.snow.condition) + "</b>" + (d.snow.new_snow ? " (new snow)" : ""));
+    if (d.base && d.base.cm != null) bits.push(d.base.cm + " cm base" + (d.base.season ? " (" + d.base.season + ")" : ""));
+    if (d.runs && d.runs.open) bits.push(d.runs.open.length + " open on " + (d.live ? "the resort's list" : "the map") + (d.runs.expected && d.runs.expected.length ? ", " + d.runs.expected.length + " later" : ""));
+    if (d.groomed && d.groomed.names) bits.push(d.groomed.names.length + " groomed");
+    var rel = A.relDay(d.date), isToday = rel === "Today";
+    out.innerHTML = (isToday ? "Today: " : '<span class="tag">' + (rel === "Yesterday" ? "Yesterday's" : A.esc(rel)) + "</span> ") +
+      (bits.join(" &middot; ") || "No details.") + (d.sample ? '<span class="tag">Sample</span>' : "") +
+      (d.take ? '<div class="take">&ldquo;' + esc(d.take) + "&rdquo;</div>" : "");
+    stamp.textContent = (isToday ? "" : rel + ", " + (rel === "Yesterday" ? A.dayName(d.date) + ", " : "")) + "as of " + A.clock(d.as_of || d.prepared_at) +
+      (d.morning_at ? " (morning check " + A.clock(d.morning_at) + ")" : d.live ? "" : " (morning check)");
+  }
+  function freshBar(results, busy) {
+    var ok = results.filter(function (r) { return r && r.fresh; }).length, any = results.filter(function (r) { return r && r.day; }).length;
+    // The oldest date shown, so the line can say when today's first check comes if a card still shows yesterday.
+    var dates = results.filter(function (x) { return x && x.day && x.day.live; }).map(function (x) { return x.day.date; }).sort();
+    var r = busy ? null : {fresh: ok > 0, day: any > 0 ? {date: dates[0] || A.localToday()} : null, tried: Date.now(),
+      checked: Math.max.apply(0, results.map(function (x) { return (x && x.checked) || 0; })) || null};
+    freshBox.innerHTML = A.freshLine(r, busy);
+    var u = freshBox.querySelector(".rf-update"); if (u) u.addEventListener("click", function () { refresh(); });
+  }
+  var refresh = A.autoRefresh(function () {
+    freshBar([], true);
+    return Promise.all(cards.map(function (card) {
+      return A.getDay(card.dataset.resort, null).then(function (res) { show(card, res); return res; }, function () { return null; });
+    })).then(function (results) { freshBar(results, false); return results.some(function (r) { return r && r.fresh; }); });
+  });
+
+  // Install help for this kind of phone.
+  var ua = navigator.userAgent, standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  var ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  var android = /Android/.test(ua);
+  document.getElementById(standalone ? "installed" : ios ? "ios" : android ? "android" : "desktop").hidden = false;
+  var deferred = null, ib = document.getElementById("installbtn");
+  window.addEventListener("beforeinstallprompt", function (e) {
+    e.preventDefault(); deferred = e;
+    if (!standalone) { document.getElementById("android").hidden = false; document.getElementById("desktop").hidden = true;
+      ib.hidden = false; document.getElementById("androidtext").textContent = "or use Chrome's menu."; }
+  });
+  ib.addEventListener("click", function () { if (deferred) { deferred.prompt(); deferred = null; ib.hidden = true; } });
+
+  // Offline status, from the service worker.
+  var off = document.getElementById("offline");
+  if (!("serviceWorker" in navigator)) { off.textContent = "This browser can't save the maps for offline use."; return; }
+  if (location.protocol === "file:") { off.textContent = "Opened from a file: works on this device, but saving for offline needs the web address."; return; }
+  function check() {
+    navigator.serviceWorker.ready.then(function (reg) {
+      var ch = new MessageChannel();
+      ch.port1.onmessage = function (e) {
+        var s = e.data;
+        if (s.saved >= s.total) off.innerHTML = '<span class="ok">Ready offline.</span> All three maps are saved on this device.';
+        else { off.textContent = "Saving the maps for offline use: " + s.saved + " of " + s.total + " files. Keep this open on Wi-Fi."; setTimeout(check, 1500); }
+      };
+      (reg.active || navigator.serviceWorker.controller).postMessage({type: "status"}, [ch.port2]);
+    });
+  }
+  off.textContent = "Saving the maps for offline use. Keep this open on Wi-Fi.";
+  check();
+})();
+</script>
+</body>
+</html>

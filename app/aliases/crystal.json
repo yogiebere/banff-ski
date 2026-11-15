@@ -1,0 +1,9 @@
+{
+  "_note": "Crystal's mountain report lists some whole areas as one 'trail'. Each maps to the map's runs in that area, from the zones in trailmap/sources/crystal/resort_ratings.json and the guide's matches (Powder Bowl is Upper and Lower Field plus its two chutes). null means the area has no line on the map. Exact names and Crystal's own names from resort_ratings.json match without an entry here.",
+  "Silver King": ["Appliance Store", "Brain Damage", "Damn Fine Forest", "Hourglass", "L-Tree Chute", "Light Brown", "Lobotomy", "Pinball", "Powder 8s", "Receiver Chute", "Sasquatch Chute", "Skank Chutes Left", "Skank Chutes Middle", "Skank Chutes Right", "The Cliff", "Toasters", "Watch Out for Livestock"],
+  "Campbell Basin": ["Chairline Left", "Chairline Right", "Rabbit Ears", "Screaming Babies", "Silver Ridge", "T-Slot", "Faith's Slide"],
+  "Powder Bowl": ["Upper Field", "Lower Field", "Divider Chute", "Summit Chute"],
+  "The Throne": ["Narnia"],
+  "Three Way Peak": ["Three Way Exit Chute"],
+  "A-Basin": null
+}

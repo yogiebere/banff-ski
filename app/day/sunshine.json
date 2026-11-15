@@ -1,0 +1,295 @@
+{
+ "schema": 1,
+ "resort": "sunshine",
+ "date": "2026-11-15",
+ "prepared_at": "2026-11-15T15:46:54-06:00",
+ "prepared_by": "Claude, morning prep",
+ "sample": false,
+ "snapshot_at": "2026-11-15T15:45:36-06:00",
+ "runs": {
+  "source": {
+   "name": "Sunshine lifts and trails report",
+   "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+   "as_of": "2026-11-15T15:45:36-06:00"
+  },
+  "open": [
+   "Snowsnake",
+   "The Dell Valley"
+  ],
+  "expected": [],
+  "closed": [
+   "Afterburner",
+   "Angel Flight",
+   "Angel Gully",
+   "Assiniboine Trail",
+   "Banff Avenue",
+   "Barners",
+   "Big Angel",
+   "Big Bunkers",
+   "Birdcage",
+   "Bluebell",
+   "Borderline",
+   "Boundry Bowl",
+   "Bounty's Bowl",
+   "Bunkers",
+   "Bushwackers",
+   "Bye Bye Bowl",
+   "Cayuse Creek",
+   "Cherub",
+   "Chicken",
+   "Christmas Trees",
+   "Cleavage",
+   "Corral Cut-off",
+   "Cottontail",
+   "Creek Run",
+   "Delirium",
+   "Dirty Little Corner",
+   "Donkey's Tail",
+   "Eagle",
+   "Eagle Creek",
+   "Eagle Glades",
+   "Ecstasy",
+   "Ewe First",
+   "Fall Line",
+   "Farside",
+   "Fireweed",
+   "Forget-Me-Not",
+   "Freefall",
+   "Garbage Chutes",
+   "Glade Runner",
+   "Goat Chicken Gully",
+   "Goat's Head Soup",
+   "Goatchicken Glade",
+   "Goatsucker Glade",
+   "Green Run",
+   "Grizzly",
+   "Grizzly XL Terrain Park",
+   "Headwall",
+   "Hell's Kitchen",
+   "Highway One",
+   "Horto's Revenge",
+   "Jackrabbit",
+   "Jerry's Run",
+   "Juniper",
+   "Kid's Play",
+   "Larch Glade",
+   "Laryx",
+   "Little Angel",
+   "Little Bunkers",
+   "Lower Canyon",
+   "Meadow Park",
+   "Middle Canyon",
+   "Miss Gratz",
+   "Mother-In-Law",
+   "North Divide",
+   "North Pocket",
+   "OS Pitch",
+   "Old T-Bar",
+   "Packers",
+   "Paris One",
+   "Paris Two",
+   "Pilgrims",
+   "Piste Noir",
+   "Power Line",
+   "Prune Pickers Pass",
+   "Raptor",
+   "Red 90",
+   "Renegade",
+   "Rock Isle Road",
+   "Rock Ledges",
+   "Roller Coaster",
+   "Rolling Thunder",
+   "Sasquatch",
+   "Scapegoat",
+   "Schoolmarm",
+   "Sergie's Shortcut",
+   "Shaken Not Stirred",
+   "Short & Sweet",
+   "Sidewall",
+   "Sky Dive",
+   "Slush Cup",
+   "South 205",
+   "South Divide",
+   "South Pocket",
+   "Springhill",
+   "Stampede",
+   "Stampeders Way",
+   "Standish",
+   "Standish Face",
+   "Star Trek",
+   "Strawberry Face",
+   "Strawberry Surprise",
+   "Sunshine Coast",
+   "Super Model",
+   "Teepee Main Chutes",
+   "Teepee Town Liftline",
+   "The Big Woody",
+   "The Shoulder",
+   "The Waterfall",
+   "Think Again",
+   "Tilton Trail",
+   "Tin Can Alley",
+   "Tin Can Trees",
+   "Tower 30",
+   "Trappers",
+   "Upper Canyon",
+   "Viking Ridge",
+   "Virgins",
+   "Wawa Bowl",
+   "Wildfire",
+   "Wildslide",
+   "Wolverine",
+   "Wolverine Liftline",
+   "World Cup Downhill"
+  ],
+  "open_yesterday": null,
+  "yesterday_as_of": null,
+  "first_open": {
+   "The Dell Valley": "13:00",
+   "Snowsnake": "13:00"
+  },
+  "unmatched": []
+ },
+ "lifts": [
+  {
+   "name": "Goat's Eye Express Quad",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Gondola",
+   "status": "open",
+   "time": null
+  },
+  {
+   "name": "Great Divide Express Quad",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Jackrabbit Fixed Grip Quad",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Mitey Mite Conveyor",
+   "status": "open",
+   "time": null
+  },
+  {
+   "name": "Standish Express Quad",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Strawberry Express Quad",
+   "status": "open",
+   "time": null
+  },
+  {
+   "name": "Super Angel Luxury Express Six Pack",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Teepee Town Luxury Express Quad",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Tiny Tigers Conveyor",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Wawa Fixed Grip Quad",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Wolverine Express Quad",
+   "status": "closed",
+   "time": null
+  }
+ ],
+ "groomed": {
+  "source": {
+   "name": "Sunshine lifts and trails report (groomed icons)",
+   "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+   "as_of": "2026-11-15T15:45:36-06:00"
+  },
+  "names": [
+   "The Dell Valley"
+  ],
+  "unmatched": []
+ },
+ "snow": {
+  "claim": {
+   "source": {
+    "name": "Sunshine snow report",
+    "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+    "as_of": "2026-11-15T09:41:00-06:00"
+   },
+   "surface": null,
+   "new_cm": {
+    "overnight": null,
+    "24h": null,
+    "48h": null,
+    "7d": 7
+   }
+  },
+  "measured": {
+   "source": {
+    "name": "Open-Meteo model at 2160 m, via the conditions tracker (an estimate, not a measurement)",
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+    "as_of": "2026-11-15T15:45:36-06:00"
+   },
+   "new_cm": {
+    "24h": 0.0,
+    "72h": 0.0,
+    "7d": 1.3
+   },
+   "temp_c": {
+    "min": -3.2,
+    "max": 0.2
+   },
+   "thaw_since_snow": true,
+   "days_since_snow": 6,
+   "how": "model snowfall",
+   "quality": {
+    "code": "packed_firm",
+    "label": "Packed and firm",
+    "why": "-0 °C now (model); 16 h above 0 °C in 72 h; wind to 43 km/h, gusts 75"
+   }
+  },
+  "verdict": "overstated",
+  "verdict_text": "No 24-hour figure posted, so this checks the 7-day total: resort 7 cm, data 1.3 cm. It went above freezing since the last snow, so expect crust off the groomers.",
+  "condition": "wind_lowvis",
+  "condition_why": "Gusts to 75 km/h forecast at mid-mountain.",
+  "new_snow": false,
+  "forecast": {
+   "snow_cm": 0.0,
+   "gust_max": 75.2,
+   "cloud_mean": 27.75,
+   "vis_min": 15900.0,
+   "temp_max": -0.0
+  }
+ },
+ "base": {
+  "source": {
+   "name": "Sunshine snow report",
+   "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+   "as_of": "2026-11-15T09:41:00-06:00"
+  },
+  "cm": 20,
+  "upper_cm": 29,
+  "season": "early",
+  "check": null
+ },
+ "notes": [
+  "The gondola starts loading at 8:30 am, with Strawberry and the Mitey Mite carpet opening at 9:30 am.",
+  "Save some energy for a few “laps” at Mad Trappers, open from 10:30 am."
+ ],
+ "take": null,
+ "override": null
+}

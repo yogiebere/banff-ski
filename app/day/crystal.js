@@ -1,0 +1,261 @@
+window.RUNFINDER_DAY = window.RUNFINDER_DAY || {};
+window.RUNFINDER_DAY["crystal"] = {
+ "schema": 1,
+ "resort": "crystal",
+ "date": "2026-11-15",
+ "prepared_at": "2026-11-15T13:12:20-08:00",
+ "prepared_by": "Claude, morning prep",
+ "sample": false,
+ "snapshot_at": "2026-11-15T13:11:32-08:00",
+ "runs": {
+  "source": {
+   "name": "Crystal mountain report",
+   "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report-and-webcams",
+   "as_of": "2026-11-15T13:11:20-08:00"
+  },
+  "open": [],
+  "expected": [],
+  "closed": [
+   "Afterburn",
+   "Appliance Store",
+   "Bear Pits",
+   "Berry Patch",
+   "Berry Patch Right",
+   "Bill's face",
+   "Blazing Elk",
+   "Boondoggle",
+   "Brain Damage",
+   "Brand X",
+   "Broadway",
+   "Bruce's Bowl",
+   "Buck",
+   "Bull Run",
+   "Chairline Left",
+   "Chairline Right",
+   "Chappelle's",
+   "Damn Fine Forest",
+   "Deer Fly",
+   "Discovery Meadow",
+   "Divider Chute",
+   "Downhill",
+   "Employee Housing",
+   "Exterminator",
+   "Faith's Slide",
+   "Gandy's Run",
+   "Glory Days",
+   "Gold Hills",
+   "Green Valley",
+   "Grubstake",
+   "Hourglass",
+   "Howeird's",
+   "Huckleberry",
+   "I-5",
+   "Kelley's Gap Road",
+   "L-Tree Chute",
+   "Left Angle",
+   "Left Angle Trees (Lower LA)",
+   "Light Brown",
+   "Little Magoo",
+   "Little Portillo",
+   "Little Shot",
+   "Lobotomy",
+   "Lower Arwine's",
+   "Lower Brand X Cliffs",
+   "Lower Ferk's Run",
+   "Lower Field",
+   "Lower Magoo",
+   "Lower Otto Bahn",
+   "Lucky Shot",
+   "Mel's Left",
+   "Mel's Right",
+   "Melby's",
+   "Memorial Forest",
+   "Middle Ferk's Run",
+   "Middle Sluiceway",
+   "Morning Glory Bowl",
+   "Mr Magoo",
+   "Narnia",
+   "Niagaras",
+   "Northway Drainage",
+   "O-Meadows",
+   "Paradise",
+   "Paradise Bowl",
+   "Paradise Trees",
+   "Penny Dawgs",
+   "Pinball",
+   "Powder 8s",
+   "Pro Course",
+   "Pucker's Gulch",
+   "Queens",
+   "Quicksilver",
+   "Rabbit Ears",
+   "Receiver Chute",
+   "Right Angle",
+   "Right Angle Trees (Lower RA)",
+   "Rolling Knolls",
+   "Sasquatch Chute",
+   "Screaming Babies",
+   "Sheooard",
+   "Side Burn",
+   "Silver Basin",
+   "Silver Ridge",
+   "Skank Chutes Left",
+   "Skank Chutes Middle",
+   "Skank Chutes Right",
+   "Sled Face",
+   "Snorting Elk",
+   "Snorting Elk Bowl",
+   "Snow Garden",
+   "Spook Hill",
+   "Stump Farm",
+   "Summit Chute",
+   "Sunnyside",
+   "T-Slot",
+   "The Cliff",
+   "The Doors",
+   "The Nose",
+   "Three Way Exit Chute",
+   "Tinkerbell",
+   "Toasters",
+   "Upper Arwine's",
+   "Upper Boondoggle.",
+   "Upper Ferk's Run",
+   "Upper Field",
+   "Upper Northway",
+   "Upper Otto Bahn",
+   "Upper Sluiceway",
+   "Wally's Way",
+   "Watch Out for Livestock",
+   "West Face",
+   "Whit's End",
+   "Willie's Run"
+  ],
+  "open_yesterday": null,
+  "yesterday_as_of": null,
+  "first_open": {},
+  "unmatched": []
+ },
+ "lifts": [
+  {
+   "name": "Discovery",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Forest Queen Express",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Quicksilver",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Gold Hills",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Discovery Conveyor",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Mt. Rainier Gondola",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Chinook Express",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Rainier Express",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Green Valley",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Northway",
+   "status": "closed",
+   "time": null
+  },
+  {
+   "name": "Chair 6",
+   "status": "closed",
+   "time": null
+  }
+ ],
+ "groomed": null,
+ "snow": {
+  "claim": {
+   "source": {
+    "name": "Crystal snow report",
+    "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report-and-webcams",
+    "as_of": "2026-11-11T09:52:26-08:00"
+   },
+   "surface": "Variable Conditions",
+   "new_cm": {
+    "overnight": 0.0,
+    "24h": 0.0,
+    "48h": 0.0,
+    "7d": 0.0
+   }
+  },
+  "measured": {
+   "source": {
+    "name": "Open-Meteo model at 1676 m (an estimate, not a measurement)",
+    "url": "https://open-meteo.com/en/docs#latitude=46.9353&longitude=-121.4746",
+    "as_of": "2026-11-15T13:00:00-08:00"
+   },
+   "new_cm": {
+    "24h": 3.2,
+    "72h": 8.3,
+    "7d": 12.0
+   },
+   "temp_c": {
+    "min": -0.1,
+    "max": 1.8
+   },
+   "thaw_since_snow": true,
+   "days_since_snow": 1,
+   "how": "model snowfall",
+   "quality": null
+  },
+  "verdict": "understated",
+  "verdict_text": "Over 7 days the resort says 0 cm, the data 12 cm. It went above freezing since the last snow, so expect crust off the groomers.",
+  "condition": "bluebird_firm",
+  "condition_why": "A thaw since the last snow. Forecast for lift hours: partly cloudy, gusts to 42 km/h.",
+  "new_snow": false,
+  "forecast": {
+   "snow_cm": 1.1,
+   "gust_max": 42.5,
+   "cloud_mean": 66.375,
+   "vis_min": 200.0,
+   "temp_max": 0.8
+  }
+ },
+ "base": {
+  "source": {
+   "name": "Crystal snow report",
+   "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report-and-webcams",
+   "as_of": "2026-11-11T09:52:26-08:00"
+  },
+  "cm": 0,
+  "upper_cm": 0,
+  "season": "early",
+  "check": null
+ },
+ "notes": [
+  "Resort status: Closed.",
+  "Crystal Mountain is not yet open for winter operations. Ski Patrol is not currently on duty, and avalanche mitigation is not taking place."
+ ],
+ "take": null,
+ "override": null
+};
