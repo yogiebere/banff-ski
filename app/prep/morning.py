@@ -291,7 +291,7 @@ def tracker_snapshot(resort, day, root):
     if t.get("format") != "banfftrack/1":
         sys.exit("latest_%s.json: format %r, expected banfftrack/1" % (resort, t.get("format")))
     ysnaps = []
-    has_y = any(r.get("open_yesterday") is not None for r in t.get("runs", []))
+    has_y = any("open_yesterday" in r for r in t.get("runs", []))          # null there means no record of yesterday
     y = None if has_y else read_tracker(root, "days/%s/%s.json" % (resort, (day - dt.timedelta(days=1)).isoformat()))
     if y:
         tz = tz_for(resort)
@@ -358,6 +358,16 @@ def tracker_snapshot(resort, day, root):
                      "how": "model snowfall", "quality": {k: q.get(k) for k in ("code", "label", "why")} if q else None,
                      "source": {"name": "Open-Meteo model at %s m, via the conditions tracker (an estimate, not a measurement)" % mz.get("elev_m"),
                                 "url": (by_src.get("open-meteo") or {}).get("url"), "as_of": t["local_time"]}}
+    # Today's lift-hours forecast, made by the tracker on GitHub's runners: cloud machines get rate-limited by
+    # Open-Meteo, so this is the forecast to use; open_meteo() is the fallback.
+    lh = (mid.get("model") or {}).get("lift_hours") or (top.get("model") or {}).get("lift_hours")
+    top_lh = (top.get("model") or {}).get("lift_hours") or {}
+    forecast_lift = None
+    if lh and lh.get("date") == day.isoformat():
+        forecast_lift = {"snow_cm": lh.get("snow_cm") or 0, "gust_max": lh.get("gust_max_kmh"), "cloud_mean": lh.get("cloud_mean_pct"),
+                         "vis_min": lh.get("vis_min_m"), "temp_max": lh.get("temp_max_c"),
+                         "gust_top": top_lh.get("gust_max_kmh") if top_lh.get("date") == lh.get("date") else None,
+                         "source": "conditions tracker (Open-Meteo, mid-mountain, 9 AM to 4 PM)"}
     season = t.get("season") or {}
     base = None
     if season.get("base_cm") is not None:
@@ -369,7 +379,7 @@ def tracker_snapshot(resort, day, root):
             text.append(n["text"])
     snap = {"schema": 1, "resort": resort, "fetched_at": t["local_time"], "_t": parse_time(t["local_time"]),
             "sources": [runs_src, snow_src, groom_src], "lifts": lifts, "trails": trails, "report": report,
-            "stations": [], "measured": measured_, "base": base, "notes_text": text,
+            "stations": [], "measured": measured_, "base": base, "notes_text": text, "forecast_lift": forecast_lift,
             "errors": t.get("errors") or []}
     return snap, ysnaps
 
@@ -562,11 +572,12 @@ def snow_section(resort, snap, model, day, end):
     if m and m["thaw_since_snow"]:
         bits.append("It went above freezing since the last snow, so expect crust off the groomers.")
 
-    fc = forecast_today(model, day, None)
+    fc = (snap or {}).get("forecast_lift") or forecast_today(model, day, None)
     if fc and fc["snow_cm"] >= 2:
         cond, why = "storm", "%g cm forecast during lift hours." % fc["snow_cm"]
     elif fc and fc["gust_max"] is not None and fc["gust_max"] >= 60:
-        cond, why = "wind_lowvis", "gusts to %d km/h forecast at mid-mountain." % fc["gust_max"]
+        cond, why = "wind_lowvis", "gusts to %d km/h forecast at mid-mountain%s." % (
+            fc["gust_max"], " (%d up top)" % fc["gust_top"] if fc.get("gust_top") is not None else "")
     elif fc and fc["cloud_mean"] is not None and fc["cloud_mean"] >= 90 and fc["vis_min"] is not None and fc["vis_min"] < 1000:
         cond, why = "wind_lowvis", "cloud all day and visibility under 1 km forecast."
     elif trusted24 is not None and trusted24 >= POWDER_CM:
@@ -773,7 +784,8 @@ def prepare(resort, day, root, offline=False, sample=False, tracker=None):
         snap = snaps_now[-1] if snaps_now else None
         ysnaps = snapshots(root, resort, day - dt.timedelta(days=1))
     model = None
-    if not offline:
+    # Banff: the tracker's measured side and lift-hours forecast cover everything, so Open-Meteo isn't needed.
+    if not offline and not (snap and snap.get("forecast_lift") and snap.get("measured")):
         try:
             model = open_meteo(resort)
         except Exception as e:
@@ -851,7 +863,9 @@ def main():
         day = now_local(resort).date()
         if "--date" in args:
             day = dt.date.fromisoformat(args[args.index("--date") + 1])
-        tracker = os.path.abspath(args[args.index("--banfftrack") + 1]) if "--banfftrack" in args else BANFFTRACK
+        tracker = args[args.index("--banfftrack") + 1] if "--banfftrack" in args else BANFFTRACK
+        if not tracker.startswith(("http://", "https://")):       # a folder; a URL is read as it is
+            tracker = os.path.abspath(tracker)
         prepare(resort, day, root, offline="--offline" in args, sample=sample and resort != "crystal", tracker=tracker)
 
 

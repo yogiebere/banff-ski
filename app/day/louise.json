@@ -2,15 +2,15 @@
  "schema": 1,
  "resort": "louise",
  "date": "2026-11-15",
- "prepared_at": "2026-11-15T15:46:54-06:00",
+ "prepared_at": "2026-11-15T16:13:06-06:00",
  "prepared_by": "Claude, morning prep",
  "sample": false,
- "snapshot_at": "2026-11-15T15:45:36-06:00",
+ "snapshot_at": "2026-11-15T16:10:26-06:00",
  "runs": {
   "source": {
    "name": "Lake Louise lift and run status",
    "url": "https://ski-louise-status-page.vercel.app/status",
-   "as_of": "2026-11-15T15:43:12-06:00"
+   "as_of": "2026-11-15T16:07:15-06:00"
   },
   "open": [
    "Bald Eagle",
@@ -251,7 +251,7 @@
   "source": {
    "name": "Lake Louise grooming report",
    "url": "https://lamp10.skilouise.com/conditions/grooming_report.pdf",
-   "as_of": "2026-11-15T15:43:12-06:00"
+   "as_of": "2026-11-15T16:07:15-06:00"
   },
   "names": [
    "Bald Eagle",
@@ -266,7 +266,7 @@
    "source": {
     "name": "Lake Louise snow report",
     "url": "https://ski-louise-status-page.vercel.app/status",
-    "as_of": "2026-11-15T15:43:12-06:00"
+    "as_of": "2026-11-15T16:07:15-06:00"
    },
    "surface": null,
    "new_cm": {
@@ -279,8 +279,8 @@
   "measured": {
    "source": {
     "name": "Open-Meteo model at 2042 m, via the conditions tracker (an estimate, not a measurement)",
-    "url": "https://api.open-meteo.com/v1/forecast?latitude=51.442%2C51.453%2C51.466&longitude=-116.162%2C-116.149%2C-116.1384&elevation=1645%2C2042%2C2637&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
-    "as_of": "2026-11-15T15:45:36-06:00"
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=51.442%2C51.453%2C51.466&longitude=-116.162%2C-116.149%2C-116.1384&elevation=1645%2C2042%2C2637&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+    "as_of": "2026-11-15T16:10:26-06:00"
    },
    "new_cm": {
     "24h": 0.0,
@@ -289,7 +289,7 @@
    },
    "temp_c": {
     "min": -5.4,
-    "max": 0.9
+    "max": 0.3
    },
    "thaw_since_snow": true,
    "days_since_snow": null,
@@ -297,27 +297,29 @@
    "quality": {
     "code": "wet",
     "label": "Warm, wet or soft snow",
-    "why": "2 °C now (station SM-Control); 20 h above 0 °C in 72 h"
+    "why": "1 °C now (station SM-Control); 19 h above 0 °C in 72 h"
    }
   },
   "verdict": "agrees",
   "verdict_text": "Over 7 days the resort says 12 cm, the data 0 cm. It went above freezing since the last snow, so expect crust off the groomers.",
   "condition": "packed_powder",
-  "condition_why": "The tracker reads it as warm, wet or soft snow: 2 °C now (station SM-Control); 20 h above 0 °C in 72 h. No button fits warm snow, so packed powder, the neutral setting. Forecast for lift hours: clear, gusts to 49 km/h.",
+  "condition_why": "The tracker reads it as warm, wet or soft snow: 1 °C now (station SM-Control); 19 h above 0 °C in 72 h. No button fits warm snow, so packed powder, the neutral setting. Forecast for lift hours: clear, gusts to 49 km/h.",
   "new_snow": false,
   "forecast": {
-   "snow_cm": 0.0,
+   "snow_cm": 0,
    "gust_max": 49.0,
-   "cloud_mean": 24.875,
+   "cloud_mean": 25,
    "vis_min": 13500.0,
-   "temp_max": 0.3
+   "temp_max": 0.3,
+   "gust_top": 52.6,
+   "source": "conditions tracker (Open-Meteo, mid-mountain, 9 AM to 4 PM)"
   }
  },
  "base": {
   "source": {
    "name": "Lake Louise snow report",
    "url": "https://ski-louise-status-page.vercel.app/status",
-   "as_of": "2026-11-15T15:43:12-06:00"
+   "as_of": "2026-11-15T16:07:15-06:00"
   },
   "cm": 24,
   "upper_cm": 26,

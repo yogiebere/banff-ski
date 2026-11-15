@@ -3,15 +3,15 @@ window.RUNFINDER_DAY["sunshine"] = {
  "schema": 1,
  "resort": "sunshine",
  "date": "2026-11-15",
- "prepared_at": "2026-11-15T15:46:54-06:00",
+ "prepared_at": "2026-11-15T16:13:05-06:00",
  "prepared_by": "Claude, morning prep",
  "sample": false,
- "snapshot_at": "2026-11-15T15:45:36-06:00",
+ "snapshot_at": "2026-11-15T16:10:26-06:00",
  "runs": {
   "source": {
    "name": "Sunshine lifts and trails report",
    "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
-   "as_of": "2026-11-15T15:45:36-06:00"
+   "as_of": "2026-11-15T16:10:26-06:00"
   },
   "open": [
    "Snowsnake",
@@ -217,7 +217,7 @@ window.RUNFINDER_DAY["sunshine"] = {
   "source": {
    "name": "Sunshine lifts and trails report (groomed icons)",
    "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
-   "as_of": "2026-11-15T15:45:36-06:00"
+   "as_of": "2026-11-15T16:10:26-06:00"
   },
   "names": [
    "The Dell Valley"
@@ -242,8 +242,8 @@ window.RUNFINDER_DAY["sunshine"] = {
   "measured": {
    "source": {
     "name": "Open-Meteo model at 2160 m, via the conditions tracker (an estimate, not a measurement)",
-    "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
-    "as_of": "2026-11-15T15:45:36-06:00"
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+    "as_of": "2026-11-15T16:10:26-06:00"
    },
    "new_cm": {
     "24h": 0.0,
@@ -252,7 +252,7 @@ window.RUNFINDER_DAY["sunshine"] = {
    },
    "temp_c": {
     "min": -3.2,
-    "max": 0.2
+    "max": -0.0
    },
    "thaw_since_snow": true,
    "days_since_snow": 6,
@@ -260,20 +260,22 @@ window.RUNFINDER_DAY["sunshine"] = {
    "quality": {
     "code": "packed_firm",
     "label": "Packed and firm",
-    "why": "-0 °C now (model); 16 h above 0 °C in 72 h; wind to 43 km/h, gusts 75"
+    "why": "-0.1 °C now (model); 15 h above 0 °C in 72 h; wind to 43 km/h, gusts 75"
    }
   },
   "verdict": "overstated",
   "verdict_text": "No 24-hour figure posted, so this checks the 7-day total: resort 7 cm, data 1.3 cm. It went above freezing since the last snow, so expect crust off the groomers.",
   "condition": "wind_lowvis",
-  "condition_why": "Gusts to 75 km/h forecast at mid-mountain.",
+  "condition_why": "Gusts to 75 km/h forecast at mid-mountain (72 up top).",
   "new_snow": false,
   "forecast": {
-   "snow_cm": 0.0,
+   "snow_cm": 0,
    "gust_max": 75.2,
-   "cloud_mean": 27.75,
+   "cloud_mean": 28,
    "vis_min": 15900.0,
-   "temp_max": -0.0
+   "temp_max": -0.0,
+   "gust_top": 72.4,
+   "source": "conditions tracker (Open-Meteo, mid-mountain, 9 AM to 4 PM)"
   }
  },
  "base": {
