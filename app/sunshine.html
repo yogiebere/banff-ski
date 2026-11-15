@@ -406,6 +406,11 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       p.areas.forEach(function (ring) {
         el("path", {d: pathD(ring) + "Z", fill: col, "fill-opacity": 0.16, stroke: col, "stroke-width": 2.5, "stroke-dasharray": "10 5"}, g);
       });
+      if (p.way && !p.lines.length) {          // an area run's typical way down, the line its chart follows
+        var wd = pathD(p.way.px);
+        el("path", {d: wd, fill: "none", stroke: "#fff", "stroke-opacity": 0.85, "stroke-width": 5, "stroke-linecap": "round"}, g);
+        el("path", {d: wd, fill: "none", stroke: col, "stroke-width": 2.6, "stroke-dasharray": "1 5", "stroke-linecap": "round"}, g);
+      }
       p.lines.forEach(function (pts) {
         var d = pathD(pts);
         el("path", {d: d, fill: "none", stroke: "transparent", "stroke-width": 26}, g);
@@ -662,11 +667,14 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
   var PITCH = [[16, "#1E9E46", "under 16°"], [19.5, "#1565C0", "16–19.5°"], [29.5, "#2B2B2B", "19.5–29.5°"], [90, "#C62828", "29.5°+"]];
   function pitchColor(deg) { for (var i = 0; i < PITCH.length; i++) if (deg < PITCH[i][0]) return PITCH[i][1]; return PITCH[3][1]; }
   function profileChart(host, p) {
-    if (!p.profiles || !p.profiles.length) return;
+    // An area run (glade or bowl) with no line charts its typical way down (trailmap.typical_path).
+    var way = (!p.profiles || !p.profiles.length) && p.way ? p.way : null;
+    if (!way && (!p.profiles || !p.profiles.length)) return;
+    var profs = way ? [{h: way.h, res: way.res}] : p.profiles, plines = way ? [way.px] : p.lines;
     // Join the run's segments top first, each running downhill.
     // Profiles follow their line's drawing order, so flip the line with the profile when it runs uphill.
-    var segs = p.profiles.map(function (s, i) {
-      var h = s.h.slice(), px = (p.lines[i] || []).slice();
+    var segs = profs.map(function (s, i) {
+      var h = s.h.slice(), px = (plines[i] || []).slice();
       if (h[0] < h[h.length - 1]) { h.reverse(); px.reverse(); }
       return {h: h, res: s.res, px: px, i: i};
     }).sort(function (a, b) { return b.h[0] - a.h[0]; });
@@ -689,7 +697,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       if (len > bestLen) { bestLen = len; chain = c; }
     });
     // A run with several lines is rated on its easiest way down (trailmap.ways_down); chart that same path.
-    if (p.stats && p.stats.path) chain = p.stats.path.map(function (i) { return segs.filter(function (sg) { return sg.i === i; })[0]; }).filter(Boolean);
+    if (!way && p.stats && p.stats.path) chain = p.stats.path.map(function (i) { return segs.filter(function (sg) { return sg.i === i; })[0]; }).filter(Boolean);
     var skipped = segs.length - chain.length;
     segs = chain;
     var xs = [], hs = [], d = 0, starts = [];
@@ -738,7 +746,8 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     if (best > -Infinity) {
       el("line", {x1: X(xs[bi]), x2: X(xs[bj]), y1: T - 6, y2: T - 6, stroke: "var(--patrol)", "stroke-width": 2}, s);
       var tt = el("text", {x: Math.max(L + 60, Math.min(W - R - 60, (X(xs[bi]) + X(xs[bj])) / 2)), y: T - 11, "text-anchor": "middle", "class": "axis"}, s);
-      tt.textContent = "steepest " + win + " m: " + Math.round(p.stats ? p.stats.peak : Math.atan(best) * 180 / Math.PI) + "°";
+      tt.textContent = "steepest " + win + " m" + (way ? " on this line" : "") + ": " +
+        Math.round(way || !p.stats ? Math.atan(best) * 180 / Math.PI : p.stats.peak) + "°";
     }
     var t0 = el("text", {x: L, y: H - 6, "class": "axis"}, s); t0.textContent = "0";
     var t1 = el("text", {x: W - R, y: H - 6, "text-anchor": "end", "class": "axis"}, s); t1.textContent = (total / 1000).toFixed(2) + " km";
@@ -776,7 +785,10 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     host.appendChild(s);
     var lg = document.createElement("div"); lg.className = "legend";
     lg.innerHTML = PITCH.map(function (q) { return '<span><i style="background:' + q[1] + '"></i>' + q[2] + '</span>'; }).join("") +
-      (skipped ? '<span>' + (p.stats && p.stats.path ? 'The easiest way down is shown and rated; ' : 'Longest line shown; ') + skipped + ' other line' + (skipped > 1 ? 's' : '') + ' on this run not charted.</span>' : '');
+      (skipped ? '<span>' + (p.stats && p.stats.path ? 'The easiest way down is shown and rated; ' : 'Longest line shown; ') + skipped + ' other line' + (skipped > 1 ? 's' : '') + ' on this run not charted.</span>' : '') +
+      (way ? '<span>A typical way down (dotted on the map): the easiest fall line from near the top to the bottom of the area' +
+        (way.source === "lidar" ? " on lidar" : "") + '. The level uses the steepest fall lines anywhere in it' +
+        (p.stats ? ': ' + Math.round(p.stats.peak) + '&deg;' : '') + '.</span>' : '');
     host.appendChild(lg);
     // A run rated black or harder whose mapped line is gentle: the OpenStreetMap line is usually a stub or misplaced.
     var r = R[p.name] || {}, rated = r.override != null ? r.override : r.resort ? r.resort.level : (p.osm === 3 ? 3 : null);
