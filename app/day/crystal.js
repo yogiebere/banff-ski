@@ -3,15 +3,15 @@ window.RUNFINDER_DAY["crystal"] = {
  "schema": 1,
  "resort": "crystal",
  "date": "2026-11-15",
- "prepared_at": "2026-11-15T13:12:20-08:00",
+ "prepared_at": "2026-11-15T14:18:35-08:00",
  "prepared_by": "Claude, morning prep",
  "sample": false,
- "snapshot_at": "2026-11-15T13:11:32-08:00",
+ "snapshot_at": "2026-11-15T14:17:46-08:00",
  "runs": {
   "source": {
    "name": "Crystal mountain report",
    "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report-and-webcams",
-   "as_of": "2026-11-15T13:11:20-08:00"
+   "as_of": "2026-11-15T14:17:18-08:00"
   },
   "open": [],
   "expected": [],
@@ -212,7 +212,7 @@ window.RUNFINDER_DAY["crystal"] = {
    "source": {
     "name": "Open-Meteo model at 1676 m (an estimate, not a measurement)",
     "url": "https://open-meteo.com/en/docs#latitude=46.9353&longitude=-121.4746",
-    "as_of": "2026-11-15T13:00:00-08:00"
+    "as_of": "2026-11-15T14:00:00-08:00"
    },
    "new_cm": {
     "24h": 3.2,
@@ -220,7 +220,7 @@ window.RUNFINDER_DAY["crystal"] = {
     "7d": 12.0
    },
    "temp_c": {
-    "min": -0.1,
+    "min": -0.2,
     "max": 1.8
    },
    "thaw_since_snow": true,
@@ -231,12 +231,13 @@ window.RUNFINDER_DAY["crystal"] = {
   "verdict": "understated",
   "verdict_text": "Over 7 days the resort says 0 cm, the data 12 cm. It went above freezing since the last snow, so expect crust off the groomers.",
   "condition": "bluebird_firm",
-  "condition_why": "A thaw since the last snow. Forecast for lift hours: partly cloudy, gusts to 42 km/h.",
+  "condition_why": "A thaw since the last snow. Forecast for lift hours: cloudy, gusts to 45 km/h.",
   "new_snow": false,
   "forecast": {
-   "snow_cm": 1.1,
-   "gust_max": 42.5,
-   "cloud_mean": 66.375,
+   "snow_cm": 0.6,
+   "gust_max": 45.0,
+   "wind_max": 18.1,
+   "cloud_mean": 78.375,
    "vis_min": 200.0,
    "temp_max": 0.8
   }
