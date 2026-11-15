@@ -10,7 +10,7 @@
   "16:00"
  ],
  "first_check": "2026-11-15T19:49:35Z",
- "last_check": "2026-11-15T22:05:08Z",
+ "last_check": "2026-11-15T22:10:26Z",
  "lifts": [
   {
    "id": "201",
@@ -4216,7 +4216,7 @@
   },
   {
    "slot": "16:00",
-   "fetched_at": "2026-11-15T22:05:08Z",
+   "fetched_at": "2026-11-15T22:10:26Z",
    "ok": true,
    "counts": {
     "reported": {
@@ -4232,7 +4232,7 @@
     "lifts_standby": 0
    },
    "report_updated": {
-    "feed": "2026-11-15T16:03:51-06:00"
+    "feed": "2026-11-15T16:07:15-06:00"
    },
    "zones": [
     {
@@ -4257,10 +4257,10 @@
     {
      "zone": "mid",
      "elev_m": 2042,
-     "temp_c": 2,
-     "station_temp_c": 2,
+     "temp_c": 1,
+     "station_temp_c": 1,
      "model_temp_c": -0.3,
-     "wind_kmh": 3,
+     "wind_kmh": 5,
      "new_24h_cm": 0.0,
      "snow": {
       "base_cm": null,
@@ -4279,7 +4279,7 @@
      "temp_c": -3,
      "station_temp_c": -3,
      "model_temp_c": -3.0,
-     "wind_kmh": 14,
+     "wind_kmh": 13,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 26,
