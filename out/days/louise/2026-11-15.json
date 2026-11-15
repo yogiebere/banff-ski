@@ -6,14 +6,16 @@
  "slots": [
   "13:00",
   "14:00",
-  "15:00"
+  "15:00",
+  "16:00"
  ],
  "first_check": "2026-11-15T19:49:35Z",
- "last_check": "2026-11-15T21:45:36Z",
+ "last_check": "2026-11-15T22:05:08Z",
  "lifts": [
   {
    "id": "201",
    "status": [
+    "open",
     "open",
     "open",
     "open"
@@ -30,6 +32,7 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "name": "Lower Sunny Carpet",
@@ -42,6 +45,7 @@
   {
    "id": "203",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed"
@@ -58,6 +62,7 @@
    "status": [
     "open",
     "open",
+    "open",
     "open"
    ],
    "name": "Glacier Express",
@@ -70,6 +75,7 @@
   {
    "id": "205",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed"
@@ -86,6 +92,7 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "name": "Top of the World",
@@ -98,6 +105,7 @@
   {
    "id": "207",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed"
@@ -114,6 +122,7 @@
    "status": [
     "open",
     "open",
+    "open",
     "open"
    ],
    "name": "Juniper Express",
@@ -126,6 +135,7 @@
   {
    "id": "214",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed"
@@ -142,6 +152,7 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "name": "Paradise",
@@ -154,6 +165,7 @@
   {
    "id": "210",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed"
@@ -170,6 +182,7 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "name": "Larch Express",
@@ -182,6 +195,7 @@
   {
    "id": "218",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed"
@@ -200,9 +214,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -220,9 +236,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -240,9 +258,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -260,9 +280,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -280,9 +302,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -300,9 +324,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -320,9 +346,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -340,9 +368,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -360,9 +390,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -380,9 +412,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -400,9 +434,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -420,9 +456,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -440,9 +478,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -460,9 +500,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -480,9 +522,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -500,9 +544,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -520,9 +566,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -540,9 +588,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -560,9 +610,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -580,9 +632,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -600,9 +654,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -620,9 +676,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -640,9 +698,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -660,9 +720,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -680,9 +742,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -700,9 +764,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -720,9 +786,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -740,9 +808,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -760,9 +830,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -780,9 +852,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -800,9 +874,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -820,9 +896,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -840,9 +918,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -860,9 +940,11 @@
    "status": [
     "open",
     "open",
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true,
     true,
     true
@@ -880,9 +962,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -900,9 +984,11 @@
    "status": [
     "open",
     "open",
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true,
     true,
     true
@@ -920,9 +1006,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -940,9 +1028,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -960,9 +1050,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -980,9 +1072,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1000,9 +1094,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1020,9 +1116,11 @@
    "status": [
     "open",
     "open",
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true,
     true,
     true
@@ -1040,9 +1138,11 @@
    "status": [
     "open",
     "open",
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true,
     true,
     true
@@ -1060,9 +1160,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1080,9 +1182,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1100,9 +1204,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1120,9 +1226,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1140,9 +1248,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1160,9 +1270,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1180,9 +1292,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1200,9 +1314,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1220,9 +1336,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1240,9 +1358,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1260,9 +1380,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1280,9 +1402,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1300,9 +1424,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1320,9 +1446,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1340,9 +1468,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1360,9 +1490,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1380,9 +1512,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1400,9 +1534,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1420,9 +1556,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1440,9 +1578,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1460,9 +1600,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1480,9 +1622,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1500,9 +1644,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1520,9 +1666,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1540,9 +1688,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1560,9 +1710,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1580,9 +1732,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1600,9 +1754,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1620,9 +1776,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1640,9 +1798,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1660,9 +1820,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1680,9 +1842,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1700,9 +1864,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1720,9 +1886,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1740,9 +1908,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1760,9 +1930,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1780,9 +1952,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1800,9 +1974,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1820,9 +1996,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1840,9 +2018,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1860,9 +2040,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1880,9 +2062,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1900,9 +2084,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1920,9 +2106,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1940,9 +2128,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1960,9 +2150,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -1980,9 +2172,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2000,9 +2194,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2020,9 +2216,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2040,9 +2238,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2060,9 +2260,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2080,9 +2282,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2100,9 +2304,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2120,9 +2326,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2140,9 +2348,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2160,9 +2370,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2180,9 +2392,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2200,9 +2414,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2220,9 +2436,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2240,9 +2458,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2260,9 +2480,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2280,9 +2502,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2300,9 +2524,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2320,9 +2546,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2340,9 +2568,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2360,9 +2590,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2380,9 +2612,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2400,9 +2634,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2420,9 +2656,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2440,9 +2678,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2460,9 +2700,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2480,9 +2722,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2500,9 +2744,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2520,9 +2766,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2540,9 +2788,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2560,9 +2810,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2580,9 +2832,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2600,9 +2854,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2620,9 +2876,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2640,9 +2898,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2660,9 +2920,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2680,9 +2942,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2700,9 +2964,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2720,9 +2986,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2740,9 +3008,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2760,9 +3030,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2780,9 +3052,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2800,9 +3074,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2820,9 +3096,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2840,9 +3118,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2860,9 +3140,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2880,9 +3162,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2900,9 +3184,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2920,9 +3206,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2940,9 +3228,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2960,9 +3250,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -2980,9 +3272,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3000,9 +3294,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3020,9 +3316,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3040,9 +3338,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3060,9 +3360,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3080,9 +3382,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3100,9 +3404,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3120,9 +3426,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3140,9 +3448,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3160,9 +3470,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3180,9 +3492,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3200,9 +3514,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3220,9 +3536,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3240,9 +3558,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3260,9 +3580,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3280,9 +3602,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3300,9 +3624,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3320,9 +3646,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3340,9 +3668,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3360,9 +3690,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3380,9 +3712,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3400,9 +3734,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3420,9 +3756,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3440,9 +3778,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3460,9 +3800,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3480,9 +3822,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3500,9 +3844,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3520,9 +3866,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3540,9 +3888,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3560,9 +3910,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3580,9 +3932,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3600,9 +3954,11 @@
    "status": [
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false
@@ -3844,6 +4200,86 @@
      "station_temp_c": -2,
      "model_temp_c": -2.7,
      "wind_kmh": 10,
+     "new_24h_cm": 0,
+     "snow": {
+      "base_cm": 26,
+      "new_overnight_cm": 0,
+      "new_24h_cm": 0,
+      "new_48h_cm": 0,
+      "new_7d_cm": 12,
+      "season_cm": 35
+     },
+     "quality": "refrozen",
+     "quality_label": "Refrozen after a thaw: firm or crusty until it softens"
+    }
+   ]
+  },
+  {
+   "slot": "16:00",
+   "fetched_at": "2026-11-15T22:05:08Z",
+   "ok": true,
+   "counts": {
+    "reported": {
+     "runs": 4,
+     "lifts": 3,
+     "groomed": 4
+    },
+    "lifts_open": 3,
+    "lifts_total": 13,
+    "runs_open": 4,
+    "runs_total": 171,
+    "runs_groomed": 4,
+    "lifts_standby": 0
+   },
+   "report_updated": {
+    "feed": "2026-11-15T16:03:51-06:00"
+   },
+   "zones": [
+    {
+     "zone": "base",
+     "elev_m": 1645,
+     "temp_c": 3,
+     "station_temp_c": 3,
+     "model_temp_c": 2.3,
+     "wind_kmh": 0,
+     "new_24h_cm": 0,
+     "snow": {
+      "base_cm": 22,
+      "new_overnight_cm": 0,
+      "new_24h_cm": 0,
+      "new_48h_cm": 0,
+      "new_7d_cm": 10,
+      "season_cm": 29
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "mid",
+     "elev_m": 2042,
+     "temp_c": 2,
+     "station_temp_c": 2,
+     "model_temp_c": -0.3,
+     "wind_kmh": 3,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": null,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": null,
+      "season_cm": null
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "summit",
+     "elev_m": 2637,
+     "temp_c": -3,
+     "station_temp_c": -3,
+     "model_temp_c": -3.0,
+     "wind_kmh": 14,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 26,
