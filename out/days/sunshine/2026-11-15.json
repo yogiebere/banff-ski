@@ -9,7 +9,7 @@
   "15:00"
  ],
  "first_check": "2026-11-15T19:49:35Z",
- "last_check": "2026-11-15T21:00:05Z",
+ "last_check": "2026-11-15T21:44:41Z",
  "lifts": [
   {
    "id": "105",
@@ -3128,7 +3128,7 @@
   },
   {
    "slot": "15:00",
-   "fetched_at": "2026-11-15T21:00:05Z",
+   "fetched_at": "2026-11-15T21:44:41Z",
    "ok": true,
    "counts": {
     "reported": {
@@ -3151,10 +3151,10 @@
     {
      "zone": "base",
      "elev_m": 1660,
-     "temp_c": 5.5,
+     "temp_c": 5.3,
      "station_temp_c": null,
-     "model_temp_c": 5.5,
-     "wind_kmh": 16.7,
+     "model_temp_c": 5.3,
+     "wind_kmh": 23.6,
      "new_24h_cm": 0.0,
      "snow": {
       "base_cm": null,
@@ -3170,10 +3170,10 @@
     {
      "zone": "mid",
      "elev_m": 2160,
-     "temp_c": 0.2,
+     "temp_c": -0.0,
      "station_temp_c": null,
-     "model_temp_c": 0.2,
-     "wind_kmh": 38.5,
+     "model_temp_c": -0.0,
+     "wind_kmh": 39.5,
      "new_24h_cm": 0.0,
      "snow": {
       "base_cm": 20,
@@ -3183,8 +3183,8 @@
       "new_7d_cm": 7,
       "season_cm": 44
      },
-     "quality": "wet",
-     "quality_label": "Warm, wet or soft snow"
+     "quality": "packed_firm",
+     "quality_label": "Packed and firm"
     },
     {
      "zone": "summit",
@@ -3192,7 +3192,7 @@
      "temp_c": -4.2,
      "station_temp_c": null,
      "model_temp_c": -4.2,
-     "wind_kmh": 38.2,
+     "wind_kmh": 39.3,
      "new_24h_cm": 0.0,
      "snow": {
       "base_cm": 29,

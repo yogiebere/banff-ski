@@ -1,13 +1,13 @@
 {
  "format": "banfftrack/1",
- "generated_at": "2026-11-15T21:00:06Z",
+ "generated_at": "2026-11-15T21:44:43Z",
  "resorts": {
   "sunshine": {
    "format": "banfftrack/1",
    "resort": "sunshine",
    "name": "Banff Sunshine Village",
-   "fetched_at": "2026-11-15T21:00:05Z",
-   "local_time": "2026-11-15T15:00:05-06:00",
+   "fetched_at": "2026-11-15T21:44:41Z",
+   "local_time": "2026-11-15T15:44:41-06:00",
    "date": "2026-11-15",
    "slot": "15:00",
    "ok": true,
@@ -2565,8 +2565,8 @@
      "snow_other": {},
      "station": null,
      "model": {
-      "temp_c": 5.5,
-      "humidity_pct": 60,
+      "temp_c": 5.3,
+      "humidity_pct": 61,
       "tmin_24h_c": 0.4,
       "tmax_24h_c": 6.6,
       "hours_above_0_24h": 24,
@@ -2584,22 +2584,22 @@
       "rain_24h_mm": 0.0,
       "rain_48h_mm": 0.0,
       "precip_24h_mm": 0.0,
-      "wind_kmh": 16.7,
-      "gust_kmh": 58.7,
-      "wind_dir_deg": 245,
-      "wind_max_24h_kmh": 20.4,
-      "gust_max_24h_kmh": 61.9,
-      "freezing_level_m": 2210.0,
-      "cloud_pct": 1,
+      "wind_kmh": 23.6,
+      "gust_kmh": 71.3,
+      "wind_dir_deg": 246,
+      "wind_max_24h_kmh": 23.6,
+      "gust_max_24h_kmh": 71.3,
+      "freezing_level_m": 2200.0,
+      "cloud_pct": 0,
       "weather_code": 0,
       "next_24h": {
-       "snow_cm": 1.8,
-       "rain_mm": 0.8,
-       "tmin_c": -5.0,
-       "tmax_c": 5.1,
-       "wind_max_kmh": 18.6
+       "snow_cm": 1.3,
+       "rain_mm": 0.0,
+       "tmin_c": -4.9,
+       "tmax_c": 4.9,
+       "wind_max_kmh": 18.1
       },
-      "next_72h_snow_cm": 1.8
+      "next_72h_snow_cm": 1.3
      },
      "quality": {
       "rule": "v1",
@@ -2609,7 +2609,7 @@
        "freeze_thaw",
        "wind"
       ],
-      "why": "5.5 °C now (model); 62 h above 0 °C in 72 h; wind to 20 km/h, gusts 62",
+      "why": "5.3 °C now (model); 62 h above 0 °C in 72 h; wind to 24 km/h, gusts 71",
       "inputs": {
        "snow_temp_c": null,
        "tmax_24h_c": 6.6,
@@ -2619,11 +2619,11 @@
        "hours_since_snow": null,
        "snow_72h_cm": 0.0,
        "rain_48h_mm": 0.0,
-       "wind_max_24h_kmh": 20.4,
-       "gust_max_24h_kmh": 61.9,
+       "wind_max_24h_kmh": 23.6,
+       "gust_max_24h_kmh": 71.3,
        "new_24h_cm": 0.0,
        "new_24h_source": "model",
-       "temp_now_c": 5.5,
+       "temp_now_c": 5.3,
        "temp_now_source": "model",
        "model_snow_24h_cm": 0.0,
        "resort_new_overnight_cm": null
@@ -2646,14 +2646,14 @@
      "snow_other": {},
      "station": null,
      "model": {
-      "temp_c": 0.2,
+      "temp_c": -0.0,
       "humidity_pct": 83,
       "tmin_24h_c": -3.2,
       "tmax_24h_c": 0.2,
-      "hours_above_0_24h": 3,
-      "hours_above_0_72h": 18,
-      "hours_since_thaw": 0,
-      "snow_since_thaw_cm": 0,
+      "hours_above_0_24h": 1,
+      "hours_above_0_72h": 16,
+      "hours_since_thaw": 23,
+      "snow_since_thaw_cm": 0.0,
       "hours_since_snow": 162,
       "snow_1h_cm": 0.0,
       "snow_12h_cm": 0.0,
@@ -2665,46 +2665,46 @@
       "rain_24h_mm": 0.0,
       "rain_48h_mm": 0.0,
       "precip_24h_mm": 0.0,
-      "wind_kmh": 38.5,
-      "gust_kmh": 65.9,
-      "wind_dir_deg": 227,
-      "wind_max_24h_kmh": 46.3,
-      "gust_max_24h_kmh": 75.6,
-      "freezing_level_m": 2180.0,
-      "cloud_pct": 90,
+      "wind_kmh": 39.5,
+      "gust_kmh": 68.4,
+      "wind_dir_deg": 234,
+      "wind_max_24h_kmh": 42.7,
+      "gust_max_24h_kmh": 75.2,
+      "freezing_level_m": 2160.0,
+      "cloud_pct": 98,
       "weather_code": 3,
       "next_24h": {
-       "snow_cm": 3.9,
+       "snow_cm": 3.3,
        "rain_mm": 0.0,
-       "tmin_c": -5.8,
-       "tmax_c": 0.1,
-       "wind_max_kmh": 32.9
+       "tmin_c": -5.7,
+       "tmax_c": -0.1,
+       "wind_max_kmh": 33.2
       },
-      "next_72h_snow_cm": 3.9
+      "next_72h_snow_cm": 3.3
      },
      "quality": {
       "rule": "v1",
-      "code": "wet",
-      "label": "Warm, wet or soft snow",
+      "code": "packed_firm",
+      "label": "Packed and firm",
       "flags": [
        "freeze_thaw",
        "wind"
       ],
-      "why": "0.2 °C now (model); 18 h above 0 °C in 72 h; wind to 46 km/h, gusts 76",
+      "why": "-0 °C now (model); 16 h above 0 °C in 72 h; wind to 43 km/h, gusts 75",
       "inputs": {
        "snow_temp_c": null,
        "tmax_24h_c": 0.2,
-       "hours_above_0_24h": 3,
-       "hours_above_0_72h": 18,
-       "snow_since_thaw_cm": 0,
+       "hours_above_0_24h": 1,
+       "hours_above_0_72h": 16,
+       "snow_since_thaw_cm": 0.0,
        "hours_since_snow": 162,
        "snow_72h_cm": 0.0,
        "rain_48h_mm": 0.0,
-       "wind_max_24h_kmh": 46.3,
-       "gust_max_24h_kmh": 75.6,
+       "wind_max_24h_kmh": 42.7,
+       "gust_max_24h_kmh": 75.2,
        "new_24h_cm": 0.0,
        "new_24h_source": "model",
-       "temp_now_c": 0.2,
+       "temp_now_c": -0.0,
        "temp_now_source": "model",
        "model_snow_24h_cm": 0.0,
        "resort_new_overnight_cm": null
@@ -2746,22 +2746,22 @@
       "rain_24h_mm": 0.0,
       "rain_48h_mm": 0.0,
       "precip_24h_mm": 0.0,
-      "wind_kmh": 38.2,
-      "gust_kmh": 62.3,
-      "wind_dir_deg": 227,
+      "wind_kmh": 39.3,
+      "gust_kmh": 64.8,
+      "wind_dir_deg": 234,
       "wind_max_24h_kmh": 46.6,
       "gust_max_24h_kmh": 72.4,
       "freezing_level_m": 2080.0,
       "cloud_pct": 100,
       "weather_code": 3,
       "next_24h": {
-       "snow_cm": 4.6,
+       "snow_cm": 3.6,
        "rain_mm": 0.0,
        "tmin_c": -9.7,
-       "tmax_c": -4.1,
-       "wind_max_kmh": 34.2
+       "tmax_c": -4.3,
+       "wind_max_kmh": 36.1
       },
-      "next_72h_snow_cm": 4.6
+      "next_72h_snow_cm": 3.6
      },
      "quality": {
       "rule": "v1",
@@ -2803,34 +2803,24 @@
     "summary": "One system will be moving late this afternoon and lasting through Monday morning, bringing mainly cloudy skies and very light flurries. The sun reappears from Tuesday on with a benign and generally seasonable pattern for the rest of the week. Lows Tuesday night through Thursday night will be near -10 C in the alpine with cold low-level temperatures and mainly clear skies.",
     "periods": [
      {
-      "period": "Today",
-      "high_c": -1,
-      "low_c": null,
-      "summary": "Mainly Cloudy and isolated flurries developing late afternoon.",
-      "freezing_level_m": 1900,
-      "ridge_wind_dir": "SW",
-      "ridge_wind_kmh": 25,
-      "precip": "snow Trace -1cm"
-     },
-     {
       "period": "Tonight",
       "high_c": null,
       "low_c": -6,
-      "summary": "Cloudy and isolated flurries.",
+      "summary": "Mostly cloudy with scattered flurries.",
       "freezing_level_m": 1300,
       "ridge_wind_dir": "SW",
       "ridge_wind_kmh": 15,
-      "precip": "snow 1-3cm"
+      "precip": "snow 2-4cm"
      },
      {
       "period": "Monday",
       "high_c": -2,
       "low_c": null,
-      "summary": "Mainly Cloudy with isolated morning flurries.",
+      "summary": "Mainly cloudy with isolated flurries in the morning, then clearing afterwards.",
       "freezing_level_m": 1600,
       "ridge_wind_dir": "SW",
       "ridge_wind_kmh": 0,
-      "precip": "snow Trace-1cm"
+      "precip": "snow Trace-2cm"
      },
      {
       "period": "Tuesday",
@@ -2846,6 +2836,16 @@
       "period": "Wednesday",
       "high_c": -5,
       "low_c": -9,
+      "summary": "Mostly cloudy with isolated flurries in the morning.",
+      "freezing_level_m": 1100,
+      "ridge_wind_dir": "NE",
+      "ridge_wind_kmh": 0,
+      "precip": "snow 1-3cm"
+     },
+     {
+      "period": "Thursday",
+      "high_c": -5,
+      "low_c": -10,
       "summary": "A mix of sun and cloud.",
       "freezing_level_m": 1100,
       "ridge_wind_dir": "S",
@@ -2878,23 +2878,23 @@
      "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
      "http_status": 200,
      "bytes": 287477,
-     "sha256": "50a79dd794f99c029deacd2385e6e7bb386697a92b353f4c1ee556e8b1d53b2c",
+     "sha256": "a9303b63727aa03009a6b23df07ef48d557ec38d06a67d9643006294f9ec0415",
      "error": null
     },
     {
      "source": "sunshine-conditions",
      "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
      "http_status": 200,
-     "bytes": 195333,
-     "sha256": "4016714916b31a8e73148ac17f8206f03229bb7288014e90d6c07c4e578c74c8",
+     "bytes": 196234,
+     "sha256": "b6f4b714b28093fbbb9788fbdfeab83ebeb5620ca1c632480c3e7273601dc770",
      "error": null
     },
     {
      "source": "open-meteo",
      "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
      "http_status": 200,
-     "bytes": 50907,
-     "sha256": "67a0e1393e1cb94942d6ab164032ecb0eb8a584dc34ad9d8e3e0a3a507a01564",
+     "bytes": 50912,
+     "sha256": "c72d178bbe4cb323c7ab33761e3492f1519f591ac8ee27cb18548e7de54fdfba",
      "error": null
     }
    ],
@@ -2911,14 +2911,14 @@
    "format": "banfftrack/1",
    "resort": "louise",
    "name": "Lake Louise",
-   "fetched_at": "2026-11-15T21:00:05Z",
-   "local_time": "2026-11-15T15:00:05-06:00",
+   "fetched_at": "2026-11-15T21:44:41Z",
+   "local_time": "2026-11-15T15:44:41-06:00",
    "date": "2026-11-15",
    "slot": "15:00",
    "ok": true,
    "errors": [],
    "report_updated": {
-    "feed": "2026-11-15T14:57:15-06:00"
+    "feed": "2026-11-15T15:43:12-06:00"
    },
    "operations": {
     "resortStatus": "Open",
@@ -5885,12 +5885,12 @@
       "station": "Operations",
       "temp_c": 4,
       "wind_kmh": 0,
-      "wind_dir": "N",
-      "observed_at": "2026-11-15T14:55:13-06:00"
+      "wind_dir": "SW",
+      "observed_at": "2026-11-15T15:40:13-06:00"
      },
      "model": {
-      "temp_c": 2.8,
-      "humidity_pct": 85,
+      "temp_c": 2.4,
+      "humidity_pct": 88,
       "tmin_24h_c": -2.9,
       "tmax_24h_c": 3.5,
       "hours_above_0_24h": 12,
@@ -5909,19 +5909,19 @@
       "rain_48h_mm": 0.0,
       "precip_24h_mm": 0.0,
       "wind_kmh": 18.8,
-      "gust_kmh": 46.4,
-      "wind_dir_deg": 226,
-      "wind_max_24h_kmh": 20.2,
+      "gust_kmh": 40.7,
+      "wind_dir_deg": 232,
+      "wind_max_24h_kmh": 20.3,
       "gust_max_24h_kmh": 49.0,
-      "freezing_level_m": 2110.0,
-      "cloud_pct": 39,
+      "freezing_level_m": 2070.0,
+      "cloud_pct": 44,
       "weather_code": 1,
       "next_24h": {
        "snow_cm": 0.0,
        "rain_mm": 0.0,
        "tmin_c": -6.9,
-       "tmax_c": 2.7,
-       "wind_max_kmh": 17.6
+       "tmax_c": 2.3,
+       "wind_max_kmh": 16.6
       },
       "next_72h_snow_cm": 0.0
      },
@@ -5942,7 +5942,7 @@
        "hours_since_snow": null,
        "snow_72h_cm": 0.0,
        "rain_48h_mm": 0.0,
-       "wind_max_24h_kmh": 20.2,
+       "wind_max_24h_kmh": 20.3,
        "gust_max_24h_kmh": 49.0,
        "new_24h_cm": 0,
        "new_24h_source": "resort",
@@ -5969,20 +5969,20 @@
      "snow_other": {},
      "station": {
       "station": "SM-Control",
-      "temp_c": 1,
-      "wind_kmh": 8,
+      "temp_c": 2,
+      "wind_kmh": 6,
       "wind_dir": "NE",
-      "observed_at": "2026-11-15T14:55:31-06:00"
+      "observed_at": "2026-11-15T15:40:31-06:00"
      },
      "model": {
-      "temp_c": 0.2,
-      "humidity_pct": 85,
+      "temp_c": -0.1,
+      "humidity_pct": 88,
       "tmin_24h_c": -5.4,
       "tmax_24h_c": 0.9,
       "hours_above_0_24h": 3,
       "hours_above_0_72h": 20,
-      "hours_since_thaw": 0,
-      "snow_since_thaw_cm": 0,
+      "hours_since_thaw": 1,
+      "snow_since_thaw_cm": 0.0,
       "hours_since_snow": null,
       "snow_1h_cm": 0.0,
       "snow_12h_cm": 0.0,
@@ -5995,19 +5995,19 @@
       "rain_48h_mm": 0.0,
       "precip_24h_mm": 0.0,
       "wind_kmh": 18.8,
-      "gust_kmh": 46.4,
-      "wind_dir_deg": 226,
-      "wind_max_24h_kmh": 20.2,
+      "gust_kmh": 40.7,
+      "wind_dir_deg": 232,
+      "wind_max_24h_kmh": 20.3,
       "gust_max_24h_kmh": 49.0,
-      "freezing_level_m": 2110.0,
-      "cloud_pct": 39,
+      "freezing_level_m": 2070.0,
+      "cloud_pct": 44,
       "weather_code": 1,
       "next_24h": {
        "snow_cm": 0.0,
        "rain_mm": 0.0,
        "tmin_c": -9.4,
-       "tmax_c": 0.2,
-       "wind_max_kmh": 17.6
+       "tmax_c": -0.3,
+       "wind_max_kmh": 16.6
       },
       "next_72h_snow_cm": 0.0
      },
@@ -6018,21 +6018,21 @@
       "flags": [
        "freeze_thaw"
       ],
-      "why": "1 °C now (station SM-Control); 20 h above 0 °C in 72 h",
+      "why": "2 °C now (station SM-Control); 20 h above 0 °C in 72 h",
       "inputs": {
        "snow_temp_c": null,
        "tmax_24h_c": 0.9,
        "hours_above_0_24h": 3,
        "hours_above_0_72h": 20,
-       "snow_since_thaw_cm": 0,
+       "snow_since_thaw_cm": 0.0,
        "hours_since_snow": null,
        "snow_72h_cm": 0.0,
        "rain_48h_mm": 0.0,
-       "wind_max_24h_kmh": 20.2,
+       "wind_max_24h_kmh": 20.3,
        "gust_max_24h_kmh": 49.0,
        "new_24h_cm": 0.0,
        "new_24h_source": "model",
-       "temp_now_c": 1,
+       "temp_now_c": 2,
        "temp_now_source": "station SM-Control",
        "model_snow_24h_cm": 0.0,
        "resort_new_overnight_cm": null
@@ -6055,10 +6055,10 @@
      "snow_other": {},
      "station": {
       "station": "Paradise-Top",
-      "temp_c": -3,
-      "wind_kmh": 18,
+      "temp_c": -2,
+      "wind_kmh": 10,
       "wind_dir": "E",
-      "observed_at": "2026-11-15T14:55:44-06:00"
+      "observed_at": "2026-11-15T15:40:44-06:00"
      },
      "model": {
       "temp_c": -2.7,
@@ -6104,7 +6104,7 @@
       "flags": [
        "freeze_thaw"
       ],
-      "why": "-3 °C now (station Paradise-Top); 9 h above 0 °C in 72 h",
+      "why": "-2 °C now (station Paradise-Top); 9 h above 0 °C in 72 h",
       "inputs": {
        "snow_temp_c": null,
        "tmax_24h_c": -0.6,
@@ -6118,7 +6118,7 @@
        "gust_max_24h_kmh": 52.6,
        "new_24h_cm": 0,
        "new_24h_source": "resort",
-       "temp_now_c": -3,
+       "temp_now_c": -2,
        "temp_now_source": "station Paradise-Top",
        "model_snow_24h_cm": 0.0,
        "resort_new_overnight_cm": 0
@@ -6190,8 +6190,8 @@
      "source": "louise-feed",
      "url": "https://ski-louise-status-page.vercel.app/api/ski-data",
      "http_status": 200,
-     "bytes": 29881,
-     "sha256": "5745a0861b6f866d5d5708a8b2fd424023afa74152a6510a248a564ffc294d07",
+     "bytes": 29882,
+     "sha256": "9e05da2cafee35e4b045436487e9626ec66be8de46ffafd35728ffae4ae9b2f5",
      "error": null
     },
     {
@@ -6214,8 +6214,8 @@
      "source": "open-meteo",
      "url": "https://api.open-meteo.com/v1/forecast?latitude=51.442%2C51.453%2C51.466&longitude=-116.162%2C-116.149%2C-116.1384&elevation=1645%2C2042%2C2637&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
      "http_status": 200,
-     "bytes": 50806,
-     "sha256": "4a7b0051b1c330da7c36369eed9ffece1cf878bf8e72c8338a154f6671039149",
+     "bytes": 50801,
+     "sha256": "ca3559419f7279eadaa6f894394e14d50f58900b25ef4e883305ce047d5a657f",
      "error": null
     }
    ],

@@ -9,7 +9,7 @@
   "15:00"
  ],
  "first_check": "2026-11-15T19:49:35Z",
- "last_check": "2026-11-15T21:00:05Z",
+ "last_check": "2026-11-15T21:44:41Z",
  "lifts": [
   {
    "id": "201",
@@ -3780,7 +3780,7 @@
   },
   {
    "slot": "15:00",
-   "fetched_at": "2026-11-15T21:00:05Z",
+   "fetched_at": "2026-11-15T21:44:41Z",
    "ok": true,
    "counts": {
     "reported": {
@@ -3796,7 +3796,7 @@
     "lifts_standby": 0
    },
    "report_updated": {
-    "feed": "2026-11-15T14:57:15-06:00"
+    "feed": "2026-11-15T15:43:12-06:00"
    },
    "zones": [
     {
@@ -3804,7 +3804,7 @@
      "elev_m": 1645,
      "temp_c": 4,
      "station_temp_c": 4,
-     "model_temp_c": 2.8,
+     "model_temp_c": 2.4,
      "wind_kmh": 0,
      "new_24h_cm": 0,
      "snow": {
@@ -3821,10 +3821,10 @@
     {
      "zone": "mid",
      "elev_m": 2042,
-     "temp_c": 1,
-     "station_temp_c": 1,
-     "model_temp_c": 0.2,
-     "wind_kmh": 8,
+     "temp_c": 2,
+     "station_temp_c": 2,
+     "model_temp_c": -0.1,
+     "wind_kmh": 6,
      "new_24h_cm": 0.0,
      "snow": {
       "base_cm": null,
@@ -3840,10 +3840,10 @@
     {
      "zone": "summit",
      "elev_m": 2637,
-     "temp_c": -3,
-     "station_temp_c": -3,
+     "temp_c": -2,
+     "station_temp_c": -2,
      "model_temp_c": -2.7,
-     "wind_kmh": 18,
+     "wind_kmh": 10,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 26,
