@@ -7,14 +7,16 @@
   "13:00",
   "14:00",
   "15:00",
-  "16:00"
+  "16:00",
+  "17:00"
  ],
  "first_check": "2026-11-15T19:49:35Z",
- "last_check": "2026-11-15T22:10:26Z",
+ "last_check": "2026-11-15T23:05:13Z",
  "lifts": [
   {
    "id": "201",
    "status": [
+    "open",
     "open",
     "open",
     "open",
@@ -33,6 +35,7 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "name": "Lower Sunny Carpet",
@@ -45,6 +48,7 @@
   {
    "id": "203",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed",
@@ -63,6 +67,7 @@
     "open",
     "open",
     "open",
+    "open",
     "open"
    ],
    "name": "Glacier Express",
@@ -75,6 +80,7 @@
   {
    "id": "205",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed",
@@ -93,6 +99,7 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "name": "Top of the World",
@@ -105,6 +112,7 @@
   {
    "id": "207",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed",
@@ -123,6 +131,7 @@
     "open",
     "open",
     "open",
+    "open",
     "open"
    ],
    "name": "Juniper Express",
@@ -135,6 +144,7 @@
   {
    "id": "214",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed",
@@ -153,6 +163,7 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "name": "Paradise",
@@ -165,6 +176,7 @@
   {
    "id": "210",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed",
@@ -183,6 +195,7 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "name": "Larch Express",
@@ -195,6 +208,7 @@
   {
    "id": "218",
    "status": [
+    "closed",
     "closed",
     "closed",
     "closed",
@@ -215,9 +229,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -237,9 +253,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -259,9 +277,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -281,9 +301,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -303,9 +325,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -325,9 +349,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -347,9 +373,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -369,9 +397,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -391,9 +421,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -413,9 +445,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -435,9 +469,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -457,9 +493,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -479,9 +517,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -501,9 +541,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -523,9 +565,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -545,9 +589,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -567,9 +613,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -589,9 +637,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -611,9 +661,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -633,9 +685,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -655,9 +709,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -677,9 +733,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -699,9 +757,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -721,9 +781,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -743,9 +805,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -765,9 +829,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -787,9 +853,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -809,9 +877,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -831,9 +901,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -853,9 +925,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -875,9 +949,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -897,9 +973,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -919,9 +997,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -941,9 +1021,11 @@
     "open",
     "open",
     "open",
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true,
     true,
     true,
@@ -963,9 +1045,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -985,9 +1069,11 @@
     "open",
     "open",
     "open",
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true,
     true,
     true,
@@ -1007,9 +1093,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1029,9 +1117,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1051,9 +1141,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1073,9 +1165,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1095,9 +1189,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1117,9 +1213,11 @@
     "open",
     "open",
     "open",
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true,
     true,
     true,
@@ -1139,9 +1237,11 @@
     "open",
     "open",
     "open",
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true,
     true,
     true,
@@ -1161,9 +1261,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1183,9 +1285,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1205,9 +1309,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1227,9 +1333,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1249,9 +1357,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1271,9 +1381,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1293,9 +1405,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1315,9 +1429,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1337,9 +1453,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1359,9 +1477,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1381,9 +1501,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1403,9 +1525,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1425,9 +1549,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1447,9 +1573,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1469,9 +1597,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1491,9 +1621,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1513,9 +1645,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1535,9 +1669,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1557,9 +1693,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1579,9 +1717,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1601,9 +1741,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1623,9 +1765,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1645,9 +1789,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1667,9 +1813,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1689,9 +1837,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1711,9 +1861,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1733,9 +1885,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1755,9 +1909,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1777,9 +1933,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1799,9 +1957,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1821,9 +1981,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1843,9 +2005,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1865,9 +2029,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1887,9 +2053,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1909,9 +2077,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1931,9 +2101,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1953,9 +2125,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1975,9 +2149,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -1997,9 +2173,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2019,9 +2197,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2041,9 +2221,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2063,9 +2245,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2085,9 +2269,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2107,9 +2293,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2129,9 +2317,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2151,9 +2341,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2173,9 +2365,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2195,9 +2389,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2217,9 +2413,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2239,9 +2437,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2261,9 +2461,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2283,9 +2485,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2305,9 +2509,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2327,9 +2533,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2349,9 +2557,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2371,9 +2581,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2393,9 +2605,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2415,9 +2629,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2437,9 +2653,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2459,9 +2677,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2481,9 +2701,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2503,9 +2725,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2525,9 +2749,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2547,9 +2773,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2569,9 +2797,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2591,9 +2821,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2613,9 +2845,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2635,9 +2869,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2657,9 +2893,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2679,9 +2917,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2701,9 +2941,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2723,9 +2965,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2745,9 +2989,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2767,9 +3013,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2789,9 +3037,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2811,9 +3061,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2833,9 +3085,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2855,9 +3109,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2877,9 +3133,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2899,9 +3157,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2921,9 +3181,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2943,9 +3205,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2965,9 +3229,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -2987,9 +3253,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3009,9 +3277,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3031,9 +3301,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3053,9 +3325,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3075,9 +3349,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3097,9 +3373,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3119,9 +3397,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3141,9 +3421,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3163,9 +3445,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3185,9 +3469,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3207,9 +3493,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3229,9 +3517,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3251,9 +3541,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3273,9 +3565,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3295,9 +3589,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3317,9 +3613,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3339,9 +3637,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3361,9 +3661,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3383,9 +3685,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3405,9 +3709,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3427,9 +3733,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3449,9 +3757,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3471,9 +3781,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3493,9 +3805,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3515,9 +3829,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3537,9 +3853,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3559,9 +3877,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3581,9 +3901,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3603,9 +3925,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3625,9 +3949,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3647,9 +3973,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3669,9 +3997,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3691,9 +4021,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3713,9 +4045,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3735,9 +4069,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3757,9 +4093,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3779,9 +4117,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3801,9 +4141,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3823,9 +4165,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3845,9 +4189,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3867,9 +4213,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3889,9 +4237,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3911,9 +4261,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3933,9 +4285,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -3955,9 +4309,11 @@
     "closed",
     "closed",
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false,
     false,
     false,
@@ -4002,6 +4358,9 @@
      "station_temp_c": 4,
      "model_temp_c": 2.0,
      "wind_kmh": 2,
+     "station_wind_kmh": 2,
+     "model_wind_kmh": 14.2,
+     "model_gust_kmh": 38.9,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 22,
@@ -4021,6 +4380,9 @@
      "station_temp_c": 2,
      "model_temp_c": -0.5,
      "wind_kmh": 8,
+     "station_wind_kmh": 8,
+     "model_wind_kmh": 14.2,
+     "model_gust_kmh": 38.9,
      "new_24h_cm": 0.0,
      "snow": {
       "base_cm": null,
@@ -4040,6 +4402,9 @@
      "station_temp_c": -3,
      "model_temp_c": -3.2,
      "wind_kmh": 23,
+     "station_wind_kmh": 23,
+     "model_wind_kmh": 10.3,
+     "model_gust_kmh": 43.6,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 26,
@@ -4082,6 +4447,9 @@
      "station_temp_c": 4,
      "model_temp_c": 2.3,
      "wind_kmh": 0,
+     "station_wind_kmh": 0,
+     "model_wind_kmh": 20.8,
+     "model_gust_kmh": 49.7,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 22,
@@ -4101,6 +4469,9 @@
      "station_temp_c": 1,
      "model_temp_c": -0.2,
      "wind_kmh": 8,
+     "station_wind_kmh": 8,
+     "model_wind_kmh": 20.8,
+     "model_gust_kmh": 49.7,
      "new_24h_cm": 0.0,
      "snow": {
       "base_cm": null,
@@ -4120,6 +4491,9 @@
      "station_temp_c": -3,
      "model_temp_c": -2.7,
      "wind_kmh": 19,
+     "station_wind_kmh": 19,
+     "model_wind_kmh": 14.0,
+     "model_gust_kmh": 49.7,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 26,
@@ -4162,6 +4536,9 @@
      "station_temp_c": 4,
      "model_temp_c": 2.4,
      "wind_kmh": 0,
+     "station_wind_kmh": 0,
+     "model_wind_kmh": 18.8,
+     "model_gust_kmh": 40.7,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 22,
@@ -4181,6 +4558,9 @@
      "station_temp_c": 2,
      "model_temp_c": -0.1,
      "wind_kmh": 6,
+     "station_wind_kmh": 6,
+     "model_wind_kmh": 18.8,
+     "model_gust_kmh": 40.7,
      "new_24h_cm": 0.0,
      "snow": {
       "base_cm": null,
@@ -4200,6 +4580,9 @@
      "station_temp_c": -2,
      "model_temp_c": -2.7,
      "wind_kmh": 10,
+     "station_wind_kmh": 10,
+     "model_wind_kmh": 15.2,
+     "model_gust_kmh": 52.6,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 26,
@@ -4242,6 +4625,9 @@
      "station_temp_c": 3,
      "model_temp_c": 2.3,
      "wind_kmh": 0,
+     "station_wind_kmh": 0,
+     "model_wind_kmh": 16.3,
+     "model_gust_kmh": 37.8,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 22,
@@ -4261,6 +4647,9 @@
      "station_temp_c": 1,
      "model_temp_c": -0.3,
      "wind_kmh": 5,
+     "station_wind_kmh": 5,
+     "model_wind_kmh": 16.3,
+     "model_gust_kmh": 37.8,
      "new_24h_cm": 0.0,
      "snow": {
       "base_cm": null,
@@ -4280,6 +4669,98 @@
      "station_temp_c": -3,
      "model_temp_c": -3.0,
      "wind_kmh": 13,
+     "station_wind_kmh": 13,
+     "model_wind_kmh": 10.9,
+     "model_gust_kmh": 49.3,
+     "new_24h_cm": 0,
+     "snow": {
+      "base_cm": 26,
+      "new_overnight_cm": 0,
+      "new_24h_cm": 0,
+      "new_48h_cm": 0,
+      "new_7d_cm": 12,
+      "season_cm": 35
+     },
+     "quality": "refrozen",
+     "quality_label": "Refrozen after a thaw: firm or crusty until it softens"
+    }
+   ]
+  },
+  {
+   "slot": "17:00",
+   "fetched_at": "2026-11-15T23:05:13Z",
+   "ok": true,
+   "counts": {
+    "reported": {
+     "runs": 4,
+     "lifts": 3,
+     "groomed": 4
+    },
+    "lifts_open": 3,
+    "lifts_total": 13,
+    "runs_open": 4,
+    "runs_total": 171,
+    "runs_groomed": 4,
+    "lifts_standby": 0
+   },
+   "report_updated": {
+    "feed": "2026-11-15T17:04:05-06:00"
+   },
+   "zones": [
+    {
+     "zone": "base",
+     "elev_m": 1645,
+     "temp_c": 3,
+     "station_temp_c": 3,
+     "model_temp_c": 1.9,
+     "wind_kmh": 0,
+     "station_wind_kmh": 0,
+     "model_wind_kmh": 11.5,
+     "model_gust_kmh": 27.4,
+     "new_24h_cm": 0,
+     "snow": {
+      "base_cm": 22,
+      "new_overnight_cm": 0,
+      "new_24h_cm": 0,
+      "new_48h_cm": 0,
+      "new_7d_cm": 10,
+      "season_cm": 29
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "mid",
+     "elev_m": 2042,
+     "temp_c": 1,
+     "station_temp_c": 1,
+     "model_temp_c": -0.7,
+     "wind_kmh": 2,
+     "station_wind_kmh": 2,
+     "model_wind_kmh": 11.5,
+     "model_gust_kmh": 27.4,
+     "new_24h_cm": 0.0,
+     "snow": {
+      "base_cm": null,
+      "new_overnight_cm": null,
+      "new_24h_cm": null,
+      "new_48h_cm": null,
+      "new_7d_cm": null,
+      "season_cm": null
+     },
+     "quality": "wet",
+     "quality_label": "Warm, wet or soft snow"
+    },
+    {
+     "zone": "summit",
+     "elev_m": 2637,
+     "temp_c": -2,
+     "station_temp_c": -2,
+     "model_temp_c": -3.5,
+     "wind_kmh": 8,
+     "station_wind_kmh": 8,
+     "model_wind_kmh": 8.9,
+     "model_gust_kmh": 38.5,
      "new_24h_cm": 0,
      "snow": {
       "base_cm": 26,
