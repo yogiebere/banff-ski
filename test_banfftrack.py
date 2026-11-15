@@ -218,6 +218,17 @@ class ModelWeather(unittest.TestCase):
         self.assertEqual(m["tmax_24h_c"], -5.0)
 
 
+class LiftHours(unittest.TestCase):
+    def test_lift_hours_from_fixture(self):
+        model = b.parse_open_meteo(fixture("open_meteo_louise.json"), resort("louise")["zones"],
+                                   b.parse_utc(FETCHED), -6)
+        today, tomorrow = model["mid"]["lift_hours"], model["mid"]["lift_hours_tomorrow"]
+        self.assertEqual((today["date"], tomorrow["date"]), ("2026-11-15", "2026-11-16"))
+        self.assertEqual([x["time"] for x in today["hours"]], [f"{h:02d}:00" for h in range(9, 17)])
+        self.assertEqual(today["temp_max_c"], max(x["temp_c"] for x in today["hours"]))
+        self.assertIsNone(today["vis_min_m"])  # the 2026-11-15 fixture predates asking for visibility
+
+
 class Snapshots(unittest.TestCase):
     def test_sunshine_snapshot(self):
         s = snapshot("sunshine")

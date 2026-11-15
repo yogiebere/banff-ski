@@ -463,7 +463,8 @@ def parse_louise(body):
 # --- model weather (Open-Meteo) ---
 
 OM_HOURLY = ("temperature_2m,relative_humidity_2m,precipitation,rain,snowfall,weather_code,cloud_cover,"
-             "wind_speed_10m,wind_gusts_10m,wind_direction_10m,freezing_level_height")
+             "wind_speed_10m,wind_gusts_10m,wind_direction_10m,freezing_level_height,visibility")
+LIFT_HOURS = range(9, 17)  # hourly samples 9:00-16:00 Banff cover the 9:30-4:30 lift day
 
 
 def open_meteo_url(zones):
@@ -473,12 +474,42 @@ def open_meteo_url(zones):
         "forecast_days": 3, "timezone": "GMT", "wind_speed_unit": "kmh"})
 
 
-def zone_model(h, now):
+def lift_day(h, day, offset_hours):
+    """Forecast for one Banff day's lift hours, so the morning step needn't call Open-Meteo itself (Claude's cloud
+    gets HTTP 429 from it)."""
+    index = {t: k for k, t in enumerate(h["time"])}
+    hours = []
+    for local_hour in LIFT_HOURS:
+        utc = datetime(day.year, day.month, day.day, local_hour) - timedelta(hours=offset_hours)
+        k = index.get(utc.strftime("%Y-%m-%dT%H:00"))
+        if k is None:
+            continue
+
+        def at(var):
+            return (h.get(var) or [None] * len(h["time"]))[k]
+        hours.append({"time": f"{local_hour:02d}:00", "temp_c": at("temperature_2m"), "snow_cm": at("snowfall"),
+                      "rain_mm": at("rain"), "cloud_pct": at("cloud_cover"), "wind_kmh": at("wind_speed_10m"),
+                      "gust_kmh": at("wind_gusts_10m"), "vis_m": at("visibility"), "weather_code": at("weather_code")})
+    if not hours:
+        return None
+
+    def known(key):
+        return [x[key] for x in hours if x[key] is not None]
+    return {"date": day.isoformat(), "snow_cm": round(sum(known("snow_cm")), 1),
+            "rain_mm": round(sum(known("rain_mm")), 1), "temp_min_c": min(known("temp_c"), default=None),
+            "temp_max_c": max(known("temp_c"), default=None), "wind_max_kmh": max(known("wind_kmh"), default=None),
+            "gust_max_kmh": max(known("gust_kmh"), default=None),
+            "cloud_mean_pct": round(sum(known("cloud_pct")) / len(known("cloud_pct"))) if known("cloud_pct") else None,
+            "vis_min_m": min(known("vis_m"), default=None), "hours": hours}
+
+
+def zone_model(h, now, offset_hours=-6):
     """Model weather around `now` from one location's hourly arrays (UTC times)."""
     hour = now.strftime("%Y-%m-%dT%H:00")
     if hour not in h["time"]:
         return None
     i = h["time"].index(hour)
+    today = (now + timedelta(hours=offset_hours)).date()
 
     def vals(var, a, b):
         return [x for x in h[var][max(a, 0):max(b, 0)] if x is not None]
@@ -522,18 +553,22 @@ def zone_model(h, now):
                      "tmax_c": max(nxt("temperature_2m", 24), default=None),
                      "wind_max_kmh": max(nxt("wind_speed_10m", 24), default=None)},
         "next_72h_snow_cm": total(nxt("snowfall", 72)),
+        "lift_hours": lift_day(h, today, offset_hours),
+        "lift_hours_tomorrow": lift_day(h, today + timedelta(days=1), offset_hours),
     }
 
 
-def parse_open_meteo(body, zones, now):
+def parse_open_meteo(body, zones, now, offset_hours=-6):
     data = json.loads(body)
     data = data if isinstance(data, list) else [data]
     if len(data) != len(zones):
         raise ValueError(f"open-meteo returned {len(data)} locations for {len(zones)} zones")
     for d in data:
-        if d.get("hourly_units", {}).get("snowfall") != "cm" or d["hourly_units"].get("wind_speed_10m") != "km/h":
-            raise ValueError(f"open-meteo units changed: {d.get('hourly_units')}")
-    return {z["zone"]: zone_model(d["hourly"], now) for z, d in zip(zones, data)}
+        units = d.get("hourly_units", {})
+        if units.get("snowfall") != "cm" or units.get("wind_speed_10m") != "km/h" or \
+                units.get("visibility", "m") != "m":
+            raise ValueError(f"open-meteo units changed: {units}")
+    return {z["zone"]: zone_model(d["hourly"], now, offset_hours) for z, d in zip(zones, data)}
 
 
 # --- snow quality (rule v1: change the numbers here, then `rebuild`) ---
@@ -710,7 +745,7 @@ def parse_sources(resort, fetched_at, bodies, config):
             continue
         try:
             if source == "open-meteo":
-                model = parse_open_meteo(body, resort["zones"], parse_utc(fetched_at))
+                model = parse_open_meteo(body, resort["zones"], parse_utc(fetched_at), config["utc_offset_hours"])
                 parsed[source] = True
             elif source in parsers:
                 parsed[source] = parsers[source](body)
