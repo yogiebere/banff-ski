@@ -279,7 +279,8 @@
     return Promise.all(jobs).then(function (res) {
       var morning = res[0] && res[0].json && res[0].json.resort === resort ? res[0].json : null;
       var hourly = res[1] && res[1].json && res[1].json.format === "banfftrack/1" ? res[1].json : null;
-      var needY = hourly && !(hourly.runs || []).some(function (r) { return r.open_yesterday === true || r.open_yesterday === false; });
+      // Only an hourly file without the open_yesterday field needs yesterday's log; null there means no record.
+      var needY = hourly && !(hourly.runs || []).some(function (r) { return "open_yesterday" in r; });
       var yJob = needY ? fetchJSON(DATA + "days/" + resort + "/" + dayBefore(hourly.date) + ".json").then(function (y) { return y.json; }, function () { return null; }) : null;
       return Promise.resolve(yJob).then(function (yLog) {
         var day = merge(morning, hourly ? liveToDay(hourly, match, yLog) : null);
