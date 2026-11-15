@@ -3,7 +3,7 @@ window.RUNFINDER_DAY["sunshine"] = {
  "schema": 1,
  "resort": "sunshine",
  "date": "2026-11-15",
- "prepared_at": "2026-11-15T16:14:32-06:00",
+ "prepared_at": "2026-11-15T16:18:47-06:00",
  "prepared_by": "Claude, morning prep",
  "sample": false,
  "snapshot_at": "2026-11-15T16:10:26-06:00",
@@ -265,8 +265,8 @@ window.RUNFINDER_DAY["sunshine"] = {
   },
   "verdict": "overstated",
   "verdict_text": "No 24-hour figure posted, so this checks the 7-day total: resort 7 cm, data 1.3 cm. It went above freezing since the last snow, so expect crust off the groomers.",
-  "condition": "wind_lowvis",
-  "condition_why": "Gusts to 75 km/h forecast at mid-mountain (72 up top).",
+  "condition": "bluebird_firm",
+  "condition_why": "The tracker reads it as packed and firm: -0.1 °C now (model); 15 h above 0 °C in 72 h; wind to 43 km/h, gusts 75. Forecast for lift hours: clear, gusts to 75 km/h. Modelled gusts to 75 km/h aren't counted as a wind day: the resort gives no wind figure to back them, and the model runs windy here.",
   "new_snow": false,
   "forecast": {
    "snow_cm": 0,
@@ -275,6 +275,8 @@ window.RUNFINDER_DAY["sunshine"] = {
    "vis_min": 15900.0,
    "temp_max": -0.0,
    "gust_top": 72.4,
+   "wind_max": 42.7,
+   "resort_wind": null,
    "source": "conditions tracker (Open-Meteo, mid-mountain, 9 AM to 4 PM)"
   }
  },

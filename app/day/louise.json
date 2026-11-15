@@ -2,7 +2,7 @@
  "schema": 1,
  "resort": "louise",
  "date": "2026-11-15",
- "prepared_at": "2026-11-15T16:14:32-06:00",
+ "prepared_at": "2026-11-15T16:18:47-06:00",
  "prepared_by": "Claude, morning prep",
  "sample": false,
  "snapshot_at": "2026-11-15T16:10:26-06:00",
@@ -312,6 +312,12 @@
    "vis_min": 13500.0,
    "temp_max": 0.3,
    "gust_top": 52.6,
+   "wind_max": 20.3,
+   "resort_wind": {
+    "kmh": 13,
+    "threshold": 30,
+    "what": "Lake Louise's mid and summit stations"
+   },
    "source": "conditions tracker (Open-Meteo, mid-mountain, 9 AM to 4 PM)"
   }
  },

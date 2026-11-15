@@ -53,6 +53,15 @@ RESORTS = {
 }
 # Alberta stays on UTC-6 all year; Crystal is on Pacific time (UTC-8 in winter, -7 from the second Sunday in March).
 POWDER_CM = 8          # the page's "3+ in (8 cm) of new snow" box
+# Wind. Open-Meteo's winds run high here: on 2026-11-15 it had Sunshine gusting 75 km/h while Sunshine's own ridge
+# forecast said 25, and Lake Louise's stations read 0-19 km/h against the model's 15-19 (the tracker's comparison).
+# So modelled gusts make a wind day only when the resort's own number agrees; the model alone needs a clearly windy
+# day. Provisional: the tracker logs model against station wind, to recalibrate.
+WIND_GUST = 60           # modelled mid-mountain gust, km/h, that counts if the resort agrees
+WIND_GUST_ALONE = 90     # modelled gust that counts on its own
+WIND_SUSTAINED = 50      # modelled sustained wind that counts on its own
+RIDGE_WIND = 40          # Sunshine's own ridge-wind forecast for today, km/h
+STATION_WIND = 30        # Lake Louise's mid or summit station at the check, km/h
 SNOW_DAY_CM = 5        # a day with this much counts as a snow day for "days since snow"
 LIFT_HOURS = (9, 16)
 
@@ -282,6 +291,38 @@ def read_tracker(root, rel):
     return json.load(open(path, encoding="utf8")) if os.path.exists(path) else None
 
 
+def resort_wind(t, day):
+    """The resort's own wind figure for today, to back up the model: Sunshine's ridge-wind forecast for today's
+    daytime period, or the stronger of Lake Louise's mid and summit station winds at this check."""
+    if t.get("resort") == "sunshine":
+        names = ("today", "this morning", "this afternoon", day.strftime("%A").lower())
+        for p in ((t.get("forecast") or {}).get("periods") or []):
+            if (p.get("period") or "").strip().lower() in names and p.get("ridge_wind_kmh") is not None:
+                return {"kmh": p["ridge_wind_kmh"], "threshold": RIDGE_WIND, "what": "Sunshine's own ridge-wind forecast"}
+        return None
+    obs = [(z.get("station") or {}).get("wind_kmh") for z in t.get("zones", []) if z.get("zone") in ("mid", "summit")]
+    obs = [w for w in obs if w is not None]
+    if obs:
+        return {"kmh": max(obs), "threshold": STATION_WIND, "what": "Lake Louise's mid and summit stations"}
+    return None
+
+
+def wind_call(fc):
+    """(is it a wind day, why if so, a note if modelled gusts were discounted)."""
+    gm, wm, rw = fc.get("gust_max"), fc.get("wind_max"), fc.get("resort_wind")
+    top = " (%d up top)" % fc["gust_top"] if fc.get("gust_top") is not None else ""
+    if wm is not None and wm >= WIND_SUSTAINED:
+        return True, "sustained wind to %d km/h forecast at mid-mountain." % wm, None
+    if gm is not None and gm >= WIND_GUST_ALONE:
+        return True, "gusts to %d km/h forecast at mid-mountain%s." % (gm, top), None
+    if gm is not None and gm >= WIND_GUST:
+        if rw and rw["kmh"] >= rw["threshold"]:
+            return True, "gusts to %d km/h forecast at mid-mountain%s, and %s says %d km/h." % (gm, top, rw["what"], rw["kmh"]), None
+        backing = "%s says %d km/h" % (rw["what"], rw["kmh"]) if rw else "the resort gives no wind figure to back them"
+        return False, None, "Modelled gusts to %d km/h aren't counted as a wind day: %s, and the model runs windy here." % (gm, backing)
+    return False, None, None
+
+
 def tracker_snapshot(resort, day, root):
     """The tracker's latest check for this date, in this script's snapshot shape, plus yesterday's checks."""
     t = read_tracker(root, "latest_%s.json" % resort)
@@ -367,6 +408,7 @@ def tracker_snapshot(resort, day, root):
         forecast_lift = {"snow_cm": lh.get("snow_cm") or 0, "gust_max": lh.get("gust_max_kmh"), "cloud_mean": lh.get("cloud_mean_pct"),
                          "vis_min": lh.get("vis_min_m"), "temp_max": lh.get("temp_max_c"),
                          "gust_top": top_lh.get("gust_max_kmh") if top_lh.get("date") == lh.get("date") else None,
+                         "wind_max": lh.get("wind_max_kmh"), "resort_wind": resort_wind(t, day),
                          "source": "conditions tracker (Open-Meteo, mid-mountain, 9 AM to 4 PM)"}
     season = t.get("season") or {}
     base = None
@@ -522,6 +564,7 @@ def forecast_today(model, day, tz):
     def vals(k):
         return [r[k] for r in hrs if r.get(k) is not None]
     return {"snow_cm": round(sum(vals("snowfall_cm")), 1), "gust_max": max(vals("gust_kmh"), default=None),
+            "wind_max": max(vals("wind_kmh"), default=None),
             "cloud_mean": sum(vals("cloud_pct")) / len(vals("cloud_pct")) if vals("cloud_pct") else None,
             "vis_min": min(vals("visibility_m"), default=None), "temp_max": max(vals("temp_c"), default=None)}
 
@@ -573,11 +616,11 @@ def snow_section(resort, snap, model, day, end):
         bits.append("It went above freezing since the last snow, so expect crust off the groomers.")
 
     fc = (snap or {}).get("forecast_lift") or forecast_today(model, day, None)
+    windy, wind_why, wind_note = wind_call(fc) if fc else (False, None, None)
     if fc and fc["snow_cm"] >= 2:
         cond, why = "storm", "%g cm forecast during lift hours." % fc["snow_cm"]
-    elif fc and fc["gust_max"] is not None and fc["gust_max"] >= 60:
-        cond, why = "wind_lowvis", "gusts to %d km/h forecast at mid-mountain%s." % (
-            fc["gust_max"], " (%d up top)" % fc["gust_top"] if fc.get("gust_top") is not None else "")
+    elif windy:
+        cond, why = "wind_lowvis", wind_why
     elif fc and fc["cloud_mean"] is not None and fc["cloud_mean"] >= 90 and fc["vis_min"] is not None and fc["vis_min"] < 1000:
         cond, why = "wind_lowvis", "cloud all day and visibility under 1 km forecast."
     elif trusted24 is not None and trusted24 >= POWDER_CM:
@@ -600,6 +643,8 @@ def snow_section(resort, snap, model, day, end):
     if fc and cond not in ("storm", "wind_lowvis"):
         why += " Forecast for lift hours: %s, gusts to %d km/h." % (
             "clear" if (fc["cloud_mean"] or 0) < 30 else "partly cloudy" if (fc["cloud_mean"] or 0) < 70 else "cloudy", fc["gust_max"] or 0)
+    if wind_note and cond != "wind_lowvis":
+        why += " " + wind_note
     csrc = src.get(rep.get("source")) or src.get("snow_report")
     return {
         "claim": {"source": {"name": csrc["name"], "url": csrc.get("url"), "as_of": rep.get("as_of") or csrc.get("as_of")} if csrc else None,
