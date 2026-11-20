@@ -18,10 +18,13 @@
   "Lower Grouse": null,
   "Kernahan's": null,
   "Lake Lindsey Way": null,
-  "Lowest Meadowlark": null,
+  "Lowest Meadowlark": "Lower Meadowlark",
   "Pikaboo": null,
   "East Bowl Trees": null,
   "Hell's Kitchen": null,
   "Lily Pads": null,
-  "Prunepickers": null
+  "Prunepickers": null,
+  "_lifts": {
+    "_note": "Resort lift names that don't reduce to a map lift name. None needed so far."
+  }
 }

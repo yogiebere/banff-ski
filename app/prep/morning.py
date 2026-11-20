@@ -828,6 +828,10 @@ def prepare(resort, day, root, offline=False, sample=False, tracker=None):
     upto = now if day == now.date() else dt.datetime.combine(day, dt.time(23, 59), tz)
     if resort in ("sunshine", "louise") and not sample:
         snap, ysnaps = tracker_snapshot(resort, day, tracker or BANFFTRACK)
+        if snap is None:
+            # No tracker check for this day yet: writing an empty day file would hide the last real one on phones.
+            print("  %s: no tracker data for %s, so the day file is left as it is." % (RESORTS[resort]["name"], day))
+            return None
     else:
         snaps_now = [s for s in snapshots(root, resort, day) if s["_t"] <= upto]
         snap = snaps_now[-1] if snaps_now else None

@@ -117,6 +117,17 @@
     s = (s || "").toLowerCase().replace(/&/g, " and ").replace(/[’'`.]/g, "").replace(/[^a-z0-9]+/g, " ").trim().replace(/^the /, "");
     return s.replace(/ avenue/g, " ave").replace(/saint /g, "st ");
   }
+  // Lift names: the resort's "Wawa Fixed Grip Quad" is the map's "Wawa Quad Chair", so compare them without the
+  // words that only describe the chair; the alias list's "_lifts" covers the rest (Sunshine's "Gondola").
+  var LIFT_WORDS = /\b(express|quad|chair|chairlift|lift|fixed|grip|luxury|six|pack|high|speed|detachable)\b/g;
+  function liftCore(s) { return norm(s).replace(LIFT_WORDS, " ").replace(/\s+/g, ""); }
+  function liftMatcher(mapLifts, aliases) {
+    var byCore = {}, al = {};
+    mapLifts.forEach(function (n) { if (n) (byCore[liftCore(n)] = byCore[liftCore(n)] || []).push(n); });
+    var la = (aliases || {})._lifts || {};
+    Object.keys(la).forEach(function (k) { if (k.charAt(0) !== "_") al[norm(k)] = la[k] === null ? [] : typeof la[k] === "string" ? [la[k]] : la[k]; });
+    return function (name) { var k = norm(name); return al[k] || byCore[liftCore(name)] || null; };
+  }
   function matcher(mapNames, aliases) {
     var byNorm = {}, alias = {}, known = {};
     mapNames.forEach(function (n) { known[n] = 1; (byNorm[norm(n)] = byNorm[norm(n)] || []).push(n); });
@@ -228,7 +239,8 @@
   // The morning check's judgment on top of the latest hourly data. Without a morning check for that day, the
   // condition follows the tracker's snow-quality call and the verdict says it wasn't checked.
   function merge(morning, live) {
-    if (!live || (morning && morning.date > live.date)) return morning;
+    // A newer morning check wins over an older hourly file, unless it's empty (no data reached the check).
+    if (!live || (morning && morning.date > live.date && (morning.runs || morning.base || (morning.snow && morning.snow.claim)))) return morning;
     var d = JSON.parse(JSON.stringify(live)), mine = morning && morning.date === live.date ? morning : null;
     var claim = d.snow.claim, m = d.snow.measured;
     if (mine && mine.snow) {
@@ -350,10 +362,24 @@
   var MAP_NAMES = D ? Object.keys(D.ratings).concat(D.map.pieces.map(function (p) { return p.name; }).filter(Boolean)) : null;
   // The alias list as published (aliases/<resort>.json), so a fix from the morning check reaches phones without
   // rebuilding the pages; the copy built into the page if it can't be fetched.
+  var MAP_LIFTS = D ? (D.map.lifts || []).map(function (l) { return l.name; }) : [];
+  var liftMatch = liftMatcher(MAP_LIFTS, builtIn);
   function loadMatcher() {
     if (!MAP_NAMES) return Promise.resolve(null);
     return fetchJSON("aliases/" + RESORT + ".json").then(function (a) { return a.json; }, function () { return builtIn; })
-      .then(function (al) { return matcher(MAP_NAMES, al || builtIn); });
+      .then(function (al) { liftMatch = liftMatcher(MAP_LIFTS, al || builtIn); return matcher(MAP_NAMES, al || builtIn); });
+  }
+  // What the page draws for today: the runs object, plus the map's runs the report doesn't mention ("no report",
+  // never drawn as open: the user saw Paris drawn open while closed), and the lifts by map name.
+  function statusFor(day) {
+    var r = day.runs, seen = {}, lifts = {}, rank = {open: 3, expected: 2, closed: 1};
+    (r.open || []).concat(r.closed || [], (r.expected || []).map(function (e) { return e.name; })).forEach(function (n) { seen[n] = 1; });
+    var unknown = (MAP_NAMES || []).filter(function (n, i, a) { return !seen[n] && a.indexOf(n) === i; }).sort();
+    (day.lifts || []).forEach(function (l) {
+      var st = l.status === "hold" || l.status === "scheduled" ? "closed" : l.status;
+      (liftMatch(l.name) || []).forEach(function (n) { if (!lifts[n] || (rank[st] || 0) > (rank[lifts[n]] || 0)) lifts[n] = st; });
+    });
+    return Object.assign({}, r, {unknown: unknown, lifts: lifts});
   }
   var RF = window.RunFinder || null;      // the page hook, once build_page.py has it
   var APPLIED = "runfinder-applied-" + RESORT;
@@ -465,8 +491,21 @@
       if (closedNow.length) txt += ' <span class="rf-bad">Open yesterday, closed now: ' + list(closedNow) + ".</span>";
       if (newly.length) txt += " New today: " + list(newly) + ".";
       if (r.open_yesterday === null || r.open_yesterday === undefined) txt += " No record of yesterday.";
+      // The reports keep the day's statuses after the lifts stop (the tracker, 2026-11-15), so say so in the evening.
+      var asOfTime = (/T(\d\d:\d\d)/.exec(day.as_of || day.prepared_at || "") || [])[1];
+      if (day.live && asOfTime && asOfTime >= "16:30") txt += " The lifts stop around 4:30 PM, and the report keeps the day's statuses after that, so \u201copen\u201d here means it was open today.";
+      var noReport = statusFor(day).unknown.length;
+      if (noReport) txt += " " + plural(noReport, "run") + " on this map " + (noReport === 1 ? "isn't" : "aren't") +
+        " in the resort's report (freeride zones, unlisted parks, connectors): no report, so not shown as open.";
       if (RF && RF.setStatus && isToday) txt += " Closed runs are faded on the map; “Open today” by the level chips hides them.";
       rows.push(["Runs", txt + '<span class="src">' + srcLine(r.source) + (r.yesterday_as_of ? " · yesterday as of " + dayName(r.yesterday_as_of.slice(0, 10)) + " " + clock(r.yesterday_as_of) : "") + "</span>"]);
+    }
+    // Lifts: which are turning, from the same report.
+    if (day.lifts && day.lifts.length) {
+      var lo = day.lifts.filter(function (l) { return l.status === "open"; }), le = day.lifts.filter(function (l) { return l.status === "expected"; });
+      rows.push(["Lifts", plural(lo.length, "lift") + " of " + day.lifts.length + " open" + (lo.length ? ": " + lo.map(function (l) { return esc(l.name); }).join(", ") : "") + "." +
+        (le.length ? " Expected: " + le.map(function (l) { return esc(l.name) + (l.time ? " " + hhmm(l.time) : ""); }).join(", ") + "." : "") +
+        (RF && RF.setStatus && isToday ? " Lifts that aren't open are faded on the map." : "") + '<span class="src">' + srcLine(r && r.source) + "</span>"]);
     }
     var g = day.groomed;
     if (g && g.names) {
@@ -477,7 +516,7 @@
     var unmatched = [].concat((r && r.unmatched) || [], (g && g.unmatched) || []);
     var asOf = day.as_of || day.prepared_at;
     var html = "<h3>" + (isToday ? "Today's conditions" : rel === "Yesterday" ? "Yesterday's conditions" : "Conditions from " + dayName(day.date)) + "</h3>" + fresh +
-      '<div><b>' + (isToday ? "" : rel + ", ") + dayName(day.date) + ", as of " + clock(asOf) + "</b>" + (day.live ? " (the resort's own report, checked hourly)" : " (morning check)") + "</div>";
+      '<div><b>' + (rel === "Yesterday" ? "Yesterday, " : "") + dayName(day.date) + ", as of " + clock(asOf) + "</b>" + (day.live ? " (the resort's own report, checked hourly)" : " (morning check)") + "</div>";
     if (day.sample) html += '<div class="rf-warn">Sample data for testing, not a real report.</div>';
     if (day.take) html += '<div class="rf-take"><b>Claude\'s take' + (day.morning_at || day.prepared_at ? " (" + clock(day.morning_at || day.prepared_at) + ")" : "") +
       ":</b> " + esc(day.take) + "</div>";
@@ -502,7 +541,9 @@
       var day = res.day;
       if (day && day.resort !== RESORT) day = res.day = null;
       // Only today's open and closed runs go on the map; yesterday's 4 PM closures would grey it out at 5:45 AM.
-      if (RF && RF.setStatus) RF.setStatus(day && day.runs && day.date === localToday() ? day.runs : null);
+      var st = day && day.runs && day.date === localToday() ? statusFor(day) : null;
+      window.RunFinderApp.status = st;                   // what the map was given, for checking
+      if (RF && RF.setStatus) RF.setStatus(st);
       if (day && day.date === localToday()) applyToday(day, false);
       render(res);
       return res.fresh;

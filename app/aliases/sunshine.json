@@ -1,5 +1,5 @@
 {
-  "_note": "Sunshine's spelling (lifts and trails report, via the conditions tracker) -> the map's name, a list of map names, or null for a report entry with no line on the map. Names that differ only in spaces or punctuation match without an entry. Checked 2026-11-15 against pods and levels; add any name morning.py lists as unmatched, then rerun it.",
+  "_note": "Sunshine's spelling (lifts and trails report, via the conditions tracker) -> the map's name, a list of map names, or null for a report entry with no line on the map. Names that differ only in spaces or punctuation match without an entry. Checked 2026-11-15 against pods and levels (Paris Basin is the map's third Paris line, the user, 2026-11-15: \"Paris one is not yet open\"); Divide Terrain Park is OSM's Rockstar Terrain Park and Grizzly Terrain Park its Grizzly XL Terrain Park, inferred from location by the tracker session (Rockstar's polygon is 70 m from Grizzly XL, both 500 m from the Great Divide Express base, and Sunshine reaches both parks from Angel or Divide), not confirmed by the resort; add any name morning.py lists as unmatched, then rerun it.",
   "Kid's Play Terrain Park": "Kid's Play",
   "Christmas Tree": "Christmas Trees",
   "Trapper's Trail": "Trappers",
@@ -19,10 +19,17 @@
   "The Yellowhead": null,
   "Yellowhead North": null,
   "Springhill Terrain Park": null,
-  "Divide Terrain Park": null,
+  "Divide Terrain Park": "Rockstar Terrain Park",
   "Strawberry Terrain Park": null,
   "Mitey Mite Learning Area": null,
   "Tiny Tigers Learning Area": null,
-  "Paris Basin": null,
-  "Showboat": null
+  "Paris Basin": "Paris",
+  "Showboat": null,
+  "_lifts": {
+    "_note": "Resort lift names that don't reduce to a map lift name (app.js drops words like Express, Quad, Chair, Fixed Grip, Luxury, Six Pack).",
+    "Gondola": [
+      "Sunshine Village Gondola I",
+      "Sunshine Village Gondola II"
+    ]
+  }
 }
