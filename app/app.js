@@ -402,7 +402,7 @@
     storeJSON(APPLIED, last);
     if (!Object.keys(todo).length) return;
     if (todo.groomed) todo.groomedNote = (day.live ? "Grooming report, " : "Morning report, ") + (g.source && g.source.as_of ? clock(g.source.as_of) + ": " : "") +
-      plural(todo.groomed.length, "run") + " groomed. Every other run counts as ungroomed (+2°).";
+      plural(todo.groomed.length, "run") + " groomed. Every other black or double counts as ungroomed (+2°); greens and blues count as groomed.";
     // Picking powder or storm turns the new-snow box on, so a new condition always carries the report's box with it.
     if ("cond" in todo && t.newSnow !== null) todo.newSnow = t.newSnow;
     if (RF && RF.setToday) { RF.setToday(todo); return; }
@@ -509,7 +509,7 @@
     }
     var g = day.groomed;
     if (g && g.names) {
-      rows.push(["Groomed", plural(g.names.length, "run") + " count +0°, every other run +2°" + (s && s.new_snow ? " (no adder today: new snow)" : "") + ". " +
+      rows.push(["Groomed", plural(g.names.length, "run") + " on the grooming report count +0°; any other black or double +2°, and greens and blues count as groomed" + (s && s.new_snow ? " (no adder today: new snow)" : "") + ". " +
         (g.names.length ? "<details><summary>Which runs</summary><p>" + g.names.map(esc).join(", ") + "</p></details>" : "") +
         '<span class="src">' + srcLine(g.source) + "</span>"]);
     }
