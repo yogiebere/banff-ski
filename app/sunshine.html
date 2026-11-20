@@ -405,6 +405,22 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     });
   }
 
+  // An unnamed connector (a logo-only marker on the map) joins named runs at its ends. With a day's status it is as
+  // bright as the brightest run it joins, so it fades with them instead of staying lit (the family-app session,
+  // 2026-11-19). `joins` lists the named runs within 30 px of either end of any of its lines, or of any corner of
+  // its outline for an area run (Crystal's unnamed area beside Downhill).
+  M.pieces.forEach(function (p) {
+    if (p.name || !(p.lines.length || p.areas.length)) return;
+    var ends = [], names = {};
+    p.lines.forEach(function (ln) { ends.push(ln[0], ln[ln.length - 1]); });
+    p.areas.forEach(function (ring) { ends.push.apply(ends, ring); });
+    M.pieces.forEach(function (q) {
+      if (!q.name || names[q.name]) return;
+      q.lines.concat(q.areas).some(function (ln) { return ln.some(function (pt) { return ends.some(function (e) {
+        var dx = pt[0] - e[0], dy = pt[1] - e[1]; return dx * dx + dy * dy <= 900; }); }); }) && (names[q.name] = 1);
+    });
+    p.joins = Object.keys(names);
+  });
   var lineEls = [], labelEls = [];
   var mapMark = null;   // where the chart pointer sits on the run
   function draw() {
@@ -1017,6 +1033,8 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     return s === "open" ? 1 : s === "expected" ? 0.6 : FADED;
   }
   function liveOpacity(p, dim) {
+    if (!p.name && p.joins && p.joins.length)
+      return Math.max.apply(null, p.joins.map(function (n) { return liveOpacity({name: n}, dim); }));
     var base = dim ? 0.45 : 1, s = statusOf(p.name);
     if (!s || s === "open" || (LIVE && !STATUS && !LIVE.dim)) return base;
     return s === "expected" ? Math.min(base, 0.6) : FADED;
