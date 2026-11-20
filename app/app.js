@@ -38,6 +38,9 @@
     var h = +m[1]; return (h % 12 || 12) + ":" + m[2] + (h < 12 ? " AM" : " PM");
   }
   function hhmm(t) { var m = /^(\d\d?):(\d\d)/.exec(t || ""); if (!m) return t || ""; var h = +m[1]; return (h % 12 || 12) + ":" + m[2] + (h < 12 ? " AM" : " PM"); }
+  // Elevations in feet, like the maps (the user, 2026-11-20: "ft for elevation"). Snow depths stay in cm, as the resorts
+  // report them and the pages' base box takes them.
+  function feet(m) { return m == null || isNaN(+m) ? "?" : Math.round(+m * 3.28084).toLocaleString("en-US") + " ft"; }
   function phoneClock(ms) { var d = new Date(ms), h = d.getHours(); return (h % 12 || 12) + ":" + ("0" + d.getMinutes()).slice(-2) + (h < 12 ? " AM" : " PM"); }
   var DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   function dayName(ymd) {
@@ -210,7 +213,7 @@
     function claim(f) { return first(snow[0][f], snow[1][f], snow[2][f]); }
     var mz = mid.model ? mid : top, m = mz.model || {}, q = mz.quality || null;
     var measured = mz.model ? {
-      source: {name: "Open-Meteo model at " + mz.elev_m + " m, via the conditions tracker (an estimate, not a measurement)",
+      source: {name: "Open-Meteo model at " + feet(mz.elev_m) + ", via the conditions tracker (an estimate, not a measurement)",
                url: src.model ? src.model.url : null, as_of: t.local_time},
       new_cm: {"24h": m.snow_24h_cm, "72h": m.snow_72h_cm, "7d": m.snow_7d_cm},
       temp_c: m.tmin_24h_c != null ? {min: m.tmin_24h_c, max: m.tmax_24h_c} : null,

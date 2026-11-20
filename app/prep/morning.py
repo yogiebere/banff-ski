@@ -401,7 +401,7 @@ def tracker_snapshot(resort, day, root):
                      "thaw_since_snow": (m.get("hours_above_0_72h") or 0) >= 2 and (m.get("snow_since_thaw_cm") or 0) < SNOW_DAY_CM,
                      "days_since_snow": None if m.get("hours_since_snow") is None else int(m["hours_since_snow"] // 24),
                      "how": "model snowfall", "quality": {k: q.get(k) for k in ("code", "label", "why")} if q else None,
-                     "source": {"name": "Open-Meteo model at %s m, via the conditions tracker (an estimate, not a measurement)" % mz.get("elev_m"),
+                     "source": {"name": "Open-Meteo model at %s, via the conditions tracker (an estimate, not a measurement)" % feet(mz.get("elev_m")),
                                 "url": (by_src.get("open-meteo") or {}).get("url"), "as_of": t["local_time"]}}
     # Today's lift-hours forecast, made by the tracker on GitHub's runners: cloud machines get rate-limited by
     # Open-Meteo, so this is the forecast to use; open_meteo() is the fallback.
@@ -437,6 +437,14 @@ def norm(s):
     s = re.sub(r"[^a-z0-9]+", " ", s).strip()
     s = re.sub(r"^the ", "", s)
     return s.replace(" avenue", " ave").replace("saint ", "st ")
+
+
+def feet(m):
+    """An elevation in feet, like the maps (the user, 2026-11-20: "ft for elevation"). Snow depths stay in cm."""
+    try:
+        return "{:,} ft".format(round(float(m) * 3.28084))
+    except (TypeError, ValueError):
+        return "?"
 
 
 def page_data(resort):
@@ -582,10 +590,10 @@ def snow_section(resort, snap, model, day, end):
     if (snap or {}).get("measured"):
         msrc = m["source"]
     elif station and m and m["how"] != "model snowfall":
-        msrc = {"name": "%s, %s m" % (station["name"], station.get("elev_m", "?")), "url": station.get("url"),
+        msrc = {"name": "%s, %s" % (station["name"], feet(station.get("elev_m"))), "url": station.get("url"),
                 "as_of": station["hours"][-1]["t"]}
     elif m:
-        msrc = {"name": "Open-Meteo model at %d m (an estimate, not a measurement)" % RESORTS[resort]["elev_m"],
+        msrc = {"name": "Open-Meteo model at %s (an estimate, not a measurement)" % feet(RESORTS[resort]["elev_m"]),
                 "url": model["url"], "as_of": iso(end.replace(minute=0, second=0, microsecond=0))}
     else:
         msrc = None
@@ -680,7 +688,7 @@ def base_section(snap, data):
     station = next((s for s in snap.get("stations", []) if s.get("hours") and any(h.get("snow_depth_cm") is not None for h in s["hours"])), None)
     if station:
         d = [h["snow_depth_cm"] for h in station["hours"] if h.get("snow_depth_cm") is not None][-1]
-        line = "%s (%s m) measures %g cm on the ground." % (station["name"], station.get("elev_m", "?"), d)
+        line = "%s (%s) measures %g cm on the ground." % (station["name"], feet(station.get("elev_m")), d)
         check = (check + " " if check else "") + line
     return {"source": {"name": src.get("name", "Snow report"), "url": src.get("url"), "as_of": rep.get("as_of") or src.get("as_of")},
             "cm": round(cm), "upper_cm": None if b.get("upper") is None else round(b["upper"]), "season": "early" if cm < lo else "mid" if cm < hi else "late", "check": check}

@@ -48,7 +48,7 @@ html, body { overscroll-behavior: none; overflow: hidden; }   /* the page itself
 .zoom button { width: 40px; height: 40px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink);
   font: 600 20px var(--body); cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
 .zoom button:focus-visible, .cond button:focus-visible, .btn:focus-visible { outline: 2px solid var(--patrol); outline-offset: 2px; }
-.zoom .north { width: 40px; height: 40px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink);
+.zoom .north { width: 40px; height: 40px; padding: 0; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink);
   box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
 .rail { position: absolute; top: 0; right: 0; bottom: 0; width: min(400px, 100%); box-sizing: border-box; z-index: 5;
   overflow-y: auto; background: var(--panel); border-left: 1px solid var(--line); box-shadow: -8px 0 28px rgba(10, 20, 30, .25);
@@ -137,6 +137,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
   .rail { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 }
 @media (prefers-reduced-motion: no-preference) { .run-line { transition: opacity .2s; } }
+#map.hide-boundary .ov-boundary, #map.hide-facility .ov-facility, #map.hide-facility .ov-route { display: none; }
 </style>
 
 <div class="app">
@@ -144,7 +145,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     <svg id="map" role="img" aria-label="Top-down trail map of Lake Louise Ski Area">
       <g id="world">
         <image id="terrain" href="louise_v12_terrain.jpg" x="0" y="0"></image>
-        <g id="lines"></g><g id="lifts"></g><g id="labels"></g>
+        <g id="overlays"></g><g id="lines"></g><g id="lifts"></g><g id="overlaylabels"></g><g id="labels"></g>
       </g>
     </svg>
     <div class="card" id="detailcard" hidden>
@@ -202,7 +203,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       <details>
         <summary>How runs are rated</summary>
         <p><b>Two ratings</b> (the user, 2026-11-15: "Go ahead and do that style for the banffs as well"). First, Lake Louise's own: its lifts and trails report, read through the conditions tracker (beginner, intermediate, advanced and expert). Then, in brackets where it differs, the run's level on the Centre scale, measured as below. SRG Skiing's calls (a run that's really a double, or needs mandatory air) replace the measured level.</p>
-        <p>Level: the steepest 150 m of each run from OpenSkiMap's elevation profile (where OpenStreetMap draws a run as several lines, its easiest complete way down, which the run card's chart shows), marked down by up to 2&deg; when that pitch sits far above the average of the run's main section (flat lead-ins and run-outs left out), then cut on the Centre scale: each colour centred on its typical run, the higher of the Colorado top-10 and Copper medians (green 13.2&deg;, blue 17.5&deg;, black 25.5&deg;, double 31.2&deg;; extreme 41&deg;, from Sunshine's Delirium Dive and Wild West), with half-steps halfway between. Bands: green under 14.3&deg;, green/blue to 16.4&deg;, blue to 19.5&deg;, blue/black to 23.5&deg;, black to 26.9&deg;, black/double to 29.8&deg;, double to 33.6&deg;, double/extreme (&#9670;&#9670;/EX) to 38.5&deg;, extreme above. Ungroomed snow adds 2&deg; to a black or double that's groomed on fewer than 30% of days; greens, blues and blacks groomed more often than that count as groomed (the user's rule, 2026-11-15). A powder day removes the adder. Thin early-season cover adds up to 3&deg; more where rocks and features need filling in, from SRG Skiing, the research, cliffy ground near the line, steep ungroomed pitch, and trail-map blacks and doubles that measure easier. The season goes by mid-mountain settled base, not the date: early under 100 cm, mid-season 100 to 150 cm (half the adder), late season 150 cm and up (none). On Jan 1 2026 both resorts were already past 150 cm. Where SRG Skiing says a run is really a double black, or needs mandatory air (EX), his call wins.</p>
+        <p>Level: the steepest 500 ft (150 m) of each run from OpenSkiMap's elevation profile (where OpenStreetMap draws a run as several lines, its easiest complete way down, which the run card's chart shows), marked down by up to 2&deg; when that pitch sits far above the average of the run's main section (flat lead-ins and run-outs left out), then cut on the Centre scale: each colour centred on its typical run, the higher of the Colorado top-10 and Copper medians (green 13.2&deg;, blue 17.5&deg;, black 25.5&deg;, double 31.2&deg;; extreme 41&deg;, from Sunshine's Delirium Dive and Wild West), with half-steps halfway between. Bands: green under 14.3&deg;, green/blue to 16.4&deg;, blue to 19.5&deg;, blue/black to 23.5&deg;, black to 26.9&deg;, black/double to 29.8&deg;, double to 33.6&deg;, double/extreme (&#9670;&#9670;/EX) to 38.5&deg;, extreme above. Ungroomed snow adds 2&deg; to a black or double that's groomed on fewer than 30% of days; greens, blues and blacks groomed more often than that count as groomed (the user's rule, 2026-11-15). A powder day removes the adder. Thin early-season cover adds up to 3&deg; more where rocks and features need filling in, from SRG Skiing, the research, cliffy ground near the line, steep ungroomed pitch, and trail-map blacks and doubles that measure easier. The season goes by mid-mountain settled base, not the date: early under 100 cm, mid-season 100 to 150 cm (half the adder), late season 150 cm and up (none). On Jan 1 2026 both resorts were already past 150 cm. Where SRG Skiing says a run is really a double black, or needs mandatory air (EX), his call wins.</p>
         <p>Stars: a baseline from SRG Skiing's guide and wider research, shifted by each run's exposure, tree cover, grooming, powder and firm-snow behaviour, then ranked within its level. So five stars means best in its level today, not hardest.</p>
         <p>Freeride zones (Sunshine's Delirium Dive and Wild West) are rated like other runs since 2026-11-15; most of their chutes are extreme. Map data &copy; OpenStreetMap contributors via OpenSkiMap; trees from Meta and WRI's satellite canopy height map (CC BY 4.0); terrain from Copernicus GLO-30.</p>
       </details>
@@ -316,6 +317,58 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
   terrain.setAttribute("width", M.width); terrain.setAttribute("height", M.height);
   var gLines = document.getElementById("lines"), gLifts = document.getElementById("lifts"), gLabels = document.getElementById("labels");
   function pathD(pts) { return "M" + pts.map(function (q) { return q[0] + " " + q[1]; }).join("L"); }
+  // A What If group's class (build_page.group_class): its lifts, runs and names hide together.
+  function grpClass(g) { return g ? "grp-" + g.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") : ""; }
+  var LIFT_GROUP = {}; M.lifts.forEach(function (l) { if (l.group && l.name) LIFT_GROUP[l.name] = l.group; });
+  // Feet and miles (the user, 2026-11-20: "use miles for length, ft for elevation"). The steepest stretch is still
+  // measured over 150 m, shown as 500 ft ("steepest 500 ft").
+  function ft(m) { return Math.round(m * 3.28084).toLocaleString("en-US") + " ft"; }
+  function mi(m) { return (m / 1609.344).toFixed(2) + " mi"; }
+  function winLabel(m) { return +m === 150 ? "500 ft" : Math.round(m * 3.28084 / 10) * 10 + " ft"; }
+  // Sun exposure (the user, 2026-11-20): north-facing and high holds snow best, south-facing and low worst, east and
+  // west alike in between. The aspect is the run's downhill direction on the terrain model; its elevation is
+  // measured against the map's other runs (lowest fifth to highest fifth).
+  var ELEVS = M.pieces.map(function (q) { return q.attrs && q.attrs.mean_elev; }).filter(function (v) { return v != null; })
+    .sort(function (a, b) { return a - b; });
+  var E20 = ELEVS.length ? ELEVS[Math.floor(0.2 * ELEVS.length)] : 0, E80 = ELEVS.length ? ELEVS[Math.floor(0.8 * ELEVS.length)] : 0;
+  var POINTS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"];
+  function sunLine(p) {
+    var a = p.attrs; if (!a || a.aspect == null) return "";
+    // Up high aspect matters less (the user: "6k+ but especially towards 7k"): full weight below 6,000 ft, 30% from 7,000.
+    var A = Math.cos(a.aspect * Math.PI / 180) * (1 - 0.7 * Math.min(1, Math.max(0, (a.mean_elev * 3.28084 - 6000) / 1000)));
+    var E = E80 > E20 ? Math.max(-1, Math.min(1, (a.mean_elev - E20) / (E80 - E20) * 2 - 1)) : 0;
+    var S = (A + E) / 2;
+    var word = S > 0.5 ? "best, holds snow longest" : S > 0.15 ? "good" : S > -0.15 ? "middling" : S > -0.5 ? "poor" : "worst, softens and crusts first";
+    return '<div><b>Sun exposure:</b> faces ' + POINTS[Math.round(a.aspect / 22.5) % 16] + ' (' + Math.round(a.aspect) + '&deg;), averaging ' +
+      ft(a.mean_elev) + ': ' + word + '.</div>';
+  }
+  // Overlays under the runs (the What If map's expansion outlines and facilities), their names above the lifts.
+  var gOver = document.getElementById("overlays"), gOverLab = document.getElementById("overlaylabels");
+  (M.overlays || []).forEach(function (ov) {
+    var d = pathD(ov.px) + (ov.kind === "route" ? "" : "Z");
+    if (ov.kind === "boundary") el("path", {d: d, "class": "ov-boundary", fill: ov.ink, "fill-opacity": 0.06, stroke: ov.ink, "stroke-width": 4, "stroke-dasharray": "16 8"}, gOver);
+    else if (ov.kind === "facility") el("path", {d: d, "class": "ov-facility", fill: ov.fill || ov.ink, "fill-opacity": 0.45, stroke: "#555", "stroke-width": 1.2}, gOver);
+    else el("path", {d: d, "class": "ov-route", fill: "none", stroke: ov.ink, "stroke-width": 3, "stroke-dasharray": "8 5"}, gOver);
+  });
+  (M.overlay_labels || []).forEach(function (lab) {
+    el("text", {"class": "ov-" + lab.kind, transform: "translate(" + lab.cx + " " + lab.cy + ") rotate(" + Math.atan2(lab.uy, lab.ux) * 180 / Math.PI + ")",
+      "text-anchor": "middle", "dominant-baseline": "central", "font-family": "Arial, Helvetica, sans-serif",
+      "font-style": lab.kind === "boundary" ? "normal" : "italic", "font-weight": 700, "font-size": lab.pt * M.dpi / 72,
+      fill: lab.kind === "boundary" ? lab.colour : "#333", stroke: "#fff", "stroke-width": 4, "paint-order": "stroke", "stroke-linejoin": "round"}, gOverLab).textContent = lab.text;
+  });
+  // Layer switches, remembered on this device: the outlines and facilities (the user, 2026-11-20: "map pod outlines
+  // should be toggleable") and, on the What If map, each expansion's lifts, runs and names ("a toggler per expansion
+  // version"). A switch adds hide-<layer> to the map; the expansion rules are written here, one per group.
+  var layerCss = document.createElement("style"); document.head.appendChild(layerCss);
+  document.querySelectorAll("[data-layer]").forEach(function (box) {
+    var layer = box.getAttribute("data-layer"), key = D.store + "-layer-" + layer, on = true;
+    if (/^grp-/.test(layer)) layerCss.appendChild(document.createTextNode("#map.hide-" + layer + " ." + layer + " { display: none; }\n"));
+    try { on = localStorage.getItem(key) !== "off"; } catch (e) {}
+    box.checked = on;
+    var apply = function () { document.getElementById("map").classList.toggle("hide-" + layer, !box.checked); };
+    apply();
+    box.addEventListener("change", function () { apply(); try { localStorage.setItem(key, box.checked ? "on" : "off"); } catch (e) {} });
+  });
 
   function symbol(parent, lvl, x, y, size) {
     var g = el("g", {transform: "translate(" + x + " " + y + ")"}, parent);
@@ -421,6 +474,39 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     });
     p.joins = Object.keys(names);
   });
+  // The run line fades under its own name (the user, 2026-11-20: "the path below can become 70% transparent"): the
+  // stretch of each run's line within half a text height of its name's path is drawn at 30%. Worked out once here;
+  // a mask over all the lines did the same but made every pan and zoom frame about 3x slower ("the map feels very
+  // sluggish").
+  function segDist(q, a, b) {
+    var dx = b[0] - a[0], dy = b[1] - a[1], L = dx * dx + dy * dy;
+    var t = L ? Math.max(0, Math.min(1, ((q[0] - a[0]) * dx + (q[1] - a[1]) * dy) / L)) : 0;
+    return Math.hypot(q[0] - a[0] - t * dx, q[1] - a[1] - t * dy);
+  }
+  var FADE = {};
+  M.labels.forEach(function (lab) {
+    if (!lab.path) return;
+    var half = lab.pt * M.dpi / 72 / 2, P = lab.path;
+    var xs = P.map(function (q) { return q[0]; }), ys = P.map(function (q) { return q[1]; });
+    var x0 = Math.min.apply(0, xs) - half, x1 = Math.max.apply(0, xs) + half, y0 = Math.min.apply(0, ys) - half, y1 = Math.max.apply(0, ys) + half;
+    FADE[lab.piece] = M.pieces[lab.piece].lines.map(function (pts) {
+      var dense = [pts[0]];
+      for (var i = 1; i < pts.length; i++) {
+        var a = pts[i - 1], b = pts[i], n = Math.max(1, Math.ceil(Math.hypot(b[0] - a[0], b[1] - a[1]) / 3));
+        for (var j = 1; j <= n; j++) dense.push([a[0] + (b[0] - a[0]) * j / n, a[1] + (b[1] - a[1]) * j / n]);
+      }
+      var parts = [], cur = null;
+      dense.forEach(function (q) {
+        var near = false;
+        if (q[0] >= x0 && q[0] <= x1 && q[1] >= y0 && q[1] <= y1)
+          for (var k = 1; k < P.length && !near; k++) near = segDist(q, P[k - 1], P[k]) <= half;
+        if (!cur || cur.fade !== near) { cur = {fade: near, pts: cur ? [cur.pts[cur.pts.length - 1]] : []}; parts.push(cur); }
+        cur.pts.push(q);
+      });
+      return parts;
+    });
+  });
+
   var lineEls = [], labelEls = [];
   var mapMark = null;   // where the chart pointer sits on the run
   function draw() {
@@ -432,7 +518,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       var st = stars[p.name]; var dim = st && st.n <= 2;
       var ungroomed = state.groomed ? !state.groomed.has(p.name) : ((R[p.name] && R[p.name].grooming) || p.osm_grooming) === "never";
       var dashed = p.gladed || ungroomed || lvl === 2.5 || lvl >= 3 || lvl === "freeride" || shown === 2.5 || shown >= 3;
-      var g = el("g", {"class": "run-line", "data-name": p.name || "", opacity: liveOpacity(p, dim), style: "cursor:pointer"}, gLines);
+      var g = el("g", {"class": ("run-line " + grpClass(p.group)).trim(), "data-name": p.name || "", opacity: liveOpacity(p, dim), style: "cursor:pointer"}, gLines);
       p.areas.forEach(function (ring) {
         el("path", {d: pathD(ring) + "Z", fill: col, "fill-opacity": 0.16, stroke: col, "stroke-width": 2.5, "stroke-dasharray": "10 5"}, g);
       });
@@ -441,26 +527,30 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
         el("path", {d: wd, fill: "none", stroke: "#fff", "stroke-opacity": 0.85, "stroke-width": 5, "stroke-linecap": "round"}, g);
         el("path", {d: wd, fill: "none", stroke: col, "stroke-width": 2.6, "stroke-dasharray": "1 5", "stroke-linecap": "round"}, g);
       }
-      p.lines.forEach(function (pts) {
-        var d = pathD(pts);
-        el("path", {d: d, fill: "none", stroke: "transparent", "stroke-width": 26}, g);
+      p.lines.forEach(function (pts, li) {
+        el("path", {d: pathD(pts), fill: "none", stroke: "transparent", "stroke-width": 26}, g);
         var bold = openBold(p);
-        el("path", {d: d, fill: "none", stroke: "#fff", "stroke-opacity": bold ? 1 : 0.85, "stroke-width": p.freeride ? 6.6 : bold ? 9 : 8, "stroke-linecap": "round"}, g);
-        el("path", {d: d, fill: "none", stroke: col, "stroke-width": p.freeride ? 3 : bold ? 5.2 : 4.4, "stroke-linecap": "round",
-          "stroke-dasharray": dashed ? "7 4" : "none", "class": "core"}, g);
+        // The stretch under the run's own name is drawn at 30% (FADE).
+        (FADE[i] ? FADE[i][li] : [{fade: false, pts: pts}]).forEach(function (part) {
+          if (part.pts.length < 2) return;
+          var d = pathD(part.pts), sub = part.fade ? el("g", {opacity: 0.3}, g) : g;
+          el("path", {d: d, fill: "none", stroke: "#fff", "stroke-opacity": bold ? 1 : 0.85, "stroke-width": p.freeride ? 6.6 : bold ? 9 : 8, "stroke-linecap": "round"}, sub);
+          el("path", {d: d, fill: "none", stroke: col, "stroke-width": p.freeride ? 3 : bold ? 5.2 : 4.4, "stroke-linecap": "round",
+            "stroke-dasharray": dashed ? "7 4" : "none", "class": "core"}, sub);
+        });
       });
       if (p.name) g.addEventListener("click", function (ev) { ev.stopPropagation(); select(p.name); });
       lineEls.push({g: g, p: p});
     });
     M.lifts.forEach(function (l) {
-      var d = pathD(l.px), lg = el("g", {opacity: liftOpacity(l.name)}, gLifts), lb = liftOpacity(l.name) === 1 && STATUS && STATUS.lifts;
+      var d = pathD(l.px), lg = el("g", {opacity: liftOpacity(l.name), "class": grpClass(l.group)}, gLifts), lb = liftOpacity(l.name) === 1 && STATUS && STATUS.lifts;
       el("path", {d: d, fill: "none", stroke: "#fff", "stroke-width": lb ? 8 : 7}, lg);
       el("path", {d: d, fill: "none", stroke: l.type === "magic_carpet" ? "#555" : "#8B1A1A", "stroke-width": lb ? 3.6 : 3}, lg);
       [l.px[0], l.px[l.px.length - 1]].forEach(function (e) { el("rect", {x: e[0] - 4.5, y: e[1] - 4.5, width: 9, height: 9, fill: "#8B1A1A", stroke: "#fff", "stroke-width": 1.5}, lg); });
     });
     M.lift_labels.forEach(function (l) {
       var ang = Math.atan2(l[4], l[3]) * 180 / Math.PI;
-      var t = el("text", {transform: "translate(" + l[1] + " " + l[2] + ") rotate(" + ang + ")", "text-anchor": "middle", "dominant-baseline": "central",
+      var t = el("text", {"class": grpClass(LIFT_GROUP[l[0]]), transform: "translate(" + l[1] + " " + l[2] + ") rotate(" + ang + ")", "text-anchor": "middle", "dominant-baseline": "central",
         opacity: liftOpacity(l[0]),
         "font-family": "Arial, Helvetica, sans-serif", "font-style": "italic", "font-weight": 700, "font-size": 6.5 * M.dpi / 72, fill: "#8B1A1A",
         stroke: "#fff", "stroke-width": 5, "paint-order": "stroke"}, gLabels); t.textContent = l[0];
@@ -483,7 +573,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
         el("line", {x1: lab.anchor[0], y1: lab.anchor[1], x2: lab.cx + lab.ux * tq, y2: lab.cy + lab.uy * tq, stroke: "#333", "stroke-width": 1.4}, gLabels);
         el("circle", {cx: lab.anchor[0], cy: lab.anchor[1], r: 3, fill: "#333"}, gLabels);
       }
-      var g = el("g", {transform: "translate(" + lab.cx + " " + lab.cy + ") rotate(" + ang + ")", style: "cursor:pointer", "data-name": p.name || "",
+      var g = el("g", {"class": grpClass(p.group), transform: "translate(" + lab.cx + " " + lab.cy + ") rotate(" + ang + ")", style: "cursor:pointer", "data-name": p.name || "",
         opacity: liveOpacity(p, false)}, gLabels);
       var total = room + 5 + lab.w + (lab.sw || 0), start = -total / 2;
       logos(g, p, lvl, start + room / 2, 0, em * 0.8, room);   // turns with the label, so it sits square with the text
@@ -498,16 +588,6 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       if (p.name) g.addEventListener("click", function (ev) { ev.stopPropagation(); select(p.name); });
       labelEls.push({g: g, p: p});
     });
-    // The run line fades under its own name (the user, 2026-11-20: "the path below can become 70% transparent"):
-    // a mask over the lines, white everywhere but a band along each name's path at 30%.
-    var mapSvg = document.getElementById("map"), defs = mapSvg.querySelector("defs") || el("defs", {}, mapSvg);
-    var oldMask = document.getElementById("underfade"); if (oldMask) oldMask.parentNode.removeChild(oldMask);
-    var mk = el("mask", {id: "underfade", maskUnits: "userSpaceOnUse", x: -50, y: -50, width: M.width + 100, height: M.height + 100}, defs);
-    el("rect", {x: -50, y: -50, width: M.width + 100, height: M.height + 100, fill: "#fff"}, mk);
-    M.labels.forEach(function (lab) {
-      if (lab.path) el("path", {d: pathD(lab.path), fill: "none", stroke: "#4d4d4d", "stroke-width": lab.pt * M.dpi / 72, "stroke-linecap": "butt"}, mk);
-    });
-    gLines.setAttribute("mask", "url(#underfade)");
     mapMark = el("circle", {r: 14, fill: "#F2B83A", stroke: "#111", "stroke-width": 4, visibility: "hidden"}, gLabels);
     highlight();
   }
@@ -529,7 +609,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
   }
   function curvedLabel(lab, p, lvl, shown, em, room) {
     var id = "lpath" + labelEls.length;
-    var g = el("g", {style: "cursor:pointer", "data-name": p.name || "", opacity: liveOpacity(p, false)}, gLabels);
+    var g = el("g", {"class": grpClass(p.group), style: "cursor:pointer", "data-name": p.name || "", opacity: liveOpacity(p, false)}, gLabels);
     el("path", {id: id, d: pathD(lab.path), fill: "none", stroke: "none"}, g);
     var a = atLen(lab.path, room / 2);
     logos(el("g", {transform: "translate(" + a[0] + " " + a[1] + ") rotate(" + a[2] + ")"}, g), p, lvl, 0, 0, em * 0.8, room);
@@ -627,7 +707,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
         pt.textContent = o.p.stats ? Math.round(o.p.stats.peak) + "°/" + Math.round(o.p.stats.average) + "°" : ""; b.appendChild(pt);
         var sp = document.createElement("span"); sp.innerHTML = st ? starsHTML(st.n) : '<span class="small">not rated</span>'; b.appendChild(sp);
         b.title = (DUAL ? (resortOf(o.p) != null ? M.dual + ": " + lvlName(resortOf(o.p)) + "; " : "") + "Centre scale: " + lvlName(o.lvl)
-                        : "Centre scale: " + (D.names[String(o.lvl)] || o.lvl)) + (o.p.stats ? ", steepest " + D.peak_m + " m " + Math.round(o.p.stats.peak) + "°, average " + Math.round(o.p.stats.average) + "°" : "");
+                        : "Centre scale: " + (D.names[String(o.lvl)] || o.lvl)) + (o.p.stats ? ", steepest " + winLabel(D.peak_m) + " " + Math.round(o.p.stats.peak) + "°, average " + Math.round(o.p.stats.average) + "°" : "");
         b.addEventListener("click", function () { closeRail(); select(n, true); });
         li.appendChild(b); ol.appendChild(li);
       });
@@ -655,7 +735,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     if (st) { var sh = document.createElement("span"); sh.className = "hstars"; sh.innerHTML = starsHTML(st.n); h.appendChild(sh); }
     var g = state.groomed ? (state.groomed.has(name) ? "groomed today" : "not groomed today") : (r.grooming ? r.grooming.replace("always", "groomed").replace("never", "ungroomed") : (p.osm_grooming || ""));
     var bits = [];       // the level is in the ratings rows above
-    if (p.stats) bits.push('<span class="num">' + p.stats.peak.toFixed(0) + '&deg;/' + p.stats.average.toFixed(0) + '&deg; &middot; ' + Math.round(p.stats.length) + ' m</span>');
+    if (p.stats) bits.push('<span class="num">' + p.stats.peak.toFixed(0) + '&deg;/' + p.stats.average.toFixed(0) + '&deg; &middot; ' + mi(p.stats.length) + '</span>');
     if (r.pod) bits.push(esc(r.pod)); if (g) bits.push(esc(g));
     // Crystal's research says how you get in: hike-to (Southback) or a controlled-access gate (Northway, High Campbell).
     if (D.line_source && /SkiTnB/.test(D.line_source[name] || "")) bits.push('<span class="pill">Line from SkiTnB</span>');
@@ -684,7 +764,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     if (r.guide && r.guide.air) more += '<div><b>Air:</b> ' + esc(r.guide.air) + '</div>';
     if (r.access) more += '<div><b>Access:</b> ' + esc(r.access) + '</div>';
     if (r.cover) more += '<div><b>Needs a deep base</b> (up to +' + +(r.cover * D.cover_max).toFixed(1) + '&deg; with a base under ' + D.cover_base[0] + ' cm): ' + esc(r.cover_why.join(". ")) + '.</div>';
-    if (p.attrs) more += '<div class="num">' + Math.round(p.attrs.top) + ' to ' + Math.round(p.attrs.bottom) + ' m, ' + Math.round(p.attrs.trees * 100) + '% near trees</div>';
+    if (p.attrs) more += '<div class="num">' + ft(p.attrs.top) + ' to ' + ft(p.attrs.bottom) + ', ' + Math.round(p.attrs.trees * 100) + '% near trees</div>' + sunLine(p);
     if (r.flags && r.flags.length) more += '<div>' + r.flags.map(function (f) { return '<span class="pill">' + esc(f) + '</span>'; }).join(" ") + '</div>';
     if (r.notes) D.conditions.forEach(function (c) { if (r.notes[c[0]]) more += '<div><b>' + esc(c[1]) + ':</b> ' + esc(r.notes[c[0]]) + '</div>'; });
     if (r.evidence) more += '<div>' + esc(r.evidence) + '</div>';
@@ -717,7 +797,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       var src = res.from === "zone" ? "zone rating: " + esc(res.as) : res.from === "user" ? "the user's rating, not on " + M.dual + "'s map" :
         (res.source ? esc(res.source) : res.from === "trail map" ? "2026-27 trail map" : "lift and trail report") + (res.as && res.as !== p.name ? ", as " + esc(res.as) : "");
       if (res.report != null) src += "; its lift and trail report says " + esc(lvlName(res.report));
-      row(who, res.level, lvlName(res.level), "(" + src + ")");
+      row(res.who || who, res.level, lvlName(res.level), "(" + src + ")");   // res.who: the What If map's "Your plan rates it"
     } else row(who, null, "not rated", "(not on " + M.dual + "'s trail map or lift and trail report)");   // Crystal only
     if (lvl == null) { row("Centre scale", null, "not measured", "(no elevation profile)"); return; }
     // Steepest pitch, then the score after the markdown and adders, each step shown: "scored 19.7° (-2.0° markdown, +0.2° cover)".
@@ -726,7 +806,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     if (adder(p)) steps.push("+" + adder(p).toFixed(1) + "&deg; grooming");
     if (coverAdd(p)) steps.push("+" + coverAdd(p).toFixed(1) + "&deg; cover");
     // Roads and traverses are measured by their own grade: the steepest 300 m and no flat trim (rating.road_stats).
-    var measured = p.stats ? (p.stats.road ? "a road or traverse, rated by its own grade: steepest " + D.road_m + " m " : "steepest " + D.peak_m + " m ") +
+    var measured = p.stats ? (p.stats.road ? "a road or traverse, rated by its own grade: steepest " + winLabel(D.road_m) + " " : "steepest " + winLabel(D.peak_m) + " ") +
       p.stats.peak.toFixed(1) + "&deg;" + (p.stats.road ? ", " + p.stats.average.toFixed(1) + "&deg; end to end" : "") +
       (steps.length ? "; scored " + (p.score + adder(p) + coverAdd(p)).toFixed(1) + "&deg; (" + steps.join(", ") + ")" : "") : "";
     // An override (the guide's call at Crystal) replaces the measured level; the measurement still shows.
@@ -801,7 +881,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       });
     });
     if (hs.length < 2) return;
-    var W = 320, H = 120, L = 52, R = 8, T = 28, B = 18;   // room for the axis labels and the steepest-150 m note
+    var W = 320, H = 120, L = 66, R = 8, T = 28, B = 18;   // room for the axis labels ("6,234 ft") and the steepest-500 ft note
     var lo = Math.min.apply(0, hs), hi = Math.max.apply(0, hs); if (hi - lo < 20) { hi = lo + 20; }
     var total = xs[xs.length - 1] || 1;
     function X(v) { return L + (v / total) * (W - L - R); }
@@ -810,7 +890,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     s.setAttribute("role", "img"); s.setAttribute("aria-label", "Elevation profile of " + p.name + ", shaded by pitch");
     [lo, (lo + hi) / 2, hi].forEach(function (v) {
       el("line", {x1: L, x2: W - R, y1: Y(v), y2: Y(v), "class": "grid"}, s);
-      var t = el("text", {x: L - 6, y: Y(v), "text-anchor": "end", "dominant-baseline": "central", "class": "axis"}, s); t.textContent = Math.round(v) + " m";
+      var t = el("text", {x: L - 6, y: Y(v), "text-anchor": "end", "dominant-baseline": "central", "class": "axis"}, s); t.textContent = ft(v);
     });
     var slopes = [];
     for (var i = 0; i < hs.length - 1; i++) {
@@ -837,11 +917,11 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     if (best > -Infinity) {
       el("line", {x1: X(xs[bi]), x2: X(xs[bj]), y1: T - 6, y2: T - 6, stroke: "var(--patrol)", "stroke-width": 2}, s);
       var tt = el("text", {x: Math.max(L + 60, Math.min(W - R - 60, (X(xs[bi]) + X(xs[bj])) / 2)), y: T - 11, "text-anchor": "middle", "class": "axis"}, s);
-      tt.textContent = "steepest " + win + " m" + (way ? " on this line" : "") + ": " +
+      tt.textContent = "steepest " + winLabel(win) + (way ? " on this line" : "") + ": " +
         Math.round(way || !p.stats ? Math.atan(best) * 180 / Math.PI : p.stats.peak) + "°";
     }
     var t0 = el("text", {x: L, y: H - 6, "class": "axis"}, s); t0.textContent = "0";
-    var t1 = el("text", {x: W - R, y: H - 6, "text-anchor": "end", "class": "axis"}, s); t1.textContent = (total / 1000).toFixed(2) + " km";
+    var t1 = el("text", {x: W - R, y: H - 6, "text-anchor": "end", "class": "axis"}, s); t1.textContent = mi(total);
     var cursor = el("line", {y1: T, y2: H - B, stroke: "var(--ink)", "stroke-width": 1, "stroke-dasharray": "3 3", visibility: "hidden"}, s);
     var dot = el("circle", {r: 3.5, fill: "var(--panel)", stroke: "var(--ink)", "stroke-width": 1.5, visibility: "hidden"}, s);
     var read = el("text", {y: T + 10, "class": "readout", visibility: "hidden"}, s);
@@ -867,7 +947,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       cursor.setAttribute("x1", X(dd)); cursor.setAttribute("x2", X(dd));
       dot.setAttribute("cx", X(dd)); dot.setAttribute("cy", Y(hh));
       read.setAttribute("x", Math.min(X(dd) + 6, W - 150));
-      read.textContent = Math.round(hh) + " m · " + Math.round(deg) + "° (" + Math.round(Math.tan(deg * Math.PI / 180) * 100) + "%) · " + Math.round(dd) + " m in";
+      read.textContent = ft(hh) + " · " + Math.round(deg) + "° (" + Math.round(Math.tan(deg * Math.PI / 180) * 100) + "%) · " + mi(dd) + " in";
       var at = onMap(dd);
       if (at) { mapMark.setAttribute("cx", at[0]); mapMark.setAttribute("cy", at[1]); mapMark.setAttribute("visibility", "visible"); }
     }
@@ -886,8 +966,8 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     var traverse = /traverse|ridge|cat track|exit|road/i.test(p.name);
     if (rated != null && rated >= 2 && !p.freeride && !traverse && !r.connector && p.stats && p.stats.peak < 18) {
       var warn = document.createElement("div"); warn.className = "small";
-      warn.innerHTML = '<span class="pill">Chart unreliable</span> The mapped line is only ' + Math.round(p.stats.length) +
-        ' m at up to ' + Math.round(p.stats.peak) + '&deg;, which doesn\'t match a run rated ' +
+      warn.innerHTML = '<span class="pill">Chart unreliable</span> The mapped line is only ' + mi(p.stats.length) +
+        ' at up to ' + Math.round(p.stats.peak) + '&deg;, which doesn\'t match a run rated ' +
         esc(D.names[String(rated)] || "black") + '. OpenStreetMap probably has a short or misplaced line here.';
       host.appendChild(warn);
     }
@@ -970,7 +1050,17 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     view.x = mw <= w ? (w - mw) / 2 : Math.min(0, Math.max(w - mw, view.x));
     view.y = mh <= h ? (h - mh) / 2 : Math.min(0, Math.max(h - mh, view.y));
   }
-  function apply() { clampView(); world.setAttribute("transform", "translate(" + view.x + " " + view.y + ") scale(" + view.k + ")"); }
+  // At most one transform per animation frame, however many pointer or wheel events arrive in it.
+  var pending = false;
+  function apply() {
+    clampView();
+    if (pending) return;
+    pending = true;
+    requestAnimationFrame(function () {
+      pending = false;
+      world.setAttribute("transform", "translate(" + view.x + " " + view.y + ") scale(" + view.k + ")");
+    });
+  }
   function fit() { view = {k: fitK(), x: 0, y: 0}; apply(); }
   function zoomAt(f, cx, cy) {
     var k = Math.max(fitK(), Math.min(4, view.k * f)); f = k / view.k;
@@ -1052,20 +1142,23 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       om.appendChild(ul);
     });
   }
-  // A turned map (Crystal is drawn west up, like its own trail map) gets a north arrow under the zoom buttons.
-  if (M.north_deg) {
-    var a = M.north_deg * Math.PI / 180, dx = Math.sin(a), dy = -Math.cos(a), c = 19;
+  // A compass under the zoom buttons on every map (the user, 2026-11-20: "add a compass"): N in red, turned with the
+  // map, so on Crystal (drawn west up, like its own trail map) north points right.
+  (function () {
+    var deg = M.north_deg || 0, c = 20;
     var nb = document.createElement("div"); nb.className = "north"; nb.setAttribute("role", "img");
-    nb.setAttribute("aria-label", "North is " + (M.north_deg === 90 ? "to the right" : M.north_deg + " degrees clockwise from up"));
-    var tip = [c + 1 * dx, c + 1 * dy], tail = [c - 14 * dx, c - 14 * dy], side = [-dy * 5, dx * 5];
-    nb.innerHTML = '<svg viewBox="0 0 38 38" width="38" height="38" aria-hidden="true">' +
-      '<line x1="' + tail[0] + '" y1="' + tail[1] + '" x2="' + tip[0] + '" y2="' + tip[1] + '" stroke="currentColor" stroke-width="2"/>' +
-      '<path d="M' + (tip[0] + 5 * dx) + ' ' + (tip[1] + 5 * dy) + ' L' + (tip[0] + side[0]) + ' ' + (tip[1] + side[1]) +
-      ' L' + (tip[0] - side[0]) + ' ' + (tip[1] - side[1]) + ' Z" fill="currentColor"/>' +
-      '<text x="' + (c + 11 * dx) + '" y="' + (c + 11 * dy) + '" text-anchor="middle" dominant-baseline="central" ' +
-      'font-size="10" font-weight="700" fill="currentColor">N</text></svg>';
+    nb.setAttribute("aria-label", "Compass: north is " + (!deg ? "up" : deg === 90 ? "to the right" : deg + " degrees clockwise from up"));
+    var out = '<svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true">';
+    [["N", 0, "#C62828", 1], ["E", 90, "currentColor", 0.5], ["S", 180, "currentColor", 0.5], ["W", 270, "currentColor", 0.5]].forEach(function (q) {
+      var a = (deg + q[1]) * Math.PI / 180, dx = Math.sin(a), dy = -Math.cos(a);
+      out += '<path d="M' + (c + 11 * dx) + ' ' + (c + 11 * dy) + ' L' + (c - 3 * dy) + ' ' + (c + 3 * dx) + ' L' + (c + 3 * dy) + ' ' + (c - 3 * dx) +
+        ' Z" fill="' + q[2] + '" fill-opacity="' + q[3] + '"/>';
+      out += '<text x="' + (c + 15.5 * dx) + '" y="' + (c + 15.5 * dy) + '" text-anchor="middle" dominant-baseline="central" font-size="7.5" ' +
+        'font-weight="700" fill="' + q[2] + '">' + q[0] + '</text>';
+    });
+    nb.innerHTML = out + '</svg>';
     document.querySelector(".zoom").appendChild(nb);
-  }
+  })();
   // ---------- the family app: the hourly report (data/today.json from skiapp\tracker\collect.py) ----------
   // What's open, groomed and expected, the snow and the base depth. Times are Banff's (UTC-6), shown as written.
   var LIVE = null, STATUS = null, groomNote = null, hookGroomed = false;
@@ -1145,7 +1238,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       " season for the rocks-and-features adder.</div>");
     var tt = ["base", "mid", "top"].filter(function (k) { return t[k] && t[k].temp_c != null; })
       .map(function (k) { return k + " " + Math.round(t[k].temp_c) + "\u00b0C (" + t[k].elev + " m)"; });
-    if (tt.length) rows.push('<div><b>Temperature now:</b> ' + esc(tt.join(", ")) + (T.freezing_m ? "; freezing level " + Math.round(T.freezing_m) + " m" : "") + '</div>');
+    if (tt.length) rows.push('<div><b>Temperature now:</b> ' + esc(tt.join(", ")) + (T.freezing_m ? "; freezing level " + ft(T.freezing_m) : "") + '</div>');
     rows.push('<label class="check"><input type="checkbox" id="livedim"' + (LIVE.dim ? " checked" : "") + '> Fade runs that are closed now</label>');
     box.innerHTML = rows.join("");
     document.getElementById("livedim").addEventListener("change", function (e) { LIVE.dim = e.target.checked; update(); });

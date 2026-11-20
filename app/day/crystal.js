@@ -2,16 +2,16 @@ window.RUNFINDER_DAY = window.RUNFINDER_DAY || {};
 window.RUNFINDER_DAY["crystal"] = {
  "schema": 1,
  "resort": "crystal",
- "date": "2026-11-19",
- "prepared_at": "2026-11-19T17:52:51-08:00",
+ "date": "2026-11-20",
+ "prepared_at": "2026-11-20T14:20:17-08:00",
  "prepared_by": "Claude, morning prep",
  "sample": false,
- "snapshot_at": "2026-11-19T17:52:50-08:00",
+ "snapshot_at": "2026-11-20T14:20:16-08:00",
  "runs": {
   "source": {
    "name": "Crystal mountain report",
    "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report-and-webcams",
-   "as_of": "2026-11-19T17:50:27-08:00"
+   "as_of": "2026-11-20T14:16:30-08:00"
   },
   "open": [],
   "expected": [],
@@ -53,7 +53,6 @@ window.RUNFINDER_DAY["crystal"] = {
    "Kelley's Gap Road",
    "L-Tree Chute",
    "Left Angle",
-   "Left Angle Trees (Lower LA)",
    "Light Brown",
    "Little Magoo",
    "Little Portillo",
@@ -63,8 +62,10 @@ window.RUNFINDER_DAY["crystal"] = {
    "Lower Brand X Cliffs",
    "Lower Ferk's Run",
    "Lower Field",
+   "Lower Left Angle",
    "Lower Magoo",
    "Lower Otto Bahn",
+   "Lower Right Angle",
    "Lucky Shot",
    "Mel's Left",
    "Mel's Right",
@@ -91,7 +92,6 @@ window.RUNFINDER_DAY["crystal"] = {
    "Rabbit Ears",
    "Receiver Chute",
    "Right Angle",
-   "Right Angle Trees (Lower RA)",
    "Rolling Knolls",
    "Sasquatch Chute",
    "Screaming Babies",
@@ -130,8 +130,8 @@ window.RUNFINDER_DAY["crystal"] = {
    "Whit's End",
    "Willie's Run"
   ],
-  "open_yesterday": null,
-  "yesterday_as_of": null,
+  "open_yesterday": [],
+  "yesterday_as_of": "2026-11-19T17:49:05-08:00",
   "first_open": {},
   "unmatched": []
  },
@@ -210,36 +210,36 @@ window.RUNFINDER_DAY["crystal"] = {
   },
   "measured": {
    "source": {
-    "name": "Morse Lake SNOTEL, 1646 m",
+    "name": "Morse Lake SNOTEL, 5,400 ft",
     "url": "https://wcc.sc.egov.usda.gov/nwcc/site?sitenum=642",
-    "as_of": "2026-11-19T17:00:00-08:00"
+    "as_of": "2026-11-20T14:00:00-08:00"
    },
    "new_cm": {
-    "24h": 7.9,
-    "72h": 7.9,
+    "24h": 0.0,
+    "72h": 5.6,
     "7d": null
    },
    "temp_c": {
-    "min": -2.6,
-    "max": -0.2
+    "min": -4.8,
+    "max": -0.1
    },
    "thaw_since_snow": false,
-   "days_since_snow": null,
+   "days_since_snow": 6,
    "how": "snow pillow water gain, at the temperature's snow-to-water ratio",
    "quality": null
   },
-  "verdict": "understated",
+  "verdict": "agrees",
   "verdict_text": null,
   "condition": "bluebird_firm",
-  "condition_why": "No 5 cm day in the last week. Forecast for lift hours: cloudy, gusts to 25 km/h.",
+  "condition_why": "6 days since 5 cm fell. Forecast for lift hours: cloudy, gusts to 27 km/h.",
   "new_snow": false,
   "forecast": {
-   "snow_cm": 1.1,
-   "gust_max": 25.9,
-   "wind_max": 14.8,
-   "cloud_mean": 85.625,
-   "vis_min": 300.0,
-   "temp_max": -1.9
+   "snow_cm": 0.0,
+   "gust_max": 27.4,
+   "wind_max": 15.8,
+   "cloud_mean": 86.625,
+   "vis_min": 900.0,
+   "temp_max": -2.6
   }
  },
  "base": {
@@ -251,7 +251,7 @@ window.RUNFINDER_DAY["crystal"] = {
   "cm": 0,
   "upper_cm": 0,
   "season": "early",
-  "check": "Morse Lake SNOTEL (1646 m) measures 22.9 cm on the ground."
+  "check": "Morse Lake SNOTEL (5,400 ft) measures 22.9 cm on the ground."
  },
  "notes": [
   "Resort status: Closed.",
