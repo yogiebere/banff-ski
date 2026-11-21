@@ -48,6 +48,8 @@ h2 { font: 700 13px var(--display); letter-spacing: .12em; text-transform: upper
 .resort .today { margin-top: 6px; font-size: 13.5px; }
 .resort .today b { font-weight: 600; }
 .resort .stamp { margin-top: 3px; font-size: 12px; color: var(--muted); }
+.resort h3 .tag { vertical-align: 3px; }
+.resort.plan { border-style: dashed; }
 .tag:first-child { margin-left: 0; }
 .take { margin-top: 5px; padding-left: 8px; border-left: 3px solid var(--gold); font-size: 13.5px; }
 .tag { display: inline-block; font: 600 11px var(--body); letter-spacing: .06em; text-transform: uppercase; padding: 2px 7px; border-radius: 99px;
@@ -83,7 +85,8 @@ footer a, .panel a { color: inherit; }
     <div class="fresh" id="fresh"></div>
     <div class="resorts" id="resorts"><a class="resort" href="sunshine.html" data-resort="sunshine"><div class="top"><h3>Sunshine Village</h3><span class="where">Banff, Alberta</span></div><div class="today">Loading the morning report&hellip;</div><div class="stamp"></div></a>
       <a class="resort" href="louise.html" data-resort="louise"><div class="top"><h3>Lake Louise</h3><span class="where">Banff National Park, Alberta</span></div><div class="today">Loading the morning report&hellip;</div><div class="stamp"></div></a>
-      <a class="resort" href="crystal.html" data-resort="crystal"><div class="top"><h3>Crystal Mountain</h3><span class="where">Washington</span></div><div class="today">Loading the morning report&hellip;</div><div class="stamp"></div></a></div>
+      <a class="resort" href="crystal.html" data-resort="crystal"><div class="top"><h3>Crystal Mountain</h3><span class="where">Washington</span></div><div class="today">Loading the morning report&hellip;</div><div class="stamp"></div></a>
+      <a class="resort plan" href="whatif.html"><div class="top"><h3>Crystal What If <span class="tag">What if</span></h3><span class="where">A plan, not the real resort</span></div><div class="today">Crystal Mountain as it is, plus planned lifts and runs, with a switch for each expansion. Today's Crystal conditions show on the runs that exist; planned ones have no status.</div></a></div>
   </section>
 
   <section>
@@ -109,13 +112,13 @@ footer a, .panel a { color: inherit; }
   <section>
     <h2>Files</h2>
     <div class="panel">
-      <p>Everything here is a plain static website: the three maps, their terrain images and the conditions files. Nothing is sent back from your phone.
+      <p>Everything here is a plain static website: the maps, their terrain images and the conditions files. Nothing is sent back from your phone.
         <a href="https://github.com/yogiebere/banff-ski">Get all the files on GitHub</a> (Code, then Download ZIP) to keep a copy or host it anywhere.</p>
     </div>
   </section>
 
   <footer>
-    Version 6c0f57cd77. Map data &copy; OpenStreetMap contributors via OpenSkiMap; terrain from Copernicus GLO-30.
+    Version b38cbf08cc. Map data &copy; OpenStreetMap contributors via OpenSkiMap; terrain from Copernicus GLO-30.
     Ratings are a guide, not a promise: check the resort's signs and patrol.
   </footer>
 </main>
@@ -127,7 +130,7 @@ footer a, .panel a { color: inherit; }
 
   // Each mountain's card shows its latest conditions. They refresh when the app opens, comes back to the front,
   // hourly while open, and from Update now (app.js). Counts here use the resort's own run list.
-  var cards = Array.prototype.slice.call(document.querySelectorAll(".resort")), freshBox = document.getElementById("fresh");
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".resort[data-resort]")), freshBox = document.getElementById("fresh");
   function show(card, res) {
     var out = card.querySelector(".today"), stamp = card.querySelector(".stamp"), d = res && res.day;
     if (!d) { out.textContent = "No conditions saved yet."; stamp.textContent = ""; return; }
@@ -181,7 +184,7 @@ footer a, .panel a { color: inherit; }
       var ch = new MessageChannel();
       ch.port1.onmessage = function (e) {
         var s = e.data;
-        if (s.saved >= s.total) off.innerHTML = '<span class="ok">Ready offline.</span> All three maps are saved on this device.';
+        if (s.saved >= s.total) off.innerHTML = '<span class="ok">Ready offline.</span> All the maps are saved on this device.';
         else { off.textContent = "Saving the maps for offline use: " + s.saved + " of " + s.total + " files. Keep this open on Wi-Fi."; setTimeout(check, 1500); }
       };
       (reg.active || navigator.serviceWorker.controller).postMessage({type: "status"}, [ch.port2]);

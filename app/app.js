@@ -14,6 +14,8 @@
   "use strict";
   function meta(name) { var m = document.querySelector('meta[name="' + name + '"]'); return m ? m.content : null; }
   var RESORT = meta("runfinder:resort");
+  // Whose conditions the page shows: its own, or for a plan map (the What If) the real resort's (build_app.PLANS).
+  var COND = meta("runfinder:conditions") || RESORT;
   var DATA = meta("runfinder:data") || "";            // where the tracker's files are, e.g. "../out/"; empty for none
   var LIVE = ["sunshine", "louise"];                  // resorts the tracker covers
   var CONDS = {wind_lowvis: "Wind or low vis", bluebird_powder: "Bluebird powder", packed_powder: "Bluebird, packed powder",
@@ -366,23 +368,40 @@
   // The alias list as published (aliases/<resort>.json), so a fix from the morning check reaches phones without
   // rebuilding the pages; the copy built into the page if it can't be fetched.
   var MAP_LIFTS = D ? (D.map.lifts || []).map(function (l) { return l.name; }) : [];
+  // A plan map's runs and lifts that don't exist yet (build_app.plan_of): no open, closed or "no report" for them.
+  var PLAN = null;
+  try { PLAN = JSON.parse((document.getElementById("rf-plan") || {}).textContent || "null"); } catch (e) {}
+  var PLANNED = {}, PLANNED_LIFT = {};
+  if (PLAN) { (PLAN.runs || []).forEach(function (n) { PLANNED[n] = 1; }); (PLAN.lifts || []).forEach(function (n) { PLANNED_LIFT[n] = 1; }); }
+  // The page fades a lift missing from `lifts`, and draws only "open" at full strength, so planned lifts go as "open"
+  // until the page draws "planned" as it is (asked of the map session, 2026-11-20).
+  var PLANNED_LIFT_STATUS = "open";
   var liftMatch = liftMatcher(MAP_LIFTS, builtIn);
   function loadMatcher() {
     if (!MAP_NAMES) return Promise.resolve(null);
-    return fetchJSON("aliases/" + RESORT + ".json").then(function (a) { return a.json; }, function () { return builtIn; })
+    return fetchJSON("aliases/" + COND + ".json").then(function (a) { return a.json; }, function () { return builtIn; })
       .then(function (al) { liftMatch = liftMatcher(MAP_LIFTS, al || builtIn); return matcher(MAP_NAMES, al || builtIn); });
   }
   // What the page draws for today: the runs object, plus the map's runs the report doesn't mention ("no report",
-  // never drawn as open: the user saw Paris drawn open while closed), and the lifts by map name.
+  // never drawn as open: the user saw Paris drawn open while closed), and the lifts by map name. On a plan map the
+  // planned runs are in none of these, so they're drawn as they are, and planned lifts likewise.
   function statusFor(day) {
     var r = day.runs, seen = {}, lifts = {}, rank = {open: 3, expected: 2, closed: 1};
     (r.open || []).concat(r.closed || [], (r.expected || []).map(function (e) { return e.name; })).forEach(function (n) { seen[n] = 1; });
-    var unknown = (MAP_NAMES || []).filter(function (n, i, a) { return !seen[n] && a.indexOf(n) === i; }).sort();
+    var unknown = (MAP_NAMES || []).filter(function (n, i, a) { return !seen[n] && !PLANNED[n] && a.indexOf(n) === i; }).sort();
     (day.lifts || []).forEach(function (l) {
       var st = l.status === "hold" || l.status === "scheduled" ? "closed" : l.status;
-      (liftMatch(l.name) || []).forEach(function (n) { if (!lifts[n] || (rank[st] || 0) > (rank[lifts[n]] || 0)) lifts[n] = st; });
+      (liftMatch(l.name) || []).forEach(function (n) { if (!PLANNED_LIFT[n] && (!lifts[n] || (rank[st] || 0) > (rank[lifts[n]] || 0))) lifts[n] = st; });
     });
-    return Object.assign({}, r, {unknown: unknown, lifts: lifts});
+    var out = Object.assign({}, r, {unknown: unknown, lifts: lifts});
+    if (PLAN) {
+      out.open = (r.open || []).filter(function (n) { return !PLANNED[n]; });
+      out.closed = (r.closed || []).filter(function (n) { return !PLANNED[n]; });
+      out.expected = (r.expected || []).filter(function (e) { return !PLANNED[e.name]; });
+      Object.keys(PLANNED_LIFT).forEach(function (n) { lifts[n] = PLANNED_LIFT_STATUS; });
+      out.planned = PLAN.runs || [];
+    }
+    return out;
   }
   var RF = window.RunFinder || null;      // the page hook, once build_page.py has it
   var APPLIED = "runfinder-applied-" + RESORT;
@@ -501,6 +520,8 @@
       if (noReport) txt += " " + plural(noReport, "run") + " on this map " + (noReport === 1 ? "isn't" : "aren't") +
         " in the resort's report (freeride zones, unlisted parks, connectors): no report, so not shown as open.";
       if (RF && RF.setStatus && isToday) txt += " Closed runs are faded on the map; “Open today” by the level chips hides them.";
+      if (PLAN) txt += " This is a what-if map: its " + plural((PLAN.runs || []).length, "planned run") + " and " + plural((PLAN.lifts || []).length, "planned lift") +
+        " don't exist yet, so they have no status and aren't faded.";
       rows.push(["Runs", txt + '<span class="src">' + srcLine(r.source) + (r.yesterday_as_of ? " · yesterday as of " + dayName(r.yesterday_as_of.slice(0, 10)) + " " + clock(r.yesterday_as_of) : "") + "</span>"]);
     }
     // Lifts: which are turning, from the same report.
@@ -508,7 +529,7 @@
       var lo = day.lifts.filter(function (l) { return l.status === "open"; }), le = day.lifts.filter(function (l) { return l.status === "expected"; });
       rows.push(["Lifts", plural(lo.length, "lift") + " of " + day.lifts.length + " open" + (lo.length ? ": " + lo.map(function (l) { return esc(l.name); }).join(", ") : "") + "." +
         (le.length ? " Expected: " + le.map(function (l) { return esc(l.name) + (l.time ? " " + hhmm(l.time) : ""); }).join(", ") + "." : "") +
-        (RF && RF.setStatus && isToday ? " Lifts that aren't open are faded on the map." : "") + '<span class="src">' + srcLine(r && r.source) + "</span>"]);
+        (RF && RF.setStatus && isToday ? " Lifts that aren't open are faded on the map" + (PLAN ? " (planned lifts aren't)." : ".") : "") + '<span class="src">' + srcLine(r && r.source) + "</span>"]);
     }
     var g = day.groomed;
     if (g && g.names) {
@@ -539,10 +560,10 @@
   var current = null;
   var refreshNow = autoRefresh(function () {
     render(current, true);
-    return loadMatcher().then(function (match) { return getDay(RESORT, match); }).then(function (res) {
+    return loadMatcher().then(function (match) { return getDay(COND, match); }).then(function (res) {
       current = res;
       var day = res.day;
-      if (day && day.resort !== RESORT) day = res.day = null;
+      if (day && day.resort !== COND) day = res.day = null;
       // Only today's open and closed runs go on the map; yesterday's 4 PM closures would grey it out at 5:45 AM.
       var st = day && day.runs && day.date === localToday() ? statusFor(day) : null;
       window.RunFinderApp.status = st;                   // what the map was given, for checking
