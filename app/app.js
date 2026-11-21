@@ -373,9 +373,9 @@
   try { PLAN = JSON.parse((document.getElementById("rf-plan") || {}).textContent || "null"); } catch (e) {}
   var PLANNED = {}, PLANNED_LIFT = {};
   if (PLAN) { (PLAN.runs || []).forEach(function (n) { PLANNED[n] = 1; }); (PLAN.lifts || []).forEach(function (n) { PLANNED_LIFT[n] = 1; }); }
-  // The page fades a lift missing from `lifts`, and draws only "open" at full strength, so planned lifts go as "open"
-  // until the page draws "planned" as it is (asked of the map session, 2026-11-20).
-  var PLANNED_LIFT_STATUS = "open";
+  // The page fades a lift missing from `lifts`; "planned" draws it as it is, not bolded like an open one (the map
+  // session's pages since its 2026-11-20 pan/zoom rollout: Crystal v22, Sunshine v36, Louise v28, What If v5).
+  var PLANNED_LIFT_STATUS = "planned";
   var liftMatch = liftMatcher(MAP_LIFTS, builtIn);
   function loadMatcher() {
     if (!MAP_NAMES) return Promise.resolve(null);

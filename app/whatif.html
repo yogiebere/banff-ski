@@ -570,7 +570,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       lineEls.push({g: g, p: p});
     });
     M.lifts.forEach(function (l) {
-      var d = pathD(l.px), lg = el("g", {opacity: liftOpacity(l.name), "class": grpClass(l.group)}, gLifts), lb = liftOpacity(l.name) === 1 && STATUS && STATUS.lifts;
+      var d = pathD(l.px), lg = el("g", {opacity: liftOpacity(l.name), "class": grpClass(l.group)}, gLifts), lb = !!(STATUS && STATUS.lifts && STATUS.lifts[l.name] === "open");
       el("path", {d: d, fill: "none", stroke: "#fff", "stroke-width": lb ? 8 : 7}, lg);
       el("path", {d: d, fill: "none", stroke: l.type === "magic_carpet" ? "#555" : "#8B1A1A", "stroke-width": lb ? 3.6 : 3}, lg);
       [l.px[0], l.px[l.px.length - 1]].forEach(function (e) { el("rect", {x: e[0] - 4.5, y: e[1] - 4.5, width: 9, height: 9, fill: "#8B1A1A", stroke: "#fff", "stroke-width": 1.5}, lg); });
@@ -705,7 +705,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       if (!p.name || seen[p.name] || !R[p.name]) return; seen[p.name] = 1;
       var lvl = levelOf(p), shown = shownOf(p); if (shown == null || lvl === "freeride") return;   // freeride stays on the map, not the list
       if (state.fam !== "all" && FAMILY[shown] !== state.fam) return;
-      if (state.openOnly && (statusOf(p.name) === "closed" || statusOf(p.name) === "unknown")) return;
+      if (state.openOnly && ["closed", "unknown", "planned"].indexOf(statusOf(p.name)) >= 0) return;
       var pod = R[p.name].pod || "Other"; (byPod[pod] = byPod[pod] || []).push({p: p, lvl: lvl, shown: shown});
     });
     POD_ORDER.concat(Object.keys(byPod).filter(function (k) { return POD_ORDER.indexOf(k) < 0; })).forEach(function (pod) {
@@ -1212,21 +1212,23 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
   function statusOf(name) {
     if (!name) return null;
     if (STATUS) return STATUS.open.has(name) ? "open" : STATUS.expected[name] ? "expected" : STATUS.closed.has(name) ? "closed" :
-      STATUS.unknown.has(name) ? "unknown" : null;
+      STATUS.unknown.has(name) ? "unknown" : STATUS.planned.has(name) ? "planned" : null;
     if (!LIVE || !LIVE.current || !LIVE.known.has(name)) return null;
     return LIVE.open.has(name) ? "open" : LIVE.standby.has(name) ? "expected" : "closed";
   }
   // Lifts: with a `lifts` status, open lifts as drawn (a little bolder), expected 0.6, closed or not reported FADED.
+  // "planned" (a What If lift that isn't built, from the family app, 2026-11-20) is drawn as with no status: not faded,
+  // not bold.
   function liftOpacity(name) {
     if (!STATUS || !STATUS.lifts) return 1;
     var s = STATUS.lifts[name];
-    return s === "open" ? 1 : s === "expected" ? 0.6 : FADED;
+    return s === "open" || s === "planned" ? 1 : s === "expected" ? 0.6 : FADED;
   }
   function liveOpacity(p, dim) {
     if (!p.name && p.joins && p.joins.length)
       return Math.max.apply(null, p.joins.map(function (n) { return liveOpacity({name: n}, dim); }));
     var base = dim ? 0.45 : 1, s = statusOf(p.name);
-    if (!s || s === "open" || (LIVE && !STATUS && !LIVE.dim)) return base;
+    if (!s || s === "open" || s === "planned" || (LIVE && !STATUS && !LIVE.dim)) return base;
     return s === "expected" ? Math.min(base, 0.6) : FADED;
   }
   function clock(iso) {
@@ -1238,6 +1240,9 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
   function todayLine(name) {
     if (STATUS) {
       var s = statusOf(name); if (!s) return "";
+      if (s === "planned")   // a What If run: today's report doesn't apply to it
+        return '<div class="live-line"><span class="dot" style="background:none; border:1.5px dashed #9AA5B1; box-sizing:border-box"></span>' +
+          'Planned (What If): not built</div>';
       var ex = STATUS.expected[name] || {}, bits = [];
       bits.push(s === "open" ? "Open" : s === "expected" ? "Opens " + (ex.time ? "about " + ex.time : "later") + (ex.note ? " (" + ex.note + ")" : "")
                 : s === "unknown" ? "No report from the resort today" : "Closed" + (STATUS.yesterday.has(name) ? " (open yesterday)" : ""));
@@ -1350,7 +1355,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       var ex = {};
       (s.expected || []).forEach(function (e) { if (e && e.name) ex[e.name] = {time: e.time || "", note: e.note || ""}; });
       STATUS = {open: new Set(s.open || []), expected: ex, closed: new Set(s.closed || []), yesterday: new Set(s.open_yesterday || []),
-                first: s.first_open || {}, source: s.source || null, unknown: new Set(s.unknown || []),
+                first: s.first_open || {}, source: s.source || null, unknown: new Set(s.unknown || []), planned: new Set(s.planned || []),
                 lifts: s.lifts && typeof s.lifts === "object" ? s.lifts : null};
       update();
     }

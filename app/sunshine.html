@@ -42,7 +42,11 @@ body { background: var(--snow); color: var(--ink); font-family: var(--body); fon
 .menubtn:focus-visible, .railclose:focus-visible { outline: 2px solid var(--patrol); outline-offset: 2px; }
 .railclose { position: absolute; top: 14px; right: max(14px, env(safe-area-inset-right, 0px)); width: 36px; height: 36px; border-radius: 50%;
   border: 1px solid var(--line); background: var(--panel); color: var(--ink); font: 600 22px/1 var(--body); cursor: pointer; }
-#map { width: 100%; height: 100%; display: block; cursor: grab; user-select: none; -webkit-user-select: none; }
+/* The map is one GPU layer at its full size, moved and scaled with a CSS transform: panning and zooming only move
+   that layer, so nothing is repainted (the user, 2026-11-20: "still very laggy"). */
+#map { position: absolute; left: 0; top: 0; display: block; transform-origin: 0 0; will-change: transform; cursor: grab;
+  user-select: none; -webkit-user-select: none; }
+#map.settle { will-change: auto; }
 #map.dragging { cursor: grabbing; }
 html, body { overscroll-behavior: none; overflow: hidden; }   /* the page itself never scrolls or bounces */
 .zoom { position: absolute; left: max(12px, env(safe-area-inset-left, 0px)); top: 12px; display: flex; flex-direction: column; gap: 6px; }
@@ -316,6 +320,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
   var world = document.getElementById("world");
   var terrain = document.getElementById("terrain");
   terrain.setAttribute("width", M.width); terrain.setAttribute("height", M.height);
+  document.getElementById("map").setAttribute("width", M.width); document.getElementById("map").setAttribute("height", M.height);
   var gLines = document.getElementById("lines"), gLifts = document.getElementById("lifts"), gLabels = document.getElementById("labels");
   function pathD(pts) { return "M" + pts.map(function (q) { return q[0] + " " + q[1]; }).join("L"); }
   // A What If group's class (build_page.group_class): its lifts, runs and names hide together.
@@ -544,7 +549,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       lineEls.push({g: g, p: p});
     });
     M.lifts.forEach(function (l) {
-      var d = pathD(l.px), lg = el("g", {opacity: liftOpacity(l.name), "class": grpClass(l.group)}, gLifts), lb = liftOpacity(l.name) === 1 && STATUS && STATUS.lifts;
+      var d = pathD(l.px), lg = el("g", {opacity: liftOpacity(l.name), "class": grpClass(l.group)}, gLifts), lb = !!(STATUS && STATUS.lifts && STATUS.lifts[l.name] === "open");
       el("path", {d: d, fill: "none", stroke: "#fff", "stroke-width": lb ? 8 : 7}, lg);
       el("path", {d: d, fill: "none", stroke: l.type === "magic_carpet" ? "#555" : "#8B1A1A", "stroke-width": lb ? 3.6 : 3}, lg);
       [l.px[0], l.px[l.px.length - 1]].forEach(function (e) { el("rect", {x: e[0] - 4.5, y: e[1] - 4.5, width: 9, height: 9, fill: "#8B1A1A", stroke: "#fff", "stroke-width": 1.5}, lg); });
@@ -679,7 +684,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       if (!p.name || seen[p.name] || !R[p.name]) return; seen[p.name] = 1;
       var lvl = levelOf(p), shown = shownOf(p); if (shown == null || lvl === "freeride") return;   // freeride stays on the map, not the list
       if (state.fam !== "all" && FAMILY[shown] !== state.fam) return;
-      if (state.openOnly && (statusOf(p.name) === "closed" || statusOf(p.name) === "unknown")) return;
+      if (state.openOnly && ["closed", "unknown", "planned"].indexOf(statusOf(p.name)) >= 0) return;
       var pod = R[p.name].pod || "Other"; (byPod[pod] = byPod[pod] || []).push({p: p, lvl: lvl, shown: shown});
     });
     POD_ORDER.concat(Object.keys(byPod).filter(function (k) { return POD_ORDER.indexOf(k) < 0; })).forEach(function (pod) {
@@ -1051,16 +1056,29 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     view.x = mw <= w ? (w - mw) / 2 : Math.min(0, Math.max(w - mw, view.x));
     view.y = mh <= h ? (h - mh) / 2 : Math.min(0, Math.max(h - mh, view.y));
   }
-  // At most one transform per animation frame, however many pointer or wheel events arrive in it.
-  var pending = false;
+  // At most one transform per animation frame, however many pointer or wheel events arrive in it. The map is one GPU
+  // layer, so moving or scaling it repaints nothing; but a scaled-up layer is a stretched picture, so 400 ms after a
+  // zoom in of 15% or more stops, will-change comes off for a moment and the layer is redrawn sharp at the new scale.
+  // Zooming out needs no redraw (the sharper picture just shrinks, and it stays sharp when you zoom back in), which
+  // matters because the redraw is the costly part: the names' halos, up to 1.6 s of raster with the whole mountain in
+  // view, 0.07 s zoomed in. The 3D translate keeps it a layer meanwhile (a plain 2D one would drop it and repaint the
+  // whole map twice).
+  var pending = false, sharpK = null, settle = null;
   function apply() {
     clampView();
     if (pending) return;
     pending = true;
     requestAnimationFrame(function () {
       pending = false;
-      world.setAttribute("transform", "translate(" + view.x + " " + view.y + ") scale(" + view.k + ")");
+      svg.style.transform = "translate3d(" + view.x + "px, " + view.y + "px, 0) scale(" + view.k + ")";
+      if (sharpK === null) sharpK = view.k;
+      clearTimeout(settle);
+      if (view.k / sharpK >= 1.15) settle = setTimeout(sharpen, 400);
     });
+  }
+  function sharpen() {
+    sharpK = view.k; svg.classList.add("settle");
+    setTimeout(function () { svg.classList.remove("settle"); }, 120);
   }
   function fit() { view = {k: fitK(), x: 0, y: 0}; apply(); }
   function zoomAt(f, cx, cy) {
@@ -1084,12 +1102,15 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     document.getElementById("detailcard").hidden = true; state.selected = null; highlight();
     if (mapMark) mapMark.setAttribute("visibility", "hidden");
   });
-  svg.addEventListener("wheel", function (e) { e.preventDefault(); var r = svg.getBoundingClientRect(); zoomAt(Math.exp(-e.deltaY * 0.0015), e.clientX - r.left, e.clientY - r.top); }, {passive: false});
+  // Gestures start on the map or the grey margin beside it, never on the card, buttons or menu over it.
+  function onMap(e) { return e.target === wrap || svg.contains(e.target); }
+  wrap.addEventListener("wheel", function (e) { if (!onMap(e)) return; e.preventDefault(); var r = wrap.getBoundingClientRect(); zoomAt(Math.exp(-e.deltaY * 0.0015), e.clientX - r.left, e.clientY - r.top); }, {passive: false});
   var pointers = new Map(), last = null, moved = 0;
-  svg.addEventListener("pointerdown", function (e) {
+  wrap.addEventListener("pointerdown", function (e) {
+    if (!onMap(e)) return;
     pointers.set(e.pointerId, [e.clientX, e.clientY]); moved = 0; svg.classList.add("dragging");
   });
-  svg.addEventListener("pointermove", function (e) {
+  wrap.addEventListener("pointermove", function (e) {
     if (!pointers.has(e.pointerId)) return;
     var prev = pointers.get(e.pointerId); pointers.set(e.pointerId, [e.clientX, e.clientY]);
     if (pointers.size === 1) {
@@ -1098,17 +1119,17 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       moved += Math.abs(e.clientX - prev[0]) + Math.abs(e.clientY - prev[1]);
       // Capture only once it's a drag. Captured at pointerdown, the click went to the map, not the run, so clicking
       // a run or label never opened its card (2026-11-15: Edge and Chrome send a captured click to the capturing element).
-      if (moved > 6 && !svg.hasPointerCapture(e.pointerId)) { try { svg.setPointerCapture(e.pointerId); } catch (err) {} }
+      if (moved > 6 && !wrap.hasPointerCapture(e.pointerId)) { try { wrap.setPointerCapture(e.pointerId); } catch (err) {} }
     }
     else if (pointers.size === 2) {
       var ps = Array.from(pointers.values()); var d = Math.hypot(ps[0][0] - ps[1][0], ps[0][1] - ps[1][1]);
-      var r = svg.getBoundingClientRect();
+      var r = wrap.getBoundingClientRect();
       if (last) zoomAt(d / last, (ps[0][0] + ps[1][0]) / 2 - r.left, (ps[0][1] + ps[1][1]) / 2 - r.top);
       last = d; moved += 10;
     }
   });
   function up(e) { pointers.delete(e.pointerId); if (pointers.size < 2) last = null; if (!pointers.size) svg.classList.remove("dragging"); }
-  svg.addEventListener("pointerup", up); svg.addEventListener("pointercancel", up);
+  wrap.addEventListener("pointerup", up); wrap.addEventListener("pointercancel", up);
   svg.addEventListener("click", function (e) { if (moved > 6) e.stopPropagation(); }, true);
   document.getElementById("zin").addEventListener("click", function () { zoomAt(1.4, wrap.clientWidth / 2, wrap.clientHeight / 2); });
   document.getElementById("zout").addEventListener("click", function () { zoomAt(1 / 1.4, wrap.clientWidth / 2, wrap.clientHeight / 2); });
@@ -1170,21 +1191,23 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
   function statusOf(name) {
     if (!name) return null;
     if (STATUS) return STATUS.open.has(name) ? "open" : STATUS.expected[name] ? "expected" : STATUS.closed.has(name) ? "closed" :
-      STATUS.unknown.has(name) ? "unknown" : null;
+      STATUS.unknown.has(name) ? "unknown" : STATUS.planned.has(name) ? "planned" : null;
     if (!LIVE || !LIVE.current || !LIVE.known.has(name)) return null;
     return LIVE.open.has(name) ? "open" : LIVE.standby.has(name) ? "expected" : "closed";
   }
   // Lifts: with a `lifts` status, open lifts as drawn (a little bolder), expected 0.6, closed or not reported FADED.
+  // "planned" (a What If lift that isn't built, from the family app, 2026-11-20) is drawn as with no status: not faded,
+  // not bold.
   function liftOpacity(name) {
     if (!STATUS || !STATUS.lifts) return 1;
     var s = STATUS.lifts[name];
-    return s === "open" ? 1 : s === "expected" ? 0.6 : FADED;
+    return s === "open" || s === "planned" ? 1 : s === "expected" ? 0.6 : FADED;
   }
   function liveOpacity(p, dim) {
     if (!p.name && p.joins && p.joins.length)
       return Math.max.apply(null, p.joins.map(function (n) { return liveOpacity({name: n}, dim); }));
     var base = dim ? 0.45 : 1, s = statusOf(p.name);
-    if (!s || s === "open" || (LIVE && !STATUS && !LIVE.dim)) return base;
+    if (!s || s === "open" || s === "planned" || (LIVE && !STATUS && !LIVE.dim)) return base;
     return s === "expected" ? Math.min(base, 0.6) : FADED;
   }
   function clock(iso) {
@@ -1196,6 +1219,9 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
   function todayLine(name) {
     if (STATUS) {
       var s = statusOf(name); if (!s) return "";
+      if (s === "planned")   // a What If run: today's report doesn't apply to it
+        return '<div class="live-line"><span class="dot" style="background:none; border:1.5px dashed #9AA5B1; box-sizing:border-box"></span>' +
+          'Planned (What If): not built</div>';
       var ex = STATUS.expected[name] || {}, bits = [];
       bits.push(s === "open" ? "Open" : s === "expected" ? "Opens " + (ex.time ? "about " + ex.time : "later") + (ex.note ? " (" + ex.note + ")" : "")
                 : s === "unknown" ? "No report from the resort today" : "Closed" + (STATUS.yesterday.has(name) ? " (open yesterday)" : ""));
@@ -1308,7 +1334,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
       var ex = {};
       (s.expected || []).forEach(function (e) { if (e && e.name) ex[e.name] = {time: e.time || "", note: e.note || ""}; });
       STATUS = {open: new Set(s.open || []), expected: ex, closed: new Set(s.closed || []), yesterday: new Set(s.open_yesterday || []),
-                first: s.first_open || {}, source: s.source || null, unknown: new Set(s.unknown || []),
+                first: s.first_open || {}, source: s.source || null, unknown: new Set(s.unknown || []), planned: new Set(s.planned || []),
                 lifts: s.lifts && typeof s.lifts === "object" ? s.lifts : null};
       update();
     }
