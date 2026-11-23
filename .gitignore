@@ -4,3 +4,4 @@ data/banfftrack.db
 # local only: personal notes and the on-PC fallback schedule
 PRIVATE.md
 schedule_this_pc.ps1
+schedule_grooming_copy.ps1
