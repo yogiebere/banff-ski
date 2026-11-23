@@ -1,0 +1,23 @@
+{
+  "_notes": [
+    "kind picks the reader in grooming.py. tz: winter UTC offset, and whether the resort follows US daylight time (Alberta stays on UTC-6).",
+    "page: the map page in app/ whose run names, guessed grooming and pods the log matches against (app/aliases/<page>.json for spellings).",
+    "model: the mid-mountain point Open-Meteo is sampled at. snotel: the nearest NRCS station (the same ones as snowtrack).",
+    "Checks run three times a day from the workflow (14:30, 17:30 and 20:30 UTC), after the morning reports post, with a re-check later."
+  ],
+  "resorts": [
+    {"id": "sunshine", "name": "Banff Sunshine Village", "kind": "sunshine", "page": "sunshine",
+     "tz": {"offset": -6, "dst": false},
+     "urls": {"lifts": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+              "conditions": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions"},
+     "model": {"lat": 51.0786, "lon": -115.7820, "elev_m": 2160}},
+    {"id": "louise", "name": "Lake Louise", "kind": "louise", "page": "louise",
+     "tz": {"offset": -6, "dst": false},
+     "urls": {"feed": "https://ski-louise-status-page.vercel.app/api/ski-data",
+              "grooming_pdf": "https://lamp10.skilouise.com/conditions/grooming_report.pdf"},
+     "model": {"lat": 51.4530, "lon": -116.1490, "elev_m": 2042}},
+    {"id": "crystal", "name": "Crystal Mountain", "kind": "mtnpowder", "mtnfeed": "crystal-mountain", "page": "crystal",
+     "tz": {"offset": -8, "dst": true}, "snotel": "642:WA:SNTL",
+     "model": {"lat": 46.9353, "lon": -121.4746, "elev_m": 1676}}
+  ]
+}

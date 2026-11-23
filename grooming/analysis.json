@@ -1,0 +1,14 @@
+{
+  "_notes": [
+    "Thresholds for analyze.py. Change them here and rerun; nothing else needs editing.",
+    "categories: a run's groomed share of its open days, highest cut first. A run needs min_open_days open days before its measured category counts.",
+    "snow_bins_in: edges for the day's new snow (24 h to the morning report): 0, under 2, 2 to 6, 6 and up.",
+    "big_snow_in: the snowfall that resets 'days since snow'. base_stage_in: early under 39 in (100 cm), mid to 59 in (150 cm), late above, as the maps' season box."
+  ],
+  "categories": [["always", 0.85], ["often", 0.55], ["rotational", 0.25], ["rarely", 0.05], ["never", 0.0]],
+  "min_open_days": 10,
+  "big_snow_in": 2,
+  "snow_bins_in": [2, 6],
+  "base_stage_in": [39, 59],
+  "weekend": ["Sat", "Sun"]
+}

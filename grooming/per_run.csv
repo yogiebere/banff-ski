@@ -1,0 +1,397 @@
+resort,run,map_names,pod,difficulty,open_days,groomed_days,share,measured,guessed,verdict,first,last
+sunshine,Afterburner,Afterburner,Goat's Eye,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Angel Flight,Angel Flight,Angel,black,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Angel Gully,Angel Gully,Great Divide,green,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Assiniboine Trail,Assiniboine Trail,Angel,green,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,B-Line,(no line on the map),,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Banff Ave,Banff Avenue,Wolverine,green,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Barners,Barners,Gondola to base,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Big Angel,Big Angel,Angel,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Big Bunkers,Big Bunkers,Standish,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Birdcage,Birdcage,Wawa,black,0,0,,,rotational,never open,2026-11-15,2026-11-15
+sunshine,Bluebell,Bluebell,Wolverine,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Borderline,Borderline,Standish,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Boundary Bowl,Boundry Bowl,Angel,black,0,0,,,rarely,never open,2026-11-15,2026-11-15
+sunshine,Boutry's Bowl,Bounty's Bowl,Strawberry,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Bronze Ecstasy,Ecstasy,Teepee Town,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+sunshine,Bunkers,Bunkers,Standish,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Bushwackers,Bushwackers,Teepee Town,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Bye Bye Bowl,Bye Bye Bowl,Great Divide,black,0,0,,,rarely,never open,2026-11-15,2026-11-15
+sunshine,Cayuse Creek,Cayuse Creek,Gondola to base,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Cherub,Cherub,Angel,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+sunshine,Chicken,Chicken,Goat's Eye,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Christmas Tree,Christmas Trees,Wolverine,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Cleavage,Cleavage,Goat's Eye,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Corral Cut-off,Corral Cut-off,Wawa,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Cottontail,Cottontail,Jackrabbit,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Creek Run,Creek Run,Standish,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Delirium Dive,Delirium,Freeride zones,double,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Dirty Little Corner,Dirty Little Corner,Standish,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Divide Terrain Park,Rockstar Terrain Park,Terrain parks,black,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Donkey's Tail,Donkey's Tail,Standish,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Eagle,Eagle,Goat's Eye,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Eagle Creek,Eagle Creek,Goat's Eye,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Eagle Glades,Eagle Glades,Goat's Eye,double,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Ewe First,Ewe First,Goat's Eye,black,0,0,,,rarely,never open,2026-11-15,2026-11-15
+sunshine,Fall Line,Fall Line,Goat's Eye,black,0,0,,,rotational,never open,2026-11-15,2026-11-15
+sunshine,Farside,Farside,Goat's Eye,double,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Fire Weed,Fireweed,Jackrabbit,black,0,0,,,rotational,never open,2026-11-15,2026-11-15
+sunshine,Forget Me Not,Forget-Me-Not,Wolverine,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Freefall,Freefall,Goat's Eye,double,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Garbage Chutes,Garbage Chutes,Standish,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Gladerunner,Glade Runner,Goat's Eye,black,0,0,,,rotational,never open,2026-11-15,2026-11-15
+sunshine,Goat Chicken Glade,Goatchicken Glade,Goat's Eye,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Goat Chicken Gully,Goat Chicken Gully,Wolverine,black,0,0,,,rotational,never open,2026-11-15,2026-11-15
+sunshine,Goat Sucker Glade,Goatsucker Glade,Goat's Eye,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Goat's Head Soup,Goat's Head Soup,Goat's Eye,black,0,0,,,rarely,never open,2026-11-15,2026-11-15
+sunshine,Gold Ecstasy,Ecstasy,Teepee Town,black,0,0,,,often,never open,2026-11-15,2026-11-15
+sunshine,Green Run,Green Run,Angel,green,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Grizzly,Grizzly,Angel,green,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Grizzly Terrain Park,Grizzly XL Terrain Park,Terrain parks,double,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Headwall,Headwall,Standish,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Hell's Kitchen,Hell's Kitchen,Goat's Eye,double,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Highway One,Highway One,Strawberry,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Horto's Revenge,Horto's Revenge,Teepee Town,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Jackrabbit,Jackrabbit,Jackrabbit,black,0,0,,,rotational,never open,2026-11-15,2026-11-15
+sunshine,Jerry's Run,Jerry's Run,Standish,black,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Juniper,Juniper,Wolverine,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Kid's Play,Kid's Play,Wolverine,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Kid's Play Terrain Park,Kid's Play,Wolverine,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Larch Glade,Larch Glade,Jackrabbit,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Laryx,Laryx,Standish,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Little Angel,Little Angel,Teepee Town,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Little Bunkers,Little Bunkers,Standish,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Lower Canyon,Lower Canyon,Gondola to base,blue,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Meadow Park,Meadow Park,Wawa,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Middle Canyon,Middle Canyon,Gondola to base,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Miss Gratz,Miss Gratz,Jackrabbit,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Mitey Mite Learning Area,(no line on the map),,green,1,1,1.0,,,not enough open days,2026-11-15,2026-11-15
+sunshine,Mother In Law,Mother-In-Law,Goat's Eye,black,0,0,,,rarely,never open,2026-11-15,2026-11-15
+sunshine,N. Pocket,North Pocket,Angel,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,North Divide,North Divide,Great Divide,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,OS Pitch,OS Pitch,Angel,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Old T-Bar,Old T-Bar,Wawa,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Packers,Packers,Gondola to base,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Paris Basin,Paris,Wawa,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Paris One,Paris One,Wawa,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Paris Two,Paris Two,Wawa,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Pilgrims,Pilgrims,Gondola to base,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Piste Noir,Piste Noir,Angel,black,0,0,,,often,never open,2026-11-15,2026-11-15
+sunshine,Powerline,Power Line,Gondola to base,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Prune Pickers Pass,Prune Pickers Pass,Standish,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Raptor,Raptor,Goat's Eye,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Red 90,Red 90,Angel,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+sunshine,Renegade,Renegade,Goat's Eye,double,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Rock Isle Road,Rock Isle Road,Strawberry,green,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Rock Ledges,Rock Ledges,Teepee Town,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Roller Coaster,Roller Coaster,Wolverine,blue,0,0,,,rarely,never open,2026-11-15,2026-11-15
+sunshine,Rolling Thunder,Rolling Thunder,Goat's Eye,black,0,0,,,rotational,never open,2026-11-15,2026-11-15
+sunshine,S. Pocket,South Pocket,Angel,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Sasquatch,Sasquatch,Goat's Eye,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Scapegoat,Scapegoat,Goat's Eye,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Schoolmarm,Schoolmarm,Teepee Town,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Sergie's Shortcut,Sergie's Shortcut,Wolverine,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Shaken Not Stirred,Shaken Not Stirred,Wawa,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Short and Sweet,Short & Sweet,Jackrabbit,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Showboat,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Sidewall,Sidewall,Standish,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Silver Ecstasy,Ecstasy,Teepee Town,black,0,0,,,often,never open,2026-11-15,2026-11-15
+sunshine,Sky Dive,Sky Dive,Goat's Eye,black,0,0,,,rotational,never open,2026-11-15,2026-11-15
+sunshine,Slush Cup,Slush Cup,Gondola to base,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Snowsnake,Snowsnake,Strawberry,blue,1,0,0.0,,,not enough open days,2026-11-15,2026-11-15
+sunshine,South 205,South 205,Angel,black,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,South Divide,South Divide,Great Divide,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Springhill,Springhill,Strawberry,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Springhill Terrain Park,(no line on the map),,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Stampede,Stampede,Goat's Eye,double,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Stampeders Way,Stampeders Way,Goat's Eye,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Standish,Standish,Standish,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Standish Face,Standish Face,Standish,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Star Trek,Star Trek,Wawa,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Strawberry Face,Strawberry Face,Strawberry,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Strawberry Surprise,Strawberry Surprise,Strawberry,blue,0,0,,,rarely,never open,2026-11-15,2026-11-15
+sunshine,Strawberry Terrain Park,(no line on the map),,blue,1,1,1.0,,,not enough open days,2026-11-15,2026-11-15
+sunshine,Sunshine Coast,Sunshine Coast,Goat's Eye,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Supermodel,Super Model,Goat's Eye,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,TP Main Chutes,Teepee Main Chutes,Teepee Town,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Teepee Town Liftline,Teepee Town Liftline,Teepee Town,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,The Big Woody,The Big Woody,Goat's Eye,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,The Dell Valley,The Dell Valley,Strawberry,green,1,1,1.0,,,not enough open days,2026-11-15,2026-11-15
+sunshine,The Shoulder,The Shoulder,Teepee Town,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,The Waterfall,The Waterfall,Wawa,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,The Yellowhead,(no line on the map),,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Think Again,Think Again,Goat's Eye,double,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Tilton Trail,Tilton Trail,Gondola to base,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Tin Can Alley,Tin Can Alley,Wawa,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+sunshine,Tin Can Trees,Tin Can Trees,Wawa,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Tiny Tigers Learning Area,(no line on the map),,green,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Tower 30,Tower 30,Wolverine,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Trapper's Trail,Trappers,Wolverine,black,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Upper Canyon,Upper Canyon,Jackrabbit,blue,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Viking Ridge,Viking Ridge,Angel,black,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Virgins,Virgins,Standish,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Wawa Bowl,Wawa Bowl,Wawa,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+sunshine,Wild West,(no line on the map),,double,0,0,,,,never open,2026-11-15,2026-11-15
+sunshine,Wildfire,Wildfire,Goat's Eye,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Wildside,Wildslide,Goat's Eye,double,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,Wolverine,Wolverine,Wolverine,blue,0,0,,,rotational,never open,2026-11-15,2026-11-15
+sunshine,Wolverine Liftline,Wolverine Liftline,Wolverine,black,0,0,,,never,never open,2026-11-15,2026-11-15
+sunshine,World Cup Downhill,World Cup Downhill,Great Divide,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+sunshine,Yellowhead North,(no line on the map),,blue,0,0,,,,never open,2026-11-15,2026-11-15
+louise,2/3 Shoulder,Two Thirds Shoulder,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,30 Goats,30 Goats,Larch,blue,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,4/5 Shoulder,4/5 Shoulder,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,A Gully,A Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Alley,Alley,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,B Gully,B Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Bald Eagle,Bald Eagle,Glacier,green,1,1,1.0,,always,not enough open days,2026-11-15,2026-11-15
+louise,Bearberry,Bearberry,Juniper,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Big 7,Big 7,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Blueberry,Blueberry,Juniper,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Bobcat,Bobcat,Larch,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Boomerang,Boomerang,Whitehorn,blue,0,0,,,rarely,never open,2026-11-15,2026-11-15
+louise,Boundary Bowl,Boundary Bowl,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Brown Cow,Brown Cow,Whitehorn,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Brown Cow 1st,Brown Cow 1st,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Brown Cow Main,Brown Cow Main,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Buffaloberry,Buffaloberry,Juniper,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Bunchberry,Bunchberry,Juniper,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,C Gully,C Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Cameron's Way,Cameron's Way,Glacier,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Charlie's Choice,Charlie's Choice,Top of the World,blue,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Corridor,Corridor,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Couloir,Couloir,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Cowboy,Cowboy,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Crow Bowl,Crow Bowl,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,D Gully,D Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Deer Run,Deer Run,Grizzly Gondola,green,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Doughnut Plains,166 Doughnut Plains,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Drop Out,Drop Out,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,E Gully,E Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,E.R. 3,E.R. 3,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,E.R. 6,E.R. 6,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Eagle Flight,Eagles Flight,Grizzly Gondola,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Eagle Meadows,Eagle Meadows,Grizzly Gondola,green,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Eagle Poma,Eagle Poma,Grizzly Gondola,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Eagle Trees,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Eagle's Beak,Eagles Beak,Grizzly Gondola,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,East Bowl,East Bowl,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,East Bowl Trees,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Easy Street,Easy Street,Juniper,green,1,1,1.0,,always,not enough open days,2026-11-15,2026-11-15
+louise,Egress,Egress,West Bowl,black,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Enchanted Forest,Enchanted Forest,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Exhibition,Exhibition,Ptarmigan,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Exhibition Trees,Exhibition Trees,Ptarmigan,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,F Gully,F Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Fenceline Gully,Fenceline Gully,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Flight Chutes 1,Flight Chutes 1,Top of the World,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Flight Chutes 2,Flight Chutes 2,Top of the World,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Flight Chutes 3,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Flight Chutes 4,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Flight Chutes Cat Track,Flight Chutes Cat Track,Top of the World,black,0,0,,,rarely,never open,2026-11-15,2026-11-15
+louise,Fossil,Fossil,Richardson's Ridge,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Fourth Gate,Forth Gate,Whitehorn,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Free Spirit,Free Spirit,Glacier,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,G Gully,G Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Ghostly Gully,Ghostly Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Grizzly Bowl,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Grizzly Gully,(no line on the map),,blue,0,0,,,,never open,2026-11-15,2026-11-15
+louise,H Gully,H Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Headwall,Headwall,Summit front,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Headwall Bowl,Headwall Bowl,Summit front,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Helen's,Helen's,Top of the World,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Hell's Kitchen,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Home Run,Home Run,Top of the World,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Home Run Chutes,Home Run Chutes,Top of the World,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Hour Glass,Hour Glass,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,I Gully,I Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Instructors Bowl,Instructor's Bowl,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Instructors Gully,Instructor's Gully,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Jackpot,Jackpot,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Jerry's Jungle,Jerry's Jungle,Glacier,green,0,0,,,rarely,never open,2026-11-15,2026-11-15
+louise,Juniper,Juniper,Glacier,blue,1,1,1.0,,always,not enough open days,2026-11-15,2026-11-15
+louise,Juniper Jungle,Juniper Jungle,Juniper,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Kernahan's,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Kiddie's Corner,Kiddies' Corner,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Lake Lindsey Way,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Lake Pitch,Lake Pitch,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Larch,Larch,Larch,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Larch Poma,Larch Poma,Larch,blue,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Lily Pads,(no line on the map),,double,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Lipalian Chutes,Lipalian Chutes,Larch,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Little Pipestone,Little Pipestone,Whitehorn,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Lookout,Lookout,Larch,green,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Lookout Chutes,Lookout Chutes,Larch,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Lower 5,Lower 5,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Lower Flight,Lower Flight,Glacier,blue,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Lower Grouse,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Lowest Meadowlark,Lower Meadowlark,Juniper,black,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Lynx,Lynx,Larch,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Maintenance Gully,Maitenance Gully,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Marmot,Marmot,Larch,green,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Maverick,Maverick,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Meadowlark,Meadowlark,Grizzly Gondola,black,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Men's Downhill,Men's Downhill,Glacier,black,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Merlin,Merlin,Richardson's Ridge,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Middle Limits,Middle Limits,Summit front,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Mirkwood,(no line on the map),,black,0,0,,,,never open,2026-11-15,2026-11-15
+louise,North Cornice,North Cornice,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Old Ptarmigan,Old Ptarmigan,Ptarmigan,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Oly Slides East,Oly Slides East,Glacier,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Oly Slides West,Oly Slides West,Glacier,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Outback,Outback,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Outer Limits,Outer Limits,Summit front,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Paradise Bowl,Paradise Bowl,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Paradise Cornice,Paradise Cornice,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Peyto's Pitch,Peyto's Pitch,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Pika,Pika,Ptarmigan,green,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Pika Trees,Pika Trees,Ptarmigan,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Pikaboo,(no line on the map),,blue,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Pinecone Way,Pine Cone Way,Glacier,green,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Pipestone Ridge,Pipestone Ridge,West Bowl,black,0,0,,,rarely,never open,2026-11-15,2026-11-15
+louise,Powder Pockets,Powder Pockets,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Prunepickers,(no line on the map),,green,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Ptarmigan,Ptarmigan,Ptarmigan,black,0,0,,,rotational,never open,2026-11-15,2026-11-15
+louise,Ptarmigan Cat Track,"""007"" Ptarmigan Cat Track",Ptarmigan,black,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Ptarmigan Chute 1,Ptarmigan Chute 1,Ptarmigan,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Ptarmigan Chute 2,Ptarmigan Chute 2,Ptarmigan,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Ptarmigan Chute 3,Ptarmigan Chute 3,Ptarmigan,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Ptarmigan Glades,Ptarmigan Glades,Ptarmigan,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Race Pitch,Race Pitch,Grizzly Gondola,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Raven,Raven,Ptarmigan,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Read's Way,Reads' Way,Paradise,black,0,0,,,rarely,never open,2026-11-15,2026-11-15
+louise,Redoubt,Redoubt,Richardson's Ridge,blue,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Ridge Run,Ridge Run,Whitehorn,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Rock Garden,Rock Garden,Larch,blue,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Rodney's Ridge,Rodney's Ridge,Whitehorn,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Saddleback,(no line on the map),,green,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Saddleback Bowl,(no line on the map),,blue,0,0,,,,never open,2026-11-15,2026-11-15
+louise,Second Gate,Second Gate,Whitehorn,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Shoulder Roll,Shoulder Roll,Whitehorn,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Ski Out,Ski Out,Larch,green,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Skoki,Skoki,Richardson's Ridge,green,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Skyline,Skyline,Summit front,blue,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Split Rock,Split Rock,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Steep & Flat,Steep & Flat,Top of the World,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Sunny Side,Sunny Side,Juniper,green,1,1,1.0,,always,not enough open days,2026-11-15,2026-11-15
+louise,Sunset,Sunset,Summit front,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Sunset Gully,Sunset Gully,Top of the World,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Sunset Pocket,Sunset Pocket,Summit front,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Sunset Terrace,Sunset Terrace,Top of the World,green,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Swede's,Swede's,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Temple,Temple,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Ten Peaks,Ten Peaks,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,The Beast,The Beast,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,The Heart,The Heart,Paradise,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Third Gate,Third Gate,Whitehorn,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Tickety Chutes,Tickety Chute,Top of the World,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Tight Turn,Tight Turn,Top of the World,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Tower 12,Tower 12,Larch,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,UNC,UNC,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Upper Alley,Alley,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Upper Boomerang,Upper Boomerang,Whitehorn,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Upper Grouse,Upper Grouse,Grizzly Gondola,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Upper Juniper,Upper Juniper,Glacier,blue,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Upper Meadowlark,Upper Meadowlark,Grizzly Gondola,black,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Upper Wiwaxy,Upper Wiwaxy,Glacier,green,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Upshoots,Upshoots,Top of the World,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Vermillion,Vermillion,Richardson's Ridge,blue,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Vertical Cornice,Vertical Cornice,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Wapta,Wapta,Grizzly Gondola,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Warden's Run,Warden's Run,Paradise,green,0,0,,,,never open,2026-11-15,2026-11-15
+louise,West Bowl,West Bowl,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,West Bowl Gully,West Bowl Gully,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,White Rabbit,White Rabbit,West Bowl,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Whitehorn 1,Whitehorn 1,Whitehorn,black,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Whitehorn Cat Track,Whitehorn Cat Track,Glacier,green,0,0,,,often,never open,2026-11-15,2026-11-15
+louise,Wild Gully,Wild Gully,Whitehorn,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Wiwaxy,Wiwaxy,Glacier,green,0,0,,,always,never open,2026-11-15,2026-11-15
+louise,Wolverine,Wolverine,Larch,blue,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Wounded Knee,Wounded Knee,Paradise,double,0,0,,,never,never open,2026-11-15,2026-11-15
+louise,Wrong Turn,Wrong Turn,Glacier,blue,0,0,,,,never open,2026-11-15,2026-11-15
+crystal,A-Basin,(no line on the map),,very difficult,0,0,,,,never open,2026-11-22,2026-11-22
+crystal,After Burn,Afterburn,Forest Queen,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Bear Pits,Bear Pits,High Campbell,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Berry Patch,Berry Patch; Berry Patch Right,Gondola,black,0,0,,,rarely,never open,2026-11-22,2026-11-22
+crystal,Bill's Face,Bill's face,Green Valley,blue,0,0,,,rotational,never open,2026-11-22,2026-11-22
+crystal,Blazing Elk,Blazing Elk,Green Valley,black,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Boondoggle,Boondoggle; Upper Boondoggle.,Forest Queen; Quicksilver,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Brand X,Brand X,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Broadway,Broadway,Chinook,green,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Bruce's Bowl,Bruce's Bowl,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Buck,Buck,Green Valley,blue,0,0,,,rarely,never open,2026-11-22,2026-11-22
+crystal,Bull Run,Bull Run,Chinook,very difficult,0,0,,,rarely,never open,2026-11-22,2026-11-22
+crystal,Campbell Basin,Chairline Left; Chairline Right; Rabbit Ears; Screaming Babies; Silver Ridge; T-Slot; Faith's Slide,High Campbell,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Deer Fly,Deer Fly,Chinook,black,0,0,,,rarely,never open,2026-11-22,2026-11-22
+crystal,Discover Meadow,Discovery Meadow,Discovery,green,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Downhill,Downhill,Forest Queen,blue,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Employee Housing,Employee Housing,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Exterminator,Exterminator,Chinook,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Gandy's Run,Gandy's Run,Rainier Express,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Glory Days,Glory Days,Northway,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Gold Hills,Gold Hills,Gold Hills,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Green Valley,Green Valley,Green Valley,blue,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Grubstake,Grubstake,Green Valley,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Howeirds,Howeird's,Rainier Express,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Huckleberry,Huckleberry,Green Valley,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,I-5,I-5,Northway,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Kelly's Gap Road,Kelley's Gap Road,Gondola,blue,0,0,,,rotational,never open,2026-11-22,2026-11-22
+crystal,Left Angle Trees,Left Angle; Lower Left Angle,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Little Magoo,Little Magoo,Forest Queen,blue,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Little Portillo,Little Portillo,Rainier Express,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Little Shot,Little Shot,Rainier Express,blue,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Lower Arwine's,Lower Arwine's,Chinook,green,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Lower Brand-X Cliff,Lower Brand X Cliffs,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Lower Chappelle's,Chappelle's,Forest Queen,blue,0,0,,,rotational,never open,2026-11-22,2026-11-22
+crystal,Lower Ferk's,Lower Ferk's Run,Chinook,black,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Lower Magoo,Lower Magoo,Forest Queen,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Lower Otto Bahn,Lower Otto Bahn,Northway,black,0,0,,,rarely,never open,2026-11-22,2026-11-22
+crystal,Lucky Shot,Lucky Shot,Rainier Express,blue,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Mel's Left,Mel's Left,Rainier Express,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Mel's Right,Mel's Right,Rainier Express,blue,0,0,,,rarely,never open,2026-11-22,2026-11-22
+crystal,Melby's,Melby's,Chinook,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Memorial Forest,Memorial Forest,Rainier Express,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Middle Ferk's,Middle Ferk's Run,Rainier Express,black,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Morning Glory Bowl,Morning Glory Bowl,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Mr. Magoo,Mr Magoo,Forest Queen,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Niagaras,Niagaras,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Northway,Northway Drainage,Northway,black,0,0,,,rarely,never open,2026-11-22,2026-11-22
+crystal,O-Meadows,O-Meadows,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Paradise,Paradise,Northway,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Paradise Bowl,Paradise Bowl,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Paradise Trees,Paradise Trees,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Penny Dawg's,Penny Dawgs,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Powder Bowl,Upper Field; Lower Field; Divider Chute; Summit Chute,High Campbell,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Pro Course,Pro Course,Green Valley,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Pucker's Gulch,Pucker's Gulch,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Queens,Queens,Forest Queen,green,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Quicksilver,Quicksilver,Quicksilver,green,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Right Angle,Right Angle,Northway,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Right Angle Trees,Lower Right Angle,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Rolling Knolls,Rolling Knolls,Forest Queen,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Sheppard,Sheooard,Green Valley,blue,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Sideburn,Side Burn,Forest Queen,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Silver Basin,Silver Basin,Southback (hike-to),very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Silver King,Appliance Store; Brain Damage; Damn Fine Forest; Hourglass; L-Tree Chute; Light Brown; Lobotomy; Pinball; Powder 8s; Receiver Chute; Sasquatch Chute; Skank Chutes Left; Skank Chutes Middle; Skank Chutes Right; The Cliff; Toasters; Watch Out for Livestock,High Campbell; Southback (hike-to),very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Sled Face,Sled Face,Gondola,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Sluiceway,Middle Sluiceway; Upper Sluiceway,Gondola,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Snorting Elk,Snorting Elk,Green Valley,black,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Snorting Elk Bowl,Snorting Elk Bowl,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Snow Garden,Snow Garden,Forest Queen,green,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Spook Hill,Spook Hill,Northway,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Stump Farm,Stump Farm,Chinook,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Sunnyside,Sunnyside,Rainier Express,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,The Doors,The Doors,Rainier Express,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,The Nose,The Nose,Northway,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,The Throne,Narnia,High Campbell,very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Three Way Peak,Three Way Exit Chute,Southback (hike-to),very difficult,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Tinkerbell,Tinkerbell,Quicksilver,green,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Upper Arwine's,Upper Arwine's,Rainier Express,blue,0,0,,,always,never open,2026-11-22,2026-11-22
+crystal,Upper Chappelle's,Chappelle's,Forest Queen,blue,0,0,,,rotational,never open,2026-11-22,2026-11-22
+crystal,Upper Ferk's,Upper Ferk's Run,Rainier Express,blue,0,0,,,often,never open,2026-11-22,2026-11-22
+crystal,Upper Northway,Upper Northway,Northway,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Upper Otto Bahn,Upper Otto Bahn,Northway,black,0,0,,,rarely,never open,2026-11-22,2026-11-22
+crystal,Wally's Way,Wally's Way,Forest Queen,blue,0,0,,,rarely,never open,2026-11-22,2026-11-22
+crystal,West Face,West Face,Green Valley,black,0,0,,,rarely,never open,2026-11-22,2026-11-22
+crystal,Whit's End,Whit's End,Northway,black,0,0,,,never,never open,2026-11-22,2026-11-22
+crystal,Willie's Run,Willie's Run,Green Valley,black,0,0,,,never,never open,2026-11-22,2026-11-22

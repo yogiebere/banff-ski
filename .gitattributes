@@ -1,3 +1,5 @@
 # Append-only files: keep both sides' lines when histories meet.
 data/raw/manifest.jsonl merge=union
 banfftrack.log merge=union
+grooming/raw/manifest.jsonl merge=union
+grooming/grooming.log merge=union

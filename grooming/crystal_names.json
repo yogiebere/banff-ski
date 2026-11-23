@@ -1,0 +1,559 @@
+{
+ "_note": "Crystal's own spelling (its lift and trail report) for each map (OpenStreetMap) run name, copied 2026-11-22 from the trail map's resort_ratings.json (entries from the report, the trail map or a zone). grooming.py uses it to match Crystal's report to the map, as the app does.",
+ "13-F": {
+  "as": "13F",
+  "from": "trail map"
+ },
+ "Afterburn": {
+  "as": "After Burn",
+  "from": "report"
+ },
+ "Appliance Store": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Back Traverse to Lucky Shot": {
+  "as": "the blue cat track from the summit to Lucky Shot",
+  "from": "trail map"
+ },
+ "Bear Pits": {
+  "as": "Bear Pits",
+  "from": "report"
+ },
+ "Berry Patch": {
+  "as": "Berry Patch",
+  "from": "trail map"
+ },
+ "Berry Patch Right": {
+  "as": "Berry Patch",
+  "from": "trail map"
+ },
+ "Big Shot": {
+  "as": "Big Shot",
+  "from": "trail map"
+ },
+ "Bill's face": {
+  "as": "Bill's Face",
+  "from": "report"
+ },
+ "Blazing Elk": {
+  "as": "Blazing Elk",
+  "from": "report"
+ },
+ "Boondoggle": {
+  "as": "Boondoggle",
+  "from": "report"
+ },
+ "Boxcar": {
+  "as": "Boxcar Cornice",
+  "from": "trail map"
+ },
+ "Brain Damage": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Brand X": {
+  "as": "Brand X",
+  "from": "report"
+ },
+ "Broadway": {
+  "as": "Broadway",
+  "from": "report"
+ },
+ "Bruce's Bowl": {
+  "as": "Bruce's Bowl",
+  "from": "report"
+ },
+ "Buck": {
+  "as": "Buck",
+  "from": "report"
+ },
+ "Bull Run": {
+  "as": "Bull Run",
+  "from": "report"
+ },
+ "CMAC": {
+  "as": "CMAC",
+  "from": "trail map"
+ },
+ "Chairline Left": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "Chairline Right": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "Chappelle's": {
+  "as": "Upper Chappelle's",
+  "from": "report"
+ },
+ "Damn Fine Forest": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Deer Fly": {
+  "as": "Deer Fly",
+  "from": "report"
+ },
+ "Discovery Meadow": {
+  "as": "Discover Meadow",
+  "from": "report"
+ },
+ "Divider Chute": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "Double Ought's Left": {
+  "as": "Double 00's Left",
+  "from": "trail map"
+ },
+ "Double Ought's Right": {
+  "as": "Double 00's Right",
+  "from": "trail map"
+ },
+ "Downhill": {
+  "as": "Downhill",
+  "from": "report"
+ },
+ "Easy Street": {
+  "as": "Easy Street",
+  "from": "trail map"
+ },
+ "Employee Housing": {
+  "as": "Employee Housing",
+  "from": "report"
+ },
+ "Exterminator": {
+  "as": "Exterminator",
+  "from": "report"
+ },
+ "Faith's Slide": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "Frisco": {
+  "as": "Frisco",
+  "from": "trail map"
+ },
+ "Front Traverse": {
+  "as": "the blue cat track from the summit to Lucky Shot",
+  "from": "trail map"
+ },
+ "Gandy's Run": {
+  "as": "Gandy's Run",
+  "from": "report"
+ },
+ "Glory Days": {
+  "as": "Glory Days",
+  "from": "report"
+ },
+ "Gold Hills": {
+  "as": "Gold Hills",
+  "from": "report"
+ },
+ "Green Valley": {
+  "as": "Green Valley",
+  "from": "report"
+ },
+ "Grubstake": {
+  "as": "Grubstake",
+  "from": "report"
+ },
+ "Hamburger": {
+  "as": "Hamburger",
+  "from": "trail map"
+ },
+ "Hourglass": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Howeird's": {
+  "as": "Howeirds",
+  "from": "report"
+ },
+ "Huckleberry": {
+  "as": "Huckleberry",
+  "from": "report"
+ },
+ "I-405": {
+  "as": "I-405",
+  "from": "trail map"
+ },
+ "I-5": {
+  "as": "I-5",
+  "from": "report"
+ },
+ "Jack's Cut": {
+  "as": "Jack's Cut",
+  "from": "trail map"
+ },
+ "Jeremy's Road": {
+  "as": "Jeremy's Road",
+  "from": "trail map"
+ },
+ "Jump Hill": {
+  "as": "Jump Hill",
+  "from": "trail map"
+ },
+ "K2": {
+  "as": "K2 Face",
+  "from": "trail map"
+ },
+ "Kelley's Gap Road": {
+  "as": "Kelly's Gap Road",
+  "from": "report"
+ },
+ "L-Tree Chute": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Left Angle": {
+  "as": "Left Angle Trees",
+  "from": "trail map"
+ },
+ "Lower Left Angle": {
+  "as": "Left Angle Trees",
+  "from": "report"
+ },
+ "Light Brown": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Little Magoo": {
+  "as": "Little Magoo",
+  "from": "report"
+ },
+ "Little Portillo": {
+  "as": "Little Portillo",
+  "from": "report"
+ },
+ "Little Shot": {
+  "as": "Little Shot",
+  "from": "report"
+ },
+ "Lobotomy": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Lower Arwine's": {
+  "as": "Lower Arwine's",
+  "from": "report"
+ },
+ "Lower Brand X Cliffs": {
+  "as": "Lower Brand-X Cliff",
+  "from": "report"
+ },
+ "Lower Chance": {
+  "as": "Lower Chance",
+  "from": "trail map"
+ },
+ "Lower Employee Housing": {
+  "as": "Employee Housing (Northway)",
+  "from": "zone"
+ },
+ "Lower Ferk's Run": {
+  "as": "Lower Ferk's",
+  "from": "report"
+ },
+ "Lower Field": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "Lower Grub": {
+  "as": "Lower Grub",
+  "from": "trail map"
+ },
+ "Lower Magoo": {
+  "as": "Lower Magoo",
+  "from": "report"
+ },
+ "Lower Otto Bahn": {
+  "as": "Lower Otto Bahn",
+  "from": "report"
+ },
+ "Lucky Shot": {
+  "as": "Lucky Shot",
+  "from": "report"
+ },
+ "Lumpy Lane": {
+  "as": "Lumpy Lane",
+  "from": "trail map"
+ },
+ "Mel's Left": {
+  "as": "Mel's Left",
+  "from": "report"
+ },
+ "Mel's Right": {
+  "as": "Mel's Right",
+  "from": "report"
+ },
+ "Melby's": {
+  "as": "Melby's",
+  "from": "trail map"
+ },
+ "Memorial Forest": {
+  "as": "Memorial Forest",
+  "from": "report"
+ },
+ "Middle Ferk's Run": {
+  "as": "Middle Ferk's",
+  "from": "report"
+ },
+ "Middle Sluiceway": {
+  "as": "Sluiceway",
+  "from": "report"
+ },
+ "Morning Glory Bowl": {
+  "as": "Morning Glory Bowl",
+  "from": "report"
+ },
+ "Mr Magoo": {
+  "as": "Mr. Magoo",
+  "from": "report"
+ },
+ "Narnia": {
+  "as": "The Throne (High Campbell)",
+  "from": "zone"
+ },
+ "Neanderthal": {
+  "as": "Neanderthal",
+  "from": "trail map"
+ },
+ "Niagaras": {
+  "as": "Niagaras",
+  "from": "report"
+ },
+ "Northway Bowl": {
+  "as": "Northway Bowl",
+  "from": "trail map"
+ },
+ "Northway Drainage": {
+  "as": "Northway",
+  "from": "report"
+ },
+ "O-Meadows": {
+  "as": "O-Meadows",
+  "from": "report"
+ },
+ "Otto Bahn": {
+  "as": "Otto Bahn",
+  "from": "trail map"
+ },
+ "Paradise": {
+  "as": "Paradise",
+  "from": "report"
+ },
+ "Paradise Bowl": {
+  "as": "Paradise Bowl",
+  "from": "report"
+ },
+ "Paradise Trees": {
+  "as": "Paradise Trees",
+  "from": "report"
+ },
+ "Penny Dawgs": {
+  "as": "Penny Dawg's",
+  "from": "report"
+ },
+ "Pinball": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Powder 8s": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Pro Course": {
+  "as": "Pro Course",
+  "from": "report"
+ },
+ "Pucker's Gulch": {
+  "as": "Pucker's Gulch",
+  "from": "report"
+ },
+ "Queens": {
+  "as": "Queens",
+  "from": "report"
+ },
+ "Quicksilver": {
+  "as": "Quicksilver",
+  "from": "report"
+ },
+ "Rabbit Ears": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "Receiver Chute": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Right Angle": {
+  "as": "Right Angle",
+  "from": "report"
+ },
+ "Lower Right Angle": {
+  "as": "Right Angle Trees",
+  "from": "report"
+ },
+ "Rolling Knolls": {
+  "as": "Rolling Knolls",
+  "from": "report"
+ },
+ "SE Right": {
+  "as": "S.E. Trees",
+  "from": "trail map"
+ },
+ "Sasquatch Chute": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Screaming Babies": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "Sheooard": {
+  "as": "Sheppard",
+  "from": "trail map"
+ },
+ "Side Burn": {
+  "as": "Sideburn",
+  "from": "report"
+ },
+ "Silver Basin": {
+  "as": "Silver Basin",
+  "from": "report"
+ },
+ "Silver Ridge": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "Skank Chutes Left": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Skank Chutes Middle": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Skank Chutes Right": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Sled Face": {
+  "as": "Sled Face",
+  "from": "report"
+ },
+ "Snake Pit": {
+  "as": "Snake Pit",
+  "from": "trail map"
+ },
+ "Snorting Elk": {
+  "as": "Snorting Elk",
+  "from": "report"
+ },
+ "Snorting Elk Bowl": {
+  "as": "Snorting Elk Bowl",
+  "from": "report"
+ },
+ "Snow Garden": {
+  "as": "Snow Garden",
+  "from": "report"
+ },
+ "Spook Hill": {
+  "as": "Spook Hill",
+  "from": "report"
+ },
+ "Stump Farm": {
+  "as": "Stump Farm",
+  "from": "report"
+ },
+ "Summit Chute": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "Sunnyside": {
+  "as": "Sunnyside",
+  "from": "report"
+ },
+ "T-Slot": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "The Cliff": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "The Doors": {
+  "as": "The Doors",
+  "from": "report"
+ },
+ "The Nose": {
+  "as": "The Nose",
+  "from": "report"
+ },
+ "The Plunge": {
+  "as": "The Plunge",
+  "from": "trail map"
+ },
+ "Three Way Exit Chute": {
+  "as": "Three Way Exit",
+  "from": "trail map"
+ },
+ "Tinkerbell": {
+  "as": "Tinkerbell",
+  "from": "report"
+ },
+ "Toasters": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "Upper Arwine's": {
+  "as": "Upper Arwine's",
+  "from": "report"
+ },
+ "Upper Boondoggle.": {
+  "as": "Boondoggle",
+  "from": "report"
+ },
+ "Upper Ferk's Run": {
+  "as": "Upper Ferk's",
+  "from": "report"
+ },
+ "Upper Field": {
+  "as": "High Campbell (Campbell Basin, Powder Bowl), off the top of Chair 6",
+  "from": "zone"
+ },
+ "Upper Northway": {
+  "as": "Upper Northway",
+  "from": "report"
+ },
+ "Upper Otto Bahn": {
+  "as": "Upper Otto Bahn",
+  "from": "report"
+ },
+ "Upper Sluiceway": {
+  "as": "Sluiceway",
+  "from": "report"
+ },
+ "Wally's Way": {
+  "as": "Wally's Way",
+  "from": "report"
+ },
+ "Watch Out for Livestock": {
+  "as": "Southback (Silver King)",
+  "from": "zone"
+ },
+ "West Face": {
+  "as": "West Face",
+  "from": "report"
+ },
+ "Whit's End": {
+  "as": "Whit's End",
+  "from": "report"
+ },
+ "Willie's Run": {
+  "as": "Willie's Run",
+  "from": "report"
+ }
+}

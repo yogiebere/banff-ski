@@ -1,0 +1,28 @@
+dimension,value,resort,open_run_days,groomed_run_days,groomed_share
+Days since 2+ in of snow,unknown,all,8,7,0.875
+Days since 2+ in of snow,unknown,louise,4,4,1.0
+Days since 2+ in of snow,unknown,sunshine,4,3,0.75
+New snow (24 h to the morning report),0 in,all,4,4,1.0
+New snow (24 h to the morning report),0 in,louise,4,4,1.0
+New snow (24 h to the morning report),unknown,all,4,3,0.75
+New snow (24 h to the morning report),unknown,sunshine,4,3,0.75
+Weekday or weekend,weekend,all,8,7,0.875
+Weekday or weekend,weekend,louise,4,4,1.0
+Weekday or weekend,weekend,sunshine,4,3,0.75
+Season stage (base depth),early (under 39 in base),all,8,7,0.875
+Season stage (base depth),early (under 39 in base),louise,4,4,1.0
+Season stage (base depth),early (under 39 in base),sunshine,4,3,0.75
+Difficulty,blue,all,3,2,0.667
+Difficulty,blue,louise,1,1,1.0
+Difficulty,blue,sunshine,2,1,0.5
+Difficulty,green,all,5,5,1.0
+Difficulty,green,louise,3,3,1.0
+Difficulty,green,sunshine,2,2,1.0
+Pod,(not on the map),all,2,2,1.0
+Pod,(not on the map),sunshine,2,2,1.0
+Pod,Glacier,all,2,2,1.0
+Pod,Glacier,louise,2,2,1.0
+Pod,Juniper,all,2,2,1.0
+Pod,Juniper,louise,2,2,1.0
+Pod,Strawberry,all,2,1,0.5
+Pod,Strawberry,sunshine,2,1,0.5

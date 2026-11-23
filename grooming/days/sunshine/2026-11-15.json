@@ -1,0 +1,4127 @@
+{
+ "resort": "sunshine",
+ "date": "2026-11-15",
+ "checks": [
+  {
+   "fetched_at": "2026-11-15T19:49:35Z",
+   "local_time": "2026-11-15T13:49:35-06:00",
+   "date": "2026-11-15",
+   "report_time": "2026-11-15T09:41:00-06:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "sunshine-lifts",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+     "http_status": 200,
+     "bytes": 287477,
+     "sha256": "50a79dd794f99c029deacd2385e6e7bb386697a92b353f4c1ee556e8b1d53b2c",
+     "error": null
+    },
+    {
+     "source": "sunshine-conditions",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+     "http_status": 200,
+     "bytes": 195333,
+     "sha256": "4016714916b31a8e73148ac17f8206f03229bb7288014e90d6c07c4e578c74c8",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 50909,
+     "sha256": "0b7a3bcea951c957df7349819c029c823d337e2d2262d2bee41368e766157df4",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": null,
+    "new_24h_cm": null,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 7,
+    "base_cm": 20,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": 0.5,
+    "tmin_24h_c": -3.2,
+    "tmax_24h_c": 0.5,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 1.3,
+    "hours_above_0_24h": 2,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null,
+   "from": "banfftrack"
+  },
+  {
+   "fetched_at": "2026-11-15T20:00:05Z",
+   "local_time": "2026-11-15T14:00:05-06:00",
+   "date": "2026-11-15",
+   "report_time": "2026-11-15T09:41:00-06:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "sunshine-lifts",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+     "http_status": 200,
+     "bytes": 287477,
+     "sha256": "50a79dd794f99c029deacd2385e6e7bb386697a92b353f4c1ee556e8b1d53b2c",
+     "error": null
+    },
+    {
+     "source": "sunshine-conditions",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+     "http_status": 200,
+     "bytes": 195333,
+     "sha256": "4016714916b31a8e73148ac17f8206f03229bb7288014e90d6c07c4e578c74c8",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 50909,
+     "sha256": "9326b65f3812882c105450c6e55721d88a8e80a6473e889b0cca40927ece3181",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": null,
+    "new_24h_cm": null,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 7,
+    "base_cm": 20,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": 0.6,
+    "tmin_24h_c": -3.2,
+    "tmax_24h_c": 0.6,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 1.3,
+    "hours_above_0_24h": 3,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null,
+   "from": "banfftrack"
+  },
+  {
+   "fetched_at": "2026-11-15T20:07:30Z",
+   "local_time": "2026-11-15T14:07:30-06:00",
+   "date": "2026-11-15",
+   "report_time": "2026-11-15T09:41:00-06:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "sunshine-lifts",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+     "http_status": 200,
+     "bytes": 287477,
+     "sha256": "50a79dd794f99c029deacd2385e6e7bb386697a92b353f4c1ee556e8b1d53b2c",
+     "error": null
+    },
+    {
+     "source": "sunshine-conditions",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+     "http_status": 200,
+     "bytes": 195333,
+     "sha256": "4016714916b31a8e73148ac17f8206f03229bb7288014e90d6c07c4e578c74c8",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 50909,
+     "sha256": "7b1bbedafd4230d84471e364237696a86295d4920a8e7b936b9023afd8b3f59d",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": null,
+    "new_24h_cm": null,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 7,
+    "base_cm": 20,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": 0.6,
+    "tmin_24h_c": -3.2,
+    "tmax_24h_c": 0.6,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 1.3,
+    "hours_above_0_24h": 3,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null,
+   "from": "banfftrack"
+  },
+  {
+   "fetched_at": "2026-11-15T21:00:05Z",
+   "local_time": "2026-11-15T15:00:05-06:00",
+   "date": "2026-11-15",
+   "report_time": "2026-11-15T09:41:00-06:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "sunshine-lifts",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+     "http_status": 200,
+     "bytes": 287477,
+     "sha256": "50a79dd794f99c029deacd2385e6e7bb386697a92b353f4c1ee556e8b1d53b2c",
+     "error": null
+    },
+    {
+     "source": "sunshine-conditions",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+     "http_status": 200,
+     "bytes": 195333,
+     "sha256": "4016714916b31a8e73148ac17f8206f03229bb7288014e90d6c07c4e578c74c8",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 50907,
+     "sha256": "67a0e1393e1cb94942d6ab164032ecb0eb8a584dc34ad9d8e3e0a3a507a01564",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": null,
+    "new_24h_cm": null,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 7,
+    "base_cm": 20,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": 0.2,
+    "tmin_24h_c": -3.2,
+    "tmax_24h_c": 0.2,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 1.3,
+    "hours_above_0_24h": 3,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null,
+   "from": "banfftrack"
+  },
+  {
+   "fetched_at": "2026-11-15T21:44:41Z",
+   "local_time": "2026-11-15T15:44:41-06:00",
+   "date": "2026-11-15",
+   "report_time": "2026-11-15T09:41:00-06:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "sunshine-lifts",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+     "http_status": 200,
+     "bytes": 287477,
+     "sha256": "a9303b63727aa03009a6b23df07ef48d557ec38d06a67d9643006294f9ec0415",
+     "error": null
+    },
+    {
+     "source": "sunshine-conditions",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+     "http_status": 200,
+     "bytes": 196234,
+     "sha256": "b6f4b714b28093fbbb9788fbdfeab83ebeb5620ca1c632480c3e7273601dc770",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 50912,
+     "sha256": "c72d178bbe4cb323c7ab33761e3492f1519f591ac8ee27cb18548e7de54fdfba",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": null,
+    "new_24h_cm": null,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 7,
+    "base_cm": 20,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": -0.0,
+    "tmin_24h_c": -3.2,
+    "tmax_24h_c": 0.2,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 1.3,
+    "hours_above_0_24h": 1,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null,
+   "from": "banfftrack"
+  },
+  {
+   "fetched_at": "2026-11-15T21:45:36Z",
+   "local_time": "2026-11-15T15:45:36-06:00",
+   "date": "2026-11-15",
+   "report_time": "2026-11-15T09:41:00-06:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "sunshine-lifts",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+     "http_status": 200,
+     "bytes": 287477,
+     "sha256": "a9303b63727aa03009a6b23df07ef48d557ec38d06a67d9643006294f9ec0415",
+     "error": null
+    },
+    {
+     "source": "sunshine-conditions",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+     "http_status": 200,
+     "bytes": 196234,
+     "sha256": "b6f4b714b28093fbbb9788fbdfeab83ebeb5620ca1c632480c3e7273601dc770",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 50913,
+     "sha256": "de2359344f63fe490fe24616babebbad0756d7a15aad760e8865f3b244f56630",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": null,
+    "new_24h_cm": null,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 7,
+    "base_cm": 20,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": -0.0,
+    "tmin_24h_c": -3.2,
+    "tmax_24h_c": 0.2,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 1.3,
+    "hours_above_0_24h": 1,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null,
+   "from": "banfftrack"
+  },
+  {
+   "fetched_at": "2026-11-15T22:05:08Z",
+   "local_time": "2026-11-15T16:05:08-06:00",
+   "date": "2026-11-15",
+   "report_time": "2026-11-15T09:41:00-06:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "sunshine-lifts",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+     "http_status": 200,
+     "bytes": 287477,
+     "sha256": "a9303b63727aa03009a6b23df07ef48d557ec38d06a67d9643006294f9ec0415",
+     "error": null
+    },
+    {
+     "source": "sunshine-conditions",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+     "http_status": 200,
+     "bytes": 196234,
+     "sha256": "b6f4b714b28093fbbb9788fbdfeab83ebeb5620ca1c632480c3e7273601dc770",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 50913,
+     "sha256": "23f7e5d9fe6a99bed98235249188d09ac794162147fd3ed9a8206d0f994109e0",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": null,
+    "new_24h_cm": null,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 7,
+    "base_cm": 20,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": -0.1,
+    "tmin_24h_c": -3.2,
+    "tmax_24h_c": -0.0,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 1.3,
+    "hours_above_0_24h": 0,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null,
+   "from": "banfftrack"
+  },
+  {
+   "fetched_at": "2026-11-15T22:10:26Z",
+   "local_time": "2026-11-15T16:10:26-06:00",
+   "date": "2026-11-15",
+   "report_time": "2026-11-15T09:41:00-06:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "sunshine-lifts",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+     "http_status": 200,
+     "bytes": 287477,
+     "sha256": "a9303b63727aa03009a6b23df07ef48d557ec38d06a67d9643006294f9ec0415",
+     "error": null
+    },
+    {
+     "source": "sunshine-conditions",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+     "http_status": 200,
+     "bytes": 196234,
+     "sha256": "b6f4b714b28093fbbb9788fbdfeab83ebeb5620ca1c632480c3e7273601dc770",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 57439,
+     "sha256": "a49bd50168f712023c5a4244c57bd7cdb0e8602d292948f289c67ce46e0a11d5",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": null,
+    "new_24h_cm": null,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 7,
+    "base_cm": 20,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": -0.1,
+    "tmin_24h_c": -3.2,
+    "tmax_24h_c": -0.0,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 1.3,
+    "hours_above_0_24h": 0,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null,
+   "from": "banfftrack"
+  },
+  {
+   "fetched_at": "2026-11-15T23:05:13Z",
+   "local_time": "2026-11-15T17:05:13-06:00",
+   "date": "2026-11-15",
+   "report_time": "2026-11-15T09:41:00-06:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "sunshine-lifts",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+     "http_status": 200,
+     "bytes": 287477,
+     "sha256": "a9303b63727aa03009a6b23df07ef48d557ec38d06a67d9643006294f9ec0415",
+     "error": null
+    },
+    {
+     "source": "sunshine-conditions",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+     "http_status": 200,
+     "bytes": 196234,
+     "sha256": "b6f4b714b28093fbbb9788fbdfeab83ebeb5620ca1c632480c3e7273601dc770",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.1145%2C51.0786%2C51.071&longitude=-115.7625%2C-115.782%2C-115.8056&elevation=1660%2C2160%2C2730&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 57426,
+     "sha256": "f76e542c7dbf30368494afebbedc601c9236b575e8b56f2aa4c6ee594c439eb9",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": null,
+    "new_24h_cm": null,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 7,
+    "base_cm": 20,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": -0.7,
+    "tmin_24h_c": -3.2,
+    "tmax_24h_c": 0.1,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 1.3,
+    "hours_above_0_24h": 1,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null,
+   "from": "banfftrack"
+  }
+ ],
+ "runs": {
+  "Banff Ave": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Cayuse Creek": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Corral Cut-off": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Cottontail": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Forget Me Not": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Juniper": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Kid's Play": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Kid's Play Terrain Park": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Larch Glade": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Miss Gratz": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Powerline": {
+   "difficulty": "green",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "B-Line": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Bluebell": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Chicken": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Christmas Tree": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Eagle": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Lower Canyon": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Raptor": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Roller Coaster": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Scapegoat": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Sergie's Shortcut": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Short and Sweet": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Stampeders Way": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Sunshine Coast": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Upper Canyon": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Wildfire": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Wolverine": {
+   "difficulty": "blue",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Afterburner": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Cleavage": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Eagle Creek": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Ewe First": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Fall Line": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Fire Weed": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Gladerunner": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Goat Chicken Glade": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Goat Chicken Gully": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Goat Sucker Glade": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Goat's Head Soup": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Jackrabbit": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Middle Canyon": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Mother In Law": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Rolling Thunder": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Sasquatch": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Sky Dive": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Supermodel": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "The Big Woody": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Tower 30": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Trapper's Trail": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Wolverine Liftline": {
+   "difficulty": "black",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Eagle Glades": {
+   "difficulty": "double",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Farside": {
+   "difficulty": "double",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Freefall": {
+   "difficulty": "double",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Hell's Kitchen": {
+   "difficulty": "double",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Renegade": {
+   "difficulty": "double",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Stampede": {
+   "difficulty": "double",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Think Again": {
+   "difficulty": "double",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Wild West": {
+   "difficulty": "double",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Wildside": {
+   "difficulty": "double",
+   "area": "Goat's Eye Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Assiniboine Trail": {
+   "difficulty": "green",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Green Run": {
+   "difficulty": "green",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Grizzly": {
+   "difficulty": "green",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Packers": {
+   "difficulty": "green",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Pilgrims": {
+   "difficulty": "green",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Slush Cup": {
+   "difficulty": "green",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "The Yellowhead": {
+   "difficulty": "green",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Barners": {
+   "difficulty": "blue",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Boutry's Bowl": {
+   "difficulty": "blue",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Bronze Ecstasy": {
+   "difficulty": "blue",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Cherub": {
+   "difficulty": "blue",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Highway One": {
+   "difficulty": "blue",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Red 90": {
+   "difficulty": "blue",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "South Divide": {
+   "difficulty": "blue",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Springhill Terrain Park": {
+   "difficulty": "blue",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "World Cup Downhill": {
+   "difficulty": "blue",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Yellowhead North": {
+   "difficulty": "blue",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Angel Flight": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Big Angel": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Boundary Bowl": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Bushwackers": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Bye Bye Bowl": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Divide Terrain Park": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Gold Ecstasy": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Horto's Revenge": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Little Angel": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "N. Pocket": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "North Divide": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "OS Pitch": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Piste Noir": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Rock Ledges": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "S. Pocket": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Schoolmarm": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Silver Ecstasy": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "South 205": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Teepee Town Liftline": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "The Shoulder": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "TP Main Chutes": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Viking Ridge": {
+   "difficulty": "black",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Delirium Dive": {
+   "difficulty": "double",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Grizzly Terrain Park": {
+   "difficulty": "double",
+   "area": "Lookout Mountain",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Angel Gully": {
+   "difficulty": "green",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Borderline": {
+   "difficulty": "green",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Creek Run": {
+   "difficulty": "green",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Meadow Park": {
+   "difficulty": "green",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Mitey Mite Learning Area": {
+   "difficulty": "green",
+   "area": "Mount Standish",
+   "status": [
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  "Prune Pickers Pass": {
+   "difficulty": "green",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Rock Isle Road": {
+   "difficulty": "green",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Springhill": {
+   "difficulty": "green",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "The Dell Valley": {
+   "difficulty": "green",
+   "area": "Mount Standish",
+   "status": [
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  "Tiny Tigers Learning Area": {
+   "difficulty": "green",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Bunkers": {
+   "difficulty": "blue",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Little Bunkers": {
+   "difficulty": "blue",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Snowsnake": {
+   "difficulty": "blue",
+   "area": "Mount Standish",
+   "status": [
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Strawberry Face": {
+   "difficulty": "blue",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Strawberry Surprise": {
+   "difficulty": "blue",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Strawberry Terrain Park": {
+   "difficulty": "blue",
+   "area": "Mount Standish",
+   "status": [
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open",
+    "open"
+   ],
+   "groomed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  "Tilton Trail": {
+   "difficulty": "blue",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Tin Can Alley": {
+   "difficulty": "blue",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Wawa Bowl": {
+   "difficulty": "blue",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Big Bunkers": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Birdcage": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Dirty Little Corner": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Donkey's Tail": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Garbage Chutes": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Headwall": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Jerry's Run": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Laryx": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Old T-Bar": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Paris Basin": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Paris One": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Paris Two": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Shaken Not Stirred": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Showboat": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Sidewall": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Standish": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Standish Face": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Star Trek": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "The Waterfall": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Tin Can Trees": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "Virgins": {
+   "difficulty": "black",
+   "area": "Mount Standish",
+   "status": [
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed",
+    "closed"
+   ],
+   "groomed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ },
+ "model_days": {}
+}

@@ -1,0 +1,48 @@
+# Season-long grooming log (grooming/README.md). Checks every resort three times a day, after the morning grooming
+# reports post and again later in case they're revised: 14:30, 17:30 and 20:30 UTC (8:30, 11:30 and 2:30 in Banff;
+# 6:30, 9:30 and 12:30 Pacific; 7:30, 10:30 and 1:30 at Copper), November to May. Sundays at 21:00 UTC it also
+# rebuilds the weekly analysis and the spreadsheet.
+name: grooming
+on:
+  schedule:
+    - cron: "30 14,17,20 * 1-5,11,12 *"
+    - cron: "0 21 * * 0"
+  workflow_dispatch:
+    inputs:
+      analyze:
+        description: "Run the weekly analysis instead of a check"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: collect
+  cancel-in-progress: false
+jobs:
+  grooming:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Check every resort
+        if: github.event.schedule != '0 21 * * 0' && !inputs.analyze
+        run: python -I grooming/grooming.py collect
+      - name: Weekly analysis
+        if: github.event.schedule == '0 21 * * 0' || inputs.analyze
+        run: |
+          python -m pip install --quiet openpyxl
+          python -I grooming/grooming.py log
+          python -I grooming/analyze.py
+      - name: Save to the repository
+        if: always()
+        run: |
+          git config user.name "banfftrack"
+          git config user.email "banfftrack@users.noreply.github.com"
+          git add grooming
+          git diff --cached --quiet && exit 0
+          git commit -m "grooming $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase
+          git push
