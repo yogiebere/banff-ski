@@ -13,11 +13,20 @@ re-checks in case they're revised.
 |---|---|---|
 | Banff Sunshine | skibanff.com lifts and trails report (HTML) | the Groomed icon on each run |
 | Lake Louise | the resort's XML report (via ski-louise-status-page.vercel.app); the grooming PDF's time | `groomed` yes/no on each run |
-| Crystal Mountain | Mountain Powder feed (mtnpowder.com, token from v4.mtnfeed.com) | `Grooming` on each trail |
+| Crystal Mountain | Mountain Powder feed (mtnpowder.com, token from v4.mtnfeed.com) | `Grooming` on each trail, with the trail's update time |
+| Banff Norquay | banffnorquay.com/conditions/ (HTML, 2026 site) | `run-groomed groomed-…` on each run, under its lift |
+| Copper Mountain | api.coppercolorado.com/api/v1/dor/drupal/trails (JSON) | `groom_status` on each trail, with the trail's update time |
+
+Mt. Baker isn't collected: it publishes no per-run grooming, only one surface line for the whole mountain (checked
+2026-11-22, including archived reports from Jan and Feb 2026).
+
+`updated_today` in the log says whether the resort touched a run's record that day (Crystal and Copper give per-run
+times). Copper's groomed flags can sit unchanged for days early in the season, so on those days a "groomed" may be
+stale.
 
 Snow for each day:
 - **New snow:** the resort's report first (overnight, 24, 48 and 72 h, 7 days, base), then the nearest SNOTEL station
-  (Crystal: Morse Lake), then Open-Meteo at mid-mountain.
+  (Crystal: Morse Lake; Copper: Copper Mountain), then Open-Meteo at mid-mountain.
 - **Days since snow:** "days since the last 2 in" uses each day's 24 h to the morning report, the resort's figure where
   given, else the model's.
 
