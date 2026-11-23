@@ -48,6 +48,53 @@
     "rain_24h_mm": 0.0
    },
    "snotel": null
+  },
+  {
+   "fetched_at": "2026-11-23T06:09:24Z",
+   "local_time": "2026-11-23T00:09:24-06:00",
+   "date": "2026-11-23",
+   "report_time": "2026-11-22T11:12:14Z",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "louise-feed",
+     "url": "https://ski-louise-status-page.vercel.app/api/ski-data",
+     "http_status": 200,
+     "bytes": 30405,
+     "sha256": "9da9ace0a40b657221189ff975918eaa5f58a594d724cdb628575bb6bb37cd33",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.453&longitude=-116.149&elevation=2042&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 18784,
+     "sha256": "d35788a29e50ddae782e4926acafea55b64b53415589d4229ae2d633e58eb001",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": 0,
+    "new_24h_cm": 0,
+    "new_48h_cm": 0,
+    "new_72h_cm": null,
+    "new_7d_cm": 10,
+    "base_cm": 26,
+    "temp_c": -11
+   },
+   "model": {
+    "temp_c": -12.4,
+    "tmin_24h_c": -17.1,
+    "tmax_24h_c": -9.2,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 0.0,
+    "hours_above_0_24h": 0,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null
   }
  ],
  "runs": {
@@ -55,9 +102,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -65,9 +114,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -75,9 +126,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -85,9 +138,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -95,9 +150,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -105,9 +162,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -115,9 +174,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -125,9 +186,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -135,9 +198,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -145,9 +210,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -155,9 +222,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -165,9 +234,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -175,9 +246,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -185,9 +258,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -195,9 +270,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -205,9 +282,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -215,9 +294,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -225,9 +306,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true
    ]
   },
@@ -235,9 +318,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -245,9 +330,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -255,9 +342,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -265,9 +354,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -275,9 +366,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -285,9 +378,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "open",
     "open"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -295,9 +390,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -305,9 +402,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -315,9 +414,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -325,9 +426,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -335,9 +438,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -345,9 +450,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -355,9 +462,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -365,9 +474,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -375,9 +486,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -385,9 +498,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true
    ]
   },
@@ -395,9 +510,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -405,9 +522,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true
    ]
   },
@@ -415,9 +534,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -425,9 +546,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -435,9 +558,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -445,9 +570,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -455,9 +582,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -465,9 +594,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true
    ]
   },
@@ -475,9 +606,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true
    ]
   },
@@ -485,9 +618,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -495,9 +630,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -505,9 +642,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -515,9 +654,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -525,9 +666,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -535,9 +678,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -545,9 +690,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -555,9 +702,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -565,9 +714,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -575,9 +726,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -585,9 +738,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -595,9 +750,11 @@
    "difficulty": "green",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -605,9 +762,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -615,9 +774,11 @@
    "difficulty": "blue",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -625,9 +786,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -635,9 +798,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -645,9 +810,11 @@
    "difficulty": "black",
    "area": "Front Side",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -655,9 +822,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -665,9 +834,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -675,9 +846,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -685,9 +858,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -695,9 +870,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -705,9 +882,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -715,9 +894,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -725,9 +906,11 @@
    "difficulty": "blue",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -735,9 +918,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -745,9 +930,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -755,9 +942,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -765,9 +954,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -775,9 +966,11 @@
    "difficulty": "blue",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -785,9 +978,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -795,9 +990,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -805,9 +1002,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -815,9 +1014,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -825,9 +1026,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -835,9 +1038,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -845,9 +1050,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -855,9 +1062,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -865,9 +1074,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -875,9 +1086,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -885,9 +1098,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -895,9 +1110,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -905,9 +1122,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -915,9 +1134,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -925,9 +1146,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -935,9 +1158,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -945,9 +1170,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -955,9 +1182,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -965,9 +1194,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -975,9 +1206,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -985,9 +1218,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -995,9 +1230,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1005,9 +1242,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1015,9 +1254,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1025,9 +1266,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1035,9 +1278,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1045,9 +1290,11 @@
    "difficulty": "green",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1055,9 +1302,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1065,9 +1314,11 @@
    "difficulty": "blue",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1075,9 +1326,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1085,9 +1338,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1095,9 +1350,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1105,9 +1362,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1115,9 +1374,11 @@
    "difficulty": "green",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1125,9 +1386,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1135,9 +1398,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1145,9 +1410,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1155,9 +1422,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1165,9 +1434,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1175,9 +1446,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1185,9 +1458,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1195,9 +1470,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1205,9 +1482,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1215,9 +1494,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1225,9 +1506,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1235,9 +1518,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1245,9 +1530,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1255,9 +1542,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1265,9 +1554,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1275,9 +1566,11 @@
    "difficulty": "blue",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1285,9 +1578,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1295,9 +1590,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1305,9 +1602,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1315,9 +1614,11 @@
    "difficulty": "black",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1325,9 +1626,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1335,9 +1638,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1345,9 +1650,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1355,9 +1662,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1365,9 +1674,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1375,9 +1686,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1385,9 +1698,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1395,9 +1710,11 @@
    "difficulty": "double",
    "area": "Back Bowls",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1405,9 +1722,11 @@
    "difficulty": "blue",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1415,9 +1734,11 @@
    "difficulty": "green",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1425,9 +1746,11 @@
    "difficulty": "blue",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1435,9 +1758,11 @@
    "difficulty": "blue",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1445,9 +1770,11 @@
    "difficulty": "blue",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1455,9 +1782,11 @@
    "difficulty": "black",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1465,9 +1794,11 @@
    "difficulty": "blue",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1475,9 +1806,11 @@
    "difficulty": "black",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1485,9 +1818,11 @@
    "difficulty": "green",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1495,9 +1830,11 @@
    "difficulty": "double",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1505,9 +1842,11 @@
    "difficulty": "double",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1515,9 +1854,11 @@
    "difficulty": "black",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1525,9 +1866,11 @@
    "difficulty": "green",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1535,9 +1878,11 @@
    "difficulty": "green",
    "area": "Larch",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1545,9 +1890,11 @@
    "difficulty": "blue",
    "area": "Richardson's Ridge",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1555,9 +1902,11 @@
    "difficulty": "green",
    "area": "Richardson's Ridge",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1565,9 +1914,11 @@
    "difficulty": "blue",
    "area": "Richardson's Ridge",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1575,9 +1926,11 @@
    "difficulty": "blue",
    "area": "Richardson's Ridge",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1585,9 +1938,11 @@
    "difficulty": "blue",
    "area": "Richardson's Ridge",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1595,9 +1950,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1605,9 +1962,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1615,9 +1974,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1625,9 +1986,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1635,9 +1998,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1645,9 +2010,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1655,9 +2022,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1665,9 +2034,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1675,9 +2046,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1685,9 +2058,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1695,9 +2070,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1705,9 +2082,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1715,9 +2094,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1725,9 +2106,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1735,9 +2118,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1745,9 +2130,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -1755,9 +2142,11 @@
    "difficulty": "black",
    "area": "West Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   }

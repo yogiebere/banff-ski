@@ -62,6 +62,67 @@
     "swe_in": 3.2,
     "depth_change_in": 2
    }
+  },
+  {
+   "fetched_at": "2026-11-23T06:09:24Z",
+   "local_time": "2026-11-22T22:09:24-08:00",
+   "date": "2026-11-22",
+   "report_time": "2026-11-11T09:52:26-0800",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "mtnfeed-config",
+     "url": "https://v4.mtnfeed.com/resorts/crystal-mountain.json",
+     "http_status": 200,
+     "bytes": 5078,
+     "sha256": "df8018f33ea3bc3388b489078ecfba78a3d43dc75f070b5eaa53345e3476ac4a",
+     "error": null
+    },
+    {
+     "source": "mtnpowder-feed",
+     "url": "https://mtnpowder.com/feed/v3.json?bearer_token=YUKps_bg1dtxd5ZM-ekRrkUD08tntV6XEJYssuGhWEQ&resortId%5B%5D=80",
+     "http_status": 200,
+     "bytes": 75847,
+     "sha256": "635bc71a962b2d43c2c8ddc9d361808cf5cb67c424c73781fbba34df58f6ac88",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=46.9353&longitude=-121.4746&elevation=1676&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 19215,
+     "sha256": "7e91ba42e54a47fc4f194b376cad1cc42effa3c1a45e6dce2a6d63ee588cecb1",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": 0,
+    "new_24h_cm": 0,
+    "new_48h_cm": 0,
+    "new_72h_cm": 0,
+    "new_7d_cm": 0,
+    "base_cm": 0,
+    "temp_c": -6
+   },
+   "model": {
+    "temp_c": -6.1,
+    "tmin_24h_c": -6.2,
+    "tmax_24h_c": -3.8,
+    "snow_24h_cm": 0.3,
+    "snow_48h_cm": 0.6,
+    "snow_72h_cm": 0.6,
+    "snow_7d_cm": 2.9,
+    "hours_above_0_24h": 0,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": {
+    "station": "642:WA:SNTL",
+    "date": "2026-11-21",
+    "depth_in": 12,
+    "swe_in": 3.2,
+    "depth_change_in": 2
+   }
   }
  ],
  "runs": {
@@ -69,9 +130,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -79,9 +142,11 @@
    "difficulty": "black",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -89,9 +154,11 @@
    "difficulty": "green",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -99,9 +166,11 @@
    "difficulty": "green",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -109,9 +178,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -119,9 +190,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -129,9 +202,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -139,9 +214,11 @@
    "difficulty": "green",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -149,9 +226,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -159,9 +238,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -169,9 +250,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -179,9 +262,11 @@
    "difficulty": "green",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -189,9 +274,11 @@
    "difficulty": "green",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -199,9 +286,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -209,9 +298,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -219,9 +310,11 @@
    "difficulty": "green",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -229,9 +322,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -239,9 +334,11 @@
    "difficulty": "green",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -249,9 +346,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -259,9 +358,11 @@
    "difficulty": "blue",
    "area": "Lower Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -269,9 +370,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -279,9 +382,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -289,9 +394,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -299,9 +406,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -309,9 +418,11 @@
    "difficulty": "very difficult",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -319,9 +430,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -329,9 +442,11 @@
    "difficulty": "very difficult",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -339,9 +454,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -349,9 +466,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -359,9 +478,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -369,9 +490,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -379,9 +502,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -389,9 +514,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -399,9 +526,11 @@
    "difficulty": "very difficult",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -409,9 +538,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -419,9 +550,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -429,9 +562,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -439,9 +574,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -449,9 +586,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -459,9 +598,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -469,9 +610,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -479,9 +622,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -489,9 +634,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -499,9 +646,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -509,9 +658,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -519,9 +670,11 @@
    "difficulty": "very difficult",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -529,9 +682,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -539,9 +694,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -549,9 +706,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -559,9 +718,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -569,9 +730,11 @@
    "difficulty": "very difficult",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -579,9 +742,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -589,9 +754,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -599,9 +766,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -609,9 +778,11 @@
    "difficulty": "blue",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -619,9 +790,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -629,9 +802,11 @@
    "difficulty": "black",
    "area": "Frontside",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -639,9 +814,11 @@
    "difficulty": "very difficult",
    "area": "High Campbell",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -649,9 +826,11 @@
    "difficulty": "very difficult",
    "area": "High Campbell",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -659,9 +838,11 @@
    "difficulty": "very difficult",
    "area": "High Campbell",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -669,9 +850,11 @@
    "difficulty": "very difficult",
    "area": "High Campbell",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -679,9 +862,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -689,9 +874,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -699,9 +886,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -709,9 +898,11 @@
    "difficulty": "black",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -719,9 +910,11 @@
    "difficulty": "black",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -729,9 +922,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -739,9 +934,11 @@
    "difficulty": "black",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -749,9 +946,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -759,9 +958,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -769,9 +970,11 @@
    "difficulty": "black",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -779,9 +982,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -789,9 +994,11 @@
    "difficulty": "black",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -799,9 +1006,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -809,9 +1018,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -819,9 +1030,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -829,9 +1042,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -839,9 +1054,11 @@
    "difficulty": "black",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -849,9 +1066,11 @@
    "difficulty": "very difficult",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -859,9 +1078,11 @@
    "difficulty": "black",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -869,9 +1090,11 @@
    "difficulty": "black",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -879,9 +1102,11 @@
    "difficulty": "black",
    "area": "North",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -889,9 +1114,11 @@
    "difficulty": "very difficult",
    "area": "South",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -899,9 +1126,11 @@
    "difficulty": "very difficult",
    "area": "South",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -909,9 +1138,11 @@
    "difficulty": "very difficult",
    "area": "South",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   },
@@ -919,9 +1150,11 @@
    "difficulty": "very difficult",
    "area": "South",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ]
   }
