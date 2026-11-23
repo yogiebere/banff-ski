@@ -3,7 +3,7 @@
 // tracker's hourly JSON and the morning check's day files) are fetched fresh when there's signal and fall back to
 // the saved copy when there isn't; a saved answer carries an X-RunFinder-Saved header so the page can say so.
 "use strict";
-var VERSION = "6e0345703e";
+var VERSION = "694238210f";
 var PRECACHE = ["./", "sunshine.html", "sunshine_v23_terrain.jpg", "louise.html", "louise_v12_terrain.jpg", "crystal.html", "crystal_v2_terrain.jpg", "whatif.html", "whatif_v1_terrain.jpg", "app.js", "manifest.webmanifest", "aliases/sunshine.json", "aliases/louise.json", "aliases/crystal.json", "icons/icon-180.png", "icons/icon-192.png", "icons/icon-32.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "index.html", "day/crystal.js", "day/crystal.json", "day/louise.js", "day/louise.json", "day/sunshine.js", "day/sunshine.json"];
 var CACHE = "runfinder-" + VERSION, FONTS = "runfinder-fonts", DATA = "runfinder-data";
 var CONDITIONS = /(\.json|\/day\/[a-z]+\.js)$/;
