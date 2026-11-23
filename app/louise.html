@@ -480,6 +480,27 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     });
     p.joins = Object.keys(names);
   });
+  // A run with no name still opens a card (the user, 2026-11-22: "Any runs that don't have a name need to be
+  // clickable"). Its card is headed by an alias from the runs it joins ("Unnamed run off Queens") or, joining none, the
+  // nearest named run. The alias is only for the card: the run stays out of the list and the family app's names, and
+  // its line still fades with the runs it joins.
+  M.pieces.forEach(function (p) {
+    if (p.name || !(p.lines.length || p.areas.length)) return;
+    var j = p.joins || [], near = null;
+    if (!j.length) {
+      var mine = [].concat.apply([], p.lines.concat(p.areas)), bd = Infinity;
+      M.pieces.forEach(function (q) {
+        if (!q.name) return;
+        q.lines.concat(q.areas).forEach(function (ln) { ln.forEach(function (pt) { mine.forEach(function (e) {
+          var d = (pt[0] - e[0]) * (pt[0] - e[0]) + (pt[1] - e[1]) * (pt[1] - e[1]); if (d < bd) { bd = d; near = q.name; } }); }); });
+      });
+    }
+    var a = "Unnamed " + (p.lines.length ? "run" : "area") + (j.length >= 2 ? " between " + j[0] + " and " + j[1] : j.length ? " off " + j[0] : near ? " by " + near : "");
+    var base = a, n = 2;
+    while (M.pieces.some(function (q) { return q !== p && (q.name === a || q.alias === a); })) a = base + " (" + n++ + ")";
+    p.alias = a;
+  });
+  function nameOf(p) { return p.name || p.alias || null; }
   // The run line fades under its own name (the user, 2026-11-20: "the path below can become 70% transparent"): the
   // stretch of each run's line within half a text height of its name's path is drawn at 30%. Worked out once here;
   // a mask over all the lines did the same but made every pan and zoom frame about 3x slower ("the map feels very
@@ -545,7 +566,8 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
             "stroke-dasharray": dashed ? "7 4" : "none", "class": "core"}, sub);
         });
       });
-      if (p.name) g.addEventListener("click", function (ev) { ev.stopPropagation(); select(p.name); });
+      if (p.alias) g.setAttribute("data-alias", p.alias);
+      if (nameOf(p)) g.addEventListener("click", function (ev) { ev.stopPropagation(); select(nameOf(p)); });
       lineEls.push({g: g, p: p});
     });
     M.lifts.forEach(function (l) {
@@ -591,7 +613,8 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
         var st = stars[p.name];
         if (st && lab.sw) starText(g, st.n, start + room + 5 + lab.w + 4, 0, lab.sw - 4);
       }
-      if (p.name) g.addEventListener("click", function (ev) { ev.stopPropagation(); select(p.name); });
+      if (p.alias) g.setAttribute("data-alias", p.alias);
+      if (nameOf(p)) g.addEventListener("click", function (ev) { ev.stopPropagation(); select(nameOf(p)); });
       labelEls.push({g: g, p: p});
     });
     mapMark = el("circle", {r: 14, fill: "#F2B83A", stroke: "#111", "stroke-width": 4, visibility: "hidden"}, gLabels);
@@ -637,13 +660,14 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
     var st = stars[p.name];
     if (st && lab.sw) onPath({"dominant-baseline": "central", "font-size": EM * 0.82, "font-family": "'Segoe UI Symbol', 'Apple Symbols', sans-serif", "stroke-width": 3},
                              room + 5 + lab.w + 4, (lab.sw - 4) * Math.ceil(st.n) / 5, starStr(st.n), "#E8A317");
-    if (p.name) g.addEventListener("click", function (ev) { ev.stopPropagation(); select(p.name); });
+    if (p.alias) g.setAttribute("data-alias", p.alias);
+    if (nameOf(p)) g.addEventListener("click", function (ev) { ev.stopPropagation(); select(nameOf(p)); });
     labelEls.push({g: g, p: p});
   }
 
   function highlight() {
     lineEls.forEach(function (o) {
-      var on = state.selected && o.p.name === state.selected;
+      var on = state.selected && nameOf(o.p) === state.selected;
       o.g.querySelectorAll(".core").forEach(function (c) { c.setAttribute("stroke-width", on ? 9 : (o.p.freeride ? 3 : openBold(o.p) ? 5.2 : 4.4)); });
       if (on) o.g.parentNode.appendChild(o.g);
     });
@@ -723,7 +747,7 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
 
   function select(name, fly) {
     state.selected = name; highlight();
-    var p = M.pieces.filter(function (q) { return q.name === name; })[0]; if (!p) return;
+    var p = M.pieces.filter(function (q) { return nameOf(q) === name; })[0]; if (!p) return;
     var r = R[name] || {}; var lvl = levelOf(p); var st = stars[name];
     var sec = document.getElementById("detailcard"); sec.hidden = false; sec.scrollTop = 0;
     if (mapMark) mapMark.setAttribute("visibility", "hidden");
@@ -1131,6 +1155,23 @@ details p { font-size: 13px; color: var(--muted); margin: 6px 0 0; }
   function up(e) { pointers.delete(e.pointerId); if (pointers.size < 2) last = null; if (!pointers.size) svg.classList.remove("dragging"); }
   wrap.addEventListener("pointerup", up); wrap.addEventListener("pointercancel", up);
   svg.addEventListener("click", function (e) { if (moved > 6) e.stopPropagation(); }, true);
+  // A tap near a run, not on it, opens the nearest run within NEAR_PX on screen (the user, 2026-11-22: lines were hard
+  // to tap zoomed out, where a line's own hit stroke is only a few pixels wide). Taps on a line or a name are handled
+  // by the run and never get here; runs on a switched-off layer are skipped.
+  var NEAR_PX = 22;
+  svg.addEventListener("click", function (e) {
+    if (moved > 6) return;
+    var rc = wrap.getBoundingClientRect(), u = e.clientX - rc.left - view.x, v = e.clientY - rc.top - view.y;
+    var a = -(view.r || 0) * Math.PI / 180, c = Math.cos(a), s = Math.sin(a);
+    var q = [(u * c - v * s) / view.k, (u * s + v * c) / view.k], best = null, bd = NEAR_PX / view.k;
+    lineEls.forEach(function (o) {
+      var n = nameOf(o.p); if (!n || getComputedStyle(o.g).display === "none") return;
+      o.p.lines.forEach(function (pts) {
+        for (var k = 1; k < pts.length; k++) { var d = segDist(q, pts[k - 1], pts[k]); if (d < bd) { bd = d; best = n; } }
+      });
+    });
+    if (best) select(best);
+  });
   document.getElementById("zin").addEventListener("click", function () { zoomAt(1.4, wrap.clientWidth / 2, wrap.clientHeight / 2); });
   document.getElementById("zout").addEventListener("click", function () { zoomAt(1 / 1.4, wrap.clientWidth / 2, wrap.clientHeight / 2); });
   document.getElementById("zfit").addEventListener("click", fit);
