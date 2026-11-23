@@ -114,6 +114,15 @@ LEVEL_WORDS = {"easiest": "green", "beginner": "green", "easy": "green", "more d
                "experts only": "double", "expert": "double", "extreme": "double", "freestyle terrain": "park"}
 
 
+def to_utc(stamp):
+    """'2026-10-27T16:19:00-0700' (or -07:00) to UTC ISO; None if unreadable."""
+    try:
+        return datetime.fromisoformat(re.sub(r"([+-]\d\d)(\d\d)$", r"\1:\2", stamp)).astimezone(
+            timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    except (TypeError, ValueError):
+        return None
+
+
 def level_of(word):
     return LEVEL_WORDS.get((word or "").strip().lower(), (word or "").strip().lower() or None)
 
@@ -176,7 +185,8 @@ def read_mtnpowder(resort, fetch):
             g = (t.get("Grooming") or "").strip().lower()
             runs.append({"name": t["Name"], "difficulty": level_of(t.get("Difficulty")), "area": area.get("Name"),
                          "status": bt.norm_status(t.get("StatusEnglish") or t.get("Status")),
-                         "groomed": None if g in ("", "--") else g not in ("no", "false", "0")})
+                         "groomed": None if g in ("", "--") else g not in ("no", "false", "0"),
+                         "updated": to_utc(t.get("UpdateDate"))})
     sr = feed.get("SnowReport") or {}
     allm, mid = sr.get("AllMountain") or {}, sr.get("MidMountainArea") or {}
     cc = (feed.get("CurrentConditions") or {}).get("MidMountain") or {}
@@ -187,7 +197,97 @@ def read_mtnpowder(resort, fetch):
     return runs, snow, sr.get("LastUpdate") or feed.get("LastUpdate")
 
 
-READERS = {"sunshine": read_sunshine, "louise": read_louise, "mtnpowder": read_mtnpowder}
+NORQUAY_RUN = re.compile(
+    r'jet-toggle__label-text">(?P<lift>[^<]+?)\s*<span class="lift-status is-(?P<lstat>[a-z]+)"'
+    r'|class="run-difficulty difficulty-(?P<diff>[a-z]+)"'
+    r'|conditions-run-name.*?jet-listing-dynamic-field__content" >(?P<name>[^<]*)<'
+    r'|class="run-status status-(?P<rstat>[a-z]+)"'
+    r'|class="run-groomed groomed-(?P<groom>[a-z]+)"', re.S)
+
+
+def read_norquay(resort, fetch):
+    """Norquay's conditions page (2026 site): per-run rows under each lift, and the snow numbers as text."""
+    body = fetch("norquay-conditions", resort["urls"]["conditions"], "html")
+    if not body:
+        return [], {}, None
+    page = body.decode("utf-8", "replace")
+    runs, lift, cur, seen = [], None, {}, set()
+    for m in NORQUAY_RUN.finditer(page):
+        if m.group("lift"):
+            lift = bt.html.unescape(m.group("lift").strip())
+        elif m.group("diff"):
+            cur = {"area": lift, "difficulty": level_of(m.group("diff"))}
+        elif m.group("name") is not None:
+            cur["name"] = bt.html.unescape(m.group("name").strip())
+        elif m.group("rstat"):
+            cur["status"] = bt.norm_status(m.group("rstat"))
+        elif m.group("groom") and cur.get("name"):
+            cur["groomed"] = m.group("groom") == "groomed"
+            if cur["name"] in seen:               # "Last Chance" runs off two lifts
+                cur["name"] = f"{cur['name']} ({lift})"
+            seen.add(cur["name"])
+            runs.append(cur)
+            cur = {}
+    if not runs:
+        raise ValueError("page layout changed: no runs found")
+    text = re.sub(r"\s+", " ", bt.html.unescape(re.sub(r"<[^>]+>", " ", re.sub(
+        r"<(script|style)[^>]*>.*?</\1>", "", page, flags=re.S)))).replace("−", "-")
+
+    def cm(pattern):
+        found = re.search(pattern, text)
+        return bt.num(found.group(1)) if found else None
+    snow = {"overnight_cm": cm(r"([\d.]+)\s*cm\s*Overnight"), "new_24h_cm": cm(r"([\d.]+)\s*cm\s*Last 24 Hours"),
+            "new_48h_cm": None, "new_72h_cm": None, "new_7d_cm": cm(r"([\d.]+)\s*cm\s*Last 7 Days"),
+            "base_cm": _mean(cm(r"Snow Base - Lower Mountain\s*([\d.]+)\s*cm"),
+                             cm(r"Snow Base - Upper Mountain\s*([\d.]+)\s*cm")),
+            "temp_c": cm(r"Current\s*(-?[\d.]+)\s*°C")}
+    stamp = re.search(r"Conditions update for ([A-Za-z]+, [A-Za-z]+ \d+)", text)
+    return runs, snow, stamp.group(1) if stamp else None
+
+
+def read_copper(resort, fetch):
+    """Copper's own API (api.coppercolorado.com): every trail's status and groom_status, the snow report in inches."""
+    api = "https://api.coppercolorado.com/api/v1/dor"
+    body = fetch("copper-trails", f"{api}/drupal/trails", "json")
+    if not body:
+        return [], {}, None
+    runs = []
+    for t in json.loads(body):
+        if not t.get("include") or t.get("type") not in ("alpine_trail", "terrain_park_trail") or \
+                t.get("season") not in ("winter", "all"):
+            continue
+        g = (t.get("groom_status") or "").lower()
+        runs.append({"name": t["name"], "difficulty": level_of(t.get("difficulty", "").replace("_", " ")),
+                     "area": (t.get("sector") or {}).get("name"), "status": bt.norm_status(t.get("status")),
+                     "groomed": None if not g else g != "not_groomed",
+                     "updated": datetime.fromtimestamp(t["updated"], timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                     if t.get("updated") else None})
+    snow, report_time = {}, None
+    body = fetch("copper-snow-report", f"{api}/drupal/snow-reports?sort=date&direction=desc", "json")
+    if body:
+        reports = json.loads(body)
+        reports = reports if isinstance(reports, list) else reports.get("data", [])
+        if reports:
+            r = reports[0]
+            c = r.get("computed") or {}
+
+            def cm(v):
+                v = bt.num(v)
+                return None if v is None else round(v * CM_PER_IN, 1)
+            snow = {"overnight_cm": cm(r.get("overnight_amount")), "new_24h_cm": cm(c.get("24_hour")),
+                    "new_48h_cm": cm(c.get("48_hour")), "new_72h_cm": None, "new_7d_cm": cm(c.get("7_day")),
+                    "base_cm": cm(r.get("base_depth")), "temp_c": None}
+            report_time = r.get("date")
+    body = fetch("copper-weather", f"{api}/weather-forecast", "json")
+    if body:
+        f = bt.num((json.loads(body).get("current") or {}).get("temperature"))
+        if f is not None:
+            snow["temp_c"] = round((f - 32) * 5 / 9, 1)
+    return runs, snow, report_time
+
+
+READERS = {"sunshine": read_sunshine, "louise": read_louise, "mtnpowder": read_mtnpowder, "norquay": read_norquay,
+           "copper": read_copper}
 
 
 # --- measured and modelled snow ---
@@ -293,11 +393,14 @@ def merge(resort_id, check):
     for r in check["runs"]:
         item = day["runs"].setdefault(r["name"], {"difficulty": r["difficulty"], "area": r["area"],
                                                   "status": [None] * n, "groomed": [None] * n})
+        item.setdefault("updated", [None] * n)  # the run's own last-change time, where the resort gives one
         item.update(difficulty=r["difficulty"] or item["difficulty"], area=r["area"] or item["area"])
         item["status"].append(r["status"])
         item["groomed"].append(r["groomed"])
+        item["updated"].append(r.get("updated"))
     for item in day["runs"].values():          # runs missing from this check get a gap
-        for key in ("status", "groomed"):
+        for key in ("status", "groomed", "updated"):
+            item.setdefault(key, [])
             item[key] += [None] * (n + 1 - len(item[key]))
     day["model_days"].update(check["model_days"])
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -367,7 +470,7 @@ class Names:
 # --- the log ---
 
 LOG_COLUMNS = ["date", "weekday", "resort", "run", "map_names", "difficulty", "area", "pod", "guessed", "open",
-               "groomed", "groomed_by_check", "checks", "report_time", "new_overnight_in", "new_24h_in",
+               "groomed", "groomed_by_check", "updated_today", "checks", "report_time", "new_overnight_in", "new_24h_in",
                "new_48h_in", "new_72h_in", "new_snow_source", "base_in", "temp_f", "snotel_depth_change_in",
                "model_24h_in", "days_since_2in"]
 
@@ -441,6 +544,11 @@ def rebuild_log():
                 status = [r["status"][i] for i in use]
                 if all(s is None for s in status):
                     continue
+                updated = r.get("updated") or []
+                stamps = [updated[i] for i in use if i < len(updated) and updated[i]]
+                updated_today = "" if not stamps else "Y" if any(
+                    local(resort, datetime.strptime(u, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc))
+                    .date().isoformat() == d["date"] for u in stamps) else "N"
                 rows.append(dict(common, run=name, map_names="; ".join(matched) if matched else
                                  ("(no line on the map)" if matched == [] else ""),
                                  difficulty=r["difficulty"], area=r["area"], pod="; ".join(pods),
@@ -449,7 +557,8 @@ def rebuild_log():
                                  groomed="Y" if any(g is True for g in groomed) else
                                  ("N" if any(g is False for g in groomed) else ""),
                                  groomed_by_check="".join("Y" if g is True else "N" if g is False else "-"
-                                                          for g in groomed)))
+                                                          for g in groomed),
+                                 updated_today=updated_today))
     with open(LOG, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=LOG_COLUMNS)
         writer.writeheader()

@@ -18,6 +18,16 @@
      "model": {"lat": 51.4530, "lon": -116.1490, "elev_m": 2042}},
     {"id": "crystal", "name": "Crystal Mountain", "kind": "mtnpowder", "mtnfeed": "crystal-mountain", "page": "crystal",
      "tz": {"offset": -8, "dst": true}, "snotel": "642:WA:SNTL",
-     "model": {"lat": 46.9353, "lon": -121.4746, "elev_m": 1676}}
-  ]
+     "model": {"lat": 46.9353, "lon": -121.4746, "elev_m": 1676}},
+    {"id": "norquay", "name": "Banff Norquay", "kind": "norquay", "page": null,
+     "tz": {"offset": -6, "dst": false},
+     "urls": {"conditions": "https://banffnorquay.com/conditions/"},
+     "model": {"lat": 51.2030, "lon": -115.5990, "elev_m": 1850}},
+    {"id": "copper", "name": "Copper Mountain", "kind": "copper", "page": null,
+     "tz": {"offset": -7, "dst": true}, "snotel": "415:CO:SNTL",
+     "model": {"lat": 39.4900, "lon": -106.1600, "elev_m": 3300}}
+  ],
+  "_not_collected": {
+    "baker": "Mt. Baker publishes no per-run grooming (checked 2026-11-22): its snow report has one free-text surface line for the whole mountain and a per-chair table, and archived reports from Jan and Feb 2026 have no grooming list either."
+  }
 }
