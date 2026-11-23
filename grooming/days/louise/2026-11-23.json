@@ -95,6 +95,53 @@
     "rain_24h_mm": 0.0
    },
    "snotel": null
+  },
+  {
+   "fetched_at": "2026-11-23T06:15:54Z",
+   "local_time": "2026-11-23T00:15:54-06:00",
+   "date": "2026-11-23",
+   "report_time": "2026-11-22T11:12:14Z",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "louise-feed",
+     "url": "https://ski-louise-status-page.vercel.app/api/ski-data",
+     "http_status": 200,
+     "bytes": 30405,
+     "sha256": "8b16298d5dfdcda84d0c33667df9be55f331d47f5072b7d1915bd31fbbd1e0db",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.453&longitude=-116.149&elevation=2042&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 18785,
+     "sha256": "99ee320cb3f6d6ae6f6f68739d96e746db684cb968b3276ffe92702830dde96f",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": 0,
+    "new_24h_cm": 0,
+    "new_48h_cm": 0,
+    "new_72h_cm": null,
+    "new_7d_cm": 10,
+    "base_cm": 26,
+    "temp_c": -11
+   },
+   "model": {
+    "temp_c": -12.4,
+    "tmin_24h_c": -17.1,
+    "tmax_24h_c": -9.2,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 0.0,
+    "hours_above_0_24h": 0,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null
   }
  ],
  "runs": {
@@ -103,11 +150,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Flight Chutes 4": {
@@ -115,11 +169,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Grizzly Bowl": {
@@ -127,11 +188,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Helen's": {
@@ -139,11 +207,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Home Run Chutes": {
@@ -151,11 +226,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Home Run": {
@@ -163,11 +245,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Mirkwood": {
@@ -175,11 +264,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Grizzly Gully": {
@@ -187,11 +283,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Flight Chutes Cat Track": {
@@ -199,11 +302,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Upshoots": {
@@ -211,11 +321,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Flight Chutes 1": {
@@ -223,11 +340,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Flight Chutes 2": {
@@ -235,11 +359,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Upper Juniper": {
@@ -247,11 +378,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Flight Chutes 3": {
@@ -259,11 +397,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Eagle Flight": {
@@ -271,11 +416,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Skyline": {
@@ -283,11 +435,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Eagle's Beak": {
@@ -295,11 +454,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lower Flight": {
@@ -307,11 +473,18 @@
    "area": "Front Side",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Eagle Trees": {
@@ -319,11 +492,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Race Pitch": {
@@ -331,11 +511,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Eagle Poma": {
@@ -343,11 +530,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Upper Grouse": {
@@ -355,11 +549,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Eagle Meadows": {
@@ -367,11 +568,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Deer Run": {
@@ -379,11 +587,18 @@
    "area": "Front Side",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wapta": {
@@ -391,11 +606,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Upper Meadowlark": {
@@ -403,11 +625,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Meadowlark": {
@@ -415,11 +644,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lower Grouse": {
@@ -427,11 +663,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Pika": {
@@ -439,11 +682,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Kernahan's": {
@@ -451,11 +701,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Steep & Flat": {
@@ -463,11 +720,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Whitehorn Cat Track": {
@@ -475,11 +739,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Bearberry": {
@@ -487,11 +758,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Juniper": {
@@ -499,11 +777,18 @@
    "area": "Front Side",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Jerry's Jungle": {
@@ -511,11 +796,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Bald Eagle": {
@@ -523,11 +815,18 @@
    "area": "Front Side",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lake Lindsey Way": {
@@ -535,11 +834,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Cameron's Way": {
@@ -547,11 +853,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wiwaxy": {
@@ -559,11 +872,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Pinecone Way": {
@@ -571,11 +891,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lowest Meadowlark": {
@@ -583,11 +910,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Easy Street": {
@@ -595,11 +929,18 @@
    "area": "Front Side",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Sunny Side": {
@@ -607,11 +948,18 @@
    "area": "Front Side",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Blueberry": {
@@ -619,11 +967,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Buffaloberry": {
@@ -631,11 +986,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Juniper Jungle": {
@@ -643,11 +1005,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Bunchberry": {
@@ -655,11 +1024,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Sunset Gully": {
@@ -667,11 +1043,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wrong Turn": {
@@ -679,11 +1062,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Upper Wiwaxy": {
@@ -691,11 +1081,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Tight Turn": {
@@ -703,11 +1100,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Middle Limits": {
@@ -715,11 +1119,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Charlie's Choice": {
@@ -727,11 +1138,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Tickety Chutes": {
@@ -739,11 +1157,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Sunset Terrace": {
@@ -751,11 +1176,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Headwall": {
@@ -763,11 +1195,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Sunset": {
@@ -775,11 +1214,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Headwall Bowl": {
@@ -787,11 +1233,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Outer Limits": {
@@ -799,11 +1252,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Sunset Pocket": {
@@ -811,11 +1271,18 @@
    "area": "Front Side",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ptarmigan Chute 1": {
@@ -823,11 +1290,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ptarmigan Chute 2": {
@@ -835,11 +1309,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ptarmigan Chute 3": {
@@ -847,11 +1328,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Exhibition": {
@@ -859,11 +1347,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ptarmigan Cat Track": {
@@ -871,11 +1366,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Exhibition Trees": {
@@ -883,11 +1385,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ptarmigan Glades": {
@@ -895,11 +1404,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Old Ptarmigan": {
@@ -907,11 +1423,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ptarmigan": {
@@ -919,11 +1442,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Raven": {
@@ -931,11 +1461,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Pika Trees": {
@@ -943,11 +1480,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Alley": {
@@ -955,11 +1499,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Pikaboo": {
@@ -967,11 +1518,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Corridor": {
@@ -979,11 +1537,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "East Bowl": {
@@ -991,11 +1556,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Crow Bowl": {
@@ -1003,11 +1575,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "East Bowl Trees": {
@@ -1015,11 +1594,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "2/3 Shoulder": {
@@ -1027,11 +1613,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Upper Alley": {
@@ -1039,11 +1632,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Cowboy": {
@@ -1051,11 +1651,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "E.R. 3": {
@@ -1063,11 +1670,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Swede's": {
@@ -1075,11 +1689,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "The Heart": {
@@ -1087,11 +1708,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Powder Pockets": {
@@ -1099,11 +1727,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Fenceline Gully": {
@@ -1111,11 +1746,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Paradise Bowl": {
@@ -1123,11 +1765,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "4/5 Shoulder": {
@@ -1135,11 +1784,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Hell's Kitchen": {
@@ -1147,11 +1803,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Paradise Cornice": {
@@ -1159,11 +1822,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lower 5": {
@@ -1171,11 +1841,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lily Pads": {
@@ -1183,11 +1860,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "E.R. 6": {
@@ -1195,11 +1879,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Big 7": {
@@ -1207,11 +1898,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Drop Out": {
@@ -1219,11 +1917,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Vertical Cornice": {
@@ -1231,11 +1936,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Couloir": {
@@ -1243,11 +1955,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Peyto's Pitch": {
@@ -1255,11 +1974,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "The Beast": {
@@ -1267,11 +1993,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Jackpot": {
@@ -1279,11 +2012,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Saddleback": {
@@ -1291,11 +2031,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Read's Way": {
@@ -1303,11 +2050,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Saddleback Bowl": {
@@ -1315,11 +2069,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Hour Glass": {
@@ -1327,11 +2088,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wounded Knee": {
@@ -1339,11 +2107,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Kiddie's Corner": {
@@ -1351,11 +2126,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Split Rock": {
@@ -1363,11 +2145,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Warden's Run": {
@@ -1375,11 +2164,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Fourth Gate": {
@@ -1387,11 +2183,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Third Gate": {
@@ -1399,11 +2202,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Second Gate": {
@@ -1411,11 +2221,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Whitehorn 1": {
@@ -1423,11 +2240,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ridge Run": {
@@ -1435,11 +2259,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Rodney's Ridge": {
@@ -1447,11 +2278,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "A Gully": {
@@ -1459,11 +2297,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "B Gully": {
@@ -1471,11 +2316,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "C Gully": {
@@ -1483,11 +2335,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "D Gully": {
@@ -1495,11 +2354,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "E Gully": {
@@ -1507,11 +2373,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "F Gully": {
@@ -1519,11 +2392,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "G Gully": {
@@ -1531,11 +2411,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "H Gully": {
@@ -1543,11 +2430,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "I Gully": {
@@ -1555,11 +2449,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Boomerang": {
@@ -1567,11 +2468,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Little Pipestone": {
@@ -1579,11 +2487,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Upper Boomerang": {
@@ -1591,11 +2506,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Shoulder Roll": {
@@ -1603,11 +2525,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Brown Cow": {
@@ -1615,11 +2544,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Brown Cow 1st": {
@@ -1627,11 +2563,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Brown Cow Main": {
@@ -1639,11 +2582,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "North Cornice": {
@@ -1651,11 +2601,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wild Gully": {
@@ -1663,11 +2620,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ghostly Gully": {
@@ -1675,11 +2639,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lake Pitch": {
@@ -1687,11 +2658,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "UNC": {
@@ -1699,11 +2677,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Boundary Bowl": {
@@ -1711,11 +2696,18 @@
    "area": "Back Bowls",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Rock Garden": {
@@ -1723,11 +2715,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Marmot": {
@@ -1735,11 +2734,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wolverine": {
@@ -1747,11 +2753,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "30 Goats": {
@@ -1759,11 +2772,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Larch Poma": {
@@ -1771,11 +2791,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lynx": {
@@ -1783,11 +2810,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Larch": {
@@ -1795,11 +2829,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lipalian Chutes": {
@@ -1807,11 +2848,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lookout": {
@@ -1819,11 +2867,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Tower 12": {
@@ -1831,11 +2886,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lookout Chutes": {
@@ -1843,11 +2905,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Bobcat": {
@@ -1855,11 +2924,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Prunepickers": {
@@ -1867,11 +2943,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ski Out": {
@@ -1879,11 +2962,18 @@
    "area": "Larch",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Merlin": {
@@ -1891,11 +2981,18 @@
    "area": "Richardson's Ridge",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Skoki": {
@@ -1903,11 +3000,18 @@
    "area": "Richardson's Ridge",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Fossil": {
@@ -1915,11 +3019,18 @@
    "area": "Richardson's Ridge",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Vermillion": {
@@ -1927,11 +3038,18 @@
    "area": "Richardson's Ridge",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Redoubt": {
@@ -1939,11 +3057,18 @@
    "area": "Richardson's Ridge",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Pipestone Ridge": {
@@ -1951,11 +3076,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "West Bowl": {
@@ -1963,11 +3095,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Temple": {
@@ -1975,11 +3114,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ten Peaks": {
@@ -1987,11 +3133,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Instructors Bowl": {
@@ -1999,11 +3152,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Outback": {
@@ -2011,11 +3171,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "White Rabbit": {
@@ -2023,11 +3190,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Instructors Gully": {
@@ -2035,11 +3209,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Enchanted Forest": {
@@ -2047,11 +3228,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "West Bowl Gully": {
@@ -2059,11 +3247,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Doughnut Plains": {
@@ -2071,11 +3266,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Maintenance Gully": {
@@ -2083,11 +3285,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Maverick": {
@@ -2095,11 +3304,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Free Spirit": {
@@ -2107,11 +3323,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Oly Slides West": {
@@ -2119,11 +3342,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Oly Slides East": {
@@ -2131,11 +3361,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Egress": {
@@ -2143,11 +3380,18 @@
    "area": "West Bowl",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   }
  },

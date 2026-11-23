@@ -70,6 +70,75 @@
     "swe_in": 0.4,
     "depth_change_in": 3
    }
+  },
+  {
+   "fetched_at": "2026-11-23T06:15:54Z",
+   "local_time": "2026-11-22T23:15:54-07:00",
+   "date": "2026-11-22",
+   "report_time": "2026-11-22 05:02:06",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "copper-trails",
+     "url": "https://api.coppercolorado.com/api/v1/dor/drupal/trails",
+     "http_status": 200,
+     "bytes": 149102,
+     "sha256": "1b4af91347bb0931a79b62e5e8ae21d2890a8124ee46fd3304a04a2eabd14628",
+     "error": null
+    },
+    {
+     "source": "copper-snow-report",
+     "url": "https://api.coppercolorado.com/api/v1/dor/drupal/snow-reports?sort=date&direction=desc",
+     "http_status": 200,
+     "bytes": 13736,
+     "sha256": "0159fb9d02bd47e89bcd8fb83473b42741f94f248ca215054df3b8b1ceff6bda",
+     "error": null
+    },
+    {
+     "source": "copper-weather",
+     "url": "https://api.coppercolorado.com/api/v1/dor/weather-forecast",
+     "http_status": 200,
+     "bytes": 2021,
+     "sha256": "fbd458a6f258a5cacbe675f5e27ea1ac8af81522e85c732c4a200b2f3670efc3",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=39.49&longitude=-106.16&elevation=3300&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 19174,
+     "sha256": "bfddd7ea65253598e44e4f4eecf9eb7f557dd99a2fb9cf15a02c96eaa924ddd1",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": 0.0,
+    "new_24h_cm": 5.1,
+    "new_48h_cm": 15.2,
+    "new_72h_cm": null,
+    "new_7d_cm": 17.8,
+    "base_cm": 45.7,
+    "temp_c": -10.6
+   },
+   "model": {
+    "temp_c": -9.8,
+    "tmin_24h_c": -14.3,
+    "tmax_24h_c": -0.6,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.3,
+    "snow_72h_cm": 0.3,
+    "snow_7d_cm": 0.6,
+    "hours_above_0_24h": 0,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": {
+    "station": "415:CO:SNTL",
+    "date": "2026-11-21",
+    "depth_in": 3,
+    "swe_in": 0.4,
+    "depth_change_in": 3
+   }
   }
  ],
  "runs": {
@@ -77,12 +146,15 @@
    "difficulty": "black",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -90,12 +162,15 @@
    "difficulty": "black",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -103,12 +178,15 @@
    "difficulty": "black",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -116,12 +194,15 @@
    "difficulty": "black",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -129,12 +210,15 @@
    "difficulty": "double",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -142,12 +226,15 @@
    "difficulty": "double",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -155,12 +242,15 @@
    "difficulty": "black",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -168,12 +258,15 @@
    "difficulty": "black",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -181,12 +274,15 @@
    "difficulty": "black",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -194,12 +290,15 @@
    "difficulty": "blue",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -207,12 +306,15 @@
    "difficulty": "black",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -220,12 +322,15 @@
    "difficulty": "black",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -233,12 +338,15 @@
    "difficulty": "green",
    "area": "Beginner Learning",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -246,12 +354,15 @@
    "difficulty": "green",
    "area": "Woodward Mountain Park",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -259,12 +370,15 @@
    "difficulty": "blue",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -272,12 +386,15 @@
    "difficulty": "blue",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -285,12 +402,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -298,12 +418,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -311,12 +434,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -324,12 +450,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -337,12 +466,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -350,12 +482,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -363,12 +498,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -376,12 +514,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -389,12 +530,15 @@
    "difficulty": "blue",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -402,12 +546,15 @@
    "difficulty": "blue",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -415,12 +562,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -428,12 +578,15 @@
    "difficulty": "blue",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -441,12 +594,15 @@
    "difficulty": "blue",
    "area": "East",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -454,12 +610,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -467,12 +626,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -480,12 +642,15 @@
    "difficulty": "green",
    "area": "Beginner Learning",
    "status": [
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true
    ],
    "updated": [
+    "2026-11-21T12:22:46Z",
     "2026-11-21T12:22:46Z"
    ]
   },
@@ -493,12 +658,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -506,12 +674,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -519,12 +690,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -532,12 +706,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -545,12 +722,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-11-15T12:36:02Z",
     "2026-11-15T12:36:02Z"
    ]
   },
@@ -558,12 +738,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -571,12 +754,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -584,12 +770,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -597,12 +786,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -610,12 +802,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -623,12 +818,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -636,12 +834,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -649,12 +850,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -662,12 +866,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -675,12 +882,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -688,12 +898,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -701,12 +914,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -714,12 +930,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -727,12 +946,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -740,12 +962,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -753,12 +978,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -766,12 +994,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -779,12 +1010,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true
    ],
    "updated": [
+    "2026-11-08T12:00:26Z",
     "2026-11-08T12:00:26Z"
    ]
   },
@@ -792,12 +1026,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true
    ],
    "updated": [
+    "2026-11-08T12:00:26Z",
     "2026-11-08T12:00:26Z"
    ]
   },
@@ -805,12 +1042,15 @@
    "difficulty": "green",
    "area": "Woodward Mountain Park",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:38Z",
     "2026-05-03T22:20:38Z"
    ]
   },
@@ -818,12 +1058,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "open",
     "open"
    ],
    "groomed": [
+    true,
     true
    ],
    "updated": [
+    "2026-11-08T12:00:26Z",
     "2026-11-08T12:00:26Z"
    ]
   },
@@ -831,12 +1074,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -844,12 +1090,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -857,12 +1106,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -870,12 +1122,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -883,12 +1138,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -896,12 +1154,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -909,12 +1170,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -922,12 +1186,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -935,12 +1202,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -948,12 +1218,15 @@
    "difficulty": "green",
    "area": "Woodward Mountain Park",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -961,12 +1234,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -974,12 +1250,15 @@
    "difficulty": "green",
    "area": "Woodward Mountain Park",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -987,12 +1266,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1000,12 +1282,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1013,12 +1298,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1026,12 +1314,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1039,12 +1330,15 @@
    "difficulty": "green",
    "area": "Woodward Mountain Park",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1052,12 +1346,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1065,12 +1362,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1078,12 +1378,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1091,12 +1394,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1104,12 +1410,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1117,12 +1426,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1130,12 +1442,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1143,12 +1458,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1156,12 +1474,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1169,12 +1490,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1182,12 +1506,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1195,12 +1522,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1208,12 +1538,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1221,12 +1554,15 @@
    "difficulty": "green",
    "area": "Woodward Mountain Park",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1234,12 +1570,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1247,12 +1586,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1260,12 +1602,15 @@
    "difficulty": "green",
    "area": "Woodward Mountain Park",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1273,12 +1618,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1286,12 +1634,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1299,12 +1650,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1312,12 +1666,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1325,12 +1682,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1338,12 +1698,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1351,12 +1714,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1364,12 +1730,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1377,12 +1746,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1390,12 +1762,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1403,12 +1778,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1416,12 +1794,15 @@
    "difficulty": "green",
    "area": "Woodward Mountain Park",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1429,12 +1810,15 @@
    "difficulty": "green",
    "area": "Woodward Mountain Park",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1442,12 +1826,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1455,12 +1842,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1468,12 +1858,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1481,12 +1874,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1494,12 +1890,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1507,12 +1906,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1520,12 +1922,15 @@
    "difficulty": "green",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1533,12 +1938,15 @@
    "difficulty": "blue",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1546,12 +1954,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1559,12 +1970,15 @@
    "difficulty": "blue",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1572,12 +1986,15 @@
    "difficulty": "green",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1585,12 +2002,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1598,12 +2018,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1611,12 +2034,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1624,12 +2050,15 @@
    "difficulty": "blue",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1637,12 +2066,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1650,12 +2082,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1663,12 +2098,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:39Z",
     "2026-05-03T22:20:39Z"
    ]
   },
@@ -1676,12 +2114,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1689,12 +2130,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1702,12 +2146,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1715,12 +2162,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1728,12 +2178,15 @@
    "difficulty": "green",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1741,12 +2194,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1754,12 +2210,15 @@
    "difficulty": "green",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1767,12 +2226,15 @@
    "difficulty": "blue",
    "area": "West",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1780,12 +2242,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1793,12 +2258,15 @@
    "difficulty": "black",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1806,12 +2274,15 @@
    "difficulty": "double",
    "area": "Spaulding & Resolution",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1819,12 +2290,15 @@
    "difficulty": "black",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1832,12 +2306,15 @@
    "difficulty": "black",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1845,12 +2322,15 @@
    "difficulty": "black",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1858,12 +2338,15 @@
    "difficulty": "blue",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1871,12 +2354,15 @@
    "difficulty": "black",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1884,12 +2370,15 @@
    "difficulty": "black",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1897,12 +2386,15 @@
    "difficulty": "black",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1910,12 +2402,15 @@
    "difficulty": "black",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1923,12 +2418,15 @@
    "difficulty": "extreme terrain",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1936,12 +2434,15 @@
    "difficulty": "extreme terrain",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1949,12 +2450,15 @@
    "difficulty": "extreme terrain",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1962,12 +2466,15 @@
    "difficulty": "double",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1975,12 +2482,15 @@
    "difficulty": "blue",
    "area": "Copper Bowl",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -1988,12 +2498,15 @@
    "difficulty": "double",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2001,12 +2514,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2014,12 +2530,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2027,12 +2546,15 @@
    "difficulty": "black",
    "area": "Union Peak",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2040,12 +2562,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2053,12 +2578,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2066,12 +2594,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2079,12 +2610,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2092,12 +2626,15 @@
    "difficulty": "black",
    "area": "Center",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2105,12 +2642,15 @@
    "difficulty": "extreme terrain",
    "area": "Tucker Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2118,12 +2658,15 @@
    "difficulty": "extreme terrain",
    "area": "Tucker Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2131,12 +2674,15 @@
    "difficulty": "extreme terrain",
    "area": "Tucker Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2144,12 +2690,15 @@
    "difficulty": "extreme terrain",
    "area": "Tucker Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2157,12 +2706,15 @@
    "difficulty": "extreme terrain",
    "area": "Tucker Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2170,12 +2722,15 @@
    "difficulty": "extreme terrain",
    "area": "Tucker Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2183,12 +2738,15 @@
    "difficulty": "extreme terrain",
    "area": "Tucker Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2196,12 +2754,15 @@
    "difficulty": "extreme terrain",
    "area": "Tucker Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2209,12 +2770,15 @@
    "difficulty": "extreme terrain",
    "area": "Tucker Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   },
@@ -2222,12 +2786,15 @@
    "difficulty": "black",
    "area": "Tucker Mountain",
    "status": [
+    "closed",
     "closed"
    ],
    "groomed": [
+    false,
     false
    ],
    "updated": [
+    "2026-05-03T22:20:40Z",
     "2026-05-03T22:20:40Z"
    ]
   }

@@ -123,6 +123,67 @@
     "swe_in": 3.2,
     "depth_change_in": 2
    }
+  },
+  {
+   "fetched_at": "2026-11-23T06:15:54Z",
+   "local_time": "2026-11-22T22:15:54-08:00",
+   "date": "2026-11-22",
+   "report_time": "2026-11-11T09:52:26-0800",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "mtnfeed-config",
+     "url": "https://v4.mtnfeed.com/resorts/crystal-mountain.json",
+     "http_status": 200,
+     "bytes": 5078,
+     "sha256": "df8018f33ea3bc3388b489078ecfba78a3d43dc75f070b5eaa53345e3476ac4a",
+     "error": null
+    },
+    {
+     "source": "mtnpowder-feed",
+     "url": "https://mtnpowder.com/feed/v3.json?bearer_token=YUKps_bg1dtxd5ZM-ekRrkUD08tntV6XEJYssuGhWEQ&resortId%5B%5D=80",
+     "http_status": 200,
+     "bytes": 75847,
+     "sha256": "d518b99ea6e31f656b51ce9887726512f7800e51f12576abb4834472ad9c8867",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=46.9353&longitude=-121.4746&elevation=1676&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 19215,
+     "sha256": "157380d298d443cbecc3c417197e3602af6420678e59c13997459725e4622d8e",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": 0,
+    "new_24h_cm": 0,
+    "new_48h_cm": 0,
+    "new_72h_cm": 0,
+    "new_7d_cm": 0,
+    "base_cm": 0,
+    "temp_c": -6
+   },
+   "model": {
+    "temp_c": -6.1,
+    "tmin_24h_c": -6.2,
+    "tmax_24h_c": -3.8,
+    "snow_24h_cm": 0.3,
+    "snow_48h_cm": 0.6,
+    "snow_72h_cm": 0.6,
+    "snow_7d_cm": 2.9,
+    "hours_above_0_24h": 0,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": {
+    "station": "642:WA:SNTL",
+    "date": "2026-11-21",
+    "depth_in": 12,
+    "swe_in": 3.2,
+    "depth_change_in": 2
+   }
   }
  ],
  "runs": {
@@ -131,11 +192,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:00Z"
    ]
   },
   "Boondoggle": {
@@ -143,11 +211,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:14Z"
    ]
   },
   "Broadway": {
@@ -155,11 +230,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:25Z"
    ]
   },
   "Discover Meadow": {
@@ -167,11 +249,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:12Z"
    ]
   },
   "Downhill": {
@@ -179,11 +268,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:27Z"
    ]
   },
   "Gold Hills": {
@@ -191,11 +287,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:11Z"
    ]
   },
   "Little Magoo": {
@@ -203,11 +306,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:30Z"
    ]
   },
   "Lower Arwine's": {
@@ -215,11 +325,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:07Z"
    ]
   },
   "Lower Chappelle's": {
@@ -227,11 +344,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:34Z"
    ]
   },
   "Lower Magoo": {
@@ -239,11 +363,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:37Z"
    ]
   },
   "Mr. Magoo": {
@@ -251,11 +382,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:29Z"
    ]
   },
   "Queens": {
@@ -263,11 +401,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:32Z"
    ]
   },
   "Quicksilver": {
@@ -275,11 +420,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:03Z"
    ]
   },
   "Rolling Knolls": {
@@ -287,11 +439,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:18Z"
    ]
   },
   "Sideburn": {
@@ -299,11 +458,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:05Z"
    ]
   },
   "Snow Garden": {
@@ -311,11 +477,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:24Z"
    ]
   },
   "Stump Farm": {
@@ -323,11 +496,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:19Z"
    ]
   },
   "Tinkerbell": {
@@ -335,11 +515,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:08Z"
    ]
   },
   "Upper Chappelle's": {
@@ -347,11 +534,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:21Z"
    ]
   },
   "Wally's Way": {
@@ -359,11 +553,18 @@
    "area": "Lower Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:19:16Z"
    ]
   },
   "Berry Patch": {
@@ -371,11 +572,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:21:43Z"
    ]
   },
   "Bill's Face": {
@@ -383,11 +591,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:21:46Z"
    ]
   },
   "Blazing Elk": {
@@ -395,11 +610,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:21:49Z"
    ]
   },
   "Buck": {
@@ -407,11 +629,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:21:51Z"
    ]
   },
   "Bull Run": {
@@ -419,11 +648,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:21:53Z"
    ]
   },
   "Deer Fly": {
@@ -431,11 +667,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:21:54Z"
    ]
   },
   "Exterminator": {
@@ -443,11 +686,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:21:56Z"
    ]
   },
   "Gandy's Run": {
@@ -455,11 +705,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:21:58Z"
    ]
   },
   "Green Valley": {
@@ -467,11 +724,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:00Z"
    ]
   },
   "Grubstake": {
@@ -479,11 +743,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:02Z"
    ]
   },
   "Howeirds": {
@@ -491,11 +762,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:04Z"
    ]
   },
   "Huckleberry": {
@@ -503,11 +781,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:05Z"
    ]
   },
   "Kelly's Gap Road": {
@@ -515,11 +800,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:07Z"
    ]
   },
   "Left Angle Trees": {
@@ -527,11 +819,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:09Z"
    ]
   },
   "Little Portillo": {
@@ -539,11 +838,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:11Z"
    ]
   },
   "Little Shot": {
@@ -551,11 +857,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:13Z"
    ]
   },
   "Lower Ferk's": {
@@ -563,11 +876,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:15Z"
    ]
   },
   "Lucky Shot": {
@@ -575,11 +895,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:17Z"
    ]
   },
   "Melby's": {
@@ -587,11 +914,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:18Z"
    ]
   },
   "Mel's Left": {
@@ -599,11 +933,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:20Z"
    ]
   },
   "Mel's Right": {
@@ -611,11 +952,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:21Z"
    ]
   },
   "Memorial Forest": {
@@ -623,11 +971,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:26Z"
    ]
   },
   "Middle Ferk's": {
@@ -635,11 +990,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:28Z"
    ]
   },
   "Pro Course": {
@@ -647,11 +1009,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:30Z"
    ]
   },
   "Right Angle": {
@@ -659,11 +1028,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:31Z"
    ]
   },
   "Right Angle Trees": {
@@ -671,11 +1047,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:33Z"
    ]
   },
   "Sheppard": {
@@ -683,11 +1066,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:35Z"
    ]
   },
   "Sled Face": {
@@ -695,11 +1085,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:36Z"
    ]
   },
   "Sluiceway": {
@@ -707,11 +1104,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:38Z"
    ]
   },
   "Snorting Elk": {
@@ -719,11 +1123,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:40Z"
    ]
   },
   "Snorting Elk Bowl": {
@@ -731,11 +1142,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:41Z"
    ]
   },
   "Sunnyside": {
@@ -743,11 +1161,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:43Z"
    ]
   },
   "The Doors": {
@@ -755,11 +1180,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:45Z"
    ]
   },
   "Upper Arwine's": {
@@ -767,11 +1199,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:47Z"
    ]
   },
   "Upper Ferk's": {
@@ -779,11 +1218,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:48Z"
    ]
   },
   "West Face": {
@@ -791,11 +1237,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:50Z"
    ]
   },
   "Willie's Run": {
@@ -803,11 +1256,18 @@
    "area": "Frontside",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:52Z"
    ]
   },
   "Bear Pits": {
@@ -815,11 +1275,18 @@
    "area": "High Campbell",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:54Z"
    ]
   },
   "Campbell Basin": {
@@ -827,11 +1294,18 @@
    "area": "High Campbell",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:56Z"
    ]
   },
   "Powder Bowl": {
@@ -839,11 +1313,18 @@
    "area": "High Campbell",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:57Z"
    ]
   },
   "The Throne": {
@@ -851,11 +1332,18 @@
    "area": "High Campbell",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:22:58Z"
    ]
   },
   "Brand X": {
@@ -863,11 +1351,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:03Z"
    ]
   },
   "Bruce's Bowl": {
@@ -875,11 +1370,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:04Z"
    ]
   },
   "Employee Housing": {
@@ -887,11 +1389,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:06Z"
    ]
   },
   "Glory Days": {
@@ -899,11 +1408,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:08Z"
    ]
   },
   "I-5": {
@@ -911,11 +1427,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:10Z"
    ]
   },
   "Lower Brand-X Cliff": {
@@ -923,11 +1446,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:11Z"
    ]
   },
   "Lower Otto Bahn": {
@@ -935,11 +1465,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:13Z"
    ]
   },
   "Morning Glory Bowl": {
@@ -947,11 +1484,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:15Z"
    ]
   },
   "Niagaras": {
@@ -959,11 +1503,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:16Z"
    ]
   },
   "Northway": {
@@ -971,11 +1522,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:19Z"
    ]
   },
   "O-Meadows": {
@@ -983,11 +1541,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:21Z"
    ]
   },
   "Paradise": {
@@ -995,11 +1560,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:23Z"
    ]
   },
   "Paradise Bowl": {
@@ -1007,11 +1579,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:24Z"
    ]
   },
   "Paradise Trees": {
@@ -1019,11 +1598,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:27Z"
    ]
   },
   "Penny Dawg's": {
@@ -1031,11 +1617,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:28Z"
    ]
   },
   "Pucker's Gulch": {
@@ -1043,11 +1636,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:30Z"
    ]
   },
   "Spook Hill": {
@@ -1055,11 +1655,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:32Z"
    ]
   },
   "The Nose": {
@@ -1067,11 +1674,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:34Z"
    ]
   },
   "Upper Northway": {
@@ -1079,11 +1693,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:35Z"
    ]
   },
   "Upper Otto Bahn": {
@@ -1091,11 +1712,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:37Z"
    ]
   },
   "Whit's End": {
@@ -1103,11 +1731,18 @@
    "area": "North",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:39Z"
    ]
   },
   "A-Basin": {
@@ -1115,11 +1750,18 @@
    "area": "South",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:41Z"
    ]
   },
   "Silver Basin": {
@@ -1127,11 +1769,18 @@
    "area": "South",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:43Z"
    ]
   },
   "Silver King": {
@@ -1139,11 +1788,18 @@
    "area": "South",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:45Z"
    ]
   },
   "Three Way Peak": {
@@ -1151,11 +1807,18 @@
    "area": "South",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    "2026-10-27T23:23:46Z"
    ]
   }
  },

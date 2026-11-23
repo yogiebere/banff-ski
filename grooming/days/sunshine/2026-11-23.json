@@ -111,6 +111,61 @@
     "rain_24h_mm": 0.0
    },
    "snotel": null
+  },
+  {
+   "fetched_at": "2026-11-23T06:15:54Z",
+   "local_time": "2026-11-23T00:15:54-06:00",
+   "date": "2026-11-23",
+   "report_time": "2026-11-22T09:46:00-06:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "sunshine-lifts",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/lifts-trails-report",
+     "http_status": 200,
+     "bytes": 289468,
+     "sha256": "5ed17bf6d8452d3379df8f603e2426ed73ad462d402427697f75a5f7d50276d4",
+     "error": null
+    },
+    {
+     "source": "sunshine-conditions",
+     "url": "https://www.skibanff.com/the-mountain/mountain-report/current-conditions",
+     "http_status": 200,
+     "bytes": 199296,
+     "sha256": "f97cea1c6276eb995b51921d11bc9f0809b035211bcd40e8244ad3d132f1a87d",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.0786&longitude=-115.782&elevation=2160&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 19058,
+     "sha256": "3e12b7bd78cadbad879db40b34ecff4539fe9df81da71885860d1ecf6a939f54",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": null,
+    "new_24h_cm": null,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 18,
+    "base_cm": 28,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": -11.4,
+    "tmin_24h_c": -16.0,
+    "tmax_24h_c": -8.8,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 2.0,
+    "hours_above_0_24h": 0,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null
   }
  ],
  "runs": {
@@ -119,11 +174,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Cayuse Creek": {
@@ -131,11 +193,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Corral Cut-off": {
@@ -143,11 +212,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Cottontail": {
@@ -155,11 +231,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Forget Me Not": {
@@ -167,11 +250,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Juniper": {
@@ -179,11 +269,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Kid's Play": {
@@ -191,11 +288,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Kid's Play Terrain Park": {
@@ -203,11 +307,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Larch Glade": {
@@ -215,11 +326,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Miss Gratz": {
@@ -227,11 +345,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Powerline": {
@@ -239,11 +364,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "B-Line": {
@@ -251,11 +383,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Bluebell": {
@@ -263,11 +402,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Chicken": {
@@ -275,11 +421,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Christmas Tree": {
@@ -287,11 +440,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Eagle": {
@@ -299,11 +459,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Lower Canyon": {
@@ -311,11 +478,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Raptor": {
@@ -323,11 +497,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Roller Coaster": {
@@ -335,11 +516,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Scapegoat": {
@@ -347,11 +535,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Sergie's Shortcut": {
@@ -359,11 +554,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Short and Sweet": {
@@ -371,11 +573,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Stampeders Way": {
@@ -383,11 +592,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Sunshine Coast": {
@@ -395,11 +611,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Upper Canyon": {
@@ -407,11 +630,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wildfire": {
@@ -419,11 +649,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wolverine": {
@@ -431,11 +668,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Afterburner": {
@@ -443,11 +687,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Cleavage": {
@@ -455,11 +706,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Eagle Creek": {
@@ -467,11 +725,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Ewe First": {
@@ -479,11 +744,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Fall Line": {
@@ -491,11 +763,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Fire Weed": {
@@ -503,11 +782,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Gladerunner": {
@@ -515,11 +801,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Goat Chicken Glade": {
@@ -527,11 +820,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Goat Chicken Gully": {
@@ -539,11 +839,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Goat Sucker Glade": {
@@ -551,11 +858,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Goat's Head Soup": {
@@ -563,11 +877,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Jackrabbit": {
@@ -575,11 +896,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Middle Canyon": {
@@ -587,11 +915,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Mother In Law": {
@@ -599,11 +934,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Rolling Thunder": {
@@ -611,11 +953,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Sasquatch": {
@@ -623,11 +972,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Sky Dive": {
@@ -635,11 +991,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Supermodel": {
@@ -647,11 +1010,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "The Big Woody": {
@@ -659,11 +1029,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Tower 30": {
@@ -671,11 +1048,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Trapper's Trail": {
@@ -683,11 +1067,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wolverine Liftline": {
@@ -695,11 +1086,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Eagle Glades": {
@@ -707,11 +1105,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Farside": {
@@ -719,11 +1124,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Freefall": {
@@ -731,11 +1143,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Hell's Kitchen": {
@@ -743,11 +1162,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Renegade": {
@@ -755,11 +1181,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Stampede": {
@@ -767,11 +1200,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Think Again": {
@@ -779,11 +1219,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wild West": {
@@ -791,11 +1238,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wildside": {
@@ -803,11 +1257,18 @@
    "area": "Goat's Eye Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Assiniboine Trail": {
@@ -815,11 +1276,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Green Run": {
@@ -827,11 +1295,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Grizzly": {
@@ -839,11 +1314,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Packers": {
@@ -851,11 +1333,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Pilgrims": {
@@ -863,11 +1352,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Slush Cup": {
@@ -875,11 +1371,18 @@
    "area": "Lookout Mountain",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "The Yellowhead": {
@@ -887,11 +1390,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Barners": {
@@ -899,11 +1409,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Boutry's Bowl": {
@@ -911,11 +1428,18 @@
    "area": "Lookout Mountain",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Bronze Ecstasy": {
@@ -923,11 +1447,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Cherub": {
@@ -935,11 +1466,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Highway One": {
@@ -947,11 +1485,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Red 90": {
@@ -959,11 +1504,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "South Divide": {
@@ -971,11 +1523,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Springhill Terrain Park": {
@@ -983,11 +1542,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "World Cup Downhill": {
@@ -995,11 +1561,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Yellowhead North": {
@@ -1007,11 +1580,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Angel Flight": {
@@ -1019,11 +1599,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Big Angel": {
@@ -1031,11 +1618,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Boundary Bowl": {
@@ -1043,11 +1637,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Bushwackers": {
@@ -1055,11 +1656,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Bye Bye Bowl": {
@@ -1067,11 +1675,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Divide Terrain Park": {
@@ -1079,11 +1694,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Gold Ecstasy": {
@@ -1091,11 +1713,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Horto's Revenge": {
@@ -1103,11 +1732,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Little Angel": {
@@ -1115,11 +1751,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "N. Pocket": {
@@ -1127,11 +1770,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "North Divide": {
@@ -1139,11 +1789,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "OS Pitch": {
@@ -1151,11 +1808,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Piste Noir": {
@@ -1163,11 +1827,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Rock Ledges": {
@@ -1175,11 +1846,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "S. Pocket": {
@@ -1187,11 +1865,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Schoolmarm": {
@@ -1199,11 +1884,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Silver Ecstasy": {
@@ -1211,11 +1903,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "South 205": {
@@ -1223,11 +1922,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Teepee Town Liftline": {
@@ -1235,11 +1941,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "The Shoulder": {
@@ -1247,11 +1960,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "TP Main Chutes": {
@@ -1259,11 +1979,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Viking Ridge": {
@@ -1271,11 +1998,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Delirium Dive": {
@@ -1283,11 +2017,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Grizzly Terrain Park": {
@@ -1295,11 +2036,18 @@
    "area": "Lookout Mountain",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Angel Gully": {
@@ -1307,11 +2055,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Borderline": {
@@ -1319,11 +2074,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Creek Run": {
@@ -1331,11 +2093,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Meadow Park": {
@@ -1343,11 +2112,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Mitey Mite Learning Area": {
@@ -1355,11 +2131,18 @@
    "area": "Mount Standish",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Prune Pickers Pass": {
@@ -1367,11 +2150,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Rock Isle Road": {
@@ -1379,11 +2169,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Springhill": {
@@ -1391,11 +2188,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "The Dell Valley": {
@@ -1403,11 +2207,18 @@
    "area": "Mount Standish",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Tiny Tigers Learning Area": {
@@ -1415,11 +2226,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Bunkers": {
@@ -1427,11 +2245,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Little Bunkers": {
@@ -1439,11 +2264,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Snowsnake": {
@@ -1451,11 +2283,18 @@
    "area": "Mount Standish",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Strawberry Face": {
@@ -1463,11 +2302,18 @@
    "area": "Mount Standish",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Strawberry Surprise": {
@@ -1475,11 +2321,18 @@
    "area": "Mount Standish",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Strawberry Terrain Park": {
@@ -1487,11 +2340,18 @@
    "area": "Mount Standish",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Tilton Trail": {
@@ -1499,11 +2359,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Tin Can Alley": {
@@ -1511,11 +2378,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Wawa Bowl": {
@@ -1523,11 +2397,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Big Bunkers": {
@@ -1535,11 +2416,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Birdcage": {
@@ -1547,11 +2435,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Dirty Little Corner": {
@@ -1559,11 +2454,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Donkey's Tail": {
@@ -1571,11 +2473,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Garbage Chutes": {
@@ -1583,11 +2492,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Headwall": {
@@ -1595,11 +2511,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Jerry's Run": {
@@ -1607,11 +2530,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Laryx": {
@@ -1619,11 +2549,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Old T-Bar": {
@@ -1631,11 +2568,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Paris Basin": {
@@ -1643,11 +2587,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Paris One": {
@@ -1655,11 +2606,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Paris Two": {
@@ -1667,11 +2625,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Shaken Not Stirred": {
@@ -1679,11 +2644,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Showboat": {
@@ -1691,11 +2663,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Sidewall": {
@@ -1703,11 +2682,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Standish": {
@@ -1715,11 +2701,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Standish Face": {
@@ -1727,11 +2720,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Star Trek": {
@@ -1739,11 +2739,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "The Waterfall": {
@@ -1751,11 +2758,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Tin Can Trees": {
@@ -1763,11 +2777,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   },
   "Virgins": {
@@ -1775,11 +2796,18 @@
    "area": "Mount Standish",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
+   ],
+   "updated": [
+    null,
+    null,
+    null
    ]
   }
  },
