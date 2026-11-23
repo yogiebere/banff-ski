@@ -93,14 +93,17 @@ def archive(fetched_at, day, resort_id, source, url, status, body, error, ext, k
 
 
 def head_time(url):
-    """The Last-Modified time of a file (Lake Louise's grooming report PDF), as UTC ISO."""
-    try:
-        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": bt.USER_AGENT})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            stamp = r.headers.get("Last-Modified")
-        return datetime.strptime(stamp, "%a, %d %b %Y %H:%M:%S GMT").strftime("%Y-%m-%dT%H:%M:%SZ") if stamp else None
-    except Exception:
-        return None
+    """The Last-Modified time of a file (Lake Louise's grooming report PDF), as UTC ISO; two tries."""
+    for _ in range(2):
+        try:
+            req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": bt.USER_AGENT})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                stamp = r.headers.get("Last-Modified")
+            return datetime.strptime(stamp, "%a, %d %b %Y %H:%M:%S GMT").strftime("%Y-%m-%dT%H:%M:%SZ") if stamp \
+                else None
+        except Exception:
+            continue
+    return None
 
 
 # --- resort readers: each returns (runs, snow, report_time, raw responses) ---
