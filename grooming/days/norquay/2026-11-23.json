@@ -95,6 +95,53 @@
     "rain_24h_mm": 0.0
    },
    "snotel": null
+  },
+  {
+   "fetched_at": "2026-11-24T01:50:48Z",
+   "local_time": "2026-11-23T19:50:48-06:00",
+   "date": "2026-11-23",
+   "report_time": "Monday, November 23",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "norquay-conditions",
+     "url": "https://banffnorquay.com/conditions/",
+     "http_status": 200,
+     "bytes": 749201,
+     "sha256": "ade3b82c61c2b06e7f0d6b3bdca8b058362960d46c93f8b220726653bb3bd460",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.203&longitude=-115.599&elevation=1850&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 19026,
+     "sha256": "814a5e8188ddaea333db2d19f992b0db0dabd870f967db76349b3cf5088da381",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": 0,
+    "new_24h_cm": 0,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 6,
+    "base_cm": 32,
+    "temp_c": -4
+   },
+   "model": {
+    "temp_c": -7.1,
+    "tmin_24h_c": -11.5,
+    "tmax_24h_c": -4.0,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 0.6,
+    "hours_above_0_24h": 0,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null
   }
  ],
  "runs": {
@@ -103,13 +150,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -119,13 +169,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -135,13 +188,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -151,13 +207,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -167,13 +226,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -183,13 +245,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -199,13 +264,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -215,13 +283,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -231,13 +302,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -247,13 +321,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -263,13 +340,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -279,13 +359,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -295,13 +378,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -311,13 +397,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -327,13 +416,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -343,13 +435,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -359,13 +454,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -375,13 +473,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -391,13 +492,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -407,13 +511,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -423,13 +530,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -439,13 +549,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -455,13 +568,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -471,13 +587,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -487,13 +606,16 @@
    "area": "North American Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -503,13 +625,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -519,13 +644,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -535,13 +663,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -551,13 +682,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -567,13 +701,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -583,13 +720,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -599,13 +739,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -615,13 +758,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -631,13 +777,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -647,13 +796,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -663,13 +815,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -679,13 +834,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -695,13 +853,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -711,13 +872,16 @@
    "area": "Spirit Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -727,13 +891,16 @@
    "area": "Sundance Carpet",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -743,13 +910,16 @@
    "area": "Cascade Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -759,13 +929,16 @@
    "area": "Cascade Chair",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -775,13 +948,16 @@
    "area": "Cascade Chair",
    "status": [
     "open",
+    "open",
     "open"
    ],
    "groomed": [
     true,
+    true,
     true
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -791,13 +967,16 @@
    "area": "Cascade Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -807,13 +986,16 @@
    "area": "Cascade Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -823,13 +1005,16 @@
    "area": "Cascade Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -839,13 +1024,16 @@
    "area": "Cascade Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -855,13 +1043,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -871,13 +1062,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -887,13 +1081,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -903,13 +1100,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -919,13 +1119,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -935,13 +1138,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -951,13 +1157,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -967,13 +1176,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -983,13 +1195,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -999,13 +1214,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1015,13 +1233,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1031,13 +1252,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1047,13 +1271,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1063,13 +1290,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1079,13 +1309,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1095,13 +1328,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1111,13 +1347,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1127,13 +1366,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1143,13 +1385,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1159,13 +1404,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1175,13 +1423,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1191,13 +1442,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1207,13 +1461,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1223,13 +1480,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1239,13 +1499,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1255,13 +1518,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1271,13 +1537,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1287,13 +1556,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1303,13 +1575,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1319,13 +1594,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1335,13 +1613,16 @@
    "area": "Mystic Chair",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
@@ -1351,13 +1632,16 @@
    "area": "Rundle Carpet",
    "status": [
     "closed",
+    "closed",
     "closed"
    ],
    "groomed": [
     false,
+    false,
     false
    ],
    "updated": [
+    null,
     null,
     null
    ]
