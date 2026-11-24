@@ -277,6 +277,145 @@ date,weekday,resort,run,map_names,difficulty,area,pod,guessed,open,groomed,groom
 2026-11-23,Mon,sunshine,Wolverine Liftline,Wolverine Liftline,black,Goat's Eye Mountain,Wolverine,never,N,N,N,,1,2026-11-23T07:21:00-06:00,,0.0,,,model,11.0,13,,0.0,
 2026-11-23,Mon,sunshine,World Cup Downhill,World Cup Downhill,blue,Lookout Mountain,Great Divide,always,N,N,N,,1,2026-11-23T07:21:00-06:00,,0.0,,,model,11.0,13,,0.0,
 2026-11-23,Mon,sunshine,Yellowhead North,(no line on the map),blue,Lookout Mountain,,,N,N,N,,1,2026-11-23T07:21:00-06:00,,0.0,,,model,11.0,13,,0.0,
+2026-11-24,Tue,sunshine,Afterburner,Afterburner,black,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Angel Flight,Angel Flight,black,Lookout Mountain,Angel,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Angel Gully,Angel Gully,green,Mount Standish,Great Divide,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Assiniboine Trail,Assiniboine Trail,green,Lookout Mountain,Angel,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,B-Line,(no line on the map),blue,Goat's Eye Mountain,,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Banff Ave,Banff Avenue,green,Goat's Eye Mountain,Wolverine,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Barners,Barners,blue,Lookout Mountain,Gondola to base,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Big Angel,Big Angel,black,Lookout Mountain,Angel,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Big Bunkers,Big Bunkers,black,Mount Standish,Standish,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Birdcage,Birdcage,black,Mount Standish,Wawa,rotational,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Bluebell,Bluebell,blue,Goat's Eye Mountain,Wolverine,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Borderline,Borderline,green,Mount Standish,Standish,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Boundary Bowl,Boundry Bowl,black,Lookout Mountain,Angel,rarely,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Boutry's Bowl,Bounty's Bowl,blue,Lookout Mountain,Strawberry,,Y,Y,Y,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Bronze Ecstasy,Ecstasy,blue,Lookout Mountain,Teepee Town,often,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Bunkers,Bunkers,blue,Mount Standish,Standish,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Bushwackers,Bushwackers,black,Lookout Mountain,Teepee Town,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Bye Bye Bowl,Bye Bye Bowl,black,Lookout Mountain,Great Divide,rarely,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Cayuse Creek,Cayuse Creek,green,Goat's Eye Mountain,Gondola to base,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Cherub,Cherub,blue,Lookout Mountain,Angel,often,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Chicken,Chicken,blue,Goat's Eye Mountain,Goat's Eye,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Christmas Tree,Christmas Trees,blue,Goat's Eye Mountain,Wolverine,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Cleavage,Cleavage,black,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Corral Cut-off,Corral Cut-off,green,Goat's Eye Mountain,Wawa,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Cottontail,Cottontail,green,Goat's Eye Mountain,Jackrabbit,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Creek Run,Creek Run,green,Mount Standish,Standish,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Delirium Dive,Delirium,double,Lookout Mountain,Freeride zones,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Dirty Little Corner,Dirty Little Corner,black,Mount Standish,Standish,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Divide Terrain Park,Rockstar Terrain Park,black,Lookout Mountain,Terrain parks,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Donkey's Tail,Donkey's Tail,black,Mount Standish,Standish,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Eagle,Eagle,blue,Goat's Eye Mountain,Goat's Eye,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Eagle Creek,Eagle Creek,black,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Eagle Glades,Eagle Glades,double,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Ewe First,Ewe First,black,Goat's Eye Mountain,Goat's Eye,rarely,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Fall Line,Fall Line,black,Goat's Eye Mountain,Goat's Eye,rotational,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Farside,Farside,double,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Fire Weed,Fireweed,black,Goat's Eye Mountain,Jackrabbit,rotational,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Forget Me Not,Forget-Me-Not,green,Goat's Eye Mountain,Wolverine,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Freefall,Freefall,double,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Garbage Chutes,Garbage Chutes,black,Mount Standish,Standish,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Gladerunner,Glade Runner,black,Goat's Eye Mountain,Goat's Eye,rotational,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Goat Chicken Glade,Goatchicken Glade,black,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Goat Chicken Gully,Goat Chicken Gully,black,Goat's Eye Mountain,Wolverine,rotational,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Goat Sucker Glade,Goatsucker Glade,black,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Goat's Head Soup,Goat's Head Soup,black,Goat's Eye Mountain,Goat's Eye,rarely,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Gold Ecstasy,Ecstasy,black,Lookout Mountain,Teepee Town,often,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Green Run,Green Run,green,Lookout Mountain,Angel,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Grizzly,Grizzly,green,Lookout Mountain,Angel,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Grizzly Terrain Park,Grizzly XL Terrain Park,double,Lookout Mountain,Terrain parks,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Headwall,Headwall,black,Mount Standish,Standish,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Hell's Kitchen,Hell's Kitchen,double,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Highway One,Highway One,blue,Lookout Mountain,Strawberry,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Horto's Revenge,Horto's Revenge,black,Lookout Mountain,Teepee Town,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Jackrabbit,Jackrabbit,black,Goat's Eye Mountain,Jackrabbit,rotational,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Jerry's Run,Jerry's Run,black,Mount Standish,Standish,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Juniper,Juniper,green,Goat's Eye Mountain,Wolverine,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Kid's Play,Kid's Play,green,Goat's Eye Mountain,Wolverine,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Kid's Play Terrain Park,Kid's Play,green,Goat's Eye Mountain,Wolverine,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Larch Glade,Larch Glade,green,Goat's Eye Mountain,Jackrabbit,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Laryx,Laryx,black,Mount Standish,Standish,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Little Angel,Little Angel,black,Lookout Mountain,Teepee Town,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Little Bunkers,Little Bunkers,blue,Mount Standish,Standish,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Lower Canyon,Lower Canyon,blue,Goat's Eye Mountain,Gondola to base,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Meadow Park,Meadow Park,green,Mount Standish,Wawa,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Middle Canyon,Middle Canyon,black,Goat's Eye Mountain,Gondola to base,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Miss Gratz,Miss Gratz,green,Goat's Eye Mountain,Jackrabbit,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Mitey Mite Learning Area,(no line on the map),green,Mount Standish,,,Y,Y,Y,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Mother In Law,Mother-In-Law,black,Goat's Eye Mountain,Goat's Eye,rarely,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,N. Pocket,North Pocket,black,Lookout Mountain,Angel,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,North Divide,North Divide,black,Lookout Mountain,Great Divide,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,OS Pitch,OS Pitch,black,Lookout Mountain,Angel,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Old T-Bar,Old T-Bar,black,Mount Standish,Wawa,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Packers,Packers,green,Lookout Mountain,Gondola to base,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Paris Basin,Paris,black,Mount Standish,Wawa,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Paris One,Paris One,black,Mount Standish,Wawa,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Paris Two,Paris Two,black,Mount Standish,Wawa,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Pilgrims,Pilgrims,green,Lookout Mountain,Gondola to base,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Piste Noir,Piste Noir,black,Lookout Mountain,Angel,often,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Powerline,Power Line,green,Goat's Eye Mountain,Gondola to base,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Prune Pickers Pass,Prune Pickers Pass,green,Mount Standish,Standish,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Raptor,Raptor,blue,Goat's Eye Mountain,Goat's Eye,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Red 90,Red 90,blue,Lookout Mountain,Angel,often,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Renegade,Renegade,double,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Rock Isle Road,Rock Isle Road,green,Mount Standish,Strawberry,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Rock Ledges,Rock Ledges,black,Lookout Mountain,Teepee Town,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Roller Coaster,Roller Coaster,blue,Goat's Eye Mountain,Wolverine,rarely,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Rolling Thunder,Rolling Thunder,black,Goat's Eye Mountain,Goat's Eye,rotational,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,S. Pocket,South Pocket,black,Lookout Mountain,Angel,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Sasquatch,Sasquatch,black,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Scapegoat,Scapegoat,blue,Goat's Eye Mountain,Goat's Eye,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Schoolmarm,Schoolmarm,black,Lookout Mountain,Teepee Town,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Sergie's Shortcut,Sergie's Shortcut,blue,Goat's Eye Mountain,Wolverine,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Shaken Not Stirred,Shaken Not Stirred,black,Mount Standish,Wawa,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Short and Sweet,Short & Sweet,blue,Goat's Eye Mountain,Jackrabbit,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Showboat,(no line on the map),black,Mount Standish,,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Sidewall,Sidewall,black,Mount Standish,Standish,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Silver Ecstasy,Ecstasy,black,Lookout Mountain,Teepee Town,often,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Sky Dive,Sky Dive,black,Goat's Eye Mountain,Goat's Eye,rotational,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Slush Cup,Slush Cup,green,Lookout Mountain,Gondola to base,,Y,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Snowsnake,Snowsnake,blue,Mount Standish,Strawberry,,Y,Y,Y,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,South 205,South 205,black,Lookout Mountain,Angel,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,South Divide,South Divide,blue,Lookout Mountain,Great Divide,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Springhill,Springhill,green,Mount Standish,Strawberry,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Springhill Terrain Park,(no line on the map),blue,Lookout Mountain,,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Stampede,Stampede,double,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Stampeders Way,Stampeders Way,blue,Goat's Eye Mountain,Goat's Eye,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Standish,Standish,black,Mount Standish,Standish,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Standish Face,Standish Face,black,Mount Standish,Standish,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Star Trek,Star Trek,black,Mount Standish,Wawa,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Strawberry Face,Strawberry Face,blue,Mount Standish,Strawberry,,Y,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Strawberry Surprise,Strawberry Surprise,blue,Mount Standish,Strawberry,rarely,Y,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Strawberry Terrain Park,(no line on the map),blue,Mount Standish,,,Y,Y,Y,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Sunshine Coast,Sunshine Coast,blue,Goat's Eye Mountain,Goat's Eye,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Supermodel,Super Model,black,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,TP Main Chutes,Teepee Main Chutes,black,Lookout Mountain,Teepee Town,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Teepee Town Liftline,Teepee Town Liftline,black,Lookout Mountain,Teepee Town,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,The Big Woody,The Big Woody,black,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,The Dell Valley,The Dell Valley,green,Mount Standish,Strawberry,,Y,Y,Y,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,The Shoulder,The Shoulder,black,Lookout Mountain,Teepee Town,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,The Waterfall,The Waterfall,black,Mount Standish,Wawa,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,The Yellowhead,(no line on the map),green,Lookout Mountain,,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Think Again,Think Again,double,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Tilton Trail,Tilton Trail,blue,Mount Standish,Gondola to base,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Tin Can Alley,Tin Can Alley,blue,Mount Standish,Wawa,often,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Tin Can Trees,Tin Can Trees,black,Mount Standish,Wawa,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Tiny Tigers Learning Area,(no line on the map),green,Mount Standish,,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Tower 30,Tower 30,black,Goat's Eye Mountain,Wolverine,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Trapper's Trail,Trappers,black,Goat's Eye Mountain,Wolverine,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Upper Canyon,Upper Canyon,blue,Goat's Eye Mountain,Jackrabbit,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Viking Ridge,Viking Ridge,black,Lookout Mountain,Angel,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Virgins,Virgins,black,Mount Standish,Standish,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Wawa Bowl,Wawa Bowl,blue,Mount Standish,Wawa,often,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Wild West,(no line on the map),double,Goat's Eye Mountain,,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Wildfire,Wildfire,blue,Goat's Eye Mountain,Goat's Eye,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Wildside,Wildslide,double,Goat's Eye Mountain,Goat's Eye,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Wolverine,Wolverine,blue,Goat's Eye Mountain,Wolverine,rotational,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Wolverine Liftline,Wolverine Liftline,black,Goat's Eye Mountain,Wolverine,never,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,World Cup Downhill,World Cup Downhill,blue,Lookout Mountain,Great Divide,always,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
+2026-11-24,Tue,sunshine,Yellowhead North,(no line on the map),blue,Lookout Mountain,,,N,N,N,,1,2026-11-24T08:57:00-06:00,0.8,1.2,,,resort,12.0,25,,0.0,
 2026-11-15,Sun,louise,2/3 Shoulder,Two Thirds Shoulder,black,Back Bowls,Paradise,never,N,N,NNNNNNNNN,,9,2026-11-15T17:04:05-06:00,0.0,0.0,0.0,,resort,9.0,36,,,
 2026-11-15,Sun,louise,30 Goats,30 Goats,blue,Larch,Larch,never,N,N,NNNNNNNNN,,9,2026-11-15T17:04:05-06:00,0.0,0.0,0.0,,resort,9.0,36,,,
 2026-11-15,Sun,louise,4/5 Shoulder,4/5 Shoulder,black,Back Bowls,Paradise,never,N,N,NNNNNNNNN,,9,2026-11-15T17:04:05-06:00,0.0,0.0,0.0,,resort,9.0,36,,,
@@ -448,6 +587,177 @@ date,weekday,resort,run,map_names,difficulty,area,pod,guessed,open,groomed,groom
 2026-11-15,Sun,louise,Wolverine,Wolverine,blue,Larch,Larch,never,N,N,NNNNNNNNN,,9,2026-11-15T17:04:05-06:00,0.0,0.0,0.0,,resort,9.0,36,,,
 2026-11-15,Sun,louise,Wounded Knee,Wounded Knee,double,Back Bowls,Paradise,never,N,N,NNNNNNNNN,,9,2026-11-15T17:04:05-06:00,0.0,0.0,0.0,,resort,9.0,36,,,
 2026-11-15,Sun,louise,Wrong Turn,Wrong Turn,blue,Front Side,Glacier,,N,N,NNNNNNNNN,,9,2026-11-15T17:04:05-06:00,0.0,0.0,0.0,,resort,9.0,36,,,
+2026-11-24,Tue,louise,2/3 Shoulder,Two Thirds Shoulder,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,30 Goats,30 Goats,blue,Larch,Larch,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,4/5 Shoulder,4/5 Shoulder,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,A Gully,A Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Alley,Alley,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,B Gully,B Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Bald Eagle,Bald Eagle,green,Front Side,Glacier,always,Y,Y,Y,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Bearberry,Bearberry,blue,Front Side,Juniper,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Big 7,Big 7,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Blueberry,Blueberry,blue,Front Side,Juniper,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Bobcat,Bobcat,black,Larch,Larch,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Boomerang,Boomerang,blue,Back Bowls,Whitehorn,rarely,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Boundary Bowl,Boundary Bowl,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Brown Cow,Brown Cow,black,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Brown Cow 1st,Brown Cow 1st,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Brown Cow Main,Brown Cow Main,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Buffaloberry,Buffaloberry,blue,Front Side,Juniper,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Bunchberry,Bunchberry,blue,Front Side,Juniper,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,C Gully,C Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Cameron's Way,Cameron's Way,blue,Front Side,Glacier,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Charlie's Choice,Charlie's Choice,blue,Front Side,Top of the World,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Corridor,Corridor,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Couloir,Couloir,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Cowboy,Cowboy,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Crow Bowl,Crow Bowl,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,D Gully,D Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Deer Run,Deer Run,green,Front Side,Grizzly Gondola,always,Y,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Doughnut Plains,166 Doughnut Plains,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Drop Out,Drop Out,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,E Gully,E Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,E.R. 3,E.R. 3,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,E.R. 6,E.R. 6,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Eagle Flight,Eagles Flight,black,Front Side,Grizzly Gondola,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Eagle Meadows,Eagle Meadows,green,Front Side,Grizzly Gondola,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Eagle Poma,Eagle Poma,black,Front Side,Grizzly Gondola,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Eagle Trees,(no line on the map),black,Front Side,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Eagle's Beak,Eagles Beak,black,Front Side,Grizzly Gondola,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,East Bowl,East Bowl,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,East Bowl Trees,(no line on the map),black,Back Bowls,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Easy Street,Easy Street,green,Front Side,Juniper,always,Y,Y,Y,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Egress,Egress,black,West Bowl,West Bowl,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Enchanted Forest,Enchanted Forest,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Exhibition,Exhibition,black,Back Bowls,Ptarmigan,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Exhibition Trees,Exhibition Trees,black,Back Bowls,Ptarmigan,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,F Gully,F Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Fenceline Gully,Fenceline Gully,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Flight Chutes 1,Flight Chutes 1,black,Front Side,Top of the World,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Flight Chutes 2,Flight Chutes 2,black,Front Side,Top of the World,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Flight Chutes 3,(no line on the map),black,Front Side,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Flight Chutes 4,(no line on the map),black,Front Side,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Flight Chutes Cat Track,Flight Chutes Cat Track,black,Front Side,Top of the World,rarely,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Fossil,Fossil,blue,Richardson's Ridge,Richardson's Ridge,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Fourth Gate,Forth Gate,black,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Free Spirit,Free Spirit,black,West Bowl,Glacier,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,G Gully,G Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Ghostly Gully,Ghostly Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Grizzly Bowl,(no line on the map),black,Front Side,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Grizzly Gully,(no line on the map),blue,Front Side,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,H Gully,H Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Headwall,Headwall,black,Front Side,Summit front,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Headwall Bowl,Headwall Bowl,black,Front Side,Summit front,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Helen's,Helen's,black,Front Side,Top of the World,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Hell's Kitchen,(no line on the map),black,Back Bowls,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Home Run,Home Run,blue,Front Side,Top of the World,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Home Run Chutes,Home Run Chutes,black,Front Side,Top of the World,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Hour Glass,Hour Glass,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,I Gully,I Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Instructors Bowl,Instructor's Bowl,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Instructors Gully,Instructor's Gully,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Jackpot,Jackpot,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Jerry's Jungle,Jerry's Jungle,green,Front Side,Glacier,rarely,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Juniper,Juniper,blue,Front Side,Glacier,always,Y,Y,Y,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Juniper Jungle,Juniper Jungle,blue,Front Side,Juniper,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Kernahan's,(no line on the map),black,Front Side,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Kiddie's Corner,Kiddies' Corner,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lake Lindsey Way,(no line on the map),black,Front Side,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lake Pitch,Lake Pitch,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Larch,Larch,blue,Larch,Larch,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Larch Poma,Larch Poma,blue,Larch,Larch,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lily Pads,(no line on the map),double,Back Bowls,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lipalian Chutes,Lipalian Chutes,black,Larch,Larch,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Little Pipestone,Little Pipestone,black,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lookout,Lookout,green,Larch,Larch,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lookout Chutes,Lookout Chutes,double,Larch,Larch,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lower 5,Lower 5,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lower Flight,Lower Flight,blue,Front Side,Glacier,,Y,Y,Y,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lower Grouse,(no line on the map),black,Front Side,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lowest Meadowlark,Lower Meadowlark,black,Front Side,Juniper,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Lynx,Lynx,black,Larch,Larch,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Maintenance Gully,Maitenance Gully,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Marmot,Marmot,green,Larch,Larch,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Maverick,Maverick,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Meadowlark,Meadowlark,black,Front Side,Grizzly Gondola,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Men's Downhill,Men's Downhill,black,Front Side,Glacier,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Merlin,Merlin,blue,Richardson's Ridge,Richardson's Ridge,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Middle Limits,Middle Limits,black,Front Side,Summit front,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Mirkwood,(no line on the map),black,Front Side,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,North Cornice,North Cornice,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Old Ptarmigan,Old Ptarmigan,blue,Back Bowls,Ptarmigan,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Oly Slides East,Oly Slides East,black,West Bowl,Glacier,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Oly Slides West,Oly Slides West,black,West Bowl,Glacier,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Outback,Outback,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Outer Limits,Outer Limits,black,Front Side,Summit front,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Paradise Bowl,Paradise Bowl,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Paradise Cornice,Paradise Cornice,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Peyto's Pitch,Peyto's Pitch,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Pika,Pika,green,Front Side,Ptarmigan,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Pika Trees,Pika Trees,black,Back Bowls,Ptarmigan,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Pikaboo,(no line on the map),blue,Back Bowls,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Pinecone Way,Pine Cone Way,green,Front Side,Glacier,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Pipestone Ridge,Pipestone Ridge,black,West Bowl,West Bowl,rarely,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Powder Pockets,Powder Pockets,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Prunepickers,(no line on the map),green,Larch,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Ptarmigan,Ptarmigan,black,Back Bowls,Ptarmigan,rotational,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Ptarmigan Cat Track,"""007"" Ptarmigan Cat Track",black,Back Bowls,Ptarmigan,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Ptarmigan Chute 1,Ptarmigan Chute 1,black,Back Bowls,Ptarmigan,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Ptarmigan Chute 2,Ptarmigan Chute 2,black,Back Bowls,Ptarmigan,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Ptarmigan Chute 3,Ptarmigan Chute 3,black,Back Bowls,Ptarmigan,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Ptarmigan Glades,Ptarmigan Glades,black,Back Bowls,Ptarmigan,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Race Pitch,Race Pitch,blue,Front Side,Grizzly Gondola,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Raven,Raven,black,Back Bowls,Ptarmigan,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Read's Way,Reads' Way,black,Back Bowls,Paradise,rarely,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Redoubt,Redoubt,blue,Richardson's Ridge,Richardson's Ridge,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Ridge Run,Ridge Run,black,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Rock Garden,Rock Garden,blue,Larch,Larch,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Rodney's Ridge,Rodney's Ridge,black,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Saddleback,(no line on the map),green,Back Bowls,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Saddleback Bowl,(no line on the map),blue,Back Bowls,,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Second Gate,Second Gate,black,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Shoulder Roll,Shoulder Roll,black,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Ski Out,Ski Out,green,Larch,Larch,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Skoki,Skoki,green,Richardson's Ridge,Richardson's Ridge,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Skyline,Skyline,blue,Front Side,Summit front,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Split Rock,Split Rock,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Steep & Flat,Steep & Flat,black,Front Side,Top of the World,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Sunny Side,Sunny Side,green,Front Side,Juniper,always,Y,Y,Y,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Sunset,Sunset,blue,Front Side,Summit front,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Sunset Gully,Sunset Gully,black,Front Side,Top of the World,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Sunset Pocket,Sunset Pocket,black,Front Side,Summit front,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Sunset Terrace,Sunset Terrace,green,Front Side,Top of the World,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Swede's,Swede's,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Temple,Temple,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Ten Peaks,Ten Peaks,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,The Beast,The Beast,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,The Heart,The Heart,black,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Third Gate,Third Gate,black,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Tickety Chutes,Tickety Chute,black,Front Side,Top of the World,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Tight Turn,Tight Turn,black,Front Side,Top of the World,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Tower 12,Tower 12,double,Larch,Larch,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,UNC,UNC,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Upper Alley,Alley,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Upper Boomerang,Upper Boomerang,black,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Upper Grouse,Upper Grouse,black,Front Side,Grizzly Gondola,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Upper Juniper,Upper Juniper,blue,Front Side,Glacier,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Upper Meadowlark,Upper Meadowlark,black,Front Side,Grizzly Gondola,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Upper Wiwaxy,Upper Wiwaxy,green,Front Side,Glacier,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Upshoots,Upshoots,black,Front Side,Top of the World,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Vermillion,Vermillion,blue,Richardson's Ridge,Richardson's Ridge,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Vertical Cornice,Vertical Cornice,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Wapta,Wapta,black,Front Side,Grizzly Gondola,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Warden's Run,Warden's Run,green,Back Bowls,Paradise,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,West Bowl,West Bowl,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,West Bowl Gully,West Bowl Gully,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,White Rabbit,White Rabbit,black,West Bowl,West Bowl,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Whitehorn 1,Whitehorn 1,black,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Whitehorn Cat Track,Whitehorn Cat Track,green,Front Side,Glacier,often,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Wild Gully,Wild Gully,double,Back Bowls,Whitehorn,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Wiwaxy,Wiwaxy,green,Front Side,Glacier,always,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Wolverine,Wolverine,blue,Larch,Larch,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Wounded Knee,Wounded Knee,double,Back Bowls,Paradise,never,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
+2026-11-24,Tue,louise,Wrong Turn,Wrong Turn,blue,Front Side,Glacier,,N,N,N,,1,2026-11-24T13:33:30Z,0.0,2.4,2.4,,resort,11.0,25,,0.0,0
 2026-11-22,Sun,crystal,A-Basin,(no line on the map),very difficult,South,,,N,N,NNN,N,3,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,21,2,0.2,
 2026-11-22,Sun,crystal,After Burn,Afterburn,blue,Lower Mountain,Forest Queen,often,N,N,NNN,N,3,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,21,2,0.2,
 2026-11-22,Sun,crystal,Bear Pits,Bear Pits,very difficult,High Campbell,High Campbell,never,N,N,NNN,N,3,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,21,2,0.2,
@@ -620,6 +930,92 @@ date,weekday,resort,run,map_names,difficulty,area,pod,guessed,open,groomed,groom
 2026-11-23,Mon,crystal,West Face,West Face,black,Frontside,Green Valley,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,23,1,0.3,
 2026-11-23,Mon,crystal,Whit's End,Whit's End,black,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,23,1,0.3,
 2026-11-23,Mon,crystal,Willie's Run,Willie's Run,black,Frontside,Green Valley,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,23,1,0.3,
+2026-11-24,Tue,crystal,A-Basin,(no line on the map),very difficult,South,,,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,After Burn,Afterburn,blue,Lower Mountain,Forest Queen,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Bear Pits,Bear Pits,very difficult,High Campbell,High Campbell,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Berry Patch,Berry Patch; Berry Patch Right,black,Frontside,Gondola,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Bill's Face,Bill's face,blue,Frontside,Green Valley,rotational,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Blazing Elk,Blazing Elk,black,Frontside,Green Valley,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Boondoggle,Boondoggle; Upper Boondoggle.,black,Lower Mountain,Forest Queen; Quicksilver,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Brand X,Brand X,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Broadway,Broadway,green,Lower Mountain,Chinook,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Bruce's Bowl,Bruce's Bowl,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Buck,Buck,blue,Frontside,Green Valley,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Bull Run,Bull Run,very difficult,Frontside,Chinook,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Campbell Basin,Chairline Left; Chairline Right; Rabbit Ears; Screaming Babies; Silver Ridge; T-Slot; Faith's Slide,very difficult,High Campbell,High Campbell,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Deer Fly,Deer Fly,black,Frontside,Chinook,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Discover Meadow,Discovery Meadow,green,Lower Mountain,Discovery,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Downhill,Downhill,blue,Lower Mountain,Forest Queen,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Employee Housing,Employee Housing,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Exterminator,Exterminator,very difficult,Frontside,Chinook,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Gandy's Run,Gandy's Run,blue,Frontside,Rainier Express,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Glory Days,Glory Days,black,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Gold Hills,Gold Hills,blue,Lower Mountain,Gold Hills,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Green Valley,Green Valley,blue,Frontside,Green Valley,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Grubstake,Grubstake,black,Frontside,Green Valley,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Howeirds,Howeird's,blue,Frontside,Rainier Express,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Huckleberry,Huckleberry,blue,Frontside,Green Valley,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,I-5,I-5,black,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Kelly's Gap Road,Kelley's Gap Road,blue,Frontside,Gondola,rotational,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Left Angle Trees,Left Angle; Lower Left Angle,very difficult,Frontside,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Little Magoo,Little Magoo,blue,Lower Mountain,Forest Queen,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Little Portillo,Little Portillo,black,Frontside,Rainier Express,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Little Shot,Little Shot,blue,Frontside,Rainier Express,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Lower Arwine's,Lower Arwine's,green,Lower Mountain,Chinook,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Lower Brand-X Cliff,Lower Brand X Cliffs,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Lower Chappelle's,Chappelle's,blue,Lower Mountain,Forest Queen,rotational,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Lower Ferk's,Lower Ferk's Run,black,Frontside,Chinook,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Lower Magoo,Lower Magoo,blue,Lower Mountain,Forest Queen,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Lower Otto Bahn,Lower Otto Bahn,black,North,Northway,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Lucky Shot,Lucky Shot,blue,Frontside,Rainier Express,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Mel's Left,Mel's Left,blue,Frontside,Rainier Express,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Mel's Right,Mel's Right,blue,Frontside,Rainier Express,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Melby's,Melby's,black,Frontside,Chinook,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Memorial Forest,Memorial Forest,black,Frontside,Rainier Express,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Middle Ferk's,Middle Ferk's Run,black,Frontside,Rainier Express,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Morning Glory Bowl,Morning Glory Bowl,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Mr. Magoo,Mr Magoo,blue,Lower Mountain,Forest Queen,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Niagaras,Niagaras,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Northway,Northway Drainage,black,North,Northway,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,O-Meadows,O-Meadows,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Paradise,Paradise,black,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Paradise Bowl,Paradise Bowl,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Paradise Trees,Paradise Trees,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Penny Dawg's,Penny Dawgs,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Powder Bowl,Upper Field; Lower Field; Divider Chute; Summit Chute,very difficult,High Campbell,High Campbell,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Pro Course,Pro Course,blue,Frontside,Green Valley,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Pucker's Gulch,Pucker's Gulch,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Queens,Queens,green,Lower Mountain,Forest Queen,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Quicksilver,Quicksilver,green,Lower Mountain,Quicksilver,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Right Angle,Right Angle,black,Frontside,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Right Angle Trees,Lower Right Angle,very difficult,Frontside,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Rolling Knolls,Rolling Knolls,blue,Lower Mountain,Forest Queen,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Sheppard,Sheooard,blue,Frontside,Green Valley,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Sideburn,Side Burn,blue,Lower Mountain,Forest Queen,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Silver Basin,Silver Basin,very difficult,South,Southback (hike-to),never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Silver King,Appliance Store; Brain Damage; Damn Fine Forest; Hourglass; L-Tree Chute; Light Brown; Lobotomy; Pinball; Powder 8s; Receiver Chute; Sasquatch Chute; Skank Chutes Left; Skank Chutes Middle; Skank Chutes Right; The Cliff; Toasters; Watch Out for Livestock,very difficult,South,High Campbell; Southback (hike-to),never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Sled Face,Sled Face,black,Frontside,Gondola,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Sluiceway,Middle Sluiceway; Upper Sluiceway,black,Frontside,Gondola,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Snorting Elk,Snorting Elk,black,Frontside,Green Valley,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Snorting Elk Bowl,Snorting Elk Bowl,very difficult,Frontside,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Snow Garden,Snow Garden,green,Lower Mountain,Forest Queen,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Spook Hill,Spook Hill,black,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Stump Farm,Stump Farm,blue,Lower Mountain,Chinook,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Sunnyside,Sunnyside,black,Frontside,Rainier Express,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,The Doors,The Doors,black,Frontside,Rainier Express,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,The Nose,The Nose,very difficult,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,The Throne,Narnia,very difficult,High Campbell,High Campbell,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Three Way Peak,Three Way Exit Chute,very difficult,South,Southback (hike-to),never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Tinkerbell,Tinkerbell,green,Lower Mountain,Quicksilver,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Upper Arwine's,Upper Arwine's,blue,Frontside,Rainier Express,always,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Upper Chappelle's,Chappelle's,blue,Lower Mountain,Forest Queen,rotational,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Upper Ferk's,Upper Ferk's Run,blue,Frontside,Rainier Express,often,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Upper Northway,Upper Northway,black,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Upper Otto Bahn,Upper Otto Bahn,black,North,Northway,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Wally's Way,Wally's Way,blue,Lower Mountain,Forest Queen,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,West Face,West Face,black,Frontside,Green Valley,rarely,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Whit's End,Whit's End,black,North,Northway,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
+2026-11-24,Tue,crystal,Willie's Run,Willie's Run,black,Frontside,Green Valley,never,N,N,N,N,1,2026-11-11T09:52:26-0800,0.0,0.0,0.0,0.0,resort,0.0,28,0,1.3,
 2026-11-23,Mon,norquay,40 Mile Gully,,black,Mystic Chair,,,N,N,N,,1,"Monday, November 23",0.0,0.0,,,resort,13.0,25,,0.0,
 2026-11-23,Mon,norquay,Abracadabra lower,,green,Spirit Chair,,,N,N,N,,1,"Monday, November 23",0.0,0.0,,,resort,13.0,25,,0.0,
 2026-11-23,Mon,norquay,Abracadabra pitch,,blue,Spirit Chair,,,N,N,N,,1,"Monday, November 23",0.0,0.0,,,resort,13.0,25,,0.0,
@@ -699,6 +1095,85 @@ date,weekday,resort,run,map_names,difficulty,area,pod,guessed,open,groomed,groom
 2026-11-23,Mon,norquay,Widowmaker,,black,North American Chair,,,N,N,N,,1,"Monday, November 23",0.0,0.0,,,resort,13.0,25,,0.0,
 2026-11-23,Mon,norquay,Wiegele's,,blue,Mystic Chair,,,N,N,N,,1,"Monday, November 23",0.0,0.0,,,resort,13.0,25,,0.0,
 2026-11-23,Mon,norquay,Zoomer,,green,Cascade Chair,,,Y,Y,Y,,1,"Monday, November 23",0.0,0.0,,,resort,13.0,25,,0.0,
+2026-11-24,Tue,norquay,40 Mile Gully,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Abracadabra lower,,green,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Abracadabra pitch,,blue,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Artillery Chutes,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Asteroid's,,black,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Banshee Glades,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Big Line,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Black Magic,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Boundary Bowl,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Boundary Line,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Bruno's Gully,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Cascade,,green,Cascade Chair,,,Y,Y,Y,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Cascade Connector,,green,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Constellation,,green,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Corvids,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Crazy Canuck,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Crosby's Run,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Crossroads,,green,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Deerfoot Trail,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Easy Out,,green,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Edge Hunter,,green,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Elves' Alley,,green,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Enchanted Forest,,green,Cascade Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Express Way,,green,Cascade Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,FM 2,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Giver Grandi,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Goat Chutes,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Gun Run,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Henderson's Turn,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Hideaway,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Horse Trail,,green,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Kapoof,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Knight Flight,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,LPE,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Last Chance,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Last Chance (Mystic Chair),,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Lower Robs Run,,blue,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Memorial Bowl,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Memorial Cliffs,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Milky Way,,green,Cascade Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Monod's Legacy,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Mystic Trail,,green,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Norquay 100 Glades,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Norquay 90 Glades,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Norquay Gully,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,North American,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Phantom,,green,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Pristov's Tale,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Rays Run,,blue,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Red Line,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Robinson's Return,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Robs Run,,black,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Roger's Shot,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Rudy's Alley,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,S-Spine,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Scooter,,green,Cascade Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Sheep Chutes,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Shooting star,,green,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Silver Legacy,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Slow Dance,,green,Rundle Carpet,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Spirit Sneak,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Spirit traverse,,green,Spirit Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Steel Pipes,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Stoney Trail,,green,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Sun Chutes,,black,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Sundance,,green,Sundance Carpet,,,Y,Y,Y,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Sunny Side,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,T10 Pitch,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,The Big Easy,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,The Chute,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,The Lone Pine,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Toni's Trees,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Tunnel Traverse,,blue,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Turbulence,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Valley of 10,,green,Cascade Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Waterfall,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Widowmaker,,black,North American Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Wiegele's,,blue,Mystic Chair,,,N,N,N,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
+2026-11-24,Tue,norquay,Zoomer,,green,Cascade Chair,,,Y,Y,Y,,1,"Tuesday, November 24",0.0,0.0,,,resort,13.0,32,,0.0,
 2026-11-22,Sun,copper,17 Glade,,black,Center,,,N,N,NN,N,2,2026-11-22 05:02:06,0.0,2.0,6.0,,resort,18.0,13,3,0.0,0
 2026-11-22,Sun,copper,Alicante,,black,Copper Bowl,,,N,N,NN,N,2,2026-11-22 05:02:06,0.0,2.0,6.0,,resort,18.0,13,3,0.0,0
 2026-11-22,Sun,copper,American Flyer,,blue,Center,,,N,N,NN,N,2,2026-11-22 05:02:06,0.0,2.0,6.0,,resort,18.0,13,3,0.0,0
@@ -1031,3 +1506,169 @@ date,weekday,resort,run,map_names,difficulty,area,pod,guessed,open,groomed,groom
 2026-11-23,Mon,copper,Windsong,,blue,West,,,N,N,N,N,1,2026-11-23 05:00:00,0.0,0.0,2.0,,resort,18.0,16,-1,0.0,1
 2026-11-23,Mon,copper,Woodwinds,,green,West,,,N,N,N,N,1,2026-11-23 05:00:00,0.0,0.0,2.0,,resort,18.0,16,-1,0.0,1
 2026-11-23,Mon,copper,Woodwinds Traverse,,green,West,,,N,N,N,N,1,2026-11-23 05:00:00,0.0,0.0,2.0,,resort,18.0,16,-1,0.0,1
+2026-11-24,Tue,copper,17 Glade,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Alicante,,black,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,American Flyer,,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Andy's Encore (L),,blue,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Andy's Encore (U),,blue,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Atlantic Cornice,,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Bariloche,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Bee Traverse,,black,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Bittersweet (L),,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Bittersweet (U),,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Black Bear Glade,,double,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Boardwalk,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Boulderado,,extreme terrain,Tucker Mountain,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Bouncer (L),,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Bouncer (U),,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Bradley's Plunge,,extreme terrain,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Brennan's Grin,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Bridgeway,,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Bucksaw,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Buffalo Stampede,,extreme terrain,Tucker Mountain,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Buzzard's Alley,,double,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,CDL's Trail #20,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Cabin Chute,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Cache Glades,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Calendar Chute,,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Carefree (L),,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Carefree (U),,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Central Park on Loverly,,green,Woodward Mountain Park,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Clear Cut,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Collage (L),,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Collage (U),,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Colman's Retreat,,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Colorado Boulevard,,blue,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Copperfield,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Copperopolis,,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Coppertone,,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Cornice Chute,,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Denverite,,extreme terrain,Tucker Mountain,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Double Zero,,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Drain Pipe,,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,EZ Rider/Learning Area,,green,Beginner Learning,,,Y,Y,Y,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Easy Feelin',,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Easy Road,,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Easy Road Traverse,,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Endeavor,,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Fair Play,,blue,Center,,,Y,Y,Y,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Fairway,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Falcon Alley,,extreme terrain,Tucker Mountain,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Family Cross,,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Family Cross on High Point,,green,Woodward Mountain Park,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Far East,,black,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Far West,,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Formidable,,black,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Foul Play,,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Frank's Fave,,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Free Fall Glade,,double,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Gold Digger,,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Golden Crest,,black,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Green Acres,,green,Beginner Learning,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Green Acres Progression Park,,green,Woodward Mountain Park,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Guthrie’s Chute,,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Hallelujah,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Hallelujah Ridge,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Hidden Vein,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,High Point,,green,Center,,,Y,Y,Y,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,High Point Bypass,,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Highline,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Hodson's Cut,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Home Run,,blue,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,I-Dropper,,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,I-Way,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Iron Mask,,extreme terrain,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Jackstraw Trees,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Jacque's Pique,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Julie's Vision,,black,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Kaboom,,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Kid’s Arena,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Koko's Progression Park on Roundabout,,green,Woodward Mountain Park,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Kokomo Glade,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Lallarookn,,double,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Leap Frog (L),,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Leap Frog (U),,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Liberty,,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Lillie G (L),,black,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Lillie G (U),,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Lillie G Traverse,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Little Burn,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Little Trees,,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Log Chute,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Looking Glass,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Loverly,,green,Center,,,Y,Y,Y,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Loverly Lane,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Lyman Lane,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Main Vein,,blue,Center,,,Y,Y,Y,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Marvin Garden,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Matchless,,black,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Mine Dump,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Miner’s Progression Park on Roundabout,,green,Woodward Mountain Park,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Minor Matter,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Oh No (L),,blue,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Oh No (U),,blue,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Ore Deal,,black,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Otto Bahn,,blue,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Overlode,,black,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Pacific Cornice,,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Park Place,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Patrol Chute,,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Peace Park on American Flyer Trail ,,green,Woodward Mountain Park,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Pinecone Alley,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Pipe Dream on Vein Glory,,green,Woodward Mountain Park,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Prospector,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Ptarmigan,,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Ram's Run,,extreme terrain,Tucker Mountain,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Rattler,,black,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Red's Backyard on Loverly Lane,,green,Woodward Mountain Park,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Revenge (L),,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Revenge (U),,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Rhapsody,,blue,Center,,,Y,Y,Y,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Rosi's Run,,black,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Roundabout (L),,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Roundabout (U),,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Sail Away Glades,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Sawtooth,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Schaefer's,,extreme terrain,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Scooter,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,See and Ski,,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Six Shooter,,black,Copper Bowl,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Skid Road,,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Slip Not,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Slot Car Track,,blue,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Sluice,,green,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Snodeal,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,So Fine,,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Soliloquy,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Spaulding Glades,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Spaulding Ridge,,black,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Spillway,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Summit Stash,,black,Tucker Mountain,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Superpipe on Main Vein,,green,Woodward Mountain Park,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Tempo,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,The Moz,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,The Springs,,extreme terrain,Tucker Mountain,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,The Taco,,extreme terrain,Tucker Mountain,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Timber Ridge,,blue,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Timber Road,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Too Much,,black,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Treble Cliff,,black,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Triple Treat,,black,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Triple Zero,,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Union Gap,,blue,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Union Meadows,,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Union Park,,green,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Union Peak,,black,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Upper Enchanted Forest,,double,Spaulding & Resolution,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Upper Sluice,,blue,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Ute Overlook,,black,Center,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Valentine's,,extreme terrain,Tucker Mountain,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Vein Glory (L),,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Vein Glory (U),,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,West Encore,,blue,East,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,West Ten Mile,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Western Slope,,extreme terrain,Tucker Mountain,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Wheeler Creek,,green,Union Peak,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Windsong,,blue,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Woodwinds,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2
+2026-11-24,Tue,copper,Woodwinds Traverse,,green,West,,,N,N,N,N,1,2026-11-24 05:00:00,1.0,1.0,1.0,,resort,18.0,18,0,0.0,2

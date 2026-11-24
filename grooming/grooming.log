@@ -24,3 +24,9 @@
 2026-11-24 01:51:06Z collect 2026-11-24T01:50:48Z norquay (2026-11-23T19:50 local): 79 runs, 3 open, 3 groomed, report Monday, November 23
 2026-11-24 01:51:08Z collect 2026-11-24T01:50:48Z copper (2026-11-23T18:50 local): 166 runs, 6 open, 6 groomed, report 2026-11-23 05:00:00
 2026-11-24 01:51:08Z log.csv: 1032 rows
+2026-11-24 23:37:02Z collect 2026-11-24T23:37:01Z sunshine (2026-11-24T17:37 local): 139 runs, 8 open, 5 groomed, report 2026-11-24T08:57:00-06:00
+2026-11-24 23:37:03Z collect 2026-11-24T23:37:01Z louise (2026-11-24T17:37 local): 171 runs, 6 open, 5 groomed, report 2026-11-24T13:33:30Z
+2026-11-24 23:37:04Z collect 2026-11-24T23:37:01Z crystal (2026-11-24T15:37 local): 86 runs, 0 open, 0 groomed, report 2026-11-11T09:52:26-0800
+2026-11-24 23:37:05Z collect 2026-11-24T23:37:01Z norquay (2026-11-24T17:37 local): 79 runs, 3 open, 3 groomed, report Tuesday, November 24
+2026-11-24 23:37:06Z collect 2026-11-24T23:37:01Z copper (2026-11-24T16:37 local): 166 runs, 6 open, 6 groomed, report 2026-11-24 05:00:00
+2026-11-24 23:37:06Z log.csv: 1673 rows
