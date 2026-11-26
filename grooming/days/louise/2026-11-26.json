@@ -1,0 +1,2287 @@
+{
+ "resort": "louise",
+ "date": "2026-11-26",
+ "checks": [
+  {
+   "fetched_at": "2026-11-26T23:13:59Z",
+   "local_time": "2026-11-26T17:13:59-06:00",
+   "date": "2026-11-26",
+   "report_time": "2026-11-26T11:03:03Z",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "louise-feed",
+     "url": "https://ski-louise-status-page.vercel.app/api/ski-data",
+     "http_status": 200,
+     "bytes": 30386,
+     "sha256": "27660e61ee817fcecbbc0dc925a57f34b82a13738730bb56fd9a64c806707720",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.453&longitude=-116.149&elevation=2042&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 18939,
+     "sha256": "318ddd8ce00234291b25d4a68ae9cf05a5d05f8cf15f892284f83996b2a17cd3",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": 0,
+    "new_24h_cm": 0,
+    "new_48h_cm": 0,
+    "new_72h_cm": null,
+    "new_7d_cm": 6,
+    "base_cm": 28,
+    "temp_c": -2
+   },
+   "model": {
+    "temp_c": -3.4,
+    "tmin_24h_c": -3.4,
+    "tmax_24h_c": -1.3,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 0.0,
+    "hours_above_0_24h": 0,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null
+  }
+ ],
+ "runs": {
+  "Men's Downhill": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Flight Chutes 4": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Grizzly Bowl": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Helen's": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Home Run Chutes": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Home Run": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Mirkwood": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Grizzly Gully": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Flight Chutes Cat Track": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Upshoots": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Flight Chutes 1": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Flight Chutes 2": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Upper Juniper": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Flight Chutes 3": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Eagle Flight": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Skyline": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Eagle's Beak": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lower Flight": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Eagle Trees": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Race Pitch": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Eagle Poma": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Upper Grouse": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Eagle Meadows": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Deer Run": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Wapta": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Upper Meadowlark": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Meadowlark": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lower Grouse": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Pika": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Kernahan's": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Steep & Flat": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Whitehorn Cat Track": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Bearberry": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Juniper": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Jerry's Jungle": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Bald Eagle": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lake Lindsey Way": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Cameron's Way": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Wiwaxy": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Pinecone Way": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lowest Meadowlark": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Easy Street": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Sunny Side": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Blueberry": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Buffaloberry": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Juniper Jungle": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Bunchberry": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Sunset Gully": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Wrong Turn": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Upper Wiwaxy": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Tight Turn": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Middle Limits": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Charlie's Choice": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Tickety Chutes": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Sunset Terrace": {
+   "difficulty": "green",
+   "area": "Front Side",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Headwall": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Sunset": {
+   "difficulty": "blue",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Headwall Bowl": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Outer Limits": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Sunset Pocket": {
+   "difficulty": "black",
+   "area": "Front Side",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Ptarmigan Chute 1": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Ptarmigan Chute 2": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Ptarmigan Chute 3": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Exhibition": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Ptarmigan Cat Track": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Exhibition Trees": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Ptarmigan Glades": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Old Ptarmigan": {
+   "difficulty": "blue",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Ptarmigan": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Raven": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Pika Trees": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Alley": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Pikaboo": {
+   "difficulty": "blue",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Corridor": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "East Bowl": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Crow Bowl": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "East Bowl Trees": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "2/3 Shoulder": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Upper Alley": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Cowboy": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "E.R. 3": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Swede's": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "The Heart": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Powder Pockets": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Fenceline Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Paradise Bowl": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "4/5 Shoulder": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Hell's Kitchen": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Paradise Cornice": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lower 5": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lily Pads": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "E.R. 6": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Big 7": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Drop Out": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Vertical Cornice": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Couloir": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Peyto's Pitch": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "The Beast": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Jackpot": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Saddleback": {
+   "difficulty": "green",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Read's Way": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Saddleback Bowl": {
+   "difficulty": "blue",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Hour Glass": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Wounded Knee": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Kiddie's Corner": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Split Rock": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Warden's Run": {
+   "difficulty": "green",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Fourth Gate": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Third Gate": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Second Gate": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Whitehorn 1": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Ridge Run": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Rodney's Ridge": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "A Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "B Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "C Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "D Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "E Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "F Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "G Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "H Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "I Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Boomerang": {
+   "difficulty": "blue",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Little Pipestone": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Upper Boomerang": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Shoulder Roll": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Brown Cow": {
+   "difficulty": "black",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Brown Cow 1st": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Brown Cow Main": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "North Cornice": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Wild Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Ghostly Gully": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lake Pitch": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "UNC": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Boundary Bowl": {
+   "difficulty": "double",
+   "area": "Back Bowls",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Rock Garden": {
+   "difficulty": "blue",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Marmot": {
+   "difficulty": "green",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Wolverine": {
+   "difficulty": "blue",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "30 Goats": {
+   "difficulty": "blue",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Larch Poma": {
+   "difficulty": "blue",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lynx": {
+   "difficulty": "black",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Larch": {
+   "difficulty": "blue",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lipalian Chutes": {
+   "difficulty": "black",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lookout": {
+   "difficulty": "green",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Tower 12": {
+   "difficulty": "double",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lookout Chutes": {
+   "difficulty": "double",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Bobcat": {
+   "difficulty": "black",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Prunepickers": {
+   "difficulty": "green",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Ski Out": {
+   "difficulty": "green",
+   "area": "Larch",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Merlin": {
+   "difficulty": "blue",
+   "area": "Richardson's Ridge",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Skoki": {
+   "difficulty": "green",
+   "area": "Richardson's Ridge",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Fossil": {
+   "difficulty": "blue",
+   "area": "Richardson's Ridge",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Vermillion": {
+   "difficulty": "blue",
+   "area": "Richardson's Ridge",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Redoubt": {
+   "difficulty": "blue",
+   "area": "Richardson's Ridge",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Pipestone Ridge": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "West Bowl": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Temple": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Ten Peaks": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Instructors Bowl": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Outback": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "White Rabbit": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Instructors Gully": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Enchanted Forest": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "West Bowl Gully": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Doughnut Plains": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Maintenance Gully": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Maverick": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Free Spirit": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Oly Slides West": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Oly Slides East": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Egress": {
+   "difficulty": "black",
+   "area": "West Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  }
+ },
+ "model_days": {
+  "2026-11-26": 0.0,
+  "2026-11-25": 0.0,
+  "2026-11-24": 0.0,
+  "2026-11-23": 0.0,
+  "2026-11-22": 0.0,
+  "2026-11-21": 0.0,
+  "2026-11-20": 0.0
+ }
+}

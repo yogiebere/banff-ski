@@ -1,0 +1,1091 @@
+{
+ "resort": "norquay",
+ "date": "2026-11-26",
+ "checks": [
+  {
+   "fetched_at": "2026-11-26T23:13:59Z",
+   "local_time": "2026-11-26T17:13:59-06:00",
+   "date": "2026-11-26",
+   "report_time": "Thursday, November 26",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "norquay-conditions",
+     "url": "https://banffnorquay.com/conditions/",
+     "http_status": 200,
+     "bytes": 749558,
+     "sha256": "d591a2f8b7f9af384d8123fc0b93bd9eea2b683b2c4d444680a114bbd17e689c",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=51.203&longitude=-115.599&elevation=1850&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 19032,
+     "sha256": "730ccd017c7bd9a76e647ed6f3d09a78cfb4ed7eae6bc7efd2839858f93d60ca",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": 0,
+    "new_24h_cm": 0,
+    "new_48h_cm": null,
+    "new_72h_cm": null,
+    "new_7d_cm": 1,
+    "base_cm": 32,
+    "temp_c": null
+   },
+   "model": {
+    "temp_c": -0.9,
+    "tmin_24h_c": -0.9,
+    "tmax_24h_c": 2.0,
+    "snow_24h_cm": 0.5,
+    "snow_48h_cm": 0.5,
+    "snow_72h_cm": 0.5,
+    "snow_7d_cm": 0.5,
+    "hours_above_0_24h": 20,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": null
+  }
+ ],
+ "runs": {
+  "North American": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Memorial Bowl": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "The Lone Pine": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Boundary Bowl": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Corvids": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Waterfall": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Boundary Line": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Roger's Shot": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "The Chute": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Henderson's Turn": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Robinson's Return": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Widowmaker": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Big Line": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "T10 Pitch": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Rudy's Alley": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "LPE": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Tunnel Traverse": {
+   "difficulty": "blue",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Memorial Cliffs": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Red Line": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Norquay Gully": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Gun Run": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Artillery Chutes": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Sunny Side": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Hideaway": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Last Chance": {
+   "difficulty": "black",
+   "area": "North American Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Constellation": {
+   "difficulty": "green",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Elves' Alley": {
+   "difficulty": "green",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Shooting star": {
+   "difficulty": "green",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Asteroid's": {
+   "difficulty": "black",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Spirit traverse": {
+   "difficulty": "green",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Robs Run": {
+   "difficulty": "black",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Cascade Connector": {
+   "difficulty": "green",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Lower Robs Run": {
+   "difficulty": "blue",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Phantom": {
+   "difficulty": "green",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Rays Run": {
+   "difficulty": "blue",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Abracadabra pitch": {
+   "difficulty": "blue",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Abracadabra lower": {
+   "difficulty": "green",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Edge Hunter": {
+   "difficulty": "green",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Crossroads": {
+   "difficulty": "green",
+   "area": "Spirit Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Sundance": {
+   "difficulty": "green",
+   "area": "Sundance Carpet",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Express Way": {
+   "difficulty": "green",
+   "area": "Cascade Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Zoomer": {
+   "difficulty": "green",
+   "area": "Cascade Chair",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Cascade": {
+   "difficulty": "green",
+   "area": "Cascade Chair",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Enchanted Forest": {
+   "difficulty": "green",
+   "area": "Cascade Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Valley of 10": {
+   "difficulty": "green",
+   "area": "Cascade Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Milky Way": {
+   "difficulty": "green",
+   "area": "Cascade Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Scooter": {
+   "difficulty": "green",
+   "area": "Cascade Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Mystic Trail": {
+   "difficulty": "green",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "40 Mile Gully": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "FM 2": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Sun Chutes": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Norquay 100 Glades": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Spirit Sneak": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Sheep Chutes": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Goat Chutes": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "S-Spine": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Steel Pipes": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Giver Grandi": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Banshee Glades": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Monod's Legacy": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Toni's Trees": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Crosby's Run": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Bruno's Gully": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Pristov's Tale": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Silver Legacy": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Wiegele's": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Norquay 90 Glades": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Black Magic": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Kapoof": {
+   "difficulty": "black",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Crazy Canuck": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Last Chance (Mystic Chair)": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Knight Flight": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Stoney Trail": {
+   "difficulty": "green",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Deerfoot Trail": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Easy Out": {
+   "difficulty": "green",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "The Big Easy": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Turbulence": {
+   "difficulty": "blue",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Horse Trail": {
+   "difficulty": "green",
+   "area": "Mystic Chair",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  },
+  "Slow Dance": {
+   "difficulty": "green",
+   "area": "Rundle Carpet",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    null
+   ]
+  }
+ },
+ "model_days": {
+  "2026-11-26": 0.0,
+  "2026-11-25": 0.0,
+  "2026-11-24": 0.0,
+  "2026-11-23": 0.0,
+  "2026-11-22": 0.0,
+  "2026-11-21": 0.0,
+  "2026-11-20": 0.0
+ }
+}
