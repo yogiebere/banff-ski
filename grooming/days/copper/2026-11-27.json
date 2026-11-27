@@ -1,0 +1,2244 @@
+{
+ "resort": "copper",
+ "date": "2026-11-27",
+ "checks": [
+  {
+   "fetched_at": "2026-11-27T22:52:45Z",
+   "local_time": "2026-11-27T15:52:45-07:00",
+   "date": "2026-11-27",
+   "report_time": "2026-11-27 05:00:00",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "copper-trails",
+     "url": "https://api.coppercolorado.com/api/v1/dor/drupal/trails",
+     "http_status": 200,
+     "bytes": 149076,
+     "sha256": "21c9bf071a21ff59780467d3882fbd09b133b04465db688c28a7e983e14eea84",
+     "error": null
+    },
+    {
+     "source": "copper-snow-report",
+     "url": "https://api.coppercolorado.com/api/v1/dor/drupal/snow-reports?sort=date&direction=desc",
+     "http_status": 200,
+     "bytes": 13656,
+     "sha256": "f0888f3011f414f44c9c96445df77cea1865abefe5a2ead9ed1e2a5c769e8a3c",
+     "error": null
+    },
+    {
+     "source": "copper-weather",
+     "url": "https://api.coppercolorado.com/api/v1/dor/weather-forecast",
+     "http_status": 200,
+     "bytes": 2027,
+     "sha256": "aa6cd08bba8c5cf0cc4bf1b43bd6f5460b3a072cd3dcc499f59e9bb773f07eb0",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=39.49&longitude=-106.16&elevation=3300&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 19264,
+     "sha256": "2f636cad2b0c0c16a73ebc8e054c9b7e08ceba1c8f44e1ed205e78954ce4e352",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": 0.0,
+    "new_24h_cm": 0.0,
+    "new_48h_cm": 0.0,
+    "new_72h_cm": null,
+    "new_7d_cm": 17.8,
+    "base_cm": 45.7,
+    "temp_c": -1.7
+   },
+   "model": {
+    "temp_c": 0.9,
+    "tmin_24h_c": -8.9,
+    "tmax_24h_c": 1.4,
+    "snow_24h_cm": 0.0,
+    "snow_48h_cm": 0.0,
+    "snow_72h_cm": 0.0,
+    "snow_7d_cm": 0.3,
+    "hours_above_0_24h": 5,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": {
+    "station": "415:CO:SNTL",
+    "date": "2026-11-26",
+    "depth_in": 2,
+    "swe_in": 0.6,
+    "depth_change_in": 0
+   }
+  }
+ ],
+ "runs": {
+  "Far East": {
+   "difficulty": "black",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Too Much": {
+   "difficulty": "black",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Triple Treat": {
+   "difficulty": "black",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Formidable": {
+   "difficulty": "black",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Black Bear Glade": {
+   "difficulty": "double",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Free Fall Glade": {
+   "difficulty": "double",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Treble Cliff": {
+   "difficulty": "black",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Bee Traverse": {
+   "difficulty": "black",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Rosi's Run": {
+   "difficulty": "black",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-11-27T16:29:34Z"
+   ]
+  },
+  "Home Run": {
+   "difficulty": "blue",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Overlode": {
+   "difficulty": "black",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Ore Deal": {
+   "difficulty": "black",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Green Acres": {
+   "difficulty": "green",
+   "area": "Beginner Learning",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    "2026-11-25T18:01:07Z"
+   ]
+  },
+  "Green Acres Progression Park": {
+   "difficulty": "green",
+   "area": "Woodward Mountain Park",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Oh No (U)": {
+   "difficulty": "blue",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Oh No (L)": {
+   "difficulty": "blue",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Drain Pipe": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Triple Zero": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Double Zero": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Cabin Chute": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Sawtooth": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Highline": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Hodson's Cut": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Spaulding Glades": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Andy's Encore (U)": {
+   "difficulty": "blue",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-11-27T16:29:34Z"
+   ]
+  },
+  "Andy's Encore (L)": {
+   "difficulty": "blue",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Skid Road": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "West Encore": {
+   "difficulty": "blue",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Slot Car Track": {
+   "difficulty": "blue",
+   "area": "East",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Collage (U)": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Collage (L)": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "EZ Rider/Learning Area": {
+   "difficulty": "green",
+   "area": "Beginner Learning",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    "2026-11-21T12:22:46Z"
+   ]
+  },
+  "Frank's Fave": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Bouncer (U)": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Bouncer (L)": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "17 Glade": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Copperopolis": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-11-15T12:36:02Z"
+   ]
+  },
+  "Brennan's Grin": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "CDL's Trail #20": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Mine Dump": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Ptarmigan": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    "2026-11-27T16:05:33Z"
+   ]
+  },
+  "Hallelujah": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Hallelujah Ridge": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Bariloche": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Spaulding Ridge": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Boardwalk": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Park Place": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Marvin Garden": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Calendar Chute": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Patrol Chute": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Cornice Chute": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "So Fine": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Atlantic Cornice": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Pacific Cornice": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Rhapsody": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    "2026-11-08T12:00:26Z"
+   ]
+  },
+  "Main Vein": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    "2026-11-08T12:00:26Z"
+   ]
+  },
+  "Superpipe on Main Vein": {
+   "difficulty": "green",
+   "area": "Woodward Mountain Park",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:38Z"
+   ]
+  },
+  "Fair Play": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    "2026-11-08T12:00:26Z"
+   ]
+  },
+  "Foul Play": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Bittersweet (U)": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Bittersweet (L)": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Leap Frog (U)": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Leap Frog (L)": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Carefree (U)": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Carefree (L)": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Liberty": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Loverly": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    "2026-11-23T16:07:09Z"
+   ]
+  },
+  "Central Park on Loverly": {
+   "difficulty": "green",
+   "area": "Woodward Mountain Park",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Loverly Lane": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Red's Backyard on Loverly Lane": {
+   "difficulty": "green",
+   "area": "Woodward Mountain Park",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Bridgeway": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Kid’s Arena": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Scooter": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Vein Glory (U)": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Pipe Dream on Vein Glory": {
+   "difficulty": "green",
+   "area": "Woodward Mountain Park",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Vein Glory (L)": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Hidden Vein": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Snodeal": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Easy Feelin'": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Coppertone": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Sail Away Glades": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "See and Ski": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "I-Dropper": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Minor Matter": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Woodwinds": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Woodwinds Traverse": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Timber Road": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "High Point": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "open"
+   ],
+   "groomed": [
+    true
+   ],
+   "updated": [
+    "2026-11-23T16:07:09Z"
+   ]
+  },
+  "Family Cross on High Point": {
+   "difficulty": "green",
+   "area": "Woodward Mountain Park",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Family Cross": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "American Flyer": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Peace Park on American Flyer Trail ": {
+   "difficulty": "green",
+   "area": "Woodward Mountain Park",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "The Moz": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Little Burn": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Copperfield": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Windsong": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Bucksaw": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Jacque's Pique": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Tempo": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Soliloquy": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Log Chute": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Roundabout (U)": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Roundabout (L)": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Koko's Progression Park on Roundabout": {
+   "difficulty": "green",
+   "area": "Woodward Mountain Park",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Miner’s Progression Park on Roundabout": {
+   "difficulty": "green",
+   "area": "Woodward Mountain Park",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Kokomo Glade": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Fairway": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Prospector": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "West Ten Mile": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Clear Cut": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "I-Way": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Wheeler Creek": {
+   "difficulty": "green",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Union Gap": {
+   "difficulty": "blue",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Sluice": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Upper Sluice": {
+   "difficulty": "blue",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Union Park": {
+   "difficulty": "green",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Endeavor": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Revenge (L)": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Revenge (U)": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Timber Ridge": {
+   "difficulty": "blue",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Guthrie’s Chute": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Gold Digger": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Colman's Retreat": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:39Z"
+   ]
+  },
+  "Far West": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Union Meadows": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Easy Road": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Easy Road Traverse": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "High Point Bypass": {
+   "difficulty": "green",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Jackstraw Trees": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Lyman Lane": {
+   "difficulty": "green",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Pinecone Alley": {
+   "difficulty": "blue",
+   "area": "West",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Upper Enchanted Forest": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Lillie G Traverse": {
+   "difficulty": "black",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Lillie G (U)": {
+   "difficulty": "double",
+   "area": "Spaulding & Resolution",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Lillie G (L)": {
+   "difficulty": "black",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Rattler": {
+   "difficulty": "black",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Alicante": {
+   "difficulty": "black",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Colorado Boulevard": {
+   "difficulty": "blue",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Golden Crest": {
+   "difficulty": "black",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Julie's Vision": {
+   "difficulty": "black",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Six Shooter": {
+   "difficulty": "black",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Matchless": {
+   "difficulty": "black",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Bradley's Plunge": {
+   "difficulty": "extreme terrain",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Schaefer's": {
+   "difficulty": "extreme terrain",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Iron Mask": {
+   "difficulty": "extreme terrain",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Lallarookn": {
+   "difficulty": "double",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Otto Bahn": {
+   "difficulty": "blue",
+   "area": "Copper Bowl",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Buzzard's Alley": {
+   "difficulty": "double",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Union Peak": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Kaboom": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Little Trees": {
+   "difficulty": "black",
+   "area": "Union Peak",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Spillway": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Ute Overlook": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Slip Not": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Looking Glass": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Cache Glades": {
+   "difficulty": "black",
+   "area": "Center",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Boulderado": {
+   "difficulty": "extreme terrain",
+   "area": "Tucker Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Valentine's": {
+   "difficulty": "extreme terrain",
+   "area": "Tucker Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Denverite": {
+   "difficulty": "extreme terrain",
+   "area": "Tucker Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "The Springs": {
+   "difficulty": "extreme terrain",
+   "area": "Tucker Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Ram's Run": {
+   "difficulty": "extreme terrain",
+   "area": "Tucker Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Buffalo Stampede": {
+   "difficulty": "extreme terrain",
+   "area": "Tucker Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "The Taco": {
+   "difficulty": "extreme terrain",
+   "area": "Tucker Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Western Slope": {
+   "difficulty": "extreme terrain",
+   "area": "Tucker Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Falcon Alley": {
+   "difficulty": "extreme terrain",
+   "area": "Tucker Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  },
+  "Summit Stash": {
+   "difficulty": "black",
+   "area": "Tucker Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-05-03T22:20:40Z"
+   ]
+  }
+ },
+ "model_days": {
+  "2026-11-27": 0.0,
+  "2026-11-26": 0.0,
+  "2026-11-25": 0.0,
+  "2026-11-24": 0.0,
+  "2026-11-23": 0.0,
+  "2026-11-22": 0.0,
+  "2026-11-21": 0.3
+ }
+}

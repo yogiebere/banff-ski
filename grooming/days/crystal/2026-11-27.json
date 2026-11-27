@@ -1,0 +1,1196 @@
+{
+ "resort": "crystal",
+ "date": "2026-11-27",
+ "checks": [
+  {
+   "fetched_at": "2026-11-27T22:52:45Z",
+   "local_time": "2026-11-27T14:52:45-08:00",
+   "date": "2026-11-27",
+   "report_time": "2026-11-27T10:04:02-0800",
+   "ok": true,
+   "errors": [],
+   "sources": [
+    {
+     "source": "mtnfeed-config",
+     "url": "https://v4.mtnfeed.com/resorts/crystal-mountain.json",
+     "http_status": 200,
+     "bytes": 5078,
+     "sha256": "df8018f33ea3bc3388b489078ecfba78a3d43dc75f070b5eaa53345e3476ac4a",
+     "error": null
+    },
+    {
+     "source": "mtnpowder-feed",
+     "url": "https://mtnpowder.com/feed/v3.json?bearer_token=YUKps_bg1dtxd5ZM-ekRrkUD08tntV6XEJYssuGhWEQ&resortId%5B%5D=80",
+     "http_status": 200,
+     "bytes": 78487,
+     "sha256": "24e5803961a2e7b5bf38f8fd3e9bcc82bb928e1f99b82305c882c4c7ba556a5e",
+     "error": null
+    },
+    {
+     "source": "open-meteo",
+     "url": "https://api.open-meteo.com/v1/forecast?latitude=46.9353&longitude=-121.4746&elevation=1676&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Cwind_direction_10m%2Cfreezing_level_height%2Cvisibility&past_days=7&forecast_days=3&timezone=GMT&wind_speed_unit=kmh",
+     "http_status": 200,
+     "bytes": 19196,
+     "sha256": "1558df39db48903de5265bb0d295b7b202bfe47b90c871e92f7076560c2531a0",
+     "error": null
+    }
+   ],
+   "snow": {
+    "overnight_cm": 0,
+    "new_24h_cm": 13,
+    "new_48h_cm": 20,
+    "new_72h_cm": 0,
+    "new_7d_cm": 0,
+    "base_cm": 43,
+    "temp_c": 1
+   },
+   "model": {
+    "temp_c": -0.7,
+    "tmin_24h_c": -2.5,
+    "tmax_24h_c": 1.1,
+    "snow_24h_cm": 2.0,
+    "snow_48h_cm": 26.9,
+    "snow_72h_cm": 29.2,
+    "snow_7d_cm": 33.8,
+    "hours_above_0_24h": 3,
+    "rain_24h_mm": 0.0
+   },
+   "snotel": {
+    "station": "642:WA:SNTL",
+    "date": "2026-11-26",
+    "depth_in": 19,
+    "swe_in": 6.2,
+    "depth_change_in": 3
+   }
+  }
+ ],
+ "runs": {
+  "After Burn": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:00Z"
+   ]
+  },
+  "Boondoggle": {
+   "difficulty": "black",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:14Z"
+   ]
+  },
+  "Broadway": {
+   "difficulty": "green",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:25Z"
+   ]
+  },
+  "Discover Meadow": {
+   "difficulty": "green",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:12Z"
+   ]
+  },
+  "Downhill": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:27Z"
+   ]
+  },
+  "Gold Hills": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:11Z"
+   ]
+  },
+  "Little Magoo": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:30Z"
+   ]
+  },
+  "Lower Arwine's": {
+   "difficulty": "green",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:07Z"
+   ]
+  },
+  "Lower Chappelle's": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:34Z"
+   ]
+  },
+  "Lower Magoo": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:37Z"
+   ]
+  },
+  "Mr. Magoo": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:29Z"
+   ]
+  },
+  "Queens": {
+   "difficulty": "green",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:32Z"
+   ]
+  },
+  "Quicksilver": {
+   "difficulty": "green",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:03Z"
+   ]
+  },
+  "Rolling Knolls": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:18Z"
+   ]
+  },
+  "Sideburn": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:05Z"
+   ]
+  },
+  "Snow Garden": {
+   "difficulty": "green",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:24Z"
+   ]
+  },
+  "Stump Farm": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:19Z"
+   ]
+  },
+  "Tinkerbell": {
+   "difficulty": "green",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:08Z"
+   ]
+  },
+  "Upper Chappelle's": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:21Z"
+   ]
+  },
+  "Wally's Way": {
+   "difficulty": "blue",
+   "area": "Lower Mountain",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:19:16Z"
+   ]
+  },
+  "Berry Patch": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:21:43Z"
+   ]
+  },
+  "Bill's Face": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:21:46Z"
+   ]
+  },
+  "Blazing Elk": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:21:49Z"
+   ]
+  },
+  "Buck": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:21:51Z"
+   ]
+  },
+  "Bull Run": {
+   "difficulty": "very difficult",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:21:53Z"
+   ]
+  },
+  "Deer Fly": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:21:54Z"
+   ]
+  },
+  "Exterminator": {
+   "difficulty": "very difficult",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:21:56Z"
+   ]
+  },
+  "Gandy's Run": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:21:58Z"
+   ]
+  },
+  "Green Valley": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:00Z"
+   ]
+  },
+  "Grubstake": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:02Z"
+   ]
+  },
+  "Howeirds": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:04Z"
+   ]
+  },
+  "Huckleberry": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:05Z"
+   ]
+  },
+  "Kelly's Gap Road": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:07Z"
+   ]
+  },
+  "Left Angle Trees": {
+   "difficulty": "very difficult",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:09Z"
+   ]
+  },
+  "Little Portillo": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:11Z"
+   ]
+  },
+  "Little Shot": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:13Z"
+   ]
+  },
+  "Lower Ferk's": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:15Z"
+   ]
+  },
+  "Lucky Shot": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:17Z"
+   ]
+  },
+  "Melby's": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:18Z"
+   ]
+  },
+  "Mel's Left": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:20Z"
+   ]
+  },
+  "Mel's Right": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:21Z"
+   ]
+  },
+  "Memorial Forest": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:26Z"
+   ]
+  },
+  "Middle Ferk's": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:28Z"
+   ]
+  },
+  "Pro Course": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:30Z"
+   ]
+  },
+  "Right Angle": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:31Z"
+   ]
+  },
+  "Right Angle Trees": {
+   "difficulty": "very difficult",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:33Z"
+   ]
+  },
+  "Sheppard": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:35Z"
+   ]
+  },
+  "Sled Face": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:36Z"
+   ]
+  },
+  "Sluiceway": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:38Z"
+   ]
+  },
+  "Snorting Elk": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:40Z"
+   ]
+  },
+  "Snorting Elk Bowl": {
+   "difficulty": "very difficult",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:41Z"
+   ]
+  },
+  "Sunnyside": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:43Z"
+   ]
+  },
+  "The Doors": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:45Z"
+   ]
+  },
+  "Upper Arwine's": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:47Z"
+   ]
+  },
+  "Upper Ferk's": {
+   "difficulty": "blue",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:48Z"
+   ]
+  },
+  "West Face": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:50Z"
+   ]
+  },
+  "Willie's Run": {
+   "difficulty": "black",
+   "area": "Frontside",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:52Z"
+   ]
+  },
+  "Bear Pits": {
+   "difficulty": "very difficult",
+   "area": "High Campbell",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:54Z"
+   ]
+  },
+  "Campbell Basin": {
+   "difficulty": "very difficult",
+   "area": "High Campbell",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:56Z"
+   ]
+  },
+  "Powder Bowl": {
+   "difficulty": "very difficult",
+   "area": "High Campbell",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:57Z"
+   ]
+  },
+  "The Throne": {
+   "difficulty": "very difficult",
+   "area": "High Campbell",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:22:58Z"
+   ]
+  },
+  "Brand X": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:03Z"
+   ]
+  },
+  "Bruce's Bowl": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:04Z"
+   ]
+  },
+  "Employee Housing": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:06Z"
+   ]
+  },
+  "Glory Days": {
+   "difficulty": "black",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:08Z"
+   ]
+  },
+  "I-5": {
+   "difficulty": "black",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:10Z"
+   ]
+  },
+  "Lower Brand-X Cliff": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:11Z"
+   ]
+  },
+  "Lower Otto Bahn": {
+   "difficulty": "black",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:13Z"
+   ]
+  },
+  "Morning Glory Bowl": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:15Z"
+   ]
+  },
+  "Niagaras": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:16Z"
+   ]
+  },
+  "Northway": {
+   "difficulty": "black",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:19Z"
+   ]
+  },
+  "O-Meadows": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:21Z"
+   ]
+  },
+  "Paradise": {
+   "difficulty": "black",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:23Z"
+   ]
+  },
+  "Paradise Bowl": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:24Z"
+   ]
+  },
+  "Paradise Trees": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:27Z"
+   ]
+  },
+  "Penny Dawg's": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:28Z"
+   ]
+  },
+  "Pucker's Gulch": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:30Z"
+   ]
+  },
+  "Spook Hill": {
+   "difficulty": "black",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:32Z"
+   ]
+  },
+  "The Nose": {
+   "difficulty": "very difficult",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:34Z"
+   ]
+  },
+  "Upper Northway": {
+   "difficulty": "black",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:35Z"
+   ]
+  },
+  "Upper Otto Bahn": {
+   "difficulty": "black",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:37Z"
+   ]
+  },
+  "Whit's End": {
+   "difficulty": "black",
+   "area": "North",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:39Z"
+   ]
+  },
+  "A-Basin": {
+   "difficulty": "very difficult",
+   "area": "South",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:41Z"
+   ]
+  },
+  "Silver Basin": {
+   "difficulty": "very difficult",
+   "area": "South",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:43Z"
+   ]
+  },
+  "Silver King": {
+   "difficulty": "very difficult",
+   "area": "South",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:45Z"
+   ]
+  },
+  "Three Way Peak": {
+   "difficulty": "very difficult",
+   "area": "South",
+   "status": [
+    "closed"
+   ],
+   "groomed": [
+    false
+   ],
+   "updated": [
+    "2026-10-27T23:23:46Z"
+   ]
+  }
+ },
+ "model_days": {
+  "2026-11-27": 2.9,
+  "2026-11-26": 22.0,
+  "2026-11-25": 2.2,
+  "2026-11-24": 3.3,
+  "2026-11-23": 0.8,
+  "2026-11-22": 0.6,
+  "2026-11-21": 0.0
+ }
+}
